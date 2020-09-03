@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/golden_ghost"
+    },
+	"display": {
+		"head": {
+			"scale": [2.3,2.3,5],
+			"translation": [-0.5,27,0]
+		},
+		"thirdperson_righthand": {
+			"scale": [1.44,1.44,2.5],
+			"rotation": [90, 0, 0],
+			"translation": [-6.3, -2, 15.0]
+		}
+	}
+}

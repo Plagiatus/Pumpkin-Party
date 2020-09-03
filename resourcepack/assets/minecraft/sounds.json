@@ -1,0 +1,11 @@
+{
+	"custom.evil_laugh": {
+		"sounds":[
+			{
+				"name":"custom/evil_laugh",
+				"stream":true
+			}
+		]
+	}
+
+}

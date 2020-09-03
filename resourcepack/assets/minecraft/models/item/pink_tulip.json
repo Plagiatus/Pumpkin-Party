@@ -1,0 +1,15 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "blocks/pumpkin_top",
+        "front": "blocks/pumpkin_face_off",
+        "side": "blocks/pumpkin_side"
+    },
+	"display": {
+		"thirdperson_lefthand": {
+			"scale": [0.75,0.75,0.75],
+			"rotation": [10,10,180],
+			"translation": [ -5, -12, 5.5 ]
+		}
+	}
+}

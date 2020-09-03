@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/cat"
+    },
+	"display": {
+		"head": {
+			"scale": [2.3,2.3,5],
+			"translation": [-0.5,30,0]
+		}
+	}
+}

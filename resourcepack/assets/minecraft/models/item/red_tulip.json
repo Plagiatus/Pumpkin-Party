@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/spider_eye"
+    },
+	"display": {
+		"thirdperson_lefthand": {
+			"scale": [2.5,2.5,3],
+			"rotation": [190,10,0],
+			"translation": [ -5, -12, 7.5 ]
+		}
+	}
+}

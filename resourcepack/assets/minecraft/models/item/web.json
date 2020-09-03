@@ -1,0 +1,23 @@
+{
+    "textures": {
+        "0": "blocks/web"
+    },
+	"display": {
+		"head": {
+			"scale": [5,5,5]
+		},
+		"thirdperson_righthand": {
+			"scale": [3.5,3.5,3.5]
+		}
+	},
+	"elements": [
+        {
+            "name": "Head",
+            "from": [ -16.0,  -16.0, 7.99 ], 
+            "to": [ 32.0, 32.0, 8.0 ],
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+	]
+}

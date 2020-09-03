@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "bites=0": { "model": "cake_uneaten" },
+        "bites=1": { "model": "cake_slice1", "y": 180 },
+        "bites=2": { "model": "cake_slice2", "y": 180 },
+        "bites=3": { "model": "cake_slice3", "y": 180 },
+        "bites=4": { "model": "cake_slice4", "y": 180 },
+        "bites=5": { "model": "cake_slice5", "y": 180 },
+        "bites=6": { "model": "cake_slice6", "y": 180 }
+    }
+}
