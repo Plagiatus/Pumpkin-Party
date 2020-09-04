@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/slimeball"
+        "layer0": "item/slime_ball"
     },
 	"display": {
 		"thirdperson_lefthand": {

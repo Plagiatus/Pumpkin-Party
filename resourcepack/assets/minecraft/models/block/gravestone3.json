@@ -1,9 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
 	"textures": {
-        "particle": "blocks/gravestone",
-        "0": "blocks/gravestone3",
-        "1": "blocks/dark_stone"
+        "particle": "block/gravestone",
+        "0": "block/gravestone3",
+        "1": "block/dark_stone"
     },
     "elements": [
         {

@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/spider_eye"
+        "layer0": "item/spider_eye"
     },
 	"display": {
 		"thirdperson_lefthand": {

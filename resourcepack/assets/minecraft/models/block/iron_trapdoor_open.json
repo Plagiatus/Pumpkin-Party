@@ -1,9 +1,9 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"bottom": "blocks/door_dark_oak_lower",
-		"top": "blocks/door_dark_oak_upper",
-		"particle": "blocks/door_dark_oak_upper"
+		"bottom": "block/dark_oak_door_bottom",
+		"top": "block/dark_oak_door_top",
+		"particle": "block/dark_oak_door_top"
 	},
 	"elements": [
 		{

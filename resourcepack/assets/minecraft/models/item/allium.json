@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/gunpowder"
+        "layer0": "item/gunpowder"
     },
 	"display": {
 		"thirdperson_lefthand": {

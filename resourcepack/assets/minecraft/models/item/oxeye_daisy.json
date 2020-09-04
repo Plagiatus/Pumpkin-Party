@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/apple"
+        "layer0": "item/apple"
     },
 	"display": {
 		"thirdperson_lefthand": {

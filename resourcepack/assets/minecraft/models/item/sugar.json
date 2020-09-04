@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/ghost"
+        "layer0": "item/ghost"
     },
 	"display": {
 		"head": {
