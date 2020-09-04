@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/dye_powder_lime"
+        "layer0": "item/lime_dye"
     },
 	"display": {
 		"thirdperson_lefthand": {

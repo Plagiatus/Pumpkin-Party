@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/recipe_meltdown"
+        "layer0": "item/recipe_meltdown"
     },
 	"display": {
         "gui": {"scale": [1.5, 1.5, 1.5]}

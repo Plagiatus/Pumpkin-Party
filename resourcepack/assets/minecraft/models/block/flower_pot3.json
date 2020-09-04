@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "blocks/stone_diorite",
-		"1": "blocks/water_red",
-		"particle": "blocks/stone_diorite"
+		"0": "block/diorite",
+		"1": "block/water_red",
+		"particle": "block/diorite"
 	},
 	"elements": [
 		{

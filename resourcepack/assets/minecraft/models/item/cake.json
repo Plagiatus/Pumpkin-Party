@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "items/pumpkin_pie",
-		"1": "blocks/piston_side",
-		"1_0": "blocks/concrete_white",
-		"particle": "blocks/piston_top_normal"
+		"0": "item/pumpkin_pie",
+		"1": "block/piston_side",
+		"1_0": "block/white_concrete",
+		"particle": "block/piston_top"
 	},
 	"elements": [
 		{
@@ -22,7 +22,6 @@
 					"texture": "#0",
 					"rotation": 180
 				},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#missing"},
 				"up": {
 					"uv": [5.1, 5.1, 5.8999999999999995, 5.8999999999999995],
 					"texture": "#0",
@@ -47,7 +46,6 @@
 					"texture": "#0",
 					"rotation": 270
 				},
-				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
 				"up": {
 					"uv": [5.1, 5.1, 5.8999999999999995, 5.8999999999999995],
 					"texture": "#0",

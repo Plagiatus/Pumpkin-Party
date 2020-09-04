@@ -1,8 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"gui_light": "front",
     "textures": {
-        "0": "blocks/planks_painting",
-        "1": "items/painting_sg"
+        "0": "block/planks_painting",
+        "1": "item/painting_sg"
     },
 	"display": {
 		"head": {

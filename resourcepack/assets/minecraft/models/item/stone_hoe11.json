@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/half_way"
+        "layer0": "item/half_way"
     }
 }

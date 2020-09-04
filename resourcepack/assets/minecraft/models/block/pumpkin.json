@@ -2,10 +2,10 @@
 	"parent": "block/orientable",
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "blocks/pumpkin_side",
-        "0": "blocks/pumpkin_face_off",
-        "1": "blocks/pumpkin_side",
-        "2": "blocks/pumpkin_top"
+        "particle": "block/pumpkin_side",
+        "0": "block/carved_pumpkin",
+        "1": "block/pumpkin_side",
+        "2": "block/pumpkin_top"
     },
     "elements": [
         {

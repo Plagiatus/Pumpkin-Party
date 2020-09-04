@@ -1,7 +1,7 @@
 {
-    "parent": "block/pane_side",
+    "parent": "block/template_glass_pane_side",
     "textures": {
-        "edge": "blocks/garage_door",
-        "pane": "blocks/garage_door"
+        "edge": "block/garage_door",
+        "pane": "block/garage_door"
     }
 }
