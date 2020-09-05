@@ -1,5 +1,6 @@
 {
 	"values":[
-		"pp:load"
+		"pp:load",
+		"lobby:load"
 	]
 }

@@ -1,4 +1,4 @@
-function pp:reset/gamerules
+function pp:resetgamerules
 
 scoreboard objectives add points dummy
 scoreboard objectives add const dummy

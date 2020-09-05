@@ -1,0 +1,24 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_nugget"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 3}, "model": "costumes/wither_head"},
+		{"predicate": {"custom_model_data": 5}, "model": "costumes/blaze_head"},
+		{"predicate": {"custom_model_data": 8}, "model": "costumes/zombified_piglin_head"},
+		{"predicate": {"custom_model_data": 9}, "model": "costumes/wolf_head"},
+		{"predicate": {"custom_model_data": 10}, "model": "costumes/villager_head"},
+		{"predicate": {"custom_model_data": 12}, "model": "costumes/witch_head"},
+		{"predicate": {"custom_model_data": 13}, "model": "costumes/squid_head"},
+		{"predicate": {"custom_model_data": 15}, "model": "costumes/evoker_head"},
+		{"predicate": {"custom_model_data": 17}, "model": "costumes/piglin_head"},
+		{"predicate": {"custom_model_data": 18}, "model": "costumes/piglin_brute_head"},
+		{"predicate": {"custom_model_data": 19}, "model": "costumes/ghast_head"},
+		{"predicate": {"custom_model_data": 20}, "model": "costumes/strider_head"},
+		{"predicate": {"custom_model_data": 21}, "model": "costumes/llama_head"},
+		{"predicate": {"custom_model_data": 22}, "model": "costumes/evocation_fang_head"},
+		{"predicate": {"custom_model_data": 23}, "model": "costumes/horse_head"},
+		{"predicate": {"custom_model_data": 24}, "model": "costumes/horse_back"}
+	]
+}

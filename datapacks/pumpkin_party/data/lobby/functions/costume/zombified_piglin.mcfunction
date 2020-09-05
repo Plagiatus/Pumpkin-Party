@@ -1,0 +1,4 @@
+replaceitem entity @s armor.head minecraft:iron_nugget{CustomModelData:8,display:{Name:'{"text":"Zombified Piglin Costume","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.chest leather_chestplate{display:{Name:'{"text":"Zombified Piglin Costume","italic":false}',color:15104371},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.legs leather_leggings{display:{Name:'{"text":"Zombified Piglin Costume","italic":false}',color:5976094},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.feet leather_boots{display:{Name:'{"text":"Zombified Piglin Costume","italic":false}',color:15104371},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}

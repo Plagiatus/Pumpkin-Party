@@ -1,0 +1,4 @@
+replaceitem entity @s armor.head jack_o_lantern{display:{Name:'{"text":"Pumpkin Costume","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.chest leather_chestplate{display:{Name:'{"text":"Pumpkin Costume","italic":false}',color:14912029},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.legs leather_leggings{display:{Name:'{"text":"Pumpkin Costume","italic":false}',color:10507787},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+replaceitem entity @s armor.feet leather_boots{display:{Name:'{"text":"Pumpkin Costume","italic":false}',color:14912029},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
