@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "title": {
+      "text": "Treasure Room"
+    },
+    "description": ["",{"text": "Avoid the spider long enough to get a sweet financial reward."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sr/half_way",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

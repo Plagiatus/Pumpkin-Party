@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data":1
+    },
+    "title": {
+      "text": "Win Spider Run"
+    },
+    "description": ["",{"text": "You might not be afraid of spiders, but this spider will change your mind."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sr/minigame_play",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

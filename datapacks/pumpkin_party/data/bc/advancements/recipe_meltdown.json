@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_hoe",
+	  "data": 7
+    },
+    "title": {
+      "text": "Recipe Meltdown"
+    },
+    "description": ["",{"text": "Store-bought drinks might not blow up on you, but these potions will."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:bc/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

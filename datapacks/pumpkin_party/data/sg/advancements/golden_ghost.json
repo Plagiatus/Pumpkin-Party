@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 11
+    },
+    "title": {
+      "text": "Golden Ghost"
+    },
+    "description": ["",{"text": "Take aim at the elusive Golden Ghost and knock him down!"}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sg/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

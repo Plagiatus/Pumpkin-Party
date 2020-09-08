@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 14
+    },
+    "title": {
+      "text": "Play Spider Run"
+    },
+    "description": ["",{"text": "Leave your friends struggling through cobwebs and be the last one standing."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sr/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

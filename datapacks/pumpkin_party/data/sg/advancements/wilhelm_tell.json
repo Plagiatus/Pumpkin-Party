@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_hoe",
+	  "data": 9
+    },
+    "title": {
+      "text": "Wilhelm Tell"
+    },
+    "description": ["",{"text": "Gather 40 points in the gallery!"}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sg/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

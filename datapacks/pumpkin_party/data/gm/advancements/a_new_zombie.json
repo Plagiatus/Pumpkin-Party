@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skull",
+	  "data": 2
+    },
+    "title": {
+      "text": "A New Zombie"
+    },
+    "description": ["",{"text": "Become greener than you were at the start of the round."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:gm/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

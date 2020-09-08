@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_hoe",
+	  "data": 3
+    },
+    "title": {
+      "text": "Notch?"
+    },
+    "description": ["",{"text": "Carve a very familiar face into the mush."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:pc/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

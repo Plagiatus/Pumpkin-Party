@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion"
+    },
+    "title": {
+      "text": "Master Brewer"
+    },
+    "description": ["",{"text": "Brew all seven possible potions at least once."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:bc/root",
+  "criteria": {
+    "p1": {
+      "trigger": "impossible"
+    },
+    "p2": {
+      "trigger": "impossible"
+    },
+    "p3": {
+      "trigger": "impossible"
+    },
+    "p4": {
+      "trigger": "impossible"
+    },
+    "p5": {
+      "trigger": "impossible"
+    },
+    "p6": {
+      "trigger": "impossible"
+    },
+    "p7": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 10
+    },
+    "title": {
+      "text": "An Armful of Froglegs"
+    },
+    "description": ["",{"text": "Have every single ingredient on you at once."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:bc/weird_recipes",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

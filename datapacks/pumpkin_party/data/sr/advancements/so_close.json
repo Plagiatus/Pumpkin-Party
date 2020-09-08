@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_hoe",
+	  "data": 13
+    },
+    "title": {
+      "text": "So Close"
+    },
+    "description": ["",{"text":"Get caught right before the end.."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sr/spider_candy",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

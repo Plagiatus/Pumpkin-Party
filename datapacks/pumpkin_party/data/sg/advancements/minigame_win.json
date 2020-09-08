@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data":1
+    },
+    "title": {
+      "text": "Win Shooting Gallery"
+    },
+    "description": ["",{"text": "Show off and reveal to your friends your steady hand and eagle eyesight."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sg/minigame_play",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

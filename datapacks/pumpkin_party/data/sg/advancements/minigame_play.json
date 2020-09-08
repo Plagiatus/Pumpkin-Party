@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 14
+    },
+    "title": {
+      "text": "Play Shooting Gallery"
+    },
+    "description": ["",{"text": "Grab some arrows and knock down as many spookies as you can!"}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sg/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

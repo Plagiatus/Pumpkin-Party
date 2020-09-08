@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carpet",
+			"data":9
+        },
+        "title": {
+            "text":"Pumpkin Party!"
+        },
+        "description": {
+            "text": "Some additional challenges for you"
+        },
+        "background": "minecraft:textures/blocks/concrete_orange.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "instant": {
+            "trigger": "minecraft:tick"
+		}
+	}
+}

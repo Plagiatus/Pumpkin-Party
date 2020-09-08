@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "command_block"
+    },
+    "title": {
+      "text": "The Creators"
+    },
+    "description": ["",{"text": "Behold the glorious creators of Pumpkin Party (and Incarceron)"}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:general/lab",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

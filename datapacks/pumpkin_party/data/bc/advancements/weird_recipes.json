@@ -1,0 +1,119 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 9
+    },
+    "title": {
+      "text": "Weird Recipes"
+    },
+    "description": ["",{"text": "Collect at least one of every ingredient from the map."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:bc/root",
+  "criteria": {
+    "apple": {
+      "trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:apple"
+				}
+			]
+		}
+	},
+	"mucus": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:dye",
+					"data": 9
+				}
+			]
+		}
+	},
+	"frog_leg": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:dye",
+					"data": 10
+				}
+			]
+		}
+	},
+	"gunpowder": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:gunpowder"
+				}
+			]
+		}
+	},
+	"nether_wart": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:nether_wart"
+				}
+			]
+		}
+	},
+	"gold_nugget": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:gold_nugget"
+				}
+			]
+		}
+	},
+	"spider_eye": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:spider_eye"
+				}
+			]
+		}
+	},
+	"slime_ball": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:slime_ball"
+				}
+			]
+		}
+	},
+	"pumpkin": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:pumpkin"
+				}
+			]
+		}
+	},
+	"pumpkin_seeds": {
+		"trigger":"minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "minecraft:pumpkin_seeds"
+				}
+			]
+		}
+	}
+  }
+}

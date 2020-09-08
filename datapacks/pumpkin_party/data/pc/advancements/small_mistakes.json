@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_sandstone"
+    },
+    "title": {
+      "text": "Small Mistakes"
+    },
+    "description": ["",{"text": "Make use of the spare pumpkin you were gonna leave for pie."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:pc/root",
+  "criteria": {
+    "place_filler": {
+		"trigger":"placed_block",
+		"conditions": {
+			"block": "minecraft:red_sandstone"
+		}
+	}
+  }
+}

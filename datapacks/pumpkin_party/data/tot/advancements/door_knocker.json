@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "title": {
+      "text": "Door Knocker"
+    },
+    "description": ["",{"text": "Stop people watching their Halloween movies to answer the door 25 times in one game."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:tot/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_hoe",
+	  "data": 14
+    },
+    "title": {
+      "text": "Tunnel Explorer"
+    },
+    "description": ["",{"text":"Visit every different kind of tunnel."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:sr/root",
+  "criteria": {
+    "t1": {
+      "trigger": "impossible"
+    }, 
+    "t3": {
+      "trigger": "impossible"
+    }, 
+    "t4": {
+      "trigger": "impossible"
+    }, 
+    "t5": {
+      "trigger": "impossible"
+    }, 
+    "t6": {
+      "trigger": "impossible"
+    }, 
+    "t7": {
+      "trigger": "impossible"
+    }, 
+    "t8": {
+      "trigger": "impossible"
+    }, 
+    "t9": {
+      "trigger": "impossible"
+    }, 
+    "t10": {
+      "trigger": "impossible"
+    }, 
+    "t11": {
+      "trigger": "impossible"
+    }, 
+    "t12": {
+      "trigger": "impossible"
+    }, 
+    "t13": {
+      "trigger": "impossible"
+    }, 
+    "t14": {
+      "trigger": "impossible"
+    }, 
+    "t15": {
+      "trigger": "impossible"
+    }, 
+    "t16": {
+      "trigger": "impossible"
+    }, 
+    "t17": {
+      "trigger": "impossible"
+    }, 
+    "t18": {
+      "trigger": "impossible"
+    }
+  }
+}

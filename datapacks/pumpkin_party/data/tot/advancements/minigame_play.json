@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+	  "data": 14
+    },
+    "title": {
+      "text": "Play Trick or Treat"
+    },
+    "description": ["",{"text": "Go from door to door satisfying your sweet tooth."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:tot/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin"
+    },
+    "title": {
+      "text": "Big Mistakes"
+    },
+    "description": ["",{"text": "Ruin your pumpkin forever - Or perhaps just the round."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "pumpkinparty:pc/small_mistakes",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}
