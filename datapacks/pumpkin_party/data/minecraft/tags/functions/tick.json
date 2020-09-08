@@ -1,6 +1,7 @@
 {
 	"values":[
 		"pp:main",
-		"lobby:main"
+		"lobby:main",
+		"gm:main"
 	]
 }
