@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 11
+	    "nbt": "{Damage:11}"
     },
     "title": {
       "text": "Half Way"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sr/root",
+  "parent": "sr:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

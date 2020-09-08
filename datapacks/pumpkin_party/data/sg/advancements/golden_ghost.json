@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dye",
-	  "data": 11
+      "item": "minecraft:yellow_dye"
     },
     "title": {
       "text": "Golden Ghost"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sg/root",
+  "parent": "sg:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

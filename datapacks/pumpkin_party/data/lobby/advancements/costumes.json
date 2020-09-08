@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:record_stal"
+      "item": "minecraft:iron_nugget",
+      "nbt": "{CustomModelData:15}"
     },
     "title": {
       "text": "Costumes"
@@ -10,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:general/root",
+  "parent": "lobby:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

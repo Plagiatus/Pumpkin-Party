@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 13
+	    "nbt": "{Damage:13}"
     },
     "title": {
       "text": "So Close"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sr/spider_candy",
+  "parent": "sr:spider_candy",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

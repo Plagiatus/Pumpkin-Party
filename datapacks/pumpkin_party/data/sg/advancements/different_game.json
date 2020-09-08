@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 8
+	    "nbt": "{Damage:8}"
     },
     "title": {
       "text": "Perhaps a different game..."
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sg/bad_luck_kitty",
+  "parent": "sg:bad_luck_kitty",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

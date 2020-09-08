@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 10
+	    "nbt": "{Damage:10}"
     },
     "title": {
       "text": "Bulls Eye"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sg/golden_ghost",
+  "parent": "sg:golden_ghost",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

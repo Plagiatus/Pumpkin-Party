@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carpet",
-			"data": 4
+            "item": "minecraft:yellow_carpet"
         },
         "title": {
             "text":"Brewing Contest"
@@ -10,7 +9,7 @@
         "description": {
             "text": "Some additional challenges for you"
         },
-        "background": "minecraft:textures/blocks/concrete_orange.png",
+        "background": "minecraft:textures/block/orange_concrete.png",
         "show_toast": true,
         "announce_to_chat": false
     },

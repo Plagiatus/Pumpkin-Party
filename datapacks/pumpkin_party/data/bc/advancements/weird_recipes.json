@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dye",
-	  "data": 9
+      "item": "minecraft:blue_orchid"
     },
     "title": {
       "text": "Weird Recipes"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:bc/root",
+  "parent": "bc:root",
   "criteria": {
     "apple": {
       "trigger":"minecraft:inventory_changed",
@@ -28,8 +27,7 @@
 		"conditions": {
 			"items": [
 				{
-					"item": "minecraft:dye",
-					"data": 9
+					"item": "minecraft:dandelion"
 				}
 			]
 		}
@@ -39,8 +37,7 @@
 		"conditions": {
 			"items": [
 				{
-					"item": "minecraft:dye",
-					"data": 10
+					"item": "minecraft:blue_orchid"
 				}
 			]
 		}

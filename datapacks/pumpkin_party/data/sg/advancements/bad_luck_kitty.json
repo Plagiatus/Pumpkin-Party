@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:coal",
-	  "data": 1
+      "item": "minecraft:charcoal"
     },
     "title": {
       "text": "Bad Luck Kitty"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sg/root",
+  "parent": "sg:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

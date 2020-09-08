@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dye",
-	  "data": 14
+      "item": "minecraft:red_dye"
     },
     "title": {
       "text": "Play Brewing Contest"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:bc/root",
+  "parent": "bc:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

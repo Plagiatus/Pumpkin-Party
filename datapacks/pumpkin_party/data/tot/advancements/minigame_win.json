@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dye",
-	  "data":1
+      "item": "minecraft:orange_dye"
     },
     "title": {
       "text": "Win Trick or Treat"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:tot/minigame_play",
+  "parent": "tot:minigame_play",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

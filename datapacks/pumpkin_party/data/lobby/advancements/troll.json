@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 2
+	    "nbt": "{Damage:2}"
     },
     "title": {
       "text": "The Troll"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:general/root",
+  "parent": "lobby:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 7
+	    "nbt": "{Damage:7}"
     },
     "title": {
       "text": "Recipe Meltdown"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:bc/root",
+  "parent": "bc:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

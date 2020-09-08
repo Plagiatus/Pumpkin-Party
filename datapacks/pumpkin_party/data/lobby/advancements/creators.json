@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "command_block"
+      "item": "minecraft:command_block"
     },
     "title": {
       "text": "The Creators"
@@ -10,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:general/lab",
+  "parent": "lobby:lab",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

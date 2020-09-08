@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dye",
-	  "data": 10
+      "item": "minecraft:dandelion"
     },
     "title": {
       "text": "An Armful of Froglegs"
@@ -11,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:bc/weird_recipes",
+  "parent": "bc:weird_recipes",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

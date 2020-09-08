@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 12
+	    "nbt": "{Damage:12}"
     },
     "title": {
       "text": "Spider Candy"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sr/root",
+  "parent": "sr:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

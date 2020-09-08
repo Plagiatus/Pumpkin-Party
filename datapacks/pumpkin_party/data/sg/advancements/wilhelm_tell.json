@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 9
+	    "nbt": "{Damage:9}"
     },
     "title": {
       "text": "Wilhelm Tell"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:sg/root",
+  "parent": "sg:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

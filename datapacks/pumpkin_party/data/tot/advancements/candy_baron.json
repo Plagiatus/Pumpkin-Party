@@ -10,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:tot/root",
+  "parent": "tot:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

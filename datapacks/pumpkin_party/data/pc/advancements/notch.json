@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	  "data": 3
+	    "nbt": "{Damage:3}"
     },
     "title": {
       "text": "Notch?"
@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:pc/root",
+  "parent": "pc:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:record_mall"
+      "item": "minecraft:iron_nugget",
+      "nbt": "{CustomModelData:12}"
     },
     "title": {
       "text": "Tricked!"
@@ -10,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "pumpkinparty:tot/root",
+  "parent": "tot:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
