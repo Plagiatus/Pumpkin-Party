@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["sg_skeleton","sg_as","sg_new"],Pose:{Head:[360f,0f,0f]},Invulnerable:1b,Invisible:1b,NoGravity:1b,Passengers:[{id:"minecraft:slime",NoAI:1b,Health:1f,Size:1,Tags:["sg_1","sg_slime"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20000,ShowParticles:0b}]}],ArmorItems:[{},{},{},{id:"minecraft:clay",Count:1b}]}

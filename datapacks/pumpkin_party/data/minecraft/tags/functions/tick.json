@@ -2,6 +2,7 @@
 	"values":[
 		"pp:main",
 		"lobby:main",
-		"gm:main"
+		"gm:main",
+		"sg:main"
 	]
 }
