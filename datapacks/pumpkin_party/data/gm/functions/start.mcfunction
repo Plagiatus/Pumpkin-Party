@@ -1,8 +1,8 @@
-#Run this function to put the selected players into the game and start it
+#Run this function as the players that should be put in the game and start it
 team join ze_play @s
 gamemode adventure @s
 tp @s -497 63 507
-tag @e[tag=ze_caught] remove ze_caught
+tag @s remove ze_caught
 
 scoreboard players set #ze_start timer 219
 scoreboard players reset * ze_points
