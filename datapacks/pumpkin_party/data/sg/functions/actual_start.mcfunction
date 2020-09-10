@@ -27,6 +27,8 @@ function sg:spawn/row_one
 function sg:spawn/row_two
 function sg:spawn/row_three
 function sg:spawn/row_four
+function sg:spawn/row_five
+function sg:spawn/row_six
 function sg:spawn/extras
 
 execute as @e[tag=sg_new] run function sg:spawn/one/choose_direction

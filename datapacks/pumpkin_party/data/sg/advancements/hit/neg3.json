@@ -6,7 +6,7 @@
         "conditions":{
             "entity": {
                 "type":"minecraft:slime",
-                "nbt":"{Tags:[\"sg_neg  3\"]}"
+                "nbt":"{Tags:[\"sg_neg3\"]}"
             }
         }
       }

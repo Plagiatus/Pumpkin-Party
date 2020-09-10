@@ -1,6 +1,7 @@
 # timer 
 scoreboard players remove $ticks timer 1
 function pp:util/display_timer
+execute if score $ticks timer matches 200 run tellraw @a [{"text": "10 seconds to go!","color": "dark_red"}]
 
 # make arrows piercing
 execute as @e[type=arrow,tag=!piercing] run data merge entity @s {PierceLevel:100,Tags:["piercing"]}
