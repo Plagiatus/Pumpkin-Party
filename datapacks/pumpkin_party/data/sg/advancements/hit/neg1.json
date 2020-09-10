@@ -2,17 +2,17 @@
     "parent": "sg:root",
     "criteria": {
       "killed_slime": {
-        "trigger": "player_killed_entity",
+        "trigger": "player_hurt_entity",
         "conditions":{
             "entity": {
                 "type":"minecraft:slime",
-                "nbt":"{Tags:[\"sg_1\"]}"
+                "nbt":"{Tags:[\"sg_neg1\"]}"
             }
         }
       }
     },
     "rewards":{
-        "function": "sg:targets/hit/-1"
+        "function": "sg:targets/hit/neg1"
     }
   }
   

@@ -29,5 +29,26 @@ function sg:spawn/row_three
 function sg:spawn/row_four
 function sg:spawn/extras
 
+execute as @e[tag=sg_new] run function sg:spawn/one/choose_direction
+execute as @e[tag=sg_new] run function sg:spawn/one/choose_speed
+execute as @e[tag=sg_new] run function sg:targets/stasis
+scoreboard players remove @e[tag=sg_new] timer 100
+
+tag @e[tag=sg_new] remove sg_new
+
+kill @e[tag=sg_slime]
+
 # reset title times
 title @a times 0 20 0
+
+# advancements
+advancement grant @a only sg:minigame_play
+advancement revoke @a only sg:hit/1
+advancement revoke @a only sg:hit/2
+advancement revoke @a only sg:hit/3
+advancement revoke @a only sg:hit/5
+advancement revoke @a only sg:hit/neg1
+advancement revoke @a only sg:hit/neg3
+
+# scores
+scoreboard players set @a sg_points 0

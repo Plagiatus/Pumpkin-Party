@@ -2,7 +2,7 @@
     "parent": "sg:root",
     "criteria": {
       "killed_slime": {
-        "trigger": "player_killed_entity",
+        "trigger": "player_hurt_entity",
         "conditions":{
             "entity": {
                 "type":"minecraft:slime",
