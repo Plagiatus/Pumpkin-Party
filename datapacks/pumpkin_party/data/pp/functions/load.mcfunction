@@ -6,7 +6,7 @@ scoreboard objectives add tmp dummy
 
 scoreboard objectives add timer dummy
 
-scoreboard objectives add sg_points dummy
+scoreboard objectives add sg_points dummy {"text":"Shooting Gallery","color":"#FF6600"}
 scoreboard objectives add sg_points_tmp dummy
 scoreboard objectives add sg_speed dummy
 
