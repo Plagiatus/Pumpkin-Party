@@ -1,0 +1,8 @@
+{
+	"parent": "costumes/llama_brown",
+	"textures": {
+		"base": "entity/llama/gray",
+		"particle": "entity/llama/gray",
+		"outfit": "entity/llama/decor/gray"
+	}
+}

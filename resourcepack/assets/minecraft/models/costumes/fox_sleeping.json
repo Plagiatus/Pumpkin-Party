@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/fox",
+	"textures": {
+		"0": "entity/fox/fox_sleep"
+	}
+}

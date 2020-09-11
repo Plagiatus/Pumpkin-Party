@@ -1,0 +1,9 @@
+{
+	"parent": "costumes/villager_plains_farmer",
+	"textures": {
+		"particle": "entity/villager/villager",
+		"base": "entity/villager/villager",
+		"type": "entity/villager/type/jungle",
+		"profession": "entity/villager/profession/fletcher"
+	}
+}

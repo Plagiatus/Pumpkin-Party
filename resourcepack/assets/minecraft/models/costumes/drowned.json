@@ -1,0 +1,7 @@
+{
+	"parent": "costumes/head_template_square",
+	"textures": {
+		"0": "entity/zombie/drowned",
+		"1": "entity/zombie/drowned_outer_layer"
+	}
+}

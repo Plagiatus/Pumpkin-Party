@@ -4,21 +4,91 @@
 		"layer0": "item/iron_nugget"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 3}, "model": "costumes/wither_head"},
-		{"predicate": {"custom_model_data": 5}, "model": "costumes/blaze_head"},
-		{"predicate": {"custom_model_data": 8}, "model": "costumes/zombified_piglin_head"},
-		{"predicate": {"custom_model_data": 9}, "model": "costumes/wolf_head"},
-		{"predicate": {"custom_model_data": 10}, "model": "costumes/villager_head"},
-		{"predicate": {"custom_model_data": 12}, "model": "costumes/witch_head"},
-		{"predicate": {"custom_model_data": 13}, "model": "costumes/squid_head"},
-		{"predicate": {"custom_model_data": 15}, "model": "costumes/evoker_head"},
-		{"predicate": {"custom_model_data": 17}, "model": "costumes/piglin_head"},
-		{"predicate": {"custom_model_data": 18}, "model": "costumes/piglin_brute_head"},
-		{"predicate": {"custom_model_data": 19}, "model": "costumes/ghast_head"},
-		{"predicate": {"custom_model_data": 20}, "model": "costumes/strider_head"},
-		{"predicate": {"custom_model_data": 21}, "model": "costumes/llama_head"},
-		{"predicate": {"custom_model_data": 22}, "model": "costumes/evocation_fang_head"},
-		{"predicate": {"custom_model_data": 23}, "model": "costumes/horse_head"},
-		{"predicate": {"custom_model_data": 24}, "model": "costumes/horse_back"}
+		   {"predicate": {"custom_model_data": 1}, "model": "item/creeper_head"},
+		   {"predicate": {"custom_model_data": 2}, "model": "costumes/blaze"},
+    	   {"predicate": {"custom_model_data": 3}, "model": "costumes/wither"},
+           {"predicate": {"custom_model_data": 4}, "model": "costumes/squid"},
+           {"predicate": {"custom_model_data": 5}, "model": "costumes/phantom"},
+           
+           {"predicate": {"custom_model_data": 6}, "model": "costumes/pufferfish_middle"},
+           {"predicate": {"custom_model_data": 7}, "model": "costumes/evocation_fang"},
+		   {"predicate": {"custom_model_data": 8}, "model": "costumes/enderman"},
+           {"predicate": {"custom_model_data": 9}, "model": "costumes/ghast"},
+           {"predicate": {"custom_model_data": 10}, "model": "costumes/strider"},
+
+          {"predicate": {"custom_model_data": 21}, "model": "costumes/ghost"},
+          {"predicate": {"custom_model_data": 41}, "model": "costumes/wolf"},
+          {"predicate": {"custom_model_data": 42}, "model": "block/jack_o_lantern"},
+          {"predicate": {"custom_model_data": 43}, "model": "costumes/zombie"},
+          {"predicate": {"custom_model_data": 44}, "model": "item/skeleton_skull"},
+          {"predicate": {"custom_model_data": 45}, "model": "costumes/zombified_piglin"},
+          {"predicate": {"custom_model_data": 66}, "model": "costumes/llama_brown"},
+          {"predicate": {"custom_model_data": 67}, "model": "costumes/witch"},
+          {"predicate": {"custom_model_data": 68}, "model": "costumes/horse_brown"},
+          {"predicate": {"custom_model_data": 69}, "model": "costumes/horse_brown_back"},
+          {"predicate": {"custom_model_data": 70}, "model": "costumes/villager_plains_farmer"},
+         
+         {"predicate": {"custom_model_data": 141}, "model": "costumes/fox"},
+         {"predicate": {"custom_model_data": 142}, "model": "costumes/headless_horseman"},
+         {"predicate": {"custom_model_data": 143}, "model": "costumes/husk"},
+         {"predicate": {"custom_model_data": 144}, "model": "costumes/stray"},
+         {"predicate": {"custom_model_data": 145}, "model": "costumes/piglin"},
+		 {"predicate": {"custom_model_data": 166}, "model": "costumes/trader_llama_beige"},
+		 {"predicate": {"custom_model_data": 167}, "model": "costumes/vindicator"},
+         {"predicate": {"custom_model_data": 168}, "model": "costumes/horse_white"},
+         {"predicate": {"custom_model_data": 169}, "model": "costumes/horse_white_back"},
+		 {"predicate": {"custom_model_data": 170}, "model": "costumes/wandering_trader"},
+		 
+		 
+         {"predicate": {"custom_model_data": 241}, "model": "costumes/snow_fox"},
+         {"predicate": {"custom_model_data": 242}, "model": "costumes/white_pumpkin"},
+
+         {"predicate": {"custom_model_data": 243}, "model": "costumes/drowned"},
+		 {"predicate": {"custom_model_data": 244}, "model": "item/wither_skeleton_skull"},
+         {"predicate": {"custom_model_data": 245}, "model": "costumes/piglin_brute"},   
+		 {"predicate": {"custom_model_data": 266}, "model": "costumes/llama_gray_bandito"},
+		 {"predicate": {"custom_model_data": 267}, "model": "costumes/pillager"},
+         {"predicate": {"custom_model_data": 268}, "model": "costumes/horse_gray"},
+         {"predicate": {"custom_model_data": 269}, "model": "costumes/horse_gray_back"},
+         {"predicate": {"custom_model_data": 270}, "model": "costumes/villager_jungle_fletcher"},
+		 
+		 {"predicate": {"custom_model_data": 343}, "model": "costumes/zombie_villager"},
+		 {"predicate": {"custom_model_data": 344}, "model": "costumes/sans"},
+         {"predicate": {"custom_model_data": 345}, "model": "costumes/piglin_chan"},
+         
+		 {"predicate": {"custom_model_data": 366}, "model": "costumes/llama_white_decorated"},
+		 {"predicate": {"custom_model_data": 367}, "model": "costumes/evoker"},
+         {"predicate": {"custom_model_data": 368}, "model": "costumes/horse_black"},
+         {"predicate": {"custom_model_data": 369}, "model": "costumes/horse_black_back"},
+		 {"predicate": {"custom_model_data": 370}, "model": "costumes/villager_taiga_armorer"},
+		 
+         {"predicate": {"custom_model_data": 467}, "model": "costumes/illusioner"},
+         
+         {"predicate": {"custom_model_data": 468}, "model": "costumes/donkey"},
+         {"predicate": {"custom_model_data": 469}, "model": "costumes/donkey_back"},
+		 {"predicate": {"custom_model_data": 470}, "model": "costumes/villager_desert_librarian"},
+
+         {"predicate": {"custom_model_data": 568}, "model": "costumes/mule"},
+         {"predicate": {"custom_model_data": 569}, "model": "costumes/mule_back"},
+		 {"predicate": {"custom_model_data": 570}, "model": "costumes/villager_swamp_nitwit"},
+		 
+         {"predicate": {"custom_model_data": 668}, "model": "costumes/zombie_horse"},
+         {"predicate": {"custom_model_data": 669}, "model": "costumes/zombie_horse_back"},
+		 {"predicate": {"custom_model_data": 670}, "model": "costumes/villager_snowy_cartographer"},
+		 
+		 {"predicate": {"custom_model_data": 770}, "model": "costumes/villager_savanna_weaponsmith"},
+        
+         
+        {"predicate": {"custom_model_data": 1006}, "model": "costumes/pufferfish_big"},
+		{"predicate": {"custom_model_data": 1007}, "model": "costumes/evocation_fang_closed"},
+		{"predicate": {"custom_model_data": 1008}, "model": "costumes/enderman_angry"},
+		{"predicate": {"custom_model_data": 1009}, "model": "costumes/ghast_angry"},
+        {"predicate": {"custom_model_data": 1010}, "model": "costumes/strider_cold"},
+        {"predicate": {"custom_model_data": 1010}, "model": "costumes/gold_ghost"},
+        {"predicate": {"custom_model_data": 1041}, "model": "costumes/wolf_angry"},
+        {"predicate": {"custom_model_data": 1141}, "model": "costumes/fox_sleeping"},
+        {"predicate": {"custom_model_data": 1241}, "model": "costumes/snow_fox_sleeping"},
+        
+		{"predicate": {"custom_model_data": 2000}, "model": "costumes/error"}	
 	]
 }

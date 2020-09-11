@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/evoker",
+	"textures": {
+		"0": "entity/illager/vindicator"
+	}
+}

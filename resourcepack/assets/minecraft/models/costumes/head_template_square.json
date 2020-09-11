@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/head_template",
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -20, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [3.75, -0.25, 3.75],
+			"to": [12.25, 8.25, 12.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -20, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#1"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#1"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#1"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#1"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#1"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [12.25, 8.25, 12.25],
+			"to": [3.75, -0.25, 3.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 36.5, 16.5]},
+			"faces": {
+				"north": {"uv": [6, 4, 8, 2], "texture": "#1"},
+				"east": {"uv": [4, 4, 6, 2], "texture": "#1"},
+				"south": {"uv": [2, 4, 4, 2], "texture": "#1"},
+				"west": {"uv": [0, 4, 2, 2], "texture": "#1"},
+				"up": {"uv": [4, 0, 6, 2], "texture": "#1"},
+				"down": {"uv": [2, 2, 4, 0], "texture": "#1"}
+			}
+		}
+	]
+}

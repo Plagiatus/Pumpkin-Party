@@ -1,0 +1,9 @@
+{
+	"parent": "costumes/villager_plains_farmer",
+	"textures": {
+		"particle": "entity/wandering_trader",
+		"base": "entity/wandering_trader",
+		"type": "entity/wandering_trader",
+		"profession": "entity/villager/profession/mason"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/head_template_square",
+	"textures": {
+		"0": "entity/zombie/husk"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "costumes/head_template",
+	"textures": {
+		"0": "entity/skeleton/stray",
+		"1": "entity/skeleton/stray_overlay"
+	}
+}

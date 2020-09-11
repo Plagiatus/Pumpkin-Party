@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/ghast",
+	"textures": {
+		"0": "entity/ghast/ghast_shooting"
+	}
+}

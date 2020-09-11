@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/head_template",
+	"textures": {
+		"0": "entity/blaze"
+	}
+}
