@@ -1,0 +1,17 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:armor_stand",
+                    "nbt": "{Tags:[\"Costume\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/switch_variant"
+    }
+}
