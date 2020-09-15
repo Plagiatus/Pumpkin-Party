@@ -10,3 +10,4 @@ execute if score @s costume matches 1141 run function lobby:costume/fox_sleeping
 execute if score @s costume matches 1241 run function lobby:costume/snow_fox_sleeping
 
 execute if score @s costume matches 2000 run function lobby:costume/error
+execute if score @s costume matches 2021 run function lobby:costume/gold_ghost

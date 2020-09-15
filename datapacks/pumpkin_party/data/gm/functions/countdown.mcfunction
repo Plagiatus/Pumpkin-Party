@@ -1,5 +1,6 @@
 scoreboard players operation #ze_start tmp = #ze_start timer
 scoreboard players operation #ze_start tmp /= #20 const
+title @a times 0 50 0
 title @a subtitle [{"text":"The dead arise in: ","color":"gold"},{"color":"aqua","score":{"name":"#ze_start","objective":"tmp"}}]
 title @a title {"text":"Graveyard Mayhem","bold":true,"color":"gold"}
 

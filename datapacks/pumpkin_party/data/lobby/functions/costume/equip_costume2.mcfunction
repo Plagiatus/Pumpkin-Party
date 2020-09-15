@@ -1,7 +1,6 @@
 tag @s[type=player] add has_costume
-		
-execute if score @s costume matches 121 run function lobby:costume/gold_ghost
 
+execute if score @s costume matches 122 run function lobby:costume/cave_spider
 execute if score @s costume matches 141 run function lobby:costume/fox
 execute if score @s costume matches 142 run function lobby:costume/headless_horseman
 execute if score @s costume matches 143 run function lobby:costume/husk

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "power=1": { "model": "custom/cake_plate_1" },
+        "power=2": { "model": "custom/cake_plate_2" },
+        "power=3": { "model": "custom/cake_plate_3" },
+        "power=5": { "model": "custom/cake_plate_5" },
+        "power=9": { "model": "custom/cake_plate_9" }
+    }
+}

@@ -1,6 +1,4 @@
-scoreboard players set @s costume_sneak 0
-execute if score @s costume matches 1000.. run scoreboard players remove @s costume 1000
-tag @s remove costume_sneak
+scoreboard players remove @s costume 1000
 execute if score @s costume matches ..99 run function lobby:costume/equip_costume1
 execute if score @s costume matches 100..199 run function lobby:costume/equip_costume2
 execute if score @s costume matches 200..299 run function lobby:costume/equip_costume3

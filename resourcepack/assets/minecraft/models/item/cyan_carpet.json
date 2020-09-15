@@ -1,25 +1,11 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent": "item/orange_carpet",
 	"gui_light": "front",
     "textures": {
         "0": "block/planks_painting",
         "1": "item/painting_test"
     },
-	"display": {
-		"head": {
-			"scale": [5,5,5]
-		},
-		"thirdperson_righthand": {
-			"scale": [5,5,5],
-			"rotation": [90, 0, 0],
-			"translation": [ -7.5, 3, 0]
-		},
-		"firstperson_righthand": {
-			"scale": [0.5, 0.5, 0.5],
-			"rotation": [-20, 0, 0],
-			"translation": [ -0.5, 5, 0]
-		}
-	},
     "elements": [
         {
             "name": "45",

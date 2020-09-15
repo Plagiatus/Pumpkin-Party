@@ -1,4 +1,0 @@
-replaceitem entity @s armor.head minecraft:iron_nugget{CustomModelData:24,Unbreakable:1,display:{Name:'{"text":"Horse back Costume","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
-replaceitem entity @s armor.chest leather_chestplate{Unbreakable:1,display:{Name:'{"text":"Horse back Costume","italic":false}',color:6760216},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
-replaceitem entity @s armor.legs leather_leggings{Unbreakable:1,display:{Name:'{"text":"Horse back Costume","italic":false}',color:3281675},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
-replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"text":"Horse back Costume","italic":false}',color:2364944},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}

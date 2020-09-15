@@ -10,6 +10,8 @@ execute if score @s costume matches 670 run function lobby:costume/villager_snow
 
 execute if score @s costume matches 770 run function lobby:costume/villager_savanna_weaponsmith
 
+execute if score @s costume matches 999 run function lobby:costume/giant_spider
+
 execute store result score @s[type=player] tmp run clear @s orange_dye 0
 execute if score @s[type=player] tmp matches 0 run function lobby:costume/basket
 tag @s[type=player] add in_costume

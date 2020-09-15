@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:custom/keyboard",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "minecraft:block/chipped_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "minecraft:block/chipped_anvil"
+    },
+    "facing=west": {
+      "model": "minecraft:block/air",
+      "y": 90
+    }
+  }
+}

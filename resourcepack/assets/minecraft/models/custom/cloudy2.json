@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"textures": {
+		"0": "custom/cloud",
+		"particle": "custom/cloud"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, -16],
+			"to": [32, 0, 32],
+			"faces": {
+				"up": {"uv": [0, 2.25, 13.5, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -15.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

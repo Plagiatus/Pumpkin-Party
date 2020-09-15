@@ -7,7 +7,9 @@ execute if score #ze_timer timer matches 1100.. run advancement grant @s only pu
 tag @s add ze_caught
 function gm:summon_zombie
 gamemode spectator @s
-loot replace entity @e[type=zombie,tag=ze_new,limit=1,distance=..1,sort=nearest] armor.head loot gm:player_head
+
+execute if entity @s[tag=has_costume] run data modify entity @e[type=zombie,tag=ze_new,limit=1,distance=..1,sort=nearest] ArmorItems[3] set from entity @s Inventory[{Slot:103b}]
+execute unless entity @s[tag=has_costume] run loot replace entity @e[type=zombie,tag=ze_new,limit=1,distance=..1,sort=nearest] armor.head loot gm:player_head
 scoreboard players add @a[team=ze_play,gamemode=adventure] ze_points 1
 
 scoreboard players add #ze_gamestate ze_id 1

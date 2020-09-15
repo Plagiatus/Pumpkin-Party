@@ -6,6 +6,32 @@
 				"stream":true
 			}
 		]
-	}
-
+	},
+	"item.armor.equip_generic": {
+		"replace": true,
+		"subtitle": "",
+		"sounds":[
+			{
+				"name":"custom/no_sound"
+			}
+		]
+	},
+	"block.anvil.use": {
+		"replace": true,
+		"subtitle": "Password entered",
+		"sounds":[
+			{
+				"name":"mob/zombie/unfect"
+			}
+		]
+	},
+	"block.anvil.break": {
+		"replace": true,
+		"subtitle": "",
+		"sounds":[
+			{
+				"name":"custom/no_sound"
+			}
+		]
+	}	
 }
