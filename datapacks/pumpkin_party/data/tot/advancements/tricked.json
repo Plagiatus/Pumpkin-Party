@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:12}"
+      "nbt": "{CustomModelData:67}"
     },
     "title": {
       "text": "Tricked!"

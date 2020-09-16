@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:light_blue_carpet"
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:43}"
         },
         "title": {
             "text":"Graveyard Mayhem"

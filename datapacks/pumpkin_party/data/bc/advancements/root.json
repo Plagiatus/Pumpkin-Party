@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:yellow_carpet"
+            "item": "minecraft:cauldron"
         },
         "title": {
             "text":"Brewing Contest"
