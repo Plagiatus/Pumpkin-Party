@@ -3,6 +3,7 @@
 		"pp:main",
 		"lobby:main",
 		"gm:main",
-		"sg:main"
+		"sg:main",
+		"sr:main"
 	]
 }

@@ -3,6 +3,7 @@
 		"pp:load",
 		"lobby:load",
 		"gm:load",
-		"sg:load"
+		"sg:load",
+		"sr:load"
 	]
 }
