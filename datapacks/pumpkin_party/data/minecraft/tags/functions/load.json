@@ -2,6 +2,7 @@
 	"values":[
 		"pp:load",
 		"lobby:load",
-		"gm:load"
+		"gm:load",
+		"sg:load"
 	]
 }
