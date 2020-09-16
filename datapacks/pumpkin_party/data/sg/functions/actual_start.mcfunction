@@ -13,6 +13,7 @@ tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1010.0 59.5 -1
 tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -986.0 59.5 -1006 facing -999 62 -1034
 tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1013.0 59.5 -1006 facing -999 62 -1034
 tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -983.0 59.5 -1006 facing -999 62 -1034
+tellraw @a[x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] [{"text": "I'm sorry, but this minigame is limited to 11 players. You seem to be more than 11 people.","color": "red"}]
 
 # timers
 scoreboard players set $sg_phase points 2
@@ -55,3 +56,10 @@ advancement revoke @a only sg:hit/neg3
 # scores
 scoreboard players set @a sg_points 0
 scoreboard objectives setdisplay sidebar sg_points
+
+# team
+team join sg_play @a
+team leave @a[x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19]
+
+# global things to do
+function pp:all_games/start

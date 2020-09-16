@@ -22,3 +22,6 @@ execute if score $ticks timer matches 0 run function sg:end
 
 # let players pick up their thrown out items again instantly
 execute as @e[type=item,tag=!pickup] run data merge entity @s {PickupDelay:0,Tags:["pickup"]}
+
+# previously left players
+execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function sg:player/too_late_join
