@@ -23,3 +23,5 @@ execute if score #playeramount tmp matches 11.. run tp @s -998.0 59.5 -1006 faci
 execute if score #playeramount tmp matches 11.. run gamemode spectator
 
 scoreboard players set @s left_game 0
+
+function pp:all_games/reset_player

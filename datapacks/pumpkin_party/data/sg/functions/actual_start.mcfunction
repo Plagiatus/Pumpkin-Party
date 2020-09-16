@@ -16,7 +16,7 @@ tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -983.0 59.5 -10
 tellraw @a[x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] [{"text": "I'm sorry, but this minigame is limited to 11 players. You seem to be more than 11 people.","color": "red"}]
 
 # timers
-scoreboard players set $sg_phase points 2
+scoreboard players set #sg_phase points 2
 scoreboard players set $ticks timer 2400
 
 # give everyone equipment

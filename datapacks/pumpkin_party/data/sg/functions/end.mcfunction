@@ -1,5 +1,5 @@
 # distribute points to winners and announce them
-function sg:handle_points
+function sg:points/handle_points
 
 # give advancements
 advancement grant @a[team=sg_play,scores={sg_points=40..}] only sg:wilhelm_tell
@@ -13,7 +13,7 @@ kill @e[type=armor_stand,tag=sg_as]
 clear @a
 
 # deactivate main loop
-scoreboard players set $sg_phase points 0
+scoreboard players set #sg_phase points 0
 
 # team
 team empty sg_play

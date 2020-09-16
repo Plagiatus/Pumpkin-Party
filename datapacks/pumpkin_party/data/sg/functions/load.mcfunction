@@ -10,3 +10,5 @@ scoreboard players set 60 const 60
 scoreboard players set 100 const 100
 scoreboard players set 269 const 269
 scoreboard players set 270 const 270
+
+team add sg_play

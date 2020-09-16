@@ -1,4 +1,4 @@
-scoreboard players set $sg_phase points 1
+scoreboard players set #sg_phase points 1
 scoreboard players set $ticks timer 600
 
 # tp players
