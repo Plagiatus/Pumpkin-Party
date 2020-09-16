@@ -9,8 +9,8 @@ execute if score @e[type=zombie,sort=nearest,limit=1] ze_id matches 0.. run tell
 execute unless score @e[type=zombie,sort=nearest,limit=1] ze_id matches 0.. run tellraw @s {"text":"You were zombiefied!","color":"gray"}
 
 #Advancements
-advancement grant @s only pumpkinparty:gma_new_zombie
-execute if score #ze_timer timer matches 1100.. run advancement grant @s only pumpkinparty:gmslowest_of_them_all
+advancement grant @s only gm:a_new_zombie
+execute if score #ze_timer timer matches 1100.. run advancement grant @s only gm:slowest_of_them_all
 
 #Create zombie
 tag @s add ze_caught

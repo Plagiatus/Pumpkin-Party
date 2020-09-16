@@ -1,7 +1,9 @@
 # Runs if all players get zombified
 # @calledBy: gm:game_logic
-# @calls: gm:clean_arena
+# @calls: gm:calculate_winner, gm:clean_arena
 # @author: dragonmaster95
+
+function gm:calculate_winner
 
 #Lose message
 title @a[team=ze_play] title [{"text":"Game Over","color":"dark_blue"}]
@@ -13,4 +15,3 @@ execute if entity @e[type=armor_stand,tag=GEN,tag=!singleGame] as @a[team=ze_pla
 
 #Stop game after a few seconds
 schedule function gm:clean_arena 7s
-scoreboard players set #ze_gamestate tmp 4

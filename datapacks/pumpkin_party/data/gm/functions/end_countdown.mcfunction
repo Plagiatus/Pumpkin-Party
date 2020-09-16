@@ -6,10 +6,12 @@
 #Remove title
 title @a reset
 title @a clear
+scoreboard players set @a[team=ze_play] left_game 0
 
 #Summon zombies depending on the player count
 execute as @e[limit=1,type=armor_stand,name=ze_center,sort=random] at @s run function gm:summon_zombie
 execute if score #ze_playerCount tmp matches ..3 as @e[limit=1,type=armor_stand,name=ze_center,sort=random] at @s run function gm:summon_zombie
+effect give @e[type=zombie,tag=ze_new] levitation 1 1 true 
 
 #Give relevant effects
 effect give @a minecraft:instant_health 6 6 true

@@ -4,7 +4,7 @@
 # @author: dragonmaster95
 
 #1 second grace period (zombie can't catch anyone the first second they spawn)
-scoreboard players add @e[type=zombie,scores={timer=..20}] timer 1
+execute as @e[type=zombie] unless score @s timer matches 21.. run scoreboard players add @s timer 1
 
 #Catch mechanic
 tag @e[type=zombie,tag=ze_new] remove ze_new
@@ -17,6 +17,11 @@ execute as @e[type=zombie,scores={ze_id=1..}] at @a[gamemode=spectator,team=ze_p
 execute as @a[gamemode=spectator,team=ze_play] run title @a actionbar ["",{"text": "You got turned into a zombie and are now spectating it.","color":"gold"}]
 
 execute as @a[team=ze_play,scores={left_game=1..}] run function gm:left_game
+
+#Detect if a player left and summon a new zombie
+execute store result score #ze_playerCount tmp if entity @a[team=ze_play]
+execute if score #ze_playerCount tmp < #ze_playerCount const as @e[limit=1,type=armor_stand,name=ze_center,sort=random] at @s positioned ~ ~1 ~ run function gm:summon_zombie
+scoreboard players operation #ze_playerCount const = #ze_playerCount tmp
 
 #Timer
 time add 4

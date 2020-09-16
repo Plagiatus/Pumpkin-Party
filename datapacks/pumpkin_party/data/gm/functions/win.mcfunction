@@ -1,7 +1,9 @@
 # Runs if the sun rises and there are still players alive
 # @calledBy: gm:game_logic
-# @calls: gm:clean_arena
+# @calls: gm:calculate_winner, gm:clean_arena
 # @author: dragonmaster95
+
+function gm:calculate_winner
 
 #Winners
 title @a title [{"text":"Game Over","color":"dark_green"}]
@@ -17,7 +19,7 @@ execute if entity @e[type=armor_stand,tag=GEN,tag=!singleGame] as @a[team=ze_pla
 
 #Let zombies burn
 time set day
-advancement grant @a[gamemode=adventure] only pumpkinparty:gm/saved_by_the_sun
+advancement grant @a[gamemode=adventure] only gm:saved_by_the_sun
 execute as @e[tag=ze] run data merge entity @s {Fire:1000000,Invulnerable:0b}
 gamemode spectator @a
 

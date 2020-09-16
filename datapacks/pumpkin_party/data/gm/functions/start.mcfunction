@@ -21,6 +21,7 @@ gamerule fallDamage false
 tellraw @a ["",{"text":"Graveyard Mayhem","underlined":true,"bold":true,"color":"#FF6600"},{"text":"\nSupercharged zombies!?\nOne bite turns you into one of them!","color":"gold"},{"text":"\nGoal: ","bold":true,"color":"#FF6600"},{"text":"Don't get bitten till sunrise.","color":"gold"}]
 title @a times 0 50 10
 
-advancement grant @a only pumpkinparty:gm/minigame_play
+advancement grant @a only gm:minigame_play
 execute store result score #ze_playerCount tmp if entity @a[team=ze_play]
+scoreboard players operation #ze_playerCount const = #ze_playercount tmp
 scoreboard players set #ze_gamestate tmp 2

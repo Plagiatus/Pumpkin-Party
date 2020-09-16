@@ -3,6 +3,7 @@
 # @author: dragonmaster95
 
 #For conversion into seconds
+scoreboard players set #12 const 12
 scoreboard players set #20 const 20
 
 #Points during game
