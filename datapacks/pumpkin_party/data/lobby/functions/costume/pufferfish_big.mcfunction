@@ -3,3 +3,5 @@ replaceitem entity @s armor.chest leather_chestplate{Unbreakable:1,display:{Name
 replaceitem entity @s armor.legs leather_leggings{Unbreakable:1,display:{Name:'{"text":"Pufferfish Costume","italic":false}',color:13804621},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"text":"Pufferfish Costume","italic":false}',color:16573884},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 playsound entity.puffer_fish.blow_up master @a ~ ~ ~
+
+tag @s remove small_puffer
