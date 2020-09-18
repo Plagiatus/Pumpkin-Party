@@ -13,55 +13,55 @@
   },
   "parent": "sr:root",
   "criteria": {
-    "t1": {
+    "normal_bridge": {
       "trigger": "impossible"
     }, 
-    "t3": {
+    "normal_broken_door": {
       "trigger": "impossible"
     }, 
-    "t4": {
+    "normal_hangman": {
       "trigger": "impossible"
     }, 
-    "t5": {
+    "normal_ice": {
       "trigger": "impossible"
     }, 
-    "t6": {
+    "normal_leaves": {
       "trigger": "impossible"
     }, 
-    "t7": {
+    "normal_magma": {
       "trigger": "impossible"
     }, 
-    "t8": {
+    "normal_mineshaft": {
       "trigger": "impossible"
     }, 
-    "t9": {
+    "normal_net": {
       "trigger": "impossible"
     }, 
-    "t10": {
+    "normal_oak_tree": {
       "trigger": "impossible"
     }, 
-    "t11": {
+    "normal_prismarine": {
       "trigger": "impossible"
     }, 
-    "t12": {
+    "normal_stonepillar": {
       "trigger": "impossible"
     }, 
-    "t13": {
+    "normal_wall": {
       "trigger": "impossible"
     }, 
-    "t14": {
+    "hard_gravel": {
       "trigger": "impossible"
     }, 
-    "t15": {
+    "hard_lava": {
       "trigger": "impossible"
     }, 
-    "t16": {
+    "hard_spiders": {
       "trigger": "impossible"
     }, 
-    "t17": {
+    "hard_vines": {
       "trigger": "impossible"
     }, 
-    "t18": {
+    "nightmare_slime": {
       "trigger": "impossible"
     }
   }
