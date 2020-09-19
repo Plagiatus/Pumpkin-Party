@@ -62,77 +62,67 @@ execute as @e[scores={tot_animation=33..33,tot_witch=1..}] at @s run tellraw @p[
 
 
 #R: Randomizer
-execute as @e[tag=tot_rnd,type=armor_stand] blockdata ~ ~ ~ {auto:0b}
-execute as @e[sort=random,limit=1,type=armor_stand,tag=tot_rndTreats] blockdata ~ ~ ~ {auto:1b}
-execute as @e[sort=random,limit=1,type=armor_stand,tag=tot_rndCoolDown] blockdata ~ ~ ~ {auto:1b}
-scoreboard players set #Random tot_treatsToGive 1
-scoreboard players set #Random tot_treatsToGive 2
-scoreboard players set #Random tot_treatsToGive 3
-scoreboard players set #Random tot_treatsToGive 4
-scoreboard players set #Random tot_treatsToGive 5
-scoreboard players set #Random tot_coolDown 200
-scoreboard players set #Random tot_coolDown 300
-scoreboard players set #Random tot_coolDown 400
-scoreboard players set #Random tot_coolDown 340
+#TODO randomize tot_treatsToGive 1-5
+#TODO randomize tot_coolDown 200, 300, 400, 340
 
 
 
 #I: tot_gameStart
-team add tot_play
-team modify tot_play color dark_purple
-team join tot_play @a
-scoreboard objectives add tot_cd1 dummy
-scoreboard objectives add tot_cd2 dummy
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd2 5
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd1 20
-title @a[team=tot_play] reset
-title @a[team=tot_play] times 0 30 0
-title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
-title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"translate":"5","color":"dark_purple"}]}
-tp @a[team=tot_play] 996 69 -973
-gamemode adventure @a[team=tot_play]
-execute as @e[type=armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:1b}
-advancement grant @a only pumpkinparty:totminigame_play
-scoreboard players set @a tot_doorsKnocked 0
+#team add tot_play
+#team modify tot_play color dark_purple
+#team join tot_play @a
+#scoreboard objectives add tot_cd1 dummy
+#scoreboard objectives add tot_cd2 dummy
+#scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd2 5
+#scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd1 20
+#title @a[team=tot_play] reset
+#title @a[team=tot_play] times 0 30 0
+#title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"translate":"5","color":"dark_purple"}]}
+#title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
+#tp @a[team=tot_play] 996 69 -973
+#gamemode adventure @a[team=tot_play]
+#advancement grant @a only pumpkinparty:totminigame_play
+#scoreboard players set @a tot_doorsKnocked 0
+#scoreboard players set #ze_gamestate tmp 2
 
 
 
 #R: tot_countdown
-scoreboard players remove @e[type=armor_stand,tag=GEN,scores={tot_cd1=1..,tot_cd2=1..}] tot_cd1 1
-scoreboard players remove @e[type=armor_stand,tag=GEN,scores={tot_cd1=0,tot_cd2=1..}] tot_cd2 1
-scoreboard players operation tot_cddisplay tot_cd2 = @e[type=armor_stand,tag=GEN] tot_cd2
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] reset
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] clear
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] times 0 30 0
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"color":"dark_purple","score":{"name":"tot_cddisplay","objective":"tot_cd2"}}]}
-scoreboard players set @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] tot_cd1 20
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:1b}
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:0b}
-execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run scoreboard objectives remove tot_cd2
+#scoreboard players remove @e[type=armor_stand,tag=GEN,scores={tot_cd1=1..,tot_cd2=1..}] tot_cd1 1
+#scoreboard players remove @e[type=armor_stand,tag=GEN,scores={tot_cd1=0,tot_cd2=1..}] tot_cd2 1
+#scoreboard players operation tot_cddisplay tot_cd2 = @e[type=armor_stand,tag=GEN] tot_cd2
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] reset
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] clear
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] times 0 30 0
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] at @s run title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"color":"dark_purple","score":{"name":"tot_cddisplay","objective":"tot_cd2"}}]}
+#scoreboard players set @e[type=armor_stand,tag=GEN,scores={tot_cd1=0}] tot_cd1 20
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:1b}
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:0b}
+#execute as @e[type=armor_stand,tag=GEN,scores={tot_cd2=0}] at @s run scoreboard objectives remove tot_cd2
 
 
 
 #I: tot_actualStart
-execute as @e[type=armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:0b}
-tag @a remove tot_tricking
-scoreboard players reset tot_cddisplay tot_cd2
-scoreboard objectives remove tot_cd1
-scoreboard objectives remove tot_cd2
-scoreboard objectives add tot_treatsToGive dummy
-scoreboard objectives add tot_treats dummy "Chocolate Emeralds"
-title @a[team=tot_play] reset
-title @a[team=tot_play] clear
-execute as @e[type=armor_stand,name=tot_doorbellRing] at @s run blockdata ~1 ~ ~ {auto:1b}
-execute as @e[type=armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:1b}
-scoreboard objectives add tot_time dummy
-scoreboard objectives add tot_time1 dummy
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_time 180
-
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_time1 0
-xp set @a[team=tot_play] 180 levels
-execute as @e[type=armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:1b}
-scoreboard objectives setdisplay sidebar tot_treats
+#execute as @e[type=armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:0b}
+#tag @a remove tot_tricking
+#scoreboard players reset tot_cddisplay tot_cd2
+#scoreboard objectives remove tot_cd1
+#scoreboard objectives remove tot_cd2
+#scoreboard objectives add tot_treatsToGive dummy
+#scoreboard objectives add tot_treats dummy "Chocolate Emeralds"
+#title @a[team=tot_play] reset
+#title @a[team=tot_play] clear
+#execute as @e[type=armor_stand,name=tot_doorbellRing] at @s run blockdata ~1 ~ ~ {auto:1b}
+#execute as @e[type=armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:1b}
+#scoreboard objectives add tot_time dummy
+#scoreboard objectives add tot_time1 dummy
+#scoreboard players set @e[type=armor_stand,tag=GEN] tot_time 180
+#
+#scoreboard players set @e[type=armor_stand,tag=GEN] tot_time1 0
+#xp set @a[team=tot_play] 180 levels
+#execute as @e[type=armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:1b}
+#scoreboard objectives setdisplay sidebar tot_treats
 
 
 
@@ -297,7 +287,6 @@ blockdata 33 1 -76 {auto:1}
 
 
 #I:
-blockdata ~ ~ ~ {auto:0}
 scoreboard players set @e[type=armor_stand,tag=GEN] tot_finalPoints 0
 execute as @a run scoreboard players operation @e[type=armor_stand,tag=GEN] tot_finalPoints > @s tot_finalPoints
 execute as @a run scoreboard players operation @s tot_finalPoints -= @e[type=armor_stand,tag=GEN] tot_finalPoints

@@ -7,3 +7,7 @@ gamemode adventure @a
 # TODO: check whether there is a party going and continue the cycle as necessary
 #set correct scoreboard to sidebar
 scoreboard objectives setdisplay sidebar points
+
+
+
+#TODO: maybe leaving any teams they were in and clearing any effects? 
