@@ -3,8 +3,12 @@
 # @author: dragonmaster95
 
 
+#Calculate point base (aka "How many seconds do you need to live to get one point")
+scoreboard players operation #gm_pointConversion tmp = #gm_maxTime const
+scoreboard players operation #gm_pointConversion tmp /= #maxPoints const
+
 #Calculate points
-scoreboard players operation @a[team=gm_play] timer /= #12 const
+scoreboard players operation @a[team=gm_play] timer /= #gm_pointConversion tmp
 scoreboard players operation @a[team=gm_play] gm_points = #maxPoints const
 execute as @a[team=gm_play] run scoreboard players operation @s gm_points -= @s timer
 

@@ -24,7 +24,10 @@ execute if score #gm_playerCount tmp < #gm_playerCount const as @e[limit=1,type=
 scoreboard players operation #gm_playerCount const = #gm_playerCount tmp
 
 #Timer
-time add 4
+execute if score #gm_maxTime const matches 1200 run time add 4
+execute if score #gm_maxTime const matches 1600 run time add 3
+execute if score #gm_maxTime const matches 2400 run time add 2
+
 scoreboard players remove #gm_timer timer 1
 scoreboard players remove @a timer 1
 

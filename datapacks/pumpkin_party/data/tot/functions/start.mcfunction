@@ -11,7 +11,8 @@ title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple
 
 tp @a[team=tot_play] 996 69 -973
 gamemode adventure @a[team=tot_play]
-advancement grant @a only pumpkinparty:totminigame_play
+advancement grant @a only tot:minigame_play
 scoreboard players set @a tot_doorsKnocked 0
+scoreboard players set @a tot_treats 0
 
-scoreboard players set #ze_gamestate tmp 2
+scoreboard players set #tot_gamestate tmp 2

@@ -2,6 +2,9 @@
 # @calledBy: minecraft:#load
 # @author: dragonmaster95
 
+#Time the game runs for
+scoreboard players set #gm_maxTime const 1200
+
 #For conversion into seconds
 scoreboard players set #12 const 12
 scoreboard players set #20 const 20

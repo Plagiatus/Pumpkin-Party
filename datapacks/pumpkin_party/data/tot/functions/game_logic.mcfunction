@@ -2,8 +2,16 @@
 # @calledBy: tot:main
 # @calls: 
 # @author: dragonmaster95
+# Notes: tmp = a cooldown
 
+scoreboard players remove $ticks timer 1
 function pp:util/display_timer
-#function doorbellRing
-#function doorbellDirection
-#function doorbellTime
+
+#Reduce cooldown
+scoreboard players remove @e[type=armor_stand,scores={tmp=1..}] tmp 1
+execute as @e[name=tot_doorbell,type=armor_stand,scores={tmp=0}] at @s run function tot:ready_door
+
+scoreboard players operation $ticks tmp = $ticks timer
+scoreboard players operation $ticks tmp %= #20 const
+execute if score $ticks tmp matches 0 run function tot:random_witch
+execute if score $ticks timer matches 0 run scoreboard players set tot_gamestate tmp 4

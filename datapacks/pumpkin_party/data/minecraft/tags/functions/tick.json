@@ -4,6 +4,7 @@
 		"lobby:main",
 		"gm:main",
 		"sg:main",
-		"sr:main"
+		"sr:main",
+		"tot:main"
 	]
 }

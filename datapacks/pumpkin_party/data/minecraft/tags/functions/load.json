@@ -4,6 +4,7 @@
 		"lobby:load",
 		"gm:load",
 		"sg:load",
-		"sr:load"
+		"sr:load",
+		"tot:load"
 	]
 }
