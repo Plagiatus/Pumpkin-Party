@@ -19,3 +19,5 @@ execute at @s[tag=sg_deactivating,scores={timer=0}] run function sg:targets/stas
 
 # respawning
 execute at @s[tag=sg_stasis,scores={timer=0}] run function sg:targets/respawn
+
+#TODO add particle effect to golden ghost

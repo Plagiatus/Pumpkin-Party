@@ -2,3 +2,4 @@ setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:1b,rotation:"
 setblock ~ ~ ~1 minecraft:redstone_block
 
 function sr:run/start_cutscene
+kill @s

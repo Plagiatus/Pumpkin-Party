@@ -10,7 +10,12 @@ execute unless score sr_difficulty settings matches 0..2 run scoreboard players 
 scoreboard players operation #parts sr_distance = #normal sr_distance
 execute if score sr_difficulty settings matches 1 run scoreboard players operation #parts sr_distance = #hard sr_distance
 execute if score sr_difficulty settings matches 2 run scoreboard players operation #parts sr_distance = #nightmare sr_distance
+scoreboard players operation #speed sr_distance = #normal sr_tunnel
+execute if score sr_difficulty settings matches 1 run scoreboard players operation #speed sr_distance = #hard sr_tunnel
+execute if score sr_difficulty settings matches 2 run scoreboard players operation #speed sr_distance = #nightmare sr_tunnel
 scoreboard players operation #totalparts sr_distance = #parts sr_distance
+scoreboard players operation #halfparts sr_distance = #parts sr_distance
+scoreboard players operation #halfparts sr_distance /= 2 const
 
 # load starting area
 setblock -452 59 -549 minecraft:structure_block[mode=load]{mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"Plagiatus",rotation:"NONE",posX:-14,mode:"LOAD",posY:3,sizeX:21,posZ:5,integrity:1.0f,showair:0b,name:"sr:start",sizeY:13,sizeZ:25,showboundingbox:1b}
