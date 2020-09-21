@@ -21,6 +21,9 @@ scoreboard players operation #tot_gamestate tot_points > @a[team=tot_play] tot_p
 execute as @a[team=tot_play] if score @s tot_points = #tot_gamestate tot_points run advancement grant @s only tot:minigame_win
 
 #reset scores and end game
+tp @e[tag=tot_doorMob] ~ ~-500 ~
+fill 1038 67 -986 957 69 -933 structure_void replace redstone_torch
+clear @a[team=tot_play] emerald
 scoreboard players set @a[team=tot_play] tot_treats 0
 tag @a[team=tot_play] remove tot_tricking
 title @a[team=tot_play] reset

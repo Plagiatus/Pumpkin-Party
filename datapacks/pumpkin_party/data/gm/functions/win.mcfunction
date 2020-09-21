@@ -7,7 +7,6 @@ function gm:calculate_winner
 
 #Winners
 title @a title [{"text":"Game Over","color":"dark_green"}]
-scoreboard players add @a[gamemode=adventure] gm_points 1
 
 #Losers
 tellraw @a [{"text":"Game Over! Survivors: ","color":"green"},{"selector":"@a[gamemode=adventure,team=gm_play]","color":"gold"}]
