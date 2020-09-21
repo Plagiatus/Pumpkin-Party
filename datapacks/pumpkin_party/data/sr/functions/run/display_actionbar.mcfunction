@@ -1,4 +1,5 @@
-execute if score sr_difficulty settings matches 0..1 store result score @s tmp run data get entity @s Pos[0]
+execute if score sr_difficulty settings matches 0..1 store result score @s tmp run data get entity @s Pos[0] 10
+execute if score sr_difficulty settings matches 0..1 run scoreboard players operation @s tmp -= #spiderX sr_distance
 execute if score sr_difficulty settings matches 0..1 run scoreboard players operation @s temp = @s tmp
 execute if score sr_difficulty settings matches 0..1 run scoreboard players operation @s tmp /= 10 const
 execute if score sr_difficulty settings matches 0..1 run scoreboard players operation @s temp %= 10 const

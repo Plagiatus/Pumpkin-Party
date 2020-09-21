@@ -1,1 +1,1 @@
-tag @s remove sr_in_tunnel
+tag @s[tag=!sr_caught] remove sr_in_tunnel

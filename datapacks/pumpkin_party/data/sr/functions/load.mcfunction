@@ -12,4 +12,5 @@ scoreboard players set #hard sr_tunnel 30
 scoreboard players set #nightmare sr_tunnel 40
 
 scoreboard players set 2 const 2
+scoreboard players set 5 const 5
 scoreboard players set 10 const 10
