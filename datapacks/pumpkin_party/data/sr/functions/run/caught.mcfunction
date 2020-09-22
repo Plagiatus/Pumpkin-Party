@@ -18,3 +18,8 @@ execute if score #mseconds tmp matches ..9 if score #seconds tmp matches ..9 run
 execute if score #mseconds tmp matches ..9 if score #seconds tmp matches 10.. run tellraw @a [{"color": "red","text": ""},{"selector": "@s","color": "dark_red"}," got caught by the spider after ",{"score": {"name": "#minutes","objective": "tmp"}},":",{"score": {"name": "#seconds","objective": "tmp"}},".0",{"score": {"name": "#mseconds","objective": "tmp"}}]
 execute if score #mseconds tmp matches 10.. if score #seconds tmp matches ..9 run tellraw @a [{"color": "red","text": ""},{"selector": "@s","color": "dark_red"}," got caught by the spider after ",{"score": {"name": "#minutes","objective": "tmp"}},":0",{"score": {"name": "#seconds","objective": "tmp"}},".",{"score": {"name": "#mseconds","objective": "tmp"}}]
 execute if score #mseconds tmp matches 10.. if score #seconds tmp matches 10.. run tellraw @a [{"color": "red","text": ""},{"selector": "@s","color": "dark_red"}," got caught by the spider after ",{"score": {"name": "#minutes","objective": "tmp"}},":",{"score": {"name": "#seconds","objective": "tmp"}},".",{"score": {"name": "#mseconds","objective": "tmp"}}]
+
+advancement grant @s only sr:spider_candy
+
+#check how many players are still left running
+execute unless entity @a[team=sr_play,tag=!sr_caught] run function sr:run/caught_everyone
