@@ -21,7 +21,7 @@ execute if score #sr_end sr_time matches -10 as @e[tag=sr_spider,tag=!sr_end] ru
 scoreboard players remove #sr_end sr_time 1
 
 # cutscene
-execute if score #sr_end sr_time matches 49 if entity @a[limit=1,team=sr_play,tag=!sr_caught] run tellraw @a [{"translate": "chat.type.text","with": [{"selector": "@a[limit=1,team=sr_play,tag=!sr_caught]"},{"text": "There she comes! Close the gate!"}]}]
+execute if score #sr_end sr_time matches 49 if entity @a[limit=1,team=sr_play,tag=!sr_caught] run tellraw @a [{"translate": "chat.type.text","with": [{"selector": "@a[limit=1,team=sr_play,tag=!sr_caught,sort=random]"},{"text": "There she comes! Close the gate!"}]}]
 execute if score #sr_end sr_time matches 45 at @e[tag=sr_gate] positioned ~ ~5 ~ run function sr:run/close_gate
 execute if score #sr_end sr_time matches 35 at @e[tag=sr_gate] positioned ~ ~4 ~ run function sr:run/close_gate
 execute if score #sr_end sr_time matches 25 at @e[tag=sr_gate] positioned ~ ~3 ~ run function sr:run/close_gate
