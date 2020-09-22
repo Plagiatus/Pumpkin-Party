@@ -4,11 +4,11 @@ scoreboard players operation #max tmp > @a[team=sg_play,scores={sg_points_tmp=0}
 execute as @a[team=sg_play,scores={sg_points_tmp=0}] if score @s sg_points = #max tmp run tag @s add sg_lead
 
 # calculate candy amount based on amount of points
-scoreboard players operation @a[tag=sg_lead] sg_points_tmp = @s sg_points
-scoreboard players operation @a[tag=sg_lead] sg_points_tmp *= 100 const
-scoreboard players operation @a[tag=sg_lead] sg_points_tmp /= #max sg_points
-scoreboard players operation @a[tag=sg_lead] sg_points_tmp *= #maxPoints const
-scoreboard players operation @a[tag=sg_lead] sg_points_tmp /= 100 const
+execute as @a[tag=sg_lead] run scoreboard players operation @s sg_points_tmp = @s sg_points
+execute as @a[tag=sg_lead] run scoreboard players operation @s sg_points_tmp *= 100 const
+execute as @a[tag=sg_lead] run scoreboard players operation @s sg_points_tmp /= #max sg_points
+execute as @a[tag=sg_lead] run scoreboard players operation @s sg_points_tmp *= #maxPoints const
+execute as @a[tag=sg_lead] run scoreboard players operation @s sg_points_tmp /= 100 const
 scoreboard players set @a[tag=sg_lead,scores={sg_points_tmp=..0}] sg_points_tmp 1
 
 # show ranking

@@ -4,13 +4,30 @@ scoreboard objectives add sr_tunnel dummy
 
 team add sr_play
 
+scoreboard players set -1 const -1
+scoreboard players set 2 const 2
+scoreboard players set 5 const 5
+scoreboard players set 7 const 7
+scoreboard players set 10 const 10
+scoreboard players set 2000 const 2000
+
+# spider speed
 scoreboard players set #normal sr_distance 20
 scoreboard players set #hard sr_distance 25
 scoreboard players set #nightmare sr_distance 30
+
+# amount of tunnel segments
 scoreboard players set #normal sr_tunnel 20
 scoreboard players set #hard sr_tunnel 25
 scoreboard players set #nightmare sr_tunnel 30
 
-scoreboard players set 2 const 2
-scoreboard players set 5 const 5
-scoreboard players set 10 const 10
+# minimum speed to get to the end without being caught
+scoreboard players operation #normal sr_time = #normal sr_tunnel
+scoreboard players operation #hard sr_time = #hard sr_tunnel
+scoreboard players operation #nightmare sr_time = #nightmare sr_tunnel
+scoreboard players operation #normal sr_time *= 2000 const
+scoreboard players operation #hard sr_time *= 2000 const
+scoreboard players operation #nightmare sr_time *= 2000 const
+scoreboard players operation #normal sr_time /= #normal sr_distance 
+scoreboard players operation #hard sr_time /= #hard sr_distance 
+scoreboard players operation #nightmare sr_time /= #nightmare sr_distance 
