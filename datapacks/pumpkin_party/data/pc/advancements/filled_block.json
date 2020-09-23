@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:smooth_red_sandstone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "pc:filled_block"
+    }
+}

@@ -12,8 +12,24 @@
   },
   "parent": "lobby:lab",
   "criteria": {
-    "impossible": {
-      "trigger": "impossible"
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 380,
+            "max": 381
+          },
+          "y": {
+            "min": 67,
+            "max": 70
+          },
+          "z": {
+            "min": 492,
+            "max": 508
+          }
+        }
+      }
     }
   }
 }

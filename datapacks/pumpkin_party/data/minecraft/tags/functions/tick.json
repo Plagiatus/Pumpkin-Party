@@ -5,6 +5,7 @@
 		"gm:main",
 		"sg:main",
 		"sr:main",
-		"tot:main"
+		"tot:main",
+		"pc:main"
 	]
 }

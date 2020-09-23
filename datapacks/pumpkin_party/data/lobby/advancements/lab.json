@@ -12,8 +12,24 @@
   },
   "parent": "lobby:root",
   "criteria": {
-    "impossible": {
-      "trigger": "impossible"
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 383,
+            "max": 395
+          },
+          "y": {
+            "min": 61,
+            "max": 63
+          },
+          "z": {
+            "min": 490,
+            "max": 509
+          }
+        }
+      }
     }
   }
 }

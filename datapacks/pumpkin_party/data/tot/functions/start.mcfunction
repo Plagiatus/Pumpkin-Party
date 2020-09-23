@@ -12,6 +12,8 @@ title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple
 tp @e[tag=tot_doorMob] ~ ~-500 ~
 fill 1038 66 -986 957 70 -933 structure_void replace redstone_torch
 
+function pp:all_games/start
+
 tp @a[team=tot_play] 996 69 -973
 gamemode adventure @a[team=tot_play]
 advancement grant @a only tot:minigame_play

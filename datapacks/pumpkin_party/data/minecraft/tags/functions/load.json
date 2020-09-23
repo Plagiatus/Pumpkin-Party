@@ -5,6 +5,7 @@
 		"gm:load",
 		"sg:load",
 		"sr:load",
-		"tot:load"
+		"tot:load",
+		"pc:load"
 	]
 }
