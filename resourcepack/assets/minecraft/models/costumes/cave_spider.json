@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/spider",
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "entity/spider/cave_spider"
@@ -76,13 +77,6 @@
 			}
 		}
 	],
-	"display": {
-		"head": {
-			"rotation": [90, 0, -45],
-			"translation": [0, -27.75, 0],
-			"scale": [1.85, 1.85, 1.85]
-		}
-	},
 	"groups": [
 		{
 			"name": "head",

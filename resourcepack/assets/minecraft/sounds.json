@@ -16,6 +16,27 @@
 			}
 		]
 	},
+	"item.armor.equip_leather": {
+		"replace": true,
+		"subtitle": "",
+		"sounds":[
+			{
+				"name":"custom/no_sound"
+			}
+		]
+	},
+	"item.armor.equip_elytra": {
+		"subtitle": "Costume rustle",
+		"replace": true,
+		"sounds":[
+			{"name":"item/armor/equip_leather1"},
+			{"name":"item/armor/equip_leather2"},
+			{"name":"item/armor/equip_leather3"},
+			{"name":"item/armor/equip_leather4"},
+			{"name":"item/armor/equip_leather5"},
+			{"name":"item/armor/equip_leather6"}
+		]
+	},
 	"block.anvil.use": {
 		"replace": true,
 		"subtitle": "Password entered",
