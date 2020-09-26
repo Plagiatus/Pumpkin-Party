@@ -34,3 +34,6 @@ execute as @a[x=367,y=79,z=510,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_doo
 
 #Teleport to Costume via Costume in the lobby:
 execute as @p[x=400,y=69,z=496,dx=0,dy=0,dz=0] run function lobby:tp_to_costume
+
+#Mule Unlock
+execute if entity @a[advancements={lobby:mule=false}] at @a[team=,scores={costume=468..469}] run function lobby:unlock_mule

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget",
+      "nbt": "{CustomModelData:568}"
+    },
+    "title": {
+      "text": "Mules"
+    },
+    "description": ["",{"text": "That's how they're made"}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "lobby:costumes",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/mule"
+  }
+}
