@@ -17,5 +17,5 @@ execute as @e[type=armor_stand,sort=random,tag=pc_marker] at @s run function pc:
 execute at @e[type=area_effect_cloud,tag=pc_occupied] run clone 932 73 1008 932 82 1016 ~-5 ~1 ~
 execute at @e[type=area_effect_cloud,tag=pc_occupied] run clone 933 73 1008 941 73 1016 ~ ~ ~
 
-title @a[team=pc_play] title {"translate":"Pumpkin Carving","color":"gold"}
+title @a[team=pc_play] title {"text":"Pumpkin Carving","color":"gold"}
 scoreboard players set #pc_gamestate tmp 2

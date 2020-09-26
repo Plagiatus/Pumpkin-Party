@@ -11,3 +11,6 @@ scoreboard objectives setdisplay sidebar points
 
 
 #TODO: maybe leaving any teams they were in and clearing any effects? 
+team leave @a
+execute as @a unless score @s costume matches 121 run function lobby:costume/basket
+execute as @a if score @s costume matches 121 run function lobby:costume/full_basket
