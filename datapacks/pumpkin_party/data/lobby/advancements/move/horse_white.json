@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget",
+      "nbt": "{CustomModelData:168}"
+    },
+    "title": {
+      "text": "Medium Distances"
+    },
+    "description": ["",{"text": "Walk 1000 meters."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "lobby:move/horse_brown",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/horse_white"
+  }
+}
