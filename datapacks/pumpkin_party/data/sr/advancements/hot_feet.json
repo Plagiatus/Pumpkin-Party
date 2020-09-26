@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget",
+	    "nbt": "{CustomModelData:10}"
+    },
+    "title": {
+      "text": "Hot Feet"
+    },
+    "description": ["",{"text": "Fall into the lava."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "parent": "sr:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

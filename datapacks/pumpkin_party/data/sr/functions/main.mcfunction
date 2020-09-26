@@ -12,3 +12,6 @@ execute if score #sr_phase points matches 3.. as @a[scores={left_game=1..}] if s
 
 # give needed effects
 execute if score #sr_phase points matches 1.. run effect give @a fire_resistance 1 0 true
+
+# give strider advancement
+execute as @a at @s if block ~ ~ ~ lava run advancement grant @s only sr:hot_feet
