@@ -5,4 +5,7 @@ execute if score #labSoundTimer tmp matches 8 run playsound minecraft:block.note
 
 scoreboard players add #labSoundTimer tmp 1
 execute if score #labSoundTimer tmp matches 9 run schedule function lobby:lab/reset_screen 2s
-execute if score #labSoundTimer tmp matches 9 run scoreboard players reset #labSoundTimer tmp
+execute if score #labSoundTimer tmp matches 9 run tag @s remove entered_password
+
+
+execute if score #labSoundTimer tmp matches 9 run scoreboard players set #labSoundTimer tmp 0
