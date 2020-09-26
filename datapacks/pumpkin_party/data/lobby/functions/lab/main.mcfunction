@@ -3,7 +3,7 @@ setblock 390 61 490 chipped_anvil[facing=west]
 setblock 392 61 490 chipped_anvil[facing=west]
 
 xp set @s 1 levels
-execute if entity @s[tag=!enteredPcArea] run schedule function lobby:lab/enable_datapack 1t
+execute if entity @s[tag=!enteredPcArea] run schedule function lobby:lab/enable_datapack 2t
 clear @s[tag=!enteredPcArea] orange_dye
 clear @s[tag=!enteredPcArea] red_dye
 give @s[tag=!enteredPcArea] music_disc_mellohi{CustomModelData:1}

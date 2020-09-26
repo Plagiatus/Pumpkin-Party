@@ -21,7 +21,7 @@
 		"subtitle": "Password entered",
 		"sounds":[
 			{
-				"name":"mob/zombie/unfect"
+				"name":"custom/no_sound"
 			}
 		]
 	},
