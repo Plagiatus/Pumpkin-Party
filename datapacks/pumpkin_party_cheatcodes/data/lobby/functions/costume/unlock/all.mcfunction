@@ -4,7 +4,7 @@ tellraw @s[tag=!all_costumes] ["",{"text":"You successfully unlocked: ","color":
 advancement grant @s[tag=!all_costumes] from lobby:lab/unlock/all
 
 #Every other time
-tellraw @s[tag=all_costumes] ["",{"text":"You already used this cheat"}]
+execute as @s[tag=all_costumes] run function lobby:costume/already_unlocked
 advancement revoke @s only lobby:lab/unlock/all
 
 tag @s add valid_password

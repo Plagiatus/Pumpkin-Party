@@ -7,3 +7,6 @@ scoreboard players set #100 const 100
 
 scoreboard objectives add adv_walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add adv_sprint minecraft.custom:minecraft.sprint_one_cm
+
+#Makes the teleporter in the lobby change its costume periodically
+schedule function lobby:select_costume_teleporter 5s

@@ -6,7 +6,7 @@ scoreboard players set #20 const 20
 scoreboard players set #50 const 50
 
 #Amount of Candy you need to get #maxPoints points
-scoreboard players set #tot_max const 200
+scoreboard players set #tot_max const 50
 
 
 scoreboard objectives add tot_treats dummy "Chocolate Emeralds"

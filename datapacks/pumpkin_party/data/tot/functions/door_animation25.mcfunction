@@ -16,3 +16,4 @@ execute if entity @s[tag=tot_witch] run particle minecraft:angry_villager ~ ~1.0
 execute if entity @s[tag=tot_witch] run scoreboard players operation @s points *= #-1 const
 
 execute positioned ~-0.5 ~ ~-0.5 run scoreboard players operation @p[tag=tot_tricking,dy=0] tot_treats += @s points
+execute as @a[scores={tot_treats=..-1}] run scoreboard players set @s tot_treats 0

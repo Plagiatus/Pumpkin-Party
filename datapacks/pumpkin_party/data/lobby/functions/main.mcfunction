@@ -37,3 +37,4 @@ execute as @p[x=400,y=69,z=496,dx=0,dy=0,dz=0] run function lobby:tp_to_costume
 
 #Mule Unlock
 execute if entity @a[advancements={lobby:mule=false}] at @a[team=,scores={costume=468..469}] run function lobby:unlock_mule
+
