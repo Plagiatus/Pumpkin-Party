@@ -33,3 +33,6 @@ execute if score #sr_end sr_time matches 10 at @e[tag=sr_gate] positioned ~ ~3 ~
 
 
 execute if score #sr_end sr_time matches -80 run function sr:end
+
+# give strider advancement
+execute as @a at @s if block ~ ~ ~ lava run advancement grant @s only sr:hot_feet

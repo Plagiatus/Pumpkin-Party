@@ -20,3 +20,6 @@ execute as @e[tag=sr_spiderwall,tag=sr_active] at @s run function sr:run/spider_
 
 # "catch" players
 execute at @e[tag=sr_spider] positioned ~ ~-5 ~-7 as @a[dx=3,dy=10,dz=15,tag=!sr_caught] run function sr:run/caught
+
+# give strider advancement
+execute as @a at @s if block ~ ~ ~ lava run advancement grant @s only sr:hot_feet
