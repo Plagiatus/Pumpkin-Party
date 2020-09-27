@@ -1,0 +1,11 @@
+execute if score @s bc_recipe matches -1 run function bc:recipe/recipes/example_in_order
+execute if score @s bc_recipe matches 1 run function bc:recipe/recipes/cranium_in_order
+execute if score @s bc_recipe matches 2 run function bc:recipe/recipes/metamordhasis_in_order
+execute if score @s bc_recipe matches 3 run function bc:recipe/recipes/acid_cure_in_order
+execute if score @s bc_recipe matches 4 run function bc:recipe/recipes/green_juice_in_order
+execute if score @s bc_recipe matches 5 run function bc:recipe/recipes/thick_skin_in_order
+execute if score @s bc_recipe matches 6 run function bc:recipe/recipes/vegan_blend_in_order
+execute if score @s bc_recipe matches 7 run function bc:recipe/recipes/leftovers_in_order
+execute if score @s bc_recipe matches 8 run function bc:recipe/recipes/purified_poison_in_order
+execute if score @s bc_recipe matches 9 run function bc:recipe/recipes/gilded_breakfast_in_order
+execute if score @s bc_recipe matches 10 run function bc:recipe/recipes/sticky_bomb_in_order

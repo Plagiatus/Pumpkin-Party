@@ -6,6 +6,7 @@
 		"sg:main",
 		"sr:main",
 		"tot:main",
-		"pc:main"
+		"pc:main",
+		"bc:main"
 	]
 }

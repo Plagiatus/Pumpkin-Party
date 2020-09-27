@@ -1,0 +1,8 @@
+execute at @s[tag=bc_green,scores={bc_count=1}] run particle minecraft:falling_dust lime_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 1 force @a[distance=..15]
+execute at @s[tag=bc_green,scores={bc_count=2}] run particle minecraft:falling_dust lime_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 3 force @a[distance=..15]
+execute at @s[tag=bc_red,scores={bc_count=1}] run particle minecraft:falling_dust red_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 1 force @a[distance=..15]
+execute at @s[tag=bc_red,scores={bc_count=2}] run particle minecraft:falling_dust red_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 3 force @a[distance=..15]
+execute at @s[tag=bc_yellow,scores={bc_count=1}] run particle minecraft:falling_dust yellow_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 1 force @a[distance=..15]
+execute at @s[tag=bc_yellow,scores={bc_count=2}] run particle minecraft:falling_dust yellow_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 3 force @a[distance=..15]
+execute at @s[tag=bc_purple,scores={bc_count=1}] run particle minecraft:falling_dust purple_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 1 force @a[distance=..15]
+execute at @s[tag=bc_purple,scores={bc_count=2}] run particle minecraft:falling_dust purple_stained_glass ~ ~2 ~ 0.75 0.5 0.75 0 3 force @a[distance=..15]
