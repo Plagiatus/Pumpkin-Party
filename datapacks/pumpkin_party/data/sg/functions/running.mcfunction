@@ -9,7 +9,7 @@ execute as @e[type=arrow,tag=!piercing] run data merge entity @s {PierceLevel:10
 kill @e[type=arrow,nbt={inGround:1b}]
 
 # handle armorstands
-execute as @e[type=armor_stand,tag=sg_as] at @s run function sg:targets/handle
+execute as @e[type=minecraft:armor_stand,tag=sg_as] at @s run function sg:targets/handle
 
 # remove useless slimes
 execute as @e[type=slime,tag=!sg_slime] at @s run tp @s ~ -100 ~

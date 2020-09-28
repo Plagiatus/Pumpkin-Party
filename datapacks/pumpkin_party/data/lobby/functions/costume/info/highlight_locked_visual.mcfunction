@@ -1,0 +1,9 @@
+particle minecraft:dust 1 0 0 1 ^0.40 ^1.00 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^-0.4 ^1.00 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^0.20 ^1.20 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^-0.2 ^1.20 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^0.00 ^1.40 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^0.20 ^1.60 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^-0.2 ^1.60 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^0.40 ^1.85 ^0.5 0 0 0 0 1 force @s
+particle minecraft:dust 1 0 0 1 ^-0.4 ^1.85 ^0.5 0 0 0 0 1 force @s

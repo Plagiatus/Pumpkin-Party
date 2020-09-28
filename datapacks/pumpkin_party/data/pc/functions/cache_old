@@ -13,30 +13,30 @@
 /tp @r[x=1013,y=102,z=1000,r=2] 1040 101 940 90 -18
 /tp @r[x=1013,y=102,z=1000,r=2] 1090 101 1000 90 -18
 #Select pumpkins for the round
-/scoreboard players tag @r[type=armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
+/scoreboard players tag @r[type=minecraft:armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
 
-/execute @e[type=armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 980 80 1000
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] add pc_Done
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] remove pc_Selected
-/scoreboard players tag @r[type=armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
-/execute @e[type=armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 990 80 1000
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] add pc_Done
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] remove pc_Selected
-/scoreboard players tag @r[type=armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
-/execute @e[type=armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1000 80 1000
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] add pc_Done
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] remove pc_Selected
-/scoreboard players tag @r[type=armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
-/execute @e[type=armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1010 80 1000
+/execute @e[type=minecraft:armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 980 80 1000
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] add pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] remove pc_Selected
+/scoreboard players tag @r[type=minecraft:armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
+/execute @e[type=minecraft:armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 990 80 1000
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] add pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] remove pc_Selected
+/scoreboard players tag @r[type=minecraft:armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
+/execute @e[type=minecraft:armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1000 80 1000
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] add pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] remove pc_Selected
+/scoreboard players tag @r[type=minecraft:armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
+/execute @e[type=minecraft:armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1010 80 1000
 
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] add pc_Done
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] remove pc_Selected
-/scoreboard players tag @r[type=armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
-/execute @e[type=armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1020 80 1000
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] add pc_Done
-/scoreboard players tag @e[type=armor_stand,tag=pc_Selected] remove pc_Selected
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] add pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] remove pc_Selected
+/scoreboard players tag @r[type=minecraft:armor_stand,name=pc_Marker,tag=!pc_Done] add pc_Selected
+/execute @e[type=minecraft:armor_stand,tag=pc_Selected] ~ ~ ~ /clone ~ ~ ~ ~9 ~9 ~9 1020 80 1000
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] add pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Selected] remove pc_Selected
 #Clear tags
-/scoreboard players tag @e[type=armor_stand,tag=pc_Done] remove pc_Done
+/scoreboard players tag @e[type=minecraft:armor_stand,tag=pc_Done] remove pc_Done
 /scoreboard players reset * pc_progress
 #Fill the bases
 /fill 980 100 1064 988 100 1056 double_stone_slab2 8 replace air
@@ -68,7 +68,7 @@
 /clone 980 81 1000 980 89 1008 1075 102 996
 
 #Setup
-/scoreboard players set @e[type=armor_stand,tag=GEN] pc_timer2 4800
+/scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] pc_timer2 4800
 /xp -10000l @a[team=pc_play]
 /xp 240l @a[team=pc_play]
 /blockdata 4 1 -48 {auto:1} #Timer clock
@@ -82,17 +82,17 @@ advancement grant @a only pumpkinparty:pc/minigame_play
 
 
 #R: Timer clock
-/scoreboard players remove @e[type=armor_stand,tag=GEN,score_pc_timer2_min=0] pc_timer2 1
-/scoreboard players operation @e[type=armor_stand,tag=GEN] pc_timer = @e[type=armor_stand,tag=GEN] pc_timer2
-/scoreboard players operation @e[type=armor_stand,tag=GEN] pc_timer %= #20 pc_timer
-/execute @e[type=armor_stand,tag=GEN,score_pc_timer=1,score_pc_timer_min=1] ~ ~ ~ /xp -1l @a
-/execute @e[type=armor_stand,tag=GEN,score_pc_timer2=-1] ~ ~ ~ /blockdata 4 1 -48 {auto:0}
-/scoreboard players reset @e[type=armor_stand,tag=GEN,score_pc_timer2=-1] pc_timer2
-/execute @e[type=armor_stand,tag=GEN,score_pc_timer2=0] ~ ~ ~ /blockdata 6 1 -48 {auto:1} #Game Over (lose)
+/scoreboard players remove @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer2_min=0] pc_timer2 1
+/scoreboard players operation @e[type=minecraft:armor_stand,tag=GEN] pc_timer = @e[type=minecraft:armor_stand,tag=GEN] pc_timer2
+/scoreboard players operation @e[type=minecraft:armor_stand,tag=GEN] pc_timer %= #20 pc_timer
+/execute @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer=1,score_pc_timer_min=1] ~ ~ ~ /xp -1l @a
+/execute @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer2=-1] ~ ~ ~ /blockdata 4 1 -48 {auto:0}
+/scoreboard players reset @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer2=-1] pc_timer2
+/execute @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer2=0] ~ ~ ~ /blockdata 6 1 -48 {auto:1} #Game Over (lose)
 /replaceitem entity @a[team=pc_play] slot.hotbar.0 minecraft:diamond_pickaxe 1 0 {ench:[{id:32,lvl:4}],CanDestroy:["minecraft:double_stone_slab2","minecraft:red_sandstone"],HideFlags:31,Unbreakable:1,display:{Name:"Pumpkin Carver",Lore:["Use this to carve the pumpkin"]}}
 execute @a[score_pc_progress_min=0] ~ ~ ~ /fill ~-20 100 ~-20 ~20 100 ~20 double_stone_slab2 8 replace red_sandstone
 execute @a[score_pc_progress_min=0] ~ ~ ~ /fill ~-20 101 ~-20 ~20 100 ~20 air 0 replace red_sandstone
-/execute @e[type=armor_stand,tag=GEN,score_pc_timer2=0] ~ ~ ~ /blockdata 4 1 -48 {auto:0}
+/execute @e[type=minecraft:armor_stand,tag=GEN,score_pc_timer2=0] ~ ~ ~ /blockdata 4 1 -48 {auto:0}
 
 
 #Game over (loss)
@@ -101,7 +101,7 @@ execute @a[score_pc_progress_min=0] ~ ~ ~ /fill ~-20 101 ~-20 ~20 100 ~20 air 0 
 
 #Game over (win)
 /tellraw @a ["",{"text":"Everyone finished carving.","color":"green"}]
-/scoreboard players reset @e[type=armor_stand,tag=GEN] pc_timer2
+/scoreboard players reset @e[type=minecraft:armor_stand,tag=GEN] pc_timer2
 /xp -1000l @a
 
 #reset
@@ -116,19 +116,19 @@ execute @a[score_pc_progress_min=0] ~ ~ ~ /fill ~-20 101 ~-20 ~20 100 ~20 air 0 
 
 
 #win advancement
-scoreboard players set @e[type=armor_stand,tag=GEN] pc_points 0
-execute @a ~ ~ ~ scoreboard players operation @e[type=armor_stand,tag=GEN] pc_points > @s pc_points
-/execute @a ~ ~ ~ scoreboard players operation @s pc_points -= @e[type=armor_stand,tag=GEN] pc_points
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] pc_points 0
+execute @a ~ ~ ~ scoreboard players operation @e[type=minecraft:armor_stand,tag=GEN] pc_points > @s pc_points
+/execute @a ~ ~ ~ scoreboard players operation @s pc_points -= @e[type=minecraft:armor_stand,tag=GEN] pc_points
 advancement grant @a[score_pc_points_min=0,score_pc_points=0] only pumpkinparty:pc/minigame_win
 /scoreboard players reset @a pc_points
 
 
 
 #R: Countdown
-scoreboard players add @e[tag=GEN,type=armor_stand] GameTimer 1
-testfor @e[tag=GEN,type=armor_stand,score_GameTimer_min=40]
+scoreboard players add @e[tag=GEN,type=minecraft:armor_stand] GameTimer 1
+testfor @e[tag=GEN,type=minecraft:armor_stand,score_GameTimer_min=40]
     /blockdata ~ ~ ~-2 {auto:0b} 
-    scoreboard players reset @e[tag=GEN,type=armor_stand,score_GameTimer_min=40] GameTimer
+    scoreboard players reset @e[tag=GEN,type=minecraft:armor_stand,score_GameTimer_min=40] GameTimer
     /blockdata 0 1 -48 {auto:1} #Start
 
 

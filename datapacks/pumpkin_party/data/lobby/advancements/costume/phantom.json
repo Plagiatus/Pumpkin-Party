@@ -1,0 +1,35 @@
+{
+  "parent": "lobby:mule",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget",
+      "nbt": "{CustomModelData:5}"
+    },
+    "title": {
+      "text": "Party time, all the time!"
+    },
+    "description": ["",{"text": "Play for 5 ingame days."}],
+	"show_toast": true,
+	"announce_to_chat": false
+  },
+  "criteria": {
+    "impossible1": {
+      "trigger": "impossible"
+    },
+    "impossible2": {
+      "trigger": "impossible"
+    },
+    "impossible3": {
+      "trigger": "impossible"
+    },
+    "impossible4": {
+      "trigger": "impossible"
+    },
+    "impossible5": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/horse_black"
+  }
+}

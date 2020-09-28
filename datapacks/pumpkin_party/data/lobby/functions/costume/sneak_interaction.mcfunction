@@ -11,8 +11,12 @@ execute if score @s[tag=!costume_sneak] tmp matches 7..10 run scoreboard players
 #Wolf/Foxes
 execute if score @s[tag=!costume_sneak] tmp matches 41 run scoreboard players add @s costume 1000
 
+#Sans
+execute if score @s[tag=!costume_sneak] costume matches 344 run scoreboard players add @s costume 1000
+
 #Villagers
 execute if score @s[tag=!costume_sneak] tmp matches 70 run playsound minecraft:entity.villager.ambient master @a ~ ~ ~
+
 
 execute if score @s[tag=!costume_sneak] costume matches 1000.. run function lobby:costume/equip_costume7
 

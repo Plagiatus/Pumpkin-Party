@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
@@ -7,7 +6,7 @@
                 "items": [
                     {
                         "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ALLTHETHINGS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"#ITZLIPOFUTZLI\"}'}}"
                     }
                 ]
             }

@@ -1,12 +1,15 @@
 #Costume
 execute as @a[x=360,y=68,z=489,dx=19,dy=21,dz=22] at @s run function lobby:costume/detection
 execute as @a[x=360,y=68,z=489,dx=24,dy=21,dz=22] at @s run function lobby:costume/show_names
-execute at @a[gamemode=adventure,scores={costume=14}] run particle crit ~ ~1 ~ 0.25 0.5 0.25 0 3 force
+execute at @e[scores={costume=121}] run particle crit ~ ~0.75 ~ 0.25 0.5 0.25 0 3 force
 execute as @a[team=,gamemode=adventure,scores={costume_sneak=1..}] at @s run function lobby:costume/sneak_interaction
 execute as @a[team=,scores={drop_basket=1..}] at @s run function lobby:costume/basket
 execute as @a[team=,scores={drop_full_basket=1..}] at @s run function lobby:costume/full_basket
 execute as @a[team=,tag=small_puffer,scores={costume=6}] at @s if entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish_big
 execute as @a[team=,tag=!small_puffer,scores={costume=6}] at @s unless entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish_middle
+
+scoreboard players remove @a[scores={sound_delay=1..}] sound_delay 1
+execute as @a[scores={costume=1344}] at @s run function lobby:costume/sans_sound
 
 #Lab
 execute as @a[x=387,y=59,z=489,dx=7,dy=6,dz=6] unless entity @s[x=388,y=60,z=490,dx=5,dy=4,dz=4] at @s run function lobby:lab/exit_area

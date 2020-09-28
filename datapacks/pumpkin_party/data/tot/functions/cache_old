@@ -1,11 +1,11 @@
 #R: Doorbell animation
 
-scoreboard players add @e[type=armor_stand,name=tot_doorbell,scores={tot_animation=1] tot_animation 1
+scoreboard players add @e[type=minecraft:armor_stand,name=tot_doorbell,scores={tot_animation=1] tot_animation 1
     searge
-execute as @e[type=armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~2 ~ ~ iron_trapdoor 15 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_PX
-execute as @e[type=armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~-2 ~ ~ iron_trapdoor 14 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_NX
-execute as @e[type=armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~ ~ ~2 iron_trapdoor 13 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_PZ
-execute as @e[type=armor_stand,scores={tot_animation=2..5] positioned ~ ~ ~ detect ~ ~ ~-2 iron_trapdoor 12 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_NZ
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~2 ~ ~ iron_trapdoor 15 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_PX
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~-2 ~ ~ iron_trapdoor 14 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_NX
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell,scores={tot_animation=2..5}] positioned ~ ~ ~ detect ~ ~ ~2 iron_trapdoor 13 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_PZ
+execute as @e[type=minecraft:armor_stand,scores={tot_animation=2..5] positioned ~ ~ ~ detect ~ ~ ~-2 iron_trapdoor 12 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_NZ
 execute as @e[scores={tot_animation=1] positioned ~ ~ ~ tp @a[c=1,tag=tot_tricking,dy=0] @e[c=1]
 execute as @e[scores={tot_animation=5},tag=tot_PX] positioned ~ ~ ~ setblock ~2 ~ ~ iron_trapdoor 13
 execute as @e[scores={tot_animation=5},tag=tot_NX] positioned ~ ~ ~ setblock ~-2 ~ ~ iron_trapdoor 12
@@ -25,10 +25,10 @@ execute as @e[scores={tot_animation=25..26,tot_witch=0}] at @s run playsound min
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run particle happyVillager ~ ~1 ~ 0.5 1 0.5 1 50 @a
 execute as @e[scores={tot_animation=25..26,tot_witch=1..}] at @s run playsound minecraft:entity.witch.ambient master @a[dy=0] positioned ~ ~ ~ 1 0.9
 execute as @e[scores={tot_animation=25..26,tot_witch=1..}] at @s run particle angryVillager ~ ~1.0 ~ 0.2 1 0.2 1 50 @a
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_treatsToGive = #Random tot_treatsToGive
-execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_treatsToGive 0
-execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_treatsToGive -= #Random tot_treatsToGive
-execute as @e[scores={tot_animation=25}] at @s run scoreboard players operation @a[c=1,tag=tot_tricking,dy=0] tot_treats += @e[c=1,type=armor_stand] tot_treatsToGive
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_treatsToGive = #Random tot_treatsToGive
+execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_treatsToGive 0
+execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_treatsToGive -= #Random tot_treatsToGive
+execute as @e[scores={tot_animation=25}] at @s run scoreboard players operation @a[c=1,tag=tot_tricking,dy=0] tot_treats += @e[c=1,type=minecraft:armor_stand] tot_treatsToGive
 
 execute as @e[scores={tot_animation=33,tot_witch=0}] at @s run tellraw @a[c=1,tag=tot_tricking,dy=0] ["",{"text":"Treated! +","color":"green"},{"score":{"name":"@e[c=1]","objective":"tot_treatsToGive"},"color":"green"},{"text":"\\nChocolate Emeralds: ","color":"gold"},{"score":{"name":"@a[c=1,tag=tot_tricking,dy=0]","objective":"tot_treats"},"color":"gold"}]
 scoreboard players set @a[score_tot_treats=-1] tot_treats 0
@@ -50,21 +50,21 @@ execute as @e[scores={tot_animation=45..46,tot_witch=1..}] positioned ~ ~ ~ summ
 execute as @e[scores={tot_animation=46,witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] minecraft:slowness 10 4
 execute as @e[scores={tot_animation=110..,tot_witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] minecraft:blindness 5
 execute as @e[scores={tot_animation=46,witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] 6 6 6
-execute as @e[scores={tot_animation=46}] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_coolDown = #Random tot_coolDown
-execute as @e[scores={tot_animation=46..}] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_witch 0
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NZ] remove tot_NZ
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NX] remove tot_NX
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PZ] remove tot_PZ
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PX] remove tot_PX
-execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_animation 0
+execute as @e[scores={tot_animation=46}] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_coolDown = #Random tot_coolDown
+execute as @e[scores={tot_animation=46..}] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_witch 0
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NZ] remove tot_NZ
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NX] remove tot_NX
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PZ] remove tot_PZ
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PX] remove tot_PX
+execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_animation 0
 execute as @e[scores={tot_animation=33..33,score_tot_witch=1..}] at @s run tellraw @a[c=1,tag=tot_tricking,dy=0] ["",{"text":"Tricked! ","color":"red"},{"score":{"name":"@e[c=1]","objective":"tot_treatsToGive"},"color":"red"},{"text":"\\nChocolate Emeralds: ","color":"gold"},{"score":{"name":"@a[c=1,tag=tot_tricking,dy=0]","objective":"tot_treats"},"color":"gold"}]
 
 
 
 #R: Randomizer
-execute as @e[tag=tot_rnd,type=armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
-execute as @r[type=armor_stand,tag=tot_rndTreats] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
-execute as @r[type=armor_stand,tag=tot_rndCoolDown] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
+execute as @e[tag=tot_rnd,type=minecraft:armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
+execute as @r[type=minecraft:armor_stand,tag=tot_rndTreats] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
+execute as @r[type=minecraft:armor_stand,tag=tot_rndCoolDown] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
 scoreboard players set #Random tot_treatsToGive 1
 scoreboard players set #Random tot_treatsToGive 2
 scoreboard players set #Random tot_treatsToGive 3
@@ -83,38 +83,38 @@ scoreboard teams option tot_play color dark_purple
 scoreboard teams join tot_play @a
 scoreboard objectives add tot_cd1 dummy
 scoreboard objectives add tot_cd2 dummy
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd2 5
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_cd1 20
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] tot_cd2 5
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] tot_cd1 20
 title @a[team=tot_play] reset
 title @a[team=tot_play] times 0 30 0
 title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
 title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"translate":"5","color":"dark_purple"}]}
 tp @a[team=tot_play] 996 69 -973
 gamemode 2 @a[team=tot_play]
-execute as @e[type=armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:1b}
 advancement grant @a only pumpkinparty:totminigame_play
 scoreboard players set @a tot_doorsKnocked 0
 
 
 
 #R: tot_countdown
-scoreboard players remove @e[type=armor_stand,tag=GEN,score_tot_cd1=1..},score_tot_cd2=1..}] tot_cd1 1
-scoreboard players remove @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd2=1..}] tot_cd2 1
-scoreboard players operation tot_cddisplay tot_cd2 = @e[type=armor_stand,tag=GEN] tot_cd2
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] reset
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] clear
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] times 0 30 0
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"color":"dark_purple","score":{"name":"tot_cddisplay","objective":"tot_cd2"}}]}
-scoreboard players set @e[type=armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] tot_cd1 20
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:1b}
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run execute as @e[type=armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:0b}
-execute as @e[type=armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run scoreboard objectives remove tot_cd2
+scoreboard players remove @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=1..},score_tot_cd2=1..}] tot_cd1 1
+scoreboard players remove @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd2=1..}] tot_cd2 1
+scoreboard players operation tot_cddisplay tot_cd2 = @e[type=minecraft:armor_stand,tag=GEN] tot_cd2
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] reset
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] clear
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] times 0 30 0
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] title {"translate":"Trick-or-Treat","color":"dark_purple"}
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] at @s run title @a[team=tot_play] subtitle {"translate":"Doors open in %s","color":"white","with":[{"color":"dark_purple","score":{"name":"tot_cddisplay","objective":"tot_cd2"}}]}
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd1=0,score_tot_cd1_min=0] tot_cd1 20
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run execute as @e[type=minecraft:armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run execute as @e[type=minecraft:armor_stand,name=tot_actualStart] at @s run blockdata ~1 ~ ~ {auto:0b}
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_cd2=0,score_tot_cd2_min=0] at @s run scoreboard objectives remove tot_cd2
 
 
 
 #I: tot_actualStart
-execute as @e[type=armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:0b}
+execute as @e[type=minecraft:armor_stand,name=tot_countdown] at @s run blockdata ~1 ~ ~ {auto:0b}
 scoreboard players tag @a remove tot_tricking
 scoreboard players reset tot_cddisplay tot_cd2
 scoreboard objectives remove tot_cd1
@@ -123,28 +123,28 @@ scoreboard objectives add tot_treatsToGive dummy
 scoreboard objectives add tot_treats dummy Chocolate Emeralds
 title @a[team=tot_play] reset
 title @a[team=tot_play] clear
-execute as @e[type=armor_stand,name=tot_doorbellRing] at @s run blockdata ~1 ~ ~ {auto:1b}
-execute as @e[type=armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,name=tot_doorbellRing] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:1b}
 scoreboard objectives add tot_time dummy
 scoreboard objectives add tot_time1 dummy
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_time 180
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] tot_time 180
 
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_time1 0
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] tot_time1 0
 xp -9999L @a[team=tot_play]
 xp 180L @a[team=tot_play]
-execute as @e[type=armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:1b}
 scoreboard objectives setdisplay sidebar tot_treats
 
 
 
 #R: tot_doorDirection
-scoreboard players add @e[type=armor_stand,name=tot_doorbell,scores={tot_animation=1] tot_animation 1
-execute as @e[name=tot_doorbell,type=armor_stand,score_tot_coolDown=0..0] at @s run particle iconcrack ~ ~.0 ~ 0.1 0.5 0.1 0 20 forced @a 371
+scoreboard players add @e[type=minecraft:armor_stand,name=tot_doorbell,scores={tot_animation=1] tot_animation 1
+execute as @e[name=tot_doorbell,type=minecraft:armor_stand,score_tot_coolDown=0..0] at @s run particle iconcrack ~ ~.0 ~ 0.1 0.5 0.1 0 20 forced @a 371
 execute as @e[scores={tot_animation=1] positioned ~ ~ ~ tp @a[c=1,tag=tot_tricking,dy=0] @e[c=1]
-execute as @e[type=armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~2 ~ ~ iron_trapdoor 15 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_PX
-execute as @e[type=armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~-2 ~ ~ iron_trapdoor 14 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_NX
-execute as @e[type=armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~ ~ ~2 iron_trapdoor 13 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_PZ
-execute as @e[type=armor_stand..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~ ~ ~-2 iron_trapdoor 12 run scoreboard players tag @e[type=armor_stand,name=tot_doorbell,c=1] add tot_NZ
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~2 ~ ~ iron_trapdoor 15 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_PX
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~-2 ~ ~ iron_trapdoor 14 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_NX
+execute as @e[type=minecraft:armor_stand,name=tot_doorbell..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~ ~ ~2 iron_trapdoor 13 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_PZ
+execute as @e[type=minecraft:armor_stand..5,scores={tot_animation=2] positioned ~ ~ ~ detect ~ ~ ~-2 iron_trapdoor 12 run scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell,c=1] add tot_NZ
 execute as @e[scores={tot_animation=5},tag=tot_PX] positioned ~ ~ ~ setblock ~2 ~ ~ iron_trapdoor facing=east,half=bottom,open=true
 execute as @e[scores={tot_animation=5},tag=tot_NX] positioned ~ ~ ~ setblock ~-2 ~ ~ iron_trapdoor facing=west,half=bottom,open=true
 execute as @e[scores={tot_animation=5},tag=tot_PZ] positioned ~ ~ ~ setblock ~ ~ ~2 iron_trapdoor facing=south,half=bottom,open=true
@@ -161,8 +161,8 @@ execute as @e[scores={tot_animation=5},tag=tot_PZ,score_tot_witch=1..}] at @s ru
 execute as @e[scores={tot_animation=5},tag=tot_NZ,score_tot_witch=1..}] at @s run summon Witch ~ ~ ~-2 {Profession:0,Rotation:[0f,10f],NoAI:1,Silent:1,Invulnerable:1b}
 execute as @e[scores={tot_animation=25..26,score_tot_witch=0] at @s run playsound minecraft:entity.villager.yes master @a[dy=0] positioned ~ ~ ~ 1 1.1
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run particle happyVillager ~ ~1 ~ 0.5 1 0.5 1 50 @a
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @r[type=armor_stand,tag=tot_tempRndTreats] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @r[type=armor_stand,tag=tot_tempRndCooldown] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @r[type=minecraft:armor_stand,tag=tot_tempRndTreats] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @r[type=minecraft:armor_stand,tag=tot_tempRndCooldown] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players set #Random tot_treatsToGive 1
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players set #Random tot_treatsToGive 2
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players set #Random tot_treatsToGive 3
@@ -175,16 +175,16 @@ execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players
 execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players set #Random tot_coolDown 340
 execute as @e[scores={tot_animation=25..26,score_tot_witch=1..}] at @s run playsound minecraft:entity.witch.ambient master @a[dy=0] positioned ~ ~ ~ 1 0.9
 execute as @e[scores={tot_animation=25..26,score_tot_witch=1..}] at @s run particle angryVillager ~ ~1.0 ~ 0.2 1 0.2 1 50 @a
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_treatsToGive = #Random tot_treatsToGive
-execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_treatsToGive 0
-execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_treatsToGive -= #Random tot_treatsToGive
-execute as @e[scores={tot_animation=25}] at @s run scoreboard players operation @a[c=1,tag=tot_tricking,dy=0] tot_treats += @e[c=1,type=armor_stand] tot_treatsToGive
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_treatsToGive = #Random tot_treatsToGive
+execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_treatsToGive 0
+execute as @e[scores={tot_animation=25,tot_witch=1..}] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_treatsToGive -= #Random tot_treatsToGive
+execute as @e[scores={tot_animation=25}] at @s run scoreboard players operation @a[c=1,tag=tot_tricking,dy=0] tot_treats += @e[c=1,type=minecraft:armor_stand] tot_treatsToGive
 execute as @e[scores={tot_animation=33..33,score_tot_witch=0] at @s run tellraw @a[c=1,tag=tot_tricking,dy=0] ["",{"text":"Treated! +","color":"green"},{"score":{"name":"@e[c=1]","objective":"tot_treatsToGive"},"color":"green"},{"text":"\nChocolate Emeralds: ","color":"gold"},{"score":{"name":"@a[c=1,tag=tot_tricking,dy=0]","objective":"tot_treats"},"color":"gold"}]
 execute as @e[scores={tot_animation=33..33,score_tot_witch=1..}] at @s run tellraw @a[c=1,tag=tot_tricking,dy=0] ["",{"text":"Tricked! ","color":"red"},{"score":{"name":"@e[c=1]","objective":"tot_treatsToGive"},"color":"red"},{"text":"\nChocolate Emeralds: ","color":"gold"},{"score":{"name":"@a[c=1,tag=tot_tricking,dy=0]","objective":"tot_treats"},"color":"gold"}]
 execute as @e[scores={tot_animation=45}] at @s run playsound minecraft:block.wooden_door.close master @a[dy=0]
 
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @e[tag=tot_tempRndTreats,type=armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
-execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @e[tag=tot_tempRndCooldown,type=armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @e[tag=tot_tempRndTreats,type=minecraft:armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
+execute as @e[scores={tot_animation=25,tot_witch=0] at @s run execute as @e[tag=tot_tempRndCooldown,type=minecraft:armor_stand] positioned ~ ~ ~ blockdata ~ ~ ~ {auto:0b}
 execute as @e[scores={tot_animation=45},tag=tot_PX] positioned ~ ~ ~ setblock ~2 ~ ~ iron_trapdoor facing=east,half=top,open=true
 execute as @e[scores={tot_animation=45},tag=tot_NX] positioned ~ ~ ~ setblock ~-2 ~ ~ iron_trapdoor facing=west,half=top,open=true
 execute as @e[scores={tot_animation=45},tag=tot_PZ] positioned ~ ~ ~ setblock ~ ~ ~2 iron_trapdoor facing=south,half=top,open=true
@@ -202,16 +202,16 @@ execute as @e[scores={tot_animation=45..46,score_tot_witch=1..}] positioned ~ ~ 
 execute as @e[scores={tot_animation=46..46,score_witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] minecraft:slowness 10 4
 execute as @e[scores={tot_animation=110..110,score_tot_witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] minecraft:blindness 5
 execute as @e[scores={tot_animation=46..46,score_witch=1..}] at @s run effect @a[c=1,tag=tot_tricking,dy=0] 6 6 6
-execute as @e[scores={tot_animation=46..46] at @s run scoreboard players operation @e[c=1,type=armor_stand] tot_coolDown = #Random tot_coolDown
-execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_witch 0
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NZ] remove tot_NZ
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NX] remove tot_NX
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PZ] remove tot_PZ
-scoreboard players tag @e[type=armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PX] remove tot_PX
-execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=armor_stand] tot_animation 0
-scoreboard players add @e[name=tot_doorbell,type=armor_stand] tot_witch 0
-scoreboard players add @e[name=tot_doorbell,type=armor_stand] tot_coolDown 0
-scoreboard players add @e[name=tot_doorbell,type=armor_stand] tot_animation 0
+execute as @e[scores={tot_animation=46..46] at @s run scoreboard players operation @e[c=1,type=minecraft:armor_stand] tot_coolDown = #Random tot_coolDown
+execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_witch 0
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NZ] remove tot_NZ
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_NX] remove tot_NX
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PZ] remove tot_PZ
+scoreboard players tag @e[type=minecraft:armor_stand,name=tot_doorbell..46,scores={tot_animation=46,tag=tot_PX] remove tot_PX
+execute as @e[scores={tot_animation=46] at @s run scoreboard players set @e[c=1,type=minecraft:armor_stand] tot_animation 0
+scoreboard players add @e[name=tot_doorbell,type=minecraft:armor_stand] tot_witch 0
+scoreboard players add @e[name=tot_doorbell,type=minecraft:armor_stand] tot_coolDown 0
+scoreboard players add @e[name=tot_doorbell,type=minecraft:armor_stand] tot_animation 0
 
 execute as @e[scores={tot_animation=33..33,score_tot_witch=0,score_tot_treatsToGive=1..},score_tot_treatsToGive=1] at @s run give @a[c=1,tag=tot_tricking,dy=0] minecraft:emerald 1 0 {display:{LocName:"Chocolate Emerald",Lore:["Inedible for humans.","This candy is every villagers favorite."]}}
 execute as @e[scores={tot_animation=33..33,score_tot_witch=0,score_tot_treatsToGive_min=2,score_tot_treatsToGive=2] at @s run give @a[c=1,tag=tot_tricking,dy=0] minecraft:emerald 2 0 {display:{LocName:"Chocolate Emerald",Lore:["Inedible for humans.","This candy is every villagers favorite."]}}
@@ -233,50 +233,50 @@ scoreboard players set @a[score_tot_treats=-1] tot_treats 0
 
 
 #R:
-execute as @e[name=tot_doorbell,type=armor_stand,score_tot_coolDown=0..0] at @s run execute as @a[c=1,dy=0,m=2] at @s run scoreboard players tag @e[c=1] add tot_tricking
-execute as @e[name=tot_doorbell,type=armor_stand,score_tot_coolDown=0..0] at @s run execute as @a[c=1,dy=0] at @s run scoreboard players set @e[c=1,name=tot_doorbell,type=armor_stand] tot_animation 1
-scoreboard players remove @e[type=armor_stand,score_tot_coolDown=1..}] tot_coolDown 1
-execute as @e[name=tot_doorbell,type=armor_stand,score_tot_coolDown=0..0] at @s run particle iconcrack ~ ~.0 ~ 0.1 0.5 0.1 0 20 forced @a 371
+execute as @e[name=tot_doorbell,type=minecraft:armor_stand,score_tot_coolDown=0..0] at @s run execute as @a[c=1,dy=0,m=2] at @s run scoreboard players tag @e[c=1] add tot_tricking
+execute as @e[name=tot_doorbell,type=minecraft:armor_stand,score_tot_coolDown=0..0] at @s run execute as @a[c=1,dy=0] at @s run scoreboard players set @e[c=1,name=tot_doorbell,type=minecraft:armor_stand] tot_animation 1
+scoreboard players remove @e[type=minecraft:armor_stand,score_tot_coolDown=1..}] tot_coolDown 1
+execute as @e[name=tot_doorbell,type=minecraft:armor_stand,score_tot_coolDown=0..0] at @s run particle iconcrack ~ ~.0 ~ 0.1 0.5 0.1 0 20 forced @a 371
 
 
 
 #R: tot_time
-scoreboard players add @e[type=armor_stand,tag=GEN,score_tot_time=1..},score_tot_time1=19] tot_time1 1
-scoreboard players remove @e[type=armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20] tot_time 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20,score_tot_time=1..}] at @s run xp -1L @a[team=tot_play]
-scoreboard players set @e[type=armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20] tot_time1 0
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=160,score_tot_time=1..}60] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=160,score_tot_time=1..}60] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=140,score_tot_time=1..}40] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=140,score_tot_time=1..}40] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=120,score_tot_time=1..}20] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=120,score_tot_time=1..}20] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=100,score_tot_time=1..}00] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=100,score_tot_time=1..}00] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=80,score_tot_time_min=80] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=80,score_tot_time_min=80] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
+scoreboard players add @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=1..},score_tot_time1=19] tot_time1 1
+scoreboard players remove @e[type=minecraft:armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20] tot_time 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20,score_tot_time=1..}] at @s run xp -1L @a[team=tot_play]
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN,score_tot_time1=20,score_tot_time1_min=20] tot_time1 0
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=160,score_tot_time=1..}60] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=160,score_tot_time=1..}60] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=140,score_tot_time=1..}40] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=140,score_tot_time=1..}40] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=120,score_tot_time=1..}20] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=120,score_tot_time=1..}20] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=100,score_tot_time=1..}00] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=100,score_tot_time=1..}00] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=80,score_tot_time_min=80] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=80,score_tot_time_min=80] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
 
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=60,score_tot_time_min=60] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=60,score_tot_time_min=60] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=40,score_tot_time_min=40] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=40,score_tot_time_min=40] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=20,score_tot_time_min=20] at @s run scoreboard players reset @e[type=armor_stand,name=tot_doorbell] tot_witch
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=20,score_tot_time_min=20] at @s run scoreboard players set @r[type=armor_stand,name=tot_doorbell] tot_witch 1
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=0,score_tot_time_min=0] at @s run execute as @e[type=armor_stand,name=tot_gameEnd] at @s run blockdata ~1 ~ ~ {auto:1b}
-execute as @e[type=armor_stand,tag=GEN,score_tot_time=0,score_tot_time_min=0] at @s run scoreboard objectives remove tot_time
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=60,score_tot_time_min=60] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=60,score_tot_time_min=60] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=40,score_tot_time_min=40] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=40,score_tot_time_min=40] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=20,score_tot_time_min=20] at @s run scoreboard players reset @e[type=minecraft:armor_stand,name=tot_doorbell] tot_witch
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=20,score_tot_time_min=20] at @s run scoreboard players set @r[type=minecraft:armor_stand,name=tot_doorbell] tot_witch 1
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=0,score_tot_time_min=0] at @s run execute as @e[type=minecraft:armor_stand,name=tot_gameEnd] at @s run blockdata ~1 ~ ~ {auto:1b}
+execute as @e[type=minecraft:armor_stand,tag=GEN,score_tot_time=0,score_tot_time_min=0] at @s run scoreboard objectives remove tot_time
 
 
 
 #R: tot_gameEnd
-execute as @e[type=armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:0b}
+execute as @e[type=minecraft:armor_stand,name=tot_time] at @s run blockdata ~1 ~ ~ {auto:0b}
 execute as @a[team=tot_play] at @s run scoreboard players operation @a[c=1] tot_treatsFinal = @a[c=1] tot_treats
 scoreboard players remove @a[score_tot_treatsFinal_min=0] tot_treatsFinal 1
 execute as @a[score_tot_treatsFinal=0,score_tot_treatsFinal_min=0] positioned ~ ~ ~ scoreboard players add @a[score_tot_treatsFinal=1..}] tot_points 1
 testforblock ~-1 ~ ~ minecraft:chain_command_block * {SuccessCount:0}
-    execute as @e[type=armor_stand,name=tot_reset] at @s run blockdata ~1 ~ ~ {auto:1b}
-    execute as @e[type=armor_stand,name=tot_reset] at @s run blockdata ~1 ~ ~ {auto:0b}
-    execute as @e[type=armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:0b}
-    execute as @e[type=armor_stand,name=tot_gameEnd] at @s run blockdata ~1 ~ ~ {auto:0b}
+    execute as @e[type=minecraft:armor_stand,name=tot_reset] at @s run blockdata ~1 ~ ~ {auto:1b}
+    execute as @e[type=minecraft:armor_stand,name=tot_reset] at @s run blockdata ~1 ~ ~ {auto:0b}
+    execute as @e[type=minecraft:armor_stand,name=tot_doorDirection] at @s run blockdata ~1 ~ ~ {auto:0b}
+    execute as @e[type=minecraft:armor_stand,name=tot_gameEnd] at @s run blockdata ~1 ~ ~ {auto:0b}
 
 
 
@@ -292,16 +292,16 @@ title @a[team=tot_play] reset
 title @a[team=tot_play] clear
 blockdata -24 1 -48 {auto:1b}
 xp -9999L @a
-execute as @e[type=armor_stand,name=tot_gameStart] at @s run blockdata ~1 ~ ~ {auto:0b}
+execute as @e[type=minecraft:armor_stand,name=tot_gameStart] at @s run blockdata ~1 ~ ~ {auto:0b}
 blockdata 33 1 -76 {auto:1}
 
 
 
 #I:
 blockdata ~ ~ ~ {auto:0}
-scoreboard players set @e[type=armor_stand,tag=GEN] tot_finalPoints 0
-execute as @a ~ ~ ~ scoreboard players operation @e[type=armor_stand,tag=GEN] tot_finalPoints > @s tot_finalPoints
-execute as @a ~ ~ ~ scoreboard players operation @s tot_finalPoints -= @e[type=armor_stand,tag=GEN] tot_finalPoints
+scoreboard players set @e[type=minecraft:armor_stand,tag=GEN] tot_finalPoints 0
+execute as @a ~ ~ ~ scoreboard players operation @e[type=minecraft:armor_stand,tag=GEN] tot_finalPoints > @s tot_finalPoints
+execute as @a ~ ~ ~ scoreboard players operation @s tot_finalPoints -= @e[type=minecraft:armor_stand,tag=GEN] tot_finalPoints
 advancement grant @a[score_tot_finalPoints_min=0,score_tot_finalPoints=0] only pumpkinparty:totminigame_win
 
 

@@ -89,6 +89,7 @@
         {"predicate": {"custom_model_data": 1041}, "model": "costumes/wolf_angry"},
         {"predicate": {"custom_model_data": 1141}, "model": "costumes/fox_sleeping"},
         {"predicate": {"custom_model_data": 1241}, "model": "costumes/snow_fox_sleeping"},
+        {"predicate": {"custom_model_data": 1344}, "model": "costumes/sans_eye"},
         
 		{"predicate": {"custom_model_data": 2000}, "model": "costumes/error"}	
 	]

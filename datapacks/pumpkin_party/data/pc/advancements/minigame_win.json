@@ -6,7 +6,7 @@
     "title": {
       "text": "Win Pumpkin Carving"
     },
-    "description": ["",{"text": "Though canvas may not be your medium, you have proved your chops as an artist!"}],
+    "description": ["",{"text": "Though a canvas may not be your medium, you have proven your chops as an artist!"}],
 	"show_toast": true,
 	"announce_to_chat": false
   },

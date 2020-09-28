@@ -10,7 +10,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "tot:root",
+  "parent": "tot:door_knocker",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

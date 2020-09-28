@@ -7,7 +7,7 @@
                 "items": [
                     {
                         "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THREEHEADS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THREEHEADSAREBETTERTHANONE\"}'}}"
                     }
                 ]
             }

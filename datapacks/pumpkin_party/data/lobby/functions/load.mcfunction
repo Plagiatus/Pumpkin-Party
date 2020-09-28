@@ -1,4 +1,10 @@
 scoreboard objectives add costume dummy
+scoreboard objectives add oldCostume dummy
+scoreboard objectives add candies dummy "Candies"
+scoreboard players add @a candies 0
+scoreboard objectives add buyCostume trigger
+scoreboard objectives add adv_playTime dummy
+scoreboard objectives add sound_delay dummy
 scoreboard objectives add costume_sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add drop_basket minecraft.dropped:minecraft.orange_dye
 scoreboard objectives add drop_full_basket minecraft.dropped:minecraft.red_dye
@@ -10,3 +16,4 @@ scoreboard objectives add adv_sprint minecraft.custom:minecraft.sprint_one_cm
 
 #Makes the teleporter in the lobby change its costume periodically
 schedule function lobby:select_costume_teleporter 5s
+schedule function lobby:costume/info/highlight_locked_schedule 5t

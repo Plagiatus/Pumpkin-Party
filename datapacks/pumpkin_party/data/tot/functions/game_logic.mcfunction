@@ -9,8 +9,8 @@ effect give @a[team=tot_play] saturation 1 60 true
 function pp:util/display_timer
 
 #Reduce cooldown
-scoreboard players remove @e[type=armor_stand,scores={tmp=1..}] tmp 1
-execute as @e[name=tot_doorbell,type=armor_stand,scores={tmp=0}] at @s run function tot:ready_door
+scoreboard players remove @e[type=minecraft:armor_stand,scores={tmp=1..}] tmp 1
+execute as @e[name=tot_doorbell,type=minecraft:armor_stand,scores={tmp=0}] at @s run function tot:ready_door
 
 scoreboard players operation $ticks tmp = $ticks timer
 scoreboard players operation $ticks tmp %= #20 const

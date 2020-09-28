@@ -9,10 +9,10 @@ title @a clear
 scoreboard players set @a[team=gm_play] left_game 0
 
 #Summon zombies depending on the player count
-execute as @e[limit=1,type=armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score #gm_playerCount tmp matches ..3 as @e[limit=1,type=armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score gm_difficulty settings matches 1.. as @e[limit=1,type=armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score gm_difficulty settings matches 2.. as @e[limit=1,type=armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score #gm_playerCount tmp matches ..3 as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score gm_difficulty settings matches 1.. as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score gm_difficulty settings matches 2.. as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
 effect give @e[type=zombie,tag=gm_new] levitation 1 1 true 
 
 #Give relevant effects

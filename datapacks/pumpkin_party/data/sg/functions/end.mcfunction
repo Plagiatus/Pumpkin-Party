@@ -6,8 +6,8 @@ advancement grant @a[team=sg_play,scores={sg_points=40..}] only sg:wilhelm_tell
 advancement grant @a[team=sg_play,scores={sg_points=..0}] only sg:different_game
 
 # remove armorstands and slimes
-tp @e[type=armor_stand,tag=sg_as] ~ ~-100 ~
-kill @e[type=armor_stand,tag=sg_as]
+tp @e[type=minecraft:armor_stand,tag=sg_as] ~ ~-100 ~
+kill @e[type=minecraft:armor_stand,tag=sg_as]
 
 # clear players
 clear @a
