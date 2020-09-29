@@ -15,5 +15,8 @@
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/cave_spider"
   }
 }

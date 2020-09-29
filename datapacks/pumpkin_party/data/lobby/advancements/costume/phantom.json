@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "lobby:costume/unlock/horse_black"
+    "function": "lobby:costume/unlock/phantom"
   }
 }

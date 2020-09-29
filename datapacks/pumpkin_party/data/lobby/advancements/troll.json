@@ -32,5 +32,8 @@
         }
       }
     }
+  },
+  "rewards": {
+      "function": "lobby:costume/unlock/squid"
   }
 }
