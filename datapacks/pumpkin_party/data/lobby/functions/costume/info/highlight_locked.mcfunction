@@ -49,7 +49,7 @@ execute if entity @s[tag=!ul_donkey] at @e[type=minecraft:armor_stand,tag=Costum
 execute if entity @s[tag=!ul_villager_desert_librarian] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=470},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_mule] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=568},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_mule] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=569},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
-execute if entity @s[tag=!ul_villager_swamp_nitwit] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=570},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
+execute if entity @s[tag=!ul_villager_swamp] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=570},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_zombie_horse] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=668},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_zombie_horse] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=669},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_villager_snowy_cartographer] at @e[type=minecraft:armor_stand,tag=Costume,scores={costume=670},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual

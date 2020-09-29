@@ -15,7 +15,6 @@ execute if entity @s[scores={costume=500..999},tag=!got_costume] run function lo
 execute if entity @s[scores={costume=1000..},tag=!got_costume] run function lobby:costume/equip_costume7
 
 execute at @s[tag=play_costume_sound,tag=!costume_failed] run playsound minecraft:item.armor.equip_elytra master @s
-execute at @s[tag=play_costume_sound,tag=costume_failed] run playsound minecraft:entity.villager.no master @s
 scoreboard players operation @s[type=player,tag=costume_failed] costume = @s oldCostume
 
 tag @s remove play_costume_sound

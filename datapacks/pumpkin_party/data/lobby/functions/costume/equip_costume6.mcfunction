@@ -1,9 +1,8 @@
 tag @s[type=player] add has_costume
 
 execute if score @s[tag=ul_mule] costume matches 568 run function lobby:costume/mule
-execute if score @s[tag=!ul_mule] costume matches 568 run function lobby:costume/info/mule
 execute if score @s[tag=ul_mule] costume matches 569 run function lobby:costume/mule_back
-execute if score @s[tag=!ul_mule] costume matches 569 run function lobby:costume/info/mule_back
+execute if score @s[tag=!ul_mule] costume matches 568..569 run function lobby:costume/info/mule
 execute if score @s[tag=ul_villager_swamp] costume matches 570 run function lobby:costume/villager_swamp
 execute if score @s[tag=!ul_villager_swamp] costume matches 570 run function lobby:costume/info/villager_swamp
 
