@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_evocation_fang] run function lobby:co
 function lobby:costume/evocation_fang
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/evocation_fang
+advancement revoke @s only lobby:unlocked/evocation_fang

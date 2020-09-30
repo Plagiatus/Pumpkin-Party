@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_swamp_nitwit] run function l
 function lobby:costume/villager_swamp_nitwit
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_swamp_nitwit
+advancement revoke @s only lobby:unlocked/villager_swamp_nitwit

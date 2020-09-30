@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_taiga_armorer] run function 
 function lobby:costume/villager_taiga_armorer
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_taiga_armorer
+advancement revoke @s only lobby:unlocked/villager_taiga_armorer

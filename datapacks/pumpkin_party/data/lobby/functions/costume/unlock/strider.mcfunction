@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_strider] run function lobby:costume/a
 function lobby:costume/strider
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/strider
+advancement revoke @s only lobby:unlocked/strider

@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/head_template_player",
+	"textures": {
+		"0": "costumes/ghost"
+	}
+}

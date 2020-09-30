@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_jack_o_lantern] run function lobby:co
 function lobby:costume/jack_o_lantern
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/jack_o_lantern
+advancement revoke @s only lobby:unlocked/jack_o_lantern

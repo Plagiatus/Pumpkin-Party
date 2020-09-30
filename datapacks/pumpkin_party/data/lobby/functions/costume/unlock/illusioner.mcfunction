@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_illusioner] run function lobby:costum
 function lobby:costume/illusioner
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/illusioner
+advancement revoke @s only lobby:unlocked/illusioner

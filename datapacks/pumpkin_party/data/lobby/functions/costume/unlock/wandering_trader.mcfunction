@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_wandering_trader] run function lobby:
 function lobby:costume/wandering_trader
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/wandering_trader
+advancement revoke @s only lobby:unlocked/wandering_trader

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {
+            "text":"Costumes"
+        },
+        "description": {
+            "text": "Overview of costumes you unlocked.\nWrite the codes down somewhere safe so you don't lose them ^^"
+        },
+        "background": "minecraft:textures/block/orange_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}

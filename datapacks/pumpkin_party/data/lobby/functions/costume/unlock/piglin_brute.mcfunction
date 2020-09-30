@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_piglin_brute] run function lobby:cost
 function lobby:costume/piglin_brute
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/piglin_brute
+advancement revoke @s only lobby:unlocked/piglin_brute

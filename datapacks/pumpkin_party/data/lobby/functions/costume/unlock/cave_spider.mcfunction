@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_cave_spider] run function lobby:costu
 function lobby:costume/cave_spider
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/cave_spider
+advancement revoke @s only lobby:unlocked/cave_spider

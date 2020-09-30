@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/jack_o_lantern",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:142}"
+        },
+        "title": {
+            "text":"Headless Horseman Costume"
+        },
+        "description": {
+            "text": "Code: \"PUMPKINHEAD\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PUMPKINHEAD\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/headless_horseman"
+    }
+}

@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_savanna_weaponsmith] run fun
 function lobby:costume/villager_savanna_weaponsmith
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_savanna_weaponsmith
+advancement revoke @s only lobby:unlocked/villager_savanna_weaponsmith

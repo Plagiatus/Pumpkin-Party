@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_donkey] run function lobby:costume/al
 function lobby:costume/donkey
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/donkey
+advancement revoke @s only lobby:unlocked/donkey

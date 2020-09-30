@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/horse_brown",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:168}"
+        },
+        "title": {
+            "text":"Horse White Costume"
+        },
+        "description": {
+            "text": "Code: \"PRINCECHARMING\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PRINCECHARMING\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/horse_white"
+    }
+}

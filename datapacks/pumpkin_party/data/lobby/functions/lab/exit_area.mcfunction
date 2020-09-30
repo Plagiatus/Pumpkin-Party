@@ -1,6 +1,4 @@
 tag @s[tag=!leftPcArea] remove enteredPcArea
-
-schedule function lobby:lab/disable_datapack 2t
 clear @s[tag=!leftPcArea] music_disc_mellohi
 xp set @s[tag=!leftPcArea] 0 levels
 

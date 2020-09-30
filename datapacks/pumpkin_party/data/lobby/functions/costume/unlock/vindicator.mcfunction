@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_vindicator] run function lobby:costum
 function lobby:costume/vindicator
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/vindicator
+advancement revoke @s only lobby:unlocked/vindicator

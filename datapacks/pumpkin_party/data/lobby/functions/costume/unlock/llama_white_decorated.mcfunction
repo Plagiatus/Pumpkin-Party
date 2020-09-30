@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_llama_white_decorated] run function l
 function lobby:costume/llama_white_decorated
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/llama_white_decorated
+advancement revoke @s only lobby:unlocked/llama_white_decorated

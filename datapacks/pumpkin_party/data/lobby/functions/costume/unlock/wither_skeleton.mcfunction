@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_wither_skeleton] run function lobby:c
 function lobby:costume/wither_skeleton
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/wither_skeleton
+advancement revoke @s only lobby:unlocked/wither_skeleton

@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_drowned] run function lobby:costume/a
 function lobby:costume/drowned
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/drowned
+advancement revoke @s only lobby:unlocked/drowned

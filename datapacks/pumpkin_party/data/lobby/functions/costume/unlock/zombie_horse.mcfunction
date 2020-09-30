@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_zombie_horse] run function lobby:cost
 function lobby:costume/zombie_horse
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/zombie_horse
+advancement revoke @s only lobby:unlocked/zombie_horse

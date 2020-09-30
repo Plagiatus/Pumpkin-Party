@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_white_pumpkin] run function lobby:cos
 function lobby:costume/white_pumpkin
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/white_pumpkin
+advancement revoke @s only lobby:unlocked/white_pumpkin

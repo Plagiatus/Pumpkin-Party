@@ -1,0 +1,183 @@
+{
+    "parent": "lobby:unlocked/root_root",
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {
+            "text":"Unlocked all costumes"
+        },
+        "description": {
+            "text": "Shows how many costumes you unlocked so far."
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "blaze": {
+            "trigger": "minecraft:tick"
+        },
+        "cave_spider": {
+            "trigger": "minecraft:impossible"
+		},
+        "creeper": {
+            "trigger": "minecraft:tick"
+		},
+        "donkey": {
+            "trigger": "minecraft:impossible"
+		},
+        "drowned": {
+            "trigger": "minecraft:impossible"
+		},
+        "enderman": {
+            "trigger": "minecraft:impossible"
+		},
+        "evocation_fang": {
+            "trigger": "minecraft:impossible"
+		},
+        "evoker": {
+            "trigger": "minecraft:impossible"
+		},
+        "fox": {
+            "trigger": "minecraft:impossible"
+		},
+        "ghast": {
+            "trigger": "minecraft:impossible"
+		},
+        "ghost": {
+            "trigger": "minecraft:tick"
+		},
+        "headless_horseman": {
+            "trigger": "minecraft:impossible"
+		},
+        "horse_black": {
+            "trigger": "minecraft:impossible"
+		},
+        "horse_brown": {
+            "trigger": "minecraft:impossible"
+		},
+        "horse_gray": {
+            "trigger": "minecraft:impossible"
+		},
+        "horse_white": {
+            "trigger": "minecraft:impossible"
+		},
+        "husk": {
+            "trigger": "minecraft:impossible"
+		},
+        "illusioner": {
+            "trigger": "minecraft:impossible"
+		},
+        "jack_o_lantern": {
+            "trigger": "minecraft:tick"
+		},
+        "llama_brown": {
+            "trigger": "minecraft:impossible"
+		},
+        "llama_gray_bandito": {
+            "trigger": "minecraft:impossible"
+		},
+        "llama_white_decorated": {
+            "trigger": "minecraft:impossible"
+		},
+        "mule": {
+            "trigger": "minecraft:impossible"
+		},
+        "phantom": {
+            "trigger": "minecraft:impossible"
+		},
+        "piglin": {
+            "trigger": "minecraft:impossible"
+		},
+        "piglin_brute": {
+            "trigger": "minecraft:impossible"
+		},
+        "piglin_chan": {
+            "trigger": "minecraft:impossible"
+		},
+        "pillager": {
+            "trigger": "minecraft:impossible"
+		},
+        "pufferfish": {
+            "trigger": "minecraft:impossible"
+		},
+        "sans": {
+            "trigger": "minecraft:impossible"
+		},
+        "skeleton": {
+            "trigger": "minecraft:tick"
+		},
+        "snow_fox": {
+            "trigger": "minecraft:impossible"
+		},
+        "spider": {
+            "trigger": "minecraft:impossible"
+		},
+        "squid": {
+            "trigger": "minecraft:impossible"
+		},
+        "stray": {
+            "trigger": "minecraft:impossible"
+		},
+        "strider": {
+            "trigger": "minecraft:impossible"
+		},
+        "trader_llama_beige": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_desert_librarian": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_jungle_fletcher": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_plains_farmer": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_savanna_weaponsmith": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_snowy_cartographer": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_swamp_nitwit": {
+            "trigger": "minecraft:impossible"
+		},
+        "villager_taiga_armorer": {
+            "trigger": "minecraft:impossible"
+		},
+        "vindicator": {
+            "trigger": "minecraft:impossible"
+		},
+        "wandering_trader": {
+            "trigger": "minecraft:impossible"
+		},
+        "white_pumpkin": {
+            "trigger": "minecraft:impossible"
+		},
+        "witch": {
+            "trigger": "minecraft:impossible"
+		},
+        "wither": {
+            "trigger": "minecraft:impossible"
+		},
+        "wither_skeleton": {
+            "trigger": "minecraft:impossible"
+		},
+        "wolf": {
+            "trigger": "minecraft:impossible"
+		},
+        "zombie": {
+            "trigger": "minecraft:tick"
+		},
+        "zombie_horse": {
+            "trigger": "minecraft:impossible"
+		},
+        "zombie_villager": {
+            "trigger": "minecraft:impossible"
+		},
+        "zombified_piglin": {
+            "trigger": "minecraft:impossible"
+		}        
+	}
+}

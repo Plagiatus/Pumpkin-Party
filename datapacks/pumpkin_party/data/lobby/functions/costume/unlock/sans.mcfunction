@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_sans] run function lobby:costume/alre
 function lobby:costume/sans
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/sans
+advancement revoke @s only lobby:unlocked/sans

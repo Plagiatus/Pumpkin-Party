@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_snowy_cartographer] run func
 function lobby:costume/villager_snowy_cartographer
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_snowy_cartographer
+advancement revoke @s only lobby:unlocked/villager_snowy_cartographer

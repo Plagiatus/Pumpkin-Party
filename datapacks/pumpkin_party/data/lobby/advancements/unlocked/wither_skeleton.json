@@ -1,0 +1,33 @@
+{
+    "parent": "lobby:unlocked/stray",
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {
+            "text":"Wither Skeleton Costume"
+        },
+        "description": {
+            "text": "Code: \"FORGOTTHESUNSCREEN\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"FORGOTTHESUNSCREEN\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/wither_skeleton"
+    }
+}

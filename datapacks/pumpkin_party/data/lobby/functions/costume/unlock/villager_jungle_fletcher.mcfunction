@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_jungle_fletcher] run functio
 function lobby:costume/villager_jungle_fletcher
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_jungle_fletcher
+advancement revoke @s only lobby:unlocked/villager_jungle_fletcher

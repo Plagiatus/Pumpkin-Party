@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_pufferfish] run function lobby:costum
 function lobby:costume/pufferfish
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/pufferfish
+advancement revoke @s only lobby:unlocked/pufferfish

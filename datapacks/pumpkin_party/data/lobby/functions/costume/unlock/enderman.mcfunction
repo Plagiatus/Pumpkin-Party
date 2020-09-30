@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_enderman] run function lobby:costume/
 function lobby:costume/enderman
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/enderman
+advancement revoke @s only lobby:unlocked/enderman

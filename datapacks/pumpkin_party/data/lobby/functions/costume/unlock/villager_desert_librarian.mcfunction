@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_villager_desert_librarian] run functi
 function lobby:costume/villager_desert_librarian
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/villager_desert_librarian
+advancement revoke @s only lobby:unlocked/villager_desert_librarian

@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_evoker] run function lobby:costume/al
 function lobby:costume/evoker
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/evoker
+advancement revoke @s only lobby:unlocked/evoker

@@ -6,4 +6,4 @@ execute as @s[tag=!tmp_all_costumes,tag=ul_pillager] run function lobby:costume/
 function lobby:costume/pillager
 tag @s add valid_password
 
-advancement revoke @s only lobby:lab/unlock/pillager
+advancement revoke @s only lobby:unlocked/pillager
