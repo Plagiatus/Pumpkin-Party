@@ -4,8 +4,8 @@ tellraw @s[tag=!all_costumes] ["",{"text":"You successfully unlocked: ","color":
 execute as @s[tag=all_costumes] run function lobby:costume/already_unlocked
 
 tag @s add tmp_all_costumes
-advancement grant @s[tag=!all_costumes] from lobby:lab/unlock/root
-advancement revoke @s only lobby:lab/unlock/all
+advancement grant @s[tag=!all_costumes] from lobby:unlocked/root
+advancement revoke @s only lobby:unlocked/all
 
 tag @s add all_costumes
 tag @s remove tmp_all_costumes
