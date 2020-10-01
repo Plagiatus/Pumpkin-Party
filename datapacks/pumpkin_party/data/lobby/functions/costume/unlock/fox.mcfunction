@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_fox] ["",{"text":"Password: "},{"text":
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_fox] run function lobby:costume/already_unlocked
-function lobby:costume/fox
+execute if entity @s[team=] run function lobby:costume/fox
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/fox
+tag @s add ul_fox
+advancement grant @s only lobby:unlocked/fox

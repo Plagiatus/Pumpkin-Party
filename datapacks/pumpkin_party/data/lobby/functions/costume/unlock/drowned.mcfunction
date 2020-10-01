@@ -4,7 +4,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_drowned] ["",{"text":"Password: "},{"te
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_drowned] run function lobby:costume/already_unlocked
-function lobby:costume/drowned
+execute if entity @s[team=] run function lobby:costume/drowned
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/drowned
+tag @s add ul_drowned
+advancement grant @s only lobby:unlocked/drowned

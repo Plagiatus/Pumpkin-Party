@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_sans] ["",{"text":"Password: "},{"text"
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_sans] run function lobby:costume/already_unlocked
-function lobby:costume/sans
+execute if entity @s[team=] run function lobby:costume/sans
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/sans
+tag @s add ul_sans
+advancement grant @s only lobby:unlocked/sans

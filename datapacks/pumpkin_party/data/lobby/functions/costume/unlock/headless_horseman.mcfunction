@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_headless_horseman] ["",{"text":"Passwor
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_headless_horseman] run function lobby:costume/already_unlocked
-function lobby:costume/headless_horseman
+execute if entity @s[team=] run function lobby:costume/headless_horseman
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/headless_horseman
+tag @s add ul_headless_horseman
+advancement grant @s only lobby:unlocked/headless_horseman

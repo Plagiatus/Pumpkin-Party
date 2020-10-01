@@ -12,6 +12,7 @@ execute as @a[team=,tag=!small_puffer,scores={costume=6}] at @s unless entity @a
 execute as @a[scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=360,y=68,z=489,dx=19,dy=21,dz=22] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume
 
 #Costume sounds and delay
+scoreboard players add @a sound_delay 0
 scoreboard players remove @a[scores={sound_delay=1..}] sound_delay 1
 execute as @a[scores={costume=1344}] at @s run function lobby:costume/sans_sound
 

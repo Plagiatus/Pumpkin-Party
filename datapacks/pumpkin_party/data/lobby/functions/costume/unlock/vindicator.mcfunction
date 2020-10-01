@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_vindicator] ["",{"text":"Password: "},{
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_vindicator] run function lobby:costume/already_unlocked
-function lobby:costume/vindicator
+execute if entity @s[team=] run function lobby:costume/vindicator
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/vindicator
+tag @s add ul_vindicator
+advancement grant @s only lobby:unlocked/vindicator

@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_strider] ["",{"text":"Password: "},{"te
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_strider] run function lobby:costume/already_unlocked
-function lobby:costume/strider
+execute if entity @s[team=] run function lobby:costume/strider
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/strider
+tag @s add ul_strider
+advancement grant @s only lobby:unlocked/strider

@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_trader_llama_beige] ["",{"text":"Passwo
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_trader_llama_beige] run function lobby:costume/already_unlocked
-function lobby:costume/trader_llama_beige
+execute if entity @s[team=] run function lobby:costume/trader_llama_beige
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/trader_llama_beige
+tag @s add ul_trader_llama_beige
+advancement grant @s only lobby:unlocked/trader_llama_beige

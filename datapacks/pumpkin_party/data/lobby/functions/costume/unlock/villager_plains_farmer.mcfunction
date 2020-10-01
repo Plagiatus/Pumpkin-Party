@@ -5,7 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_plains_farmer] ["",{"text":"Pa
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_villager_plains_farmer] run function lobby:costume/already_unlocked
-function lobby:costume/villager_plains_farmer
+execute if entity @s[team=] run function lobby:costume/villager_plains_farmer
 tag @s add valid_password
 
-advancement revoke @s only lobby:unlocked/villager_plains_farmer
+tag @s add ul_villager_plains_farmer
+advancement grant @s only lobby:unlocked/villager_plains_farmer
