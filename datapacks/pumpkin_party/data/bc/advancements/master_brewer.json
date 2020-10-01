@@ -6,7 +6,7 @@
     "title": {
       "text": "Master Brewer"
     },
-    "description": ["",{"text": "Brew all seven possible potions at least once."}],
+    "description": ["",{"text": "Brew all ten different potions at least once."}],
 	"show_toast": true,
 	"announce_to_chat": false
   },
@@ -31,6 +31,15 @@
       "trigger": "impossible"
     },
     "p7": {
+      "trigger": "impossible"
+    },
+    "p8": {
+      "trigger": "impossible"
+    },
+    "p9": {
+      "trigger": "impossible"
+    },
+    "p10": {
       "trigger": "impossible"
     }
   }

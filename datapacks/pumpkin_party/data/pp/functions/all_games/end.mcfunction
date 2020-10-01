@@ -1,5 +1,6 @@
 # move players back to mansion
 tp @a 400 69 500 90 -5
+spawnpoint @a 400 69 500
 
 # set them to adventure
 gamemode adventure @a
