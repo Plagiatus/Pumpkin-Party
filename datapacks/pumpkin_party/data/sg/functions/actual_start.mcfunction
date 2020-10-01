@@ -2,17 +2,17 @@
 function sg:reset_sign
 
 # distribute players
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -998.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1001.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -995.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1004.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -992.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1007.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -989.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1010.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -986.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1013.0 59.5 -1006 facing -999 62 -1034
-tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -983.0 59.5 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -998.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1001.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -995.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1004.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -992.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1007.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -989.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1010.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -986.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -1013.0 60 -1006 facing -999 62 -1034
+tp @a[limit=1,sort=random,x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] -983.0 60 -1006 facing -999 62 -1034
 tellraw @a[x=-1004,y=66,z=-1006,dx=10,dy=7,dz=19] [{"text": "I'm sorry, but this minigame is limited to 11 players. You seem to be more than 11 people.","color": "red"}]
 
 # timers

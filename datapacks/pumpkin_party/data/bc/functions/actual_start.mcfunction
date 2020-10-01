@@ -39,7 +39,7 @@ execute as @a[team=bc_play] at @s run spawnpoint @s ~ ~ ~
 execute as @e[tag=bc_marker] at @s run scoreboard players operation @e[tag=bc_cauldron,limit=1,sort=nearest] bc_id = @s bc_id
 
 # timer start
-scoreboard players set $ticks timer 500000
+scoreboard players set $ticks timer 6000
 
 # recipes
 function bc:recipe/generate/first

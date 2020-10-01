@@ -32,3 +32,9 @@ execute as @a[x=551,y=107,z=-498,distance=..1,team=bc_play] run function bc:play
 
 # players who want back to the cauldon
 execute as @a[scores={bc_click=1..}] run function bc:player/back_to_cauldron
+
+# player effects
+effect give @a resistance 1 10 true
+
+# check for end of round
+execute if score $ticks timer matches ..0 run function bc:end
