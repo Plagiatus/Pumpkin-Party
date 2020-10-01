@@ -1,3 +1,3 @@
 #Pumpkin Party
 
-effect give @a saturation 1 10 true
+effect give @a saturation 6 10 true

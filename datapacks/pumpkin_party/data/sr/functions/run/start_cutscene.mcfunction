@@ -12,3 +12,5 @@ scoreboard players set @a sr_time 0
 scoreboard players set @a sr_tunnel 0
 
 setblock -452 59 -548 air
+
+advancement grant @a only sr:minigame_play

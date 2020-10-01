@@ -14,7 +14,8 @@ tp @e[type=minecraft:armor_stand,tag=sg_as] ~ ~-100 ~
 kill @e[type=minecraft:armor_stand,tag=sg_as]
 
 # clear players
-clear @a
+clear @a bow
+clear @a arrow
 
 # deactivate main loop
 scoreboard players set #sg_phase points 0

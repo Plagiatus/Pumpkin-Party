@@ -1,0 +1,11 @@
+{
+    "parent": "bc:root",
+    "criteria": {
+        "items": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "bc:player/check_inventory"
+    }
+}

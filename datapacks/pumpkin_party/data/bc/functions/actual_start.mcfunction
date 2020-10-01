@@ -46,3 +46,6 @@ function bc:recipe/generate/first
 
 # give players correct items
 execute as @a run function bc:player/reset_inventory
+
+# playing advancement
+advancement grant @a only bc:minigame_play

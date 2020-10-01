@@ -11,3 +11,5 @@ schedule function bc:actual_start 10t
 
 execute if score bc_difficulty settings matches ..0 run scoreboard players set bc_difficulty settings 0
 execute if score bc_difficulty settings matches 2.. run scoreboard players set bc_difficulty settings 2
+
+scoreboard players reset * bc_click

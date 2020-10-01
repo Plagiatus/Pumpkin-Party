@@ -25,3 +25,6 @@ execute as @e[type=item,tag=!pickup] run data merge entity @s {PickupDelay:0,Tag
 
 # previously left players
 execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function sg:player/too_late_join
+
+# prevent killing of other players
+effect give @a resistance 1 10 true
