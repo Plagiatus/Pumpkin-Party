@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/fox",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:241}"
+        },
+        "title": {
+            "text":"Snow Fox Costume"
+        },
+        "description": {
+            "text": "Code: \"BOOPDASNOOT\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BOOPDASNOOT\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/snow_fox"
+    }
+}

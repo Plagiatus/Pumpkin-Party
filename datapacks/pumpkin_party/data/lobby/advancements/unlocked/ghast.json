@@ -1,0 +1,25 @@
+{
+    "parent": "lobby:unlocked/evocation_fang",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:9}"
+        },
+        "title": {
+            "text":"Ghast Costume"
+        },
+        "description": {
+            "text": "Always unlocked."
+        },
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

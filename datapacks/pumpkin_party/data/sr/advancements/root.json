@@ -10,7 +10,8 @@
             "text": "Some additional challenges for you"
         },
         "background": "minecraft:textures/block/orange_concrete.png",
-        "show_toast": true,
+        "show_toast": false
+,
         "announce_to_chat": false
     },
     "criteria": {

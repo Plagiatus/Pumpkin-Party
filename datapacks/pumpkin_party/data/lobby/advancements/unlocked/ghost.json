@@ -1,0 +1,25 @@
+{
+    "parent": "lobby:unlocked/root",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:21}"
+        },
+        "title": {
+            "text":"Ghost Costume"
+        },
+        "description": {
+            "text": "Always unlocked."
+        },
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

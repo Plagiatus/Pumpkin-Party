@@ -7,7 +7,7 @@
     "title": {
       "text": "Mules"
     },
-    "description": ["",{"text": "That's how they're made"}],
+    "description": ["",{"text": "That's how they're made."}],
 	"show_toast": true,
 	"announce_to_chat": false
   },

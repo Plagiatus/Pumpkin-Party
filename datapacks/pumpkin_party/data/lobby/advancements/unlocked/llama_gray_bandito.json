@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/trader_llama_beige",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:266}"
+        },
+        "title": {
+            "text":"Llama Gray Bandito Costume"
+        },
+        "description": {
+            "text": "Code: \"ELBANDITO\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ELBANDITO\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/llama_gray_bandito"
+    }
+}

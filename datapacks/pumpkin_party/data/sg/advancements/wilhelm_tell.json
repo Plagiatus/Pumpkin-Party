@@ -11,7 +11,7 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "sg:root",
+  "parent": "sg:bulls_eye",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

@@ -14,3 +14,9 @@ execute if score #mseconds tmp matches 10.. if score #seconds tmp matches 10.. r
 
 tag @s add sr_end
 advancement grant @s only sr:treasure_room
+
+
+scoreboard players operation @s tmp = @s costume
+scoreboard players operation @s tmp %= #100 const
+advancement grant @s[scores={tmp=45}] only lobby:unlocked/piglin_brute
+advancement grant @s[scores={tmp=66}] only lobby:unlocked/llama_gray_bandito

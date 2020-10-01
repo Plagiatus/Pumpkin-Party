@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:orange_dye"
     },
     "title": {
       "text": "Play Brewing Contest"
@@ -15,5 +15,8 @@
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/witch"
   }
 }

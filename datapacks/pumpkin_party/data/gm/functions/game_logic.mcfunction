@@ -20,7 +20,7 @@ execute as @a[team=gm_play,scores={left_game=1..}] run function gm:left_game
 
 #Detect if a player left and summon a new zombie
 execute store result score #gm_playerCount tmp if entity @a[team=gm_play]
-execute if score #gm_playerCount tmp < #gm_playerCount const as @e[limit=1,type=armor_stand,tag=gm_center,sort=random] at @s positioned ~ ~1 ~ run function gm:summon_zombie
+execute if score #gm_playerCount tmp < #gm_playerCount const as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s positioned ~ ~1 ~ run function gm:summon_zombie
 scoreboard players operation #gm_playerCount const = #gm_playerCount tmp
 
 #Timer

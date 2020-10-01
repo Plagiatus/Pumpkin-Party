@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/villager_desert_librarian",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:570}"
+        },
+        "title": {
+            "text":"Swamp Villager Costume"
+        },
+        "description": {
+            "text": "Code: \"NOVILLAGE?NOWORK!\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NOVILLAGE?NOWORK!\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/villager_swamp_nitwit"
+    }
+}

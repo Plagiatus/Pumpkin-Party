@@ -5,8 +5,8 @@
 		"1": "block/carved_pumpkin",
 		"2": "block/anvil",
 		"3": "item/candy",
-		"4": "block/light_gray_stained_glass",
-		"particle": "block/light_gray_stained_glass"
+		"4": "block/orange_stained_glass",
+		"particle": "block/orange_stained_glass"
 	},
 	"elements": [
 		{
@@ -694,7 +694,9 @@
 			"translation": [0, -3, 0]
 		},
 		"gui": {
-			"rotation": [0, 150, 30]
+			"rotation": [0, 150, 30],
+			"translation": [0.5, 1.25, -80],
+			"scale": [1.21, 1.21, 1.21]
 		}
 	}
 }

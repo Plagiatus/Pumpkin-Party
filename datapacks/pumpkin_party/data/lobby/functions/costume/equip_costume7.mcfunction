@@ -8,6 +8,6 @@ execute if score @s costume matches 1010 run function lobby:costume/strider_cold
 execute if score @s costume matches 1041 run function lobby:costume/wolf_angry
 execute if score @s costume matches 1141 run function lobby:costume/fox_sleeping
 execute if score @s costume matches 1241 run function lobby:costume/snow_fox_sleeping
+execute if score @s costume matches 1344 run function lobby:costume/sans_eye
 
 execute if score @s costume matches 2000 run function lobby:costume/error
-execute if score @s costume matches 2021 run function lobby:costume/gold_ghost

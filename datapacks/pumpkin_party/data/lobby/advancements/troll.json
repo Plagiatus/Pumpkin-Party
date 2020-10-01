@@ -1,4 +1,5 @@
 {
+  "parent": "lobby:creators",
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
@@ -11,7 +12,6 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "lobby:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -32,5 +32,8 @@
         }
       }
     }
+  },
+  "rewards": {
+      "function": "lobby:costume/unlock/squid"
   }
 }

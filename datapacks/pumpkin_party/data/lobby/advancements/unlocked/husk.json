@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/zombie",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:143}"
+        },
+        "title": {
+            "text":"Husk Costume"
+        },
+        "description": {
+            "text": "Code: \"THEHOTTERZOMBIE\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEHOTTERZOMBIE\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/husk"
+    }
+}

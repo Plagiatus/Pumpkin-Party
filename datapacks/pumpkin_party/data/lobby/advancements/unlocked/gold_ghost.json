@@ -1,0 +1,34 @@
+{
+    "parent": "lobby:unlocked/ghost",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:121}"
+        },
+        "title": {
+            "text":"Gold Ghost Costume"
+        },
+        "description": {
+            "text": "Code: \"BUTTERGHOST\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BUTTERGHOST\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/gold_ghost"
+    }
+}

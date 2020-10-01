@@ -29,7 +29,8 @@
           {"predicate": {"custom_model_data": 69}, "model": "costumes/horse_brown_back"},
           {"predicate": {"custom_model_data": 70}, "model": "costumes/villager_plains_farmer"},
          
-          {"predicate": {"custom_model_data":122}, "model": "costumes/cave_spider"},
+         {"predicate": {"custom_model_data": 121}, "model": "costumes/gold_ghost"},
+         {"predicate": {"custom_model_data": 122}, "model": "costumes/cave_spider"},
          {"predicate": {"custom_model_data": 141}, "model": "costumes/fox"},
          {"predicate": {"custom_model_data": 142}, "model": "costumes/headless_horseman"},
          {"predicate": {"custom_model_data": 143}, "model": "costumes/husk"},
@@ -85,10 +86,10 @@
 		{"predicate": {"custom_model_data": 1008}, "model": "costumes/enderman_angry"},
 		{"predicate": {"custom_model_data": 1009}, "model": "costumes/ghast_angry"},
         {"predicate": {"custom_model_data": 1010}, "model": "costumes/strider_cold"},
-        {"predicate": {"custom_model_data": 1021}, "model": "costumes/gold_ghost"},
         {"predicate": {"custom_model_data": 1041}, "model": "costumes/wolf_angry"},
         {"predicate": {"custom_model_data": 1141}, "model": "costumes/fox_sleeping"},
         {"predicate": {"custom_model_data": 1241}, "model": "costumes/snow_fox_sleeping"},
+        {"predicate": {"custom_model_data": 1344}, "model": "costumes/sans_eye"},
         
 		{"predicate": {"custom_model_data": 2000}, "model": "costumes/error"}	
 	]

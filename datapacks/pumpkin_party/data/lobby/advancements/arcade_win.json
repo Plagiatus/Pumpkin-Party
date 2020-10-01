@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:red_dye"
     },
     "title": {
       "text": "Win Arcade"
@@ -15,5 +15,8 @@
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/gold_ghost"
   }
 }

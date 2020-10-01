@@ -11,10 +11,13 @@
 	"show_toast": true,
 	"announce_to_chat": false
   },
-  "parent": "sr:root",
+  "parent": "sr:tunnel_explorer",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/strider"
   }
 }

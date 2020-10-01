@@ -1,0 +1,12 @@
+{
+    "parent": "lobby:root",
+    "criteria": {
+      "impossible": {
+        "trigger": "location"
+      }
+    },
+    "rewards": {
+      "function": "lobby:playtime_check"
+    }
+  }
+  

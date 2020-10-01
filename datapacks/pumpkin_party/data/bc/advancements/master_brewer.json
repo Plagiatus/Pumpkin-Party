@@ -42,5 +42,8 @@
     "p10": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/evoker"
   }
 }

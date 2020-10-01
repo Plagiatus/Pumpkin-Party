@@ -1,3 +1,4 @@
+tag @s remove costume_failed
 replaceitem entity @s armor.head air
 replaceitem entity @s armor.chest air
 replaceitem entity @s armor.legs air
