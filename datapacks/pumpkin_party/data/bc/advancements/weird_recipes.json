@@ -27,7 +27,7 @@
 		"conditions": {
 			"items": [
 				{
-					"item": "minecraft:dandelion"
+					"item": "minecraft:lime_dye"
 				}
 			]
 		}
@@ -37,7 +37,7 @@
 		"conditions": {
 			"items": [
 				{
-					"item": "minecraft:blue_orchid"
+					"item": "minecraft:pink_dye"
 				}
 			]
 		}
