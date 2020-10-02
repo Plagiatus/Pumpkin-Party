@@ -2,7 +2,9 @@
 	"credit": "Made with Blockbench by dragonmaster95",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "entity/spider/cave_spider"
+		"0": "entity/spider/cave_spider",
+		"1": "entity/spider_eyes",
+		"particle": "entity/spider_eyes"
 	},
 	"elements": [
 		{
@@ -17,6 +19,17 @@
 				"west": {"uv": [12, 6, 14, 10], "texture": "#0"},
 				"up": {"uv": [10, 2, 12, 6], "texture": "#0"},
 				"down": {"uv": [12, 2, 14, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Head",
+			"from": [1, 17, -16],
+			"to": [15, 31, -2],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 6, 12, 10], "texture": "#1"},
+				"east": {"uv": [8, 6, 10, 10], "texture": "#1"},
+				"west": {"uv": [12, 6, 14, 10], "texture": "#1"}
 			}
 		},
 		{
