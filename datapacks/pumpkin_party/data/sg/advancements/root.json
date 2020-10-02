@@ -7,7 +7,7 @@
             "text":"Shooting Gallery"
         },
         "description": {
-            "text": "Some additional challenges for you"
+            "text": "Some additional challenges for you."
         },
         "background": "minecraft:textures/block/orange_concrete.png",
         "show_toast": false

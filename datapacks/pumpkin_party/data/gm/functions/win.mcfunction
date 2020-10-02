@@ -10,7 +10,7 @@ title @a title [{"text":"Game Over","color":"dark_green"}]
 
 #Losers
 tellraw @a [{"text":"Game Over! Survivors: ","color":"green"},{"selector":"@a[gamemode=adventure,team=gm_play]","color":"gold"}]
-tellraw @a[gamemode=spectator] {"text":"You were zombiefied!","color":"gray"}
+tellraw @a[gamemode=spectator] {"text":"You were zombified!","color":"gray"}
 
 #Points
 execute as @a[team=gm_play] run scoreboard players operation @s points += @s gm_points

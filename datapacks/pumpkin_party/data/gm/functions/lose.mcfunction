@@ -7,7 +7,7 @@ function gm:calculate_winner
 
 #Lose message
 title @a[team=gm_play] title [{"text":"Game Over","color":"dark_blue"}]
-tellraw @a[team=gm_play] {"text":"Everyone was zombiefied!","color":"gray"}
+tellraw @a[team=gm_play] {"text":"Everyone was zombified!","color":"gray"}
 
 #Points
 execute as @a[team=gm_play] run scoreboard players operation @s points += @s gm_points

@@ -29,7 +29,7 @@ execute if score #gm_maxTime const matches 1600 run time add 3
 execute if score #gm_maxTime const matches 2400 run time add 2
 
 scoreboard players remove #gm_timer timer 1
-scoreboard players remove @a timer 1
+scoreboard players remove @a[gamemode=adventure] timer 1
 
 #Detect if game has ended
 execute store result score #gm_playerCount tmp if entity @a[gamemode=!spectator,team=gm_play]

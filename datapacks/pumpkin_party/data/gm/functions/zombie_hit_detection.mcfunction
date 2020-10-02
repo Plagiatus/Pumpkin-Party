@@ -5,8 +5,8 @@
 # @notes: Runs at the zombie and as the caught player
 
 #Information message that you got caught
-execute if score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run tellraw @s [{"text":"You were zombiefied by","color":"gray"},{"selector":"@p[gamemode=spectator]"},{"text":"'s zombie!"}]
-execute unless score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run tellraw @s {"text":"You were zombiefied!","color":"gray"}
+execute if score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run tellraw @s [{"text":"You were zombified by ","color":"gray"},{"selector":"@p[gamemode=spectator]"},{"text":"'s zombie!"}]
+execute unless score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run tellraw @s {"text":"You were zombified!","color":"gray"}
 
 #Advancements
 scoreboard players operation @s tmp = @s costume

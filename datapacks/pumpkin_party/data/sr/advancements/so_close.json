@@ -7,7 +7,7 @@
     "title": {
       "text": "So Close"
     },
-    "description": ["",{"text":"Get caught right before the end.."}],
+    "description": ["",{"text":"Get caught right before the end."}],
 	"show_toast": true,
 	"announce_to_chat": false
   },
