@@ -11,3 +11,4 @@ execute store result entity @s Motion[0] double 0.01 run scoreboard players get 
 tp @e[tag=sr_spider_spider] ~2 ~2.8 ~ -90 21
 execute as @e[tag=sr_spider_spider] store result entity @s Motion[0] double 0.01 run scoreboard players get #speed sr_distance
 execute as @a[tag=sr_caught] run spectate @e[tag=sr_spider_spider,limit=1]
+effect give @a[tag=sr_caught] night_vision 1 0 true

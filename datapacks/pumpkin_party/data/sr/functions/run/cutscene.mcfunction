@@ -1,5 +1,5 @@
 scoreboard players add #sr_cutscene sr_time 1
-execute if score #sr_cutscene sr_time matches 1 run tp @e[tag=sr_spider] -462 64 -525 -90 0
+execute if score #sr_cutscene sr_time matches 1 run summon armor_stand -462 64 -525 {HandItems:[{id:"minecraft:brick",Count:1b}],Tags:["sr_spider"],Rotation:[-90f,0f],Pose:{RightArm:[0f,0f,0f]},Invisible:1b,DisabledSlots:4144959}
 
 execute if score #sr_cutscene sr_time matches 40 run tellraw @a [{"translate": "chat.type.text","with": [{"selector": "@a[limit=1,team=sr_play,sort=random]"},{"text": "There is a GIANT SPIDER!!"}]}]
 execute if score #sr_cutscene sr_time matches 40..95 run data merge entity @e[tag=sr_spider,limit=1] {Motion:[0.1d,0.0d,0.0d]}

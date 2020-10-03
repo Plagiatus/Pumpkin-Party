@@ -22,7 +22,6 @@ setblock -452 59 -549 minecraft:structure_block[mode=load]{mirror:"NONE",ignoreE
 setblock -452 59 -548 redstone_block destroy
 summon area_effect_cloud -448 63 -543 {Tags:["sr_next"],Duration:1000}
 kill @e[tag=sr_spider]
-summon armor_stand -462 64 -525 {HandItems:[{id:"minecraft:brick",Count:1b}],Tags:["sr_spider"],Rotation:[-90f,0f],Pose:{RightArm:[0f,0f,0f]},Invisible:1b,DisabledSlots:4144959}
 
 # set scores
 scoreboard players set #timer timer 5

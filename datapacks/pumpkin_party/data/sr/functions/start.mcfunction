@@ -6,3 +6,5 @@ schedule function sr:generation/prepare 10t
 team join sr_play @a
 
 function pp:all_games/start
+
+gamerule spectatorsGenerateChunks true

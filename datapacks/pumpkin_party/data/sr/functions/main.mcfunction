@@ -3,6 +3,7 @@ execute if score #sr_phase points matches 2 run function sr:run/cutscene
 execute if score #sr_phase points matches 3 run function sr:run/running
 execute if score #sr_phase points matches 4 run function sr:run/ending
 execute if score #sr_phase points matches 5 run function sr:run/early_ending
+execute if score #sr_phase points matches 6 run function sr:run/outrun
 
 # handle logging out/in players
 execute if score #sr_phase points matches 1..2 as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function sr:player/late_join
