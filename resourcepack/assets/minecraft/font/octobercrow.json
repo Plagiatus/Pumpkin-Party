@@ -3,7 +3,7 @@
         {
             "type": "ttf",
             "file": "minecraft:octobercrow.ttf",
-            "size": 20,
+            "size": 15,
             "shift": [1, 1],
             "oversample": 6
         }

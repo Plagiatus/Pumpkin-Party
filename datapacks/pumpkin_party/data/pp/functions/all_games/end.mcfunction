@@ -9,7 +9,7 @@ gamemode adventure @a
 #set correct scoreboard to sidebar
 scoreboard objectives setdisplay sidebar points
 
-
+scoreboard players set #game_ongoing settings 0
 
 #TODO: maybe leaving any teams they were in and clearing any effects? 
 team leave @a

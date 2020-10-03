@@ -1,0 +1,3 @@
+execute if score #difficulty tmp matches 0 run data merge block ~ ~ ~ {Text1:'""',Text2:'{"text":"Diffculty","color":"black"}',Text3:'{"text":"normal","color":"dark_green"}'}
+execute if score #difficulty tmp matches 1 run data merge block ~ ~ ~ {Text1:'""',Text2:'{"text":"Diffculty","color":"black"}',Text3:'{"text":"hard","color":"red"}'}
+execute if score #difficulty tmp matches 2 run data merge block ~ ~ ~ {Text1:'""',Text2:'{"text":"Diffculty","color":"black"}',Text3:'{"text":"nightmare","color":"dark_red"}'}
