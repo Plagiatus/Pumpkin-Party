@@ -54,6 +54,7 @@ advancement revoke @a only sg:hit/neg1
 advancement revoke @a only sg:hit/neg3
 
 # scores
+scoreboard players reset * sg_points
 scoreboard players set @a sg_points 0
 scoreboard objectives setdisplay sidebar sg_points
 
