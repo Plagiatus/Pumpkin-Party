@@ -7,3 +7,4 @@ execute as @s run scoreboard players operation @s sg_points += @s sg_points_tmp
 advancement grant @s[scores={sg_points_tmp=10..}] only sg:bulls_eye
 scoreboard players set @s sg_points_tmp 0
 tag @s remove sg_hit
+tag @s remove sg_next_tick

@@ -15,7 +15,8 @@ execute as @e[type=minecraft:armor_stand,tag=sg_as] at @s run function sg:target
 execute as @e[type=slime,tag=!sg_slime] at @s run tp @s ~ -100 ~
 
 # take care of players getting points
-execute as @a[tag=sg_hit] run function sg:show_points
+execute as @a[tag=sg_hit,tag=sg_next_tick] run function sg:show_points
+tag @a[tag=sg_hit] add sg_next_tick
 
 # check gameover
 execute if score $ticks timer matches 0 run function sg:end
