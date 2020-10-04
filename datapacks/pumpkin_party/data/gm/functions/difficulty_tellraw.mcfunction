@@ -1,3 +1,3 @@
 execute if score gm_difficulty settings matches 0 run tellraw @s ["",{"text": "Graveyard Mayhem", "color": "#ff6600"}," (",{"text":"normal","color": "#84A887"},")\n",{"text":"- Minimum amount of zombies: 1\n- Time until dawn: 60 seconds"},"\n"]
-execute if score gm_difficulty settings matches 1 run tellraw @s ["",{"text": "Graveyard Mayhem", "color": "#ff6600"}," (",{"text":"hard","color": "#AA8686"},")\n",{"text":"- Minimum amount of zombies: 2\n- Time until dawn: 90 seconds"},"\n"]
+execute if score gm_difficulty settings matches 1 run tellraw @s ["",{"text": "Graveyard Mayhem", "color": "#ff6600"}," (",{"text":"hard","color": "#AA8686"},")\n",{"text":"- Minimum amount of zombies: 2\n- Time until dawn: 80 seconds"},"\n"]
 execute if score gm_difficulty settings matches 2 run tellraw @s ["",{"text": "Graveyard Mayhem", "color": "#ff6600"}," (",{"text":"nightmare","color": "#AD5454"},")\n",{"text":"- Minimum amount of zombies: 3\n- Time until dawn: 120 seconds"},"\n"]
