@@ -1,5 +1,7 @@
 execute store result score @s sg_speed run data get entity @s UUID[0] 1
-scoreboard players operation @s sg_speed %= 20 const
+execute if score sg_difficulty settings matches 0 run scoreboard players operation @s sg_speed %= 20 const
+execute if score sg_difficulty settings matches 1 run scoreboard players operation @s sg_speed %= 30 const
+execute if score sg_difficulty settings matches 2 run scoreboard players operation @s sg_speed %= 40 const
 
 execute as @s[tag=sg_skeleton] run scoreboard players add @s sg_speed 4
 execute as @s[tag=sg_ghost] run scoreboard players add @s sg_speed 4
