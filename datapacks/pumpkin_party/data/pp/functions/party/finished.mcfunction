@@ -1,0 +1,1 @@
+function lobby:signs/reset_all
