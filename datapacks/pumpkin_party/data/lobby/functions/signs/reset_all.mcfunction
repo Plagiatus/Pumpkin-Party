@@ -1,16 +1,30 @@
-scoreboard players set bc_difficulty settings 10
-scoreboard players set gm_difficulty settings 10
-scoreboard players set pc_difficulty settings 10
-scoreboard players set sg_difficulty settings 10
-scoreboard players set sr_difficulty settings 10
-scoreboard players set tot_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set bc_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set gm_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set pc_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set sg_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set sr_difficulty settings 10
+execute if score #resetscores tmp matches 1.. run scoreboard players set tot_difficulty settings 10
 
-scoreboard players set bc_in_party settings 0
-scoreboard players set gm_in_party settings 0
-scoreboard players set pc_in_party settings 0
-scoreboard players set sg_in_party settings 0
-scoreboard players set sr_in_party settings 0
-scoreboard players set tot_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set bc_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set gm_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set pc_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set sg_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set sr_in_party settings 0
+execute if score #resetscores tmp matches 1.. run scoreboard players set tot_in_party settings 0
+
+execute if score #resetscores tmp matches ..0 run scoreboard players remove bc_difficulty settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove gm_difficulty settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove pc_difficulty settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove sg_difficulty settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove sr_difficulty settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove tot_difficulty settings 1
+
+execute if score #resetscores tmp matches ..0 run scoreboard players remove bc_in_party settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove gm_in_party settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove pc_in_party settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove sg_in_party settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove sr_in_party settings 1
+execute if score #resetscores tmp matches ..0 run scoreboard players remove tot_in_party settings 1
 
 execute positioned 393 70 490 run function lobby:signs/difficulty/bc
 execute positioned 398 70 490 run function lobby:signs/difficulty/gm
@@ -32,3 +46,5 @@ execute positioned 387 70 510 run function lobby:signs/minigame/pc
 execute positioned 387 70 490 run function lobby:signs/minigame/sg
 execute positioned 393 70 510 run function lobby:signs/minigame/sr
 execute positioned 390 72 510 run function lobby:signs/minigame/tot
+
+scoreboard players set #resetscores tmp 0
