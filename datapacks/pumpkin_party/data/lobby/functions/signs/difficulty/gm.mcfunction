@@ -5,3 +5,4 @@ scoreboard players operation #difficulty tmp = gm_difficulty settings
 data merge block ~ ~ ~ {Text4:'{"text":"","clickEvent": {"action": "run_command","value": "function lobby:signs/difficulty/gm"}}'}
 
 function lobby:signs/difficulty/update_sign
+function gm:difficulty_tellraw

@@ -1,0 +1,3 @@
+scoreboard players enable @s lbb_game
+tellraw @s ["",{"text": "\n[Pumpkin Party]\n","color": "#ff6600"},{"text": "Play all selected minigames in a random order. Compete to get the most candies and be crowned king of the party!"}]
+tellraw @s ["",{"text": "[Click here to start the party!]","color": "dark_green","hoverEvent":{"action":"show_text","contents":{"text":"Click here to start the party!"}},"clickEvent": {"action": "run_command","value": "/trigger lbb_game set 99"}},"\n"]
