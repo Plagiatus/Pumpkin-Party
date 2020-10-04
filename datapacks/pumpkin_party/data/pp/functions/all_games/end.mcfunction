@@ -14,6 +14,8 @@ execute if score #games_to_play settings matches 1.. run function pp:party/next
 execute if score #games_to_play settings matches ..-1 run function pp:party/finished
 execute if score #games_to_play settings matches ..0 run scoreboard players set #game_ongoing settings 0
 execute if score #games_to_play settings matches ..0 run scoreboard objectives setdisplay sidebar candies
+execute if score #games_to_play settings matches 0 as @a run scoreboard players operation @s candies += @s points
+execute if score #games_to_play settings matches ..0 run schedule function lobby:signs/reset_all 1s
 
 # leaving any teams they were in and clearing any effects
 team leave @a

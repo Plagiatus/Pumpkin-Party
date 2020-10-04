@@ -1,6 +1,6 @@
 execute store result score #spiderX sr_distance run data get entity @e[tag=sr_spider,limit=1] Pos[0] 10
 scoreboard players add #spiderX sr_distance 40
-execute if score #sr_end sr_time matches 49.. as @a[team=sr_play] run function sr:run/display_actionbar
+execute if score #sr_end sr_time matches 49.. as @a[team=sr_play,tag=!sr_caught] run function sr:run/display_actionbar
 
 # "catch" players
 execute if score #sr_end sr_time matches 1.. at @e[tag=sr_spider] positioned ~ ~-5 ~-7 as @a[dx=3,dy=10,dz=15,tag=!sr_caught,tag=!sr_end] run function sr:run/caught_late

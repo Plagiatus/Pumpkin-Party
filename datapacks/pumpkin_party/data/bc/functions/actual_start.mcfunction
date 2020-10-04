@@ -1,4 +1,5 @@
 gamemode adventure @a
+tp @e[type=!giant,type=!armor_stand,type=!area_effect_cloud,type=!player,x=505,y=50,z=-545,dx=90,dy=30,dz=90] 551 -10 -498
 scoreboard players set #bc_phase points 2
 
 scoreboard players reset * bc_points
@@ -37,6 +38,8 @@ execute as @a[team=bc_play] at @s run tp @s ~ ~ ~ facing 550 ~ -500
 execute as @a[team=bc_play] at @s run spawnpoint @s ~ ~ ~
 
 execute as @e[tag=bc_marker] at @s run scoreboard players operation @e[tag=bc_cauldron,limit=1,sort=nearest] bc_id = @s bc_id
+
+function pp:all_games/start
 
 # timer start
 scoreboard players set $ticks timer 6000

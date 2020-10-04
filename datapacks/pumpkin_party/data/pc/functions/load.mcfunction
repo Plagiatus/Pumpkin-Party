@@ -9,5 +9,5 @@ scoreboard players set #pc_templates const 33
 scoreboard players set #pc_max const 10
 
 
-scoreboard objectives add pc_points dummy "Pumpkins Carved"
+scoreboard objectives add pc_points dummy {"text":"Pumpkins Carved","color":"#ff6600"}
 scoreboard objectives add pc_carved_block minecraft.used:minecraft.diamond_pickaxe

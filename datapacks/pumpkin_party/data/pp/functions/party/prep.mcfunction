@@ -47,15 +47,9 @@ execute if score #party_timer timer matches 0 if score #selected tmp matches 4 r
 execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run scoreboard players set #sr settings 0
 execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run scoreboard players set #tot settings 0
 
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 1 run function bc:start
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 2 run function gm:start
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 3 run function pc:start
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 4 run function sg:start
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run function sr:start
-# execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run function tot:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 1 run say bc:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 2 run say gm:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 3 run say pc:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 4 run say sg:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run say sr:start
-execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run say tot:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 1 run function bc:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 2 run function gm:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 3 run function pc:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 4 run function sg:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run function sr:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run function tot:start
