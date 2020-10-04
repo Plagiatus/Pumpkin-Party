@@ -45,7 +45,7 @@ execute if score @s[tag=!ul_villager_snowy_cartographer] buyCostume matches 670 
 execute if score @s[tag=ul_villager_savanna_weaponsmith] buyCostume matches 770 run function lobby:costume/info/purchase_twice
 execute if score @s[tag=!ul_villager_savanna_weaponsmith] buyCostume matches 770 run function lobby:costume/villager_savanna_weaponsmith
 
-tellraw @s[tag=!double_purchase] ["",{"text": "You successfully unlocked the: "},{"nbt":"CustomName","entity":"@e[type=minecraft:armor_stand,distance=..0.1,tag=Costume]","interpret":true,"color":"#FF6600"},{"text":" Costume","color":"#FF6600"}]
+#tellraw @s[tag=!double_purchase] ["",{"text": "You successfully unlocked the: "},{"nbt":"CustomName","entity":"@e[type=minecraft:armor_stand,distance=..0.1,tag=Costume]","interpret":true,"color":"#FF6600"},{"text":" Costume","color":"#FF6600"}]
 
 #Remove coins
 scoreboard players operation @s[tag=!double_purchase] candies -= @e[type=armor_stand,limit=1,distance=..0.1,tag=Costume] const

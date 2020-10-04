@@ -4,8 +4,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_evoker] ["",{"text":"Password: "},{"tex
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_evoker] run function lobby:costume/already_unlocked
+tag @s add ul_evoker
 execute if entity @s[team=] run function lobby:costume/evoker
 tag @s add valid_password
 
-tag @s add ul_evoker
 advancement grant @s only lobby:unlocked/evoker

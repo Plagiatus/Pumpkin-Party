@@ -5,8 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_wither_skeleton] ["",{"text":"Password:
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_wither_skeleton] run function lobby:costume/already_unlocked
+tag @s add ul_wither_skeleton
 execute if entity @s[team=] run function lobby:costume/wither_skeleton
 tag @s add valid_password
 
-tag @s add ul_wither_skeleton
 advancement grant @s only lobby:unlocked/wither_skeleton

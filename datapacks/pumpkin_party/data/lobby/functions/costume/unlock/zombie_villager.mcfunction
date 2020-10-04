@@ -5,8 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_zombie_villager] ["",{"text":"Password:
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_zombie_villager] run function lobby:costume/already_unlocked
+tag @s add ul_zombie_villager
 execute if entity @s[team=] run function lobby:costume/zombie_villager
 tag @s add valid_password
 
-tag @s add ul_zombie_villager
 advancement grant @s only lobby:unlocked/zombie_villager

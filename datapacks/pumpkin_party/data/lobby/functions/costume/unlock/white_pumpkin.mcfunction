@@ -5,8 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_white_pumpkin] ["",{"text":"Password: "
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_white_pumpkin] run function lobby:costume/already_unlocked
+tag @s add ul_white_pumpkin
 execute if entity @s[team=] run function lobby:costume/white_pumpkin
 tag @s add valid_password
 
-tag @s add ul_white_pumpkin
 advancement grant @s only lobby:unlocked/white_pumpkin

@@ -5,8 +5,8 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_zombified_piglin] ["",{"text":"Password
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_zombified_piglin] run function lobby:costume/already_unlocked
+tag @s add ul_zombified_piglin
 execute if entity @s[team=] run function lobby:costume/zombified_piglin
 tag @s add valid_password
 
-tag @s add ul_zombified_piglin
 advancement grant @s only lobby:unlocked/zombified_piglin
