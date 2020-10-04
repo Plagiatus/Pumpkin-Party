@@ -1,5 +1,5 @@
 #Setup
-execute if score #pc_difficulty settings matches 2 run give @s minecraft:smooth_red_sandstone{ench:[],CanPlaceOn:["minecraft:black_terracotta","minecraft:smooth_red_sandstone"],HideFlags:31,Unbreakable:1,display:{Name:'"Pumpkin Filler"',Lore:['"Use this to fill in a block"','" you removed by mistake."','" "','"You only have a limited amount!"']}} 10
+execute if score pc_difficulty settings matches 2 run give @s minecraft:smooth_red_sandstone{ench:[],CanPlaceOn:["minecraft:black_terracotta","minecraft:smooth_red_sandstone"],HideFlags:31,Unbreakable:1,display:{Name:'"Pumpkin Filler"',Lore:['"Use this to fill in a block"','" you removed by mistake."','" "','"You only have a limited amount!"']}} 10
 execute as @a[team=pc_play] run function pc:reset_hotbar
 scoreboard players set $ticks timer 4800
 scoreboard objectives setdisplay sidebar pc_points
