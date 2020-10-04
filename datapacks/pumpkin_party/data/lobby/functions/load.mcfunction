@@ -19,3 +19,6 @@ scoreboard objectives add adv_sprint minecraft.custom:minecraft.sprint_one_cm
 #Makes the teleporter in the lobby change its costume periodically
 schedule function lobby:select_costume_teleporter 5s
 schedule function lobby:costume/info/highlight_locked_schedule 5t
+
+# 
+scoreboard players add #game_ongoing settings 0

@@ -5,3 +5,5 @@ clear @a orange_dye
 clear @a red_dye
 
 scoreboard players set #game_ongoing settings 1
+
+function lobby:signs/disable_all

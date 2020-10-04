@@ -14,7 +14,14 @@ scoreboard objectives add game_id dummy
 scoreboard objectives add left_game minecraft.custom:minecraft.leave_game 
 
 #The scoreboard to check if the player joined the same game they left or if it's a different one
-scoreboard players set #maxPoints const 100 
+scoreboard players set #maxPoints const 100
+
+scoreboard players set 1 const 1
+scoreboard players set 2 const 2
+scoreboard players set 3 const 3
+scoreboard players set 4 const 4
+scoreboard players set 5 const 5
+scoreboard players set 8 const 8
 
 # set all games to "normal" difficulty, if not set otherwise yet. 0=normal, 1=hard, 2=nightmare
 execute unless score bc_difficulty settings = bc_difficulty settings run scoreboard players set bc_difficulty settings 0
