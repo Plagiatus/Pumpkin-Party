@@ -29,3 +29,4 @@ scoreboard players operation @s tmp *= #50 const
 #Advancements
 advancement grant @a[scores={tot_treats=50..}] only tot:candy_baron
 advancement grant @a[scores={tot_doorsKnocked=25..}] only tot:door_knocker
+tag @p[tag=tot_tricking,dy=0] remove tot_tricking
