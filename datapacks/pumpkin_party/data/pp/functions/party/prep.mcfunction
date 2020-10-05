@@ -7,24 +7,24 @@ execute if score #party_timer timer matches 279 run summon lightning_bolt 384 69
 execute if score #party_timer timer matches 279 run tp @a 397 69 500 90 -10
 
 # light flickering
-execute if score #party_timer timer matches 275 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 250 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 240 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 235 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 221 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 210 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 200 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 195 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 180 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 172 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 170 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 165 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 160 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 157 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 155 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 149 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
-execute if score #party_timer timer matches 142 run fill 380 70 488 401 90 515 minecraft:soul_lantern replace minecraft:lantern
-execute if score #party_timer timer matches 140 run fill 380 70 488 401 90 515 minecraft:lantern replace minecraft:soul_lantern
+execute if score #party_timer timer matches 275 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 250 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 240 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 235 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 221 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 210 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 200 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 195 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 180 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 172 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 170 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 165 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 160 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 157 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 155 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 149 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
+execute if score #party_timer timer matches 142 run fill 380 70 488 401 90 515 minecraft:soul_lantern[hanging=true] replace minecraft:lantern
+execute if score #party_timer timer matches 140 run fill 380 70 488 401 90 515 minecraft:lantern[hanging=true] replace minecraft:soul_lantern
 
 
 # random thingy
