@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 scoreboard players set @s[scores={sound_delay=5..}] sound_delay 2
 tag @s add ul_sans
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Sans"'}
+
+scoreboard players set @s costume 344
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Sans"'}

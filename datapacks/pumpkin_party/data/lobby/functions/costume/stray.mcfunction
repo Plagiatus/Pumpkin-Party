@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/stray
 tag @s add ul_stray
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Stray"'}
+
+scoreboard players set @s costume 144
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Stray"'}

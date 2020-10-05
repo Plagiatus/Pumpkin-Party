@@ -8,8 +8,8 @@ execute if score @s[tag=ul_squid] costume matches 4 run function lobby:costume/s
 execute if score @s[tag=!ul_squid] costume matches 4 run function lobby:costume/info/squid
 execute if score @s[tag=ul_phantom] costume matches 5 run function lobby:costume/phantom
 execute if score @s[tag=!ul_phantom] costume matches 5 run function lobby:costume/info/phantom
-  
-  
+ 
+ 
 execute if score @s[tag=ul_pufferfish] costume matches 6 run function lobby:costume/pufferfish_middle
 execute if score @s[tag=!ul_pufferfish] costume matches 6 run function lobby:costume/info/pufferfish_middle
 execute if score @s[tag=ul_evocation_fang] costume matches 7 run function lobby:costume/evocation_fang

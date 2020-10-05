@@ -5,4 +5,6 @@ replaceitem entity @s armor.legs minecraft:leather_leggings{Unbreakable:1,displa
 replaceitem entity @s armor.feet minecraft:leather_boots{Unbreakable:1,display:{Name:'{"text":"Golden Ghost Costume","italic":false}',color:14598713,Lore:['{"text":"Winner!"}']},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],HideFlags:63}
 
 tag @s add ul_gold_ghost
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Gold Ghost"'}
+
+scoreboard players set @s costume 121
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Gold Ghost"'}

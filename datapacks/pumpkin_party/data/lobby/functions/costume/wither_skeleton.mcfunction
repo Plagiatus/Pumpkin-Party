@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/wither_skeleton
 tag @s add ul_wither_skeleton
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Wither Skeleton"'}
+
+scoreboard players set @s costume 244
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Wither Skeleton"'}

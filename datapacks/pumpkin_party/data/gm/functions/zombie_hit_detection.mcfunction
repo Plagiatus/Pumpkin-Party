@@ -20,6 +20,8 @@ execute if score #gm_timer timer matches 1100.. run advancement grant @s only gm
 #Create zombie
 tag @s add gm_caught
 function gm:summon_zombie
+team join gm_dead
+scoreboard players set @s gm_alive 0
 gamemode spectator @s
 
 #Put costume (or player) head on the zombie

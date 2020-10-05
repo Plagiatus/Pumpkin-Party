@@ -13,13 +13,13 @@ execute as @e[type=zombie,tag=gm] at @s if block ~ ~ ~ gravel run particle block
 
 
 #Force player to spectate their zombie
-execute as @e[type=zombie,scores={gm_id=1..}] at @a[gamemode=spectator,team=gm_play] if score @s gm_id = @p gm_id run spectate @s @p
-execute as @a[gamemode=spectator,team=gm_play] run title @a actionbar ["",{"text": "You got turned into a zombie and are now spectating it.","color":"gold"}]
+execute as @e[type=zombie,scores={gm_id=1..}] at @a[gamemode=spectator,tag=gm_play] if score @s gm_id = @p gm_id run spectate @s @p
+execute as @a[gamemode=spectator,tag=gm_play] run title @a actionbar ["",{"text": "You got turned into a zombie and are now spectating it.","color":"gold"}]
 
-execute as @a[team=gm_play,scores={left_game=1..}] run function gm:left_game
+execute as @a[tag=gm_play,scores={left_game=1..}] run function gm:left_game
 
 #Detect if a player left and summon a new zombie
-execute store result score #gm_playerCount tmp if entity @a[team=gm_play]
+execute store result score #gm_playerCount tmp if entity @a[tag=gm_play]
 execute if score #gm_playerCount tmp < #gm_playerCount const as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s positioned ~ ~1 ~ run function gm:summon_zombie
 scoreboard players operation #gm_playerCount const = #gm_playerCount tmp
 
@@ -32,6 +32,6 @@ scoreboard players remove #gm_timer timer 1
 scoreboard players remove @a[gamemode=adventure] timer 1
 
 #Detect if game has ended
-execute store result score #gm_playerCount tmp if entity @a[gamemode=!spectator,team=gm_play]
+execute store result score #gm_playerCount tmp if entity @a[gamemode=!spectator,tag=gm_play]
 execute if score #gm_playerCount tmp matches 0 run function gm:lose
 execute if score #gm_timer timer matches ..0 if score #gm_playerCount tmp matches 1.. run function gm:win

@@ -6,7 +6,8 @@
 #Remove title
 title @a reset
 title @a clear
-scoreboard players set @a[team=gm_play] left_game 0
+scoreboard players set @a[tag=gm_play] left_game 0
+scoreboard objectives setdisplay sidebar gm_alive
 
 #Summon zombies depending on the player count
 execute as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie

@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 
 tag @s add ul_squid
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Squid"'}
+
+scoreboard players set @s costume 4
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Squid"'}

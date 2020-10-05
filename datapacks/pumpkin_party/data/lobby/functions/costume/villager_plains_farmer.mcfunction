@@ -7,4 +7,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 advancement grant @s only lobby:unlocked/villager_plains_farmer
 tag @s add ul_villager_plains_farmer
 scoreboard players set @s[type=minecraft:armor_stand] const 100
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Plains Farmer"'}
+
+scoreboard players set @s costume 70
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Plains Farmer"'}

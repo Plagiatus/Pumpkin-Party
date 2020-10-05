@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/headless_horseman
 tag @s add ul_headless_horseman
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Headless Horseman"'}
+
+scoreboard players set @s costume 142
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Headless Horseman"'}

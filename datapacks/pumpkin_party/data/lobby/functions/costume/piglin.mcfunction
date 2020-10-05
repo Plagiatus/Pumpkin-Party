@@ -7,4 +7,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 advancement grant @s only lobby:unlocked/piglin
 tag @s add ul_piglin
 scoreboard players set @s[type=minecraft:armor_stand] const 300
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Piglin"'}
+
+scoreboard players set @s costume 145
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Piglin"'}

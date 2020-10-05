@@ -9,4 +9,4 @@ tag @s add ul_witch
 execute if entity @s[team=] run function lobby:costume/witch
 tag @s add valid_password
 
-advancement grant @s only lobby:unlocked/withc
+advancement grant @s only lobby:unlocked/witch

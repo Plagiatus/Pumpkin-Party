@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/drowned
 tag @s add ul_drowned
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Drowned"'}
+
+scoreboard players set @s costume 243
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Drowned"'}

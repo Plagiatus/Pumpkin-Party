@@ -15,6 +15,7 @@ execute as @e[type=minecraft:armor_stand,sort=random,tag=pc_marker] at @s run fu
 #Load in example pumpkin
 execute at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run clone 932 73 1008 932 82 1016 ~-5 ~1 ~
 execute at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run clone 933 73 1008 941 73 1016 ~ ~ ~
-
+execute if score pc_difficulty settings matches 0..1 at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run data merge block ~-1 ~1 ~4 {Text2:'{"color":"#FF6600","text":"Reset"}',Text3:'{"color":"#FF6600","text":"Pumpkin"}'}
+execute if score pc_difficulty settings matches 2 at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run data merge block ~-1 ~1 ~4 {Text2:'{"color":"#FF6600","text":"Test and load"}',Text3:'{"color":"#FF6600","text":"next pumpkin"}'}
 title @a[team=pc_play] title {"text":"Pumpkin Carving","color":"gold"}
 scoreboard players set #pc_gamestate tmp 2

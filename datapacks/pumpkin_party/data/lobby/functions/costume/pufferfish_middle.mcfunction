@@ -8,4 +8,6 @@ tag @s add small_puffer
 
 tag @s add ul_pufferfish
 scoreboard players set @s[type=minecraft:armor_stand] const 1000
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Pufferfish"'}
+
+scoreboard players set @s costume 6
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Pufferfish"'}

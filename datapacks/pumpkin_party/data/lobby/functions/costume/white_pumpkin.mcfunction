@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/white_pumpkin
 tag @s add ul_white_pumpkin
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"White Pumpkin"'}
+
+scoreboard players set @s costume 242
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"White Pumpkin"'}

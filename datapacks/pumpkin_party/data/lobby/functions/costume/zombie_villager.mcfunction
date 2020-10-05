@@ -6,4 +6,6 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 advancement grant @s only lobby:unlocked/zombie_villager
 tag @s add ul_zombie_villager
-execute if entity @s[type=minecraft:armor_stand] run data merge entity @s {CustomName:'"Zombie Villager"'}
+
+scoreboard players set @s costume 343
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Zombie Villager"'}

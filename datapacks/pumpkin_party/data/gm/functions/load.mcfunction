@@ -11,8 +11,12 @@ scoreboard players set #20 const 20
 
 #Points during game
 scoreboard objectives add gm_points dummy
+scoreboard objectives add gm_alive dummy {"text":"Players alive","color":"#FF6600"}
+
 #Player-Zombie id
 scoreboard objectives add gm_id dummy
 
 team add gm_play
+team add gm_dead
+team modify gm_dead color dark_gray
 team modify gm_play friendlyFire false
