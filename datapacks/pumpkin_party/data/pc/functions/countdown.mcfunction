@@ -14,7 +14,7 @@ scoreboard players operation #pc_start tmp = #pc_start timer
 scoreboard players operation #pc_start tmp /= #20 const
 
 
-#Show remaining time till the game starts on the screen
+#Show remaining time until the game starts on the screen
 #title @a times 0 50 0
 title @a[team=pc_play] subtitle [{"text":"Start carving pumpkins in ","color":"gold"},{"color":"aqua","score":{"name":"#pc_start","objective":"tmp"}}]
 #title @a[team=pc_play] title {"translate":"Pumpkin Carving","color":"gold"}

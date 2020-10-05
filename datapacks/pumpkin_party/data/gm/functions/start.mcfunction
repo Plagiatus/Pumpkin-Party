@@ -20,7 +20,11 @@ scoreboard objectives setdisplay sidebar
 function pp:all_games/start
 
 gamerule fallDamage false
-tellraw @a ["",{"text":"Graveyard Mayhem","underlined":true,"bold":true,"color":"#FF6600"},{"text":"\nSupercharged zombies!?\nOne bite turns you into one of them!","color":"gold"},{"text":"\nGoal: ","bold":true,"color":"#FF6600"},{"text":"Don't get bitten till sunrise.","color":"gold"}]
+tellraw @a ["",{"text":"\nGraveyard Mayhem","underlined":true,"bold":true,"color":"#FF6600"},{"text":"\nSupercharged zombies!?\nOne bite turns you into one of them!","color":"gold"},{"text":"\nGoal: ","bold":true,"color":"#FF6600"},{"text":"Don't get bitten until sunrise.","color":"gold"}]
+execute if score gm_difficulty settings matches 0 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Normal","color":"#84A887"}]
+execute if score gm_difficulty settings matches 1 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Hard","color":"#AA8686"}]
+execute if score gm_difficulty settings matches 2 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Nightmare","color":"#AD5454"}]
+tellraw @a "\n"
 title @a times 0 50 10
 
 advancement grant @a only gm:minigame_play
