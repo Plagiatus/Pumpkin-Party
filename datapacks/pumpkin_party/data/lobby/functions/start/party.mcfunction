@@ -46,3 +46,6 @@ execute if score #games_to_play settings matches 2.. if score sr_in_party settin
 execute if score #games_to_play settings matches 2.. if score tot_in_party settings matches 1 if score tot_difficulty settings matches 0 run tellraw @a [{"text":"Trick or Treat (","color":"gray"},{"text":"normal","color":"#84A887"},")"]
 execute if score #games_to_play settings matches 2.. if score tot_in_party settings matches 1 if score tot_difficulty settings matches 1 run tellraw @a [{"text":"Trick or Treat (","color":"gray"},{"text":"hard","color":"#AA8686"},")"]
 execute if score #games_to_play settings matches 2.. if score tot_in_party settings matches 1 if score tot_difficulty settings matches 2 run tellraw @a [{"text":"Trick or Treat (","color":"gray"},{"text":"nightmare","color":"#AD5454"},")"]
+
+# arcade play advancement
+execute if score #games_to_play settings matches 2.. run advancement grant @a[tag=pp_lead] only lobby:arcade_win
