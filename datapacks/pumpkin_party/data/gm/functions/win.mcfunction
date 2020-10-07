@@ -13,7 +13,7 @@ function gm:winner/calculate_winner
 # tellraw @a[gamemode=spectator] {"text":"You were zombified!","color":"gray"}
 
 # #Points
-# execute as @a[tag=gm_play] run scoreboard players operation @s points += @s gm_points
+execute as @a[tag=gm_play] run scoreboard players operation @s points += @s gm_points
 # execute if entity @e[type=minecraft:armor_stand,tag=GEN,tag=!singleGame] as @a[tag=gm_play] run tellraw @s ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"gm_points"},"color":"dark_green"}]
 
 #Let zombies burn
