@@ -19,10 +19,19 @@ execute positioned ~-0.5 ~ ~-0.5 run scoreboard players add @p[tag=tot_tricking,
 scoreboard players set @a[scores={tot_treats=-1}] tot_treats 0
 scoreboard players reset @s points
 
+# count players
+execute store result score #players tmp if entity @a[team=tot_play]
+scoreboard players set #extratime tmp 10
+scoreboard players operation #extratime tmp -= #players tmp
+scoreboard players operation #extratime tmp /= 2 const
+execute if score #extratime tmp matches ..0 run scoreboard players set #extratime tmp 0
+
 #Set new cooldown
 scoreboard players set $max tmp 4
 function pp:util/get_random
 scoreboard players add $random tmp 1
+
+scoreboard players operation $random tmp += #extratime tmp
 scoreboard players operation @s tmp = $random tmp
 scoreboard players operation @s tmp *= #50 const
 
