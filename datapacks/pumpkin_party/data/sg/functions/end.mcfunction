@@ -24,4 +24,4 @@ scoreboard players set #sg_phase points 0
 team empty sg_play
 
 # all games
-function pp:all_games/end
+schedule function pp:all_games/end 5s
