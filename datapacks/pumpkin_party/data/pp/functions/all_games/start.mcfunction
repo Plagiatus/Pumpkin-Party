@@ -1,6 +1,8 @@
 scoreboard players add #global game_id 1
 scoreboard players operation @a game_id = #global game_id
 
+execute as @a[scores={costume=222}] run function lobby:costume/cave_spider
+
 clear @a orange_dye
 clear @a red_dye
 

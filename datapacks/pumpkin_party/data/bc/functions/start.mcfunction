@@ -16,6 +16,9 @@ tellraw @a ["",{"text":"\nBrewing Contest","underlined":true,"bold":true,"color"
 execute if score bc_difficulty settings matches 0 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Normal","color":"#84A887"}]
 execute if score bc_difficulty settings matches 1 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Hard","color":"#AA8686"}]
 execute if score bc_difficulty settings matches 2 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Nightmare","color":"#AD5454"}]
-tellraw @a "\n"
+tellraw @a ""
 
 scoreboard players reset * bc_click
+
+scoreboard players add @a bc_highscore 0
+scoreboard players add #bc_highscore bc_highscore 0

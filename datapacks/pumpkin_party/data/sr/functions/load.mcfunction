@@ -1,6 +1,7 @@
 scoreboard objectives add sr_distance dummy
 scoreboard objectives add sr_time dummy
 scoreboard objectives add sr_tunnel dummy
+scoreboard objectives add sr_highscore dummy
 
 team add sr_play
 

@@ -15,15 +15,17 @@ fill 1038 66 -986 957 70 -933 structure_void replace redstone_torch
 function pp:all_games/start
 
 tellraw @a ["",{"text":"\nTrick or Treat","underlined":true,"bold":true,"color":"#FF6600"},{"text":"\nGo from door to door to collect candy.\nWitches steal your candy!","color":"gold"},{"text":"\nGoal: ","bold":true,"color":"#FF6600"},{"text":"Collect the most candy.","color":"gold"}]
-execute if score bc_difficulty settings matches 0 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Normal","color":"#84A887"}]
-execute if score bc_difficulty settings matches 1 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Hard","color":"#AA8686"}]
-execute if score bc_difficulty settings matches 2 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Nightmare","color":"#AD5454"}]
-tellraw @a "\n"
+execute if score tot_difficulty settings matches 0 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Normal","color":"#84A887"}]
+execute if score tot_difficulty settings matches 1 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Hard","color":"#AA8686"}]
+execute if score tot_difficulty settings matches 2 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Nightmare","color":"#AD5454"}]
+tellraw @a ""
 
 tp @a[team=tot_play] 996 69 -973
 gamemode adventure @a[team=tot_play]
 advancement grant @a only tot:minigame_play
 scoreboard players set @a tot_doorsKnocked 0
 scoreboard players set @a tot_treats 0
+scoreboard players add @a tot_highscore 0
+scoreboard players add #tot_highscore tot_highscore 0
 
 scoreboard players set #tot_gamestate tmp 2

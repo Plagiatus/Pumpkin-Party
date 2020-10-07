@@ -4,6 +4,7 @@ scoreboard objectives add bc_id dummy
 scoreboard objectives add bc_count dummy
 scoreboard objectives add bc_recipe dummy
 scoreboard objectives add bc_click minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add bc_highscore dummy
 
 team add bc_play
 

@@ -8,6 +8,7 @@ execute as @a[team=tot_play,scores={tot_treats=0..}] run tellraw @s ["",{"select
 #Find maximum points for point calculation
 scoreboard players operation #tot_max tmp = #tot_max const
 scoreboard players operation #tot_max tmp > @a[team=tot_play] tot_treats
+execute as @a[team=tot_play] run scoreboard players operation @s tot_highscore > @s tot_treats
 #Calculate points
 scoreboard players operation @a[team=tot_play] tot_treats *= #maxPoints const
 scoreboard players operation @a[team=tot_play] tot_treats /= #tot_max tmp
@@ -17,8 +18,13 @@ execute as @a[team=tot_play] at @s run tellraw @a[limit=1,sort=nearest] ["",{"te
 
 #Find winner
 scoreboard players set #tot_gamestate tot_treats 0
-scoreboard players operation #tot_gamestate tot_points > @a[team=tot_play] tot_points
-execute as @a[team=tot_play] if score @s tot_points = #tot_gamestate tot_points run advancement grant @s only tot:minigame_win
+scoreboard players operation #tot_gamestate tot_treats > @a[team=tot_play] tot_treats
+execute as @a[team=tot_play] if score @s tot_treats = #tot_gamestate tot_treats run tag @s add tot_winner
+advancement grant @a[tag=tot_winner] only tot:minigame_win
+
+execute as @a[tag=tot_winner] if score @s tot_highscore >= #tot_highscore tot_highscore run tag @s add tot_highscore 
+execute as @a[tag=tot_highscore] run scoreboard players operation #tot_highscore tot_highscore > @s tot_highscore
+execute if entity @a[tag=tot_highscore] run data merge block 382 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=tot_highscore]","objective":"tot_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=tot_highscore]"}'}
 
 #reset scores and end game
 tp @e[tag=tot_doorMob] ~ ~-500 ~
@@ -30,4 +36,6 @@ title @a[team=tot_play] reset
 title @a[team=tot_play] clear
 team leave @a[team=tot_play]
 scoreboard players set #tot_gamestate tmp 0
+tag @a remove tot_winner
+tag @a remove tot_highscore
 schedule function pp:all_games/end 7s

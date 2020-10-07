@@ -11,10 +11,11 @@ tag @e[type=zombie,tag=gm_new] remove gm_new
 execute at @e[type=zombie,tag=gm,scores={timer=21}] positioned ~ ~1 ~ as @a[distance=..1.25,gamemode=adventure] run function gm:zombie_hit_detection
 execute as @e[type=zombie,tag=gm] at @s if block ~ ~ ~ gravel run particle block gravel ~ 62.5 ~ 0.3 0 0.3 0 3 force @a
 
+execute as @e[type=zombie,tag=gm] at @s positioned ~-0.5 ~3 ~-0.5 if entity @p[dx=0,gamemode=adventure] run data modify entity @s Motion[1] set value 0.5d
 
 #Force player to spectate their zombie
 execute as @e[type=zombie,scores={gm_id=1..}] at @a[gamemode=spectator,tag=gm_play] if score @s gm_id = @p gm_id run spectate @s @p
-execute as @a[gamemode=spectator,tag=gm_play] run title @a actionbar ["",{"text": "You got turned into a zombie and are now spectating it.","color":"gold"}]
+execute as @a[gamemode=spectator,tag=gm_play] run title @s actionbar ["",{"text": "You got turned into a zombie and are now spectating it.","color":"gold"}]
 
 execute as @a[tag=gm_play,scores={left_game=1..}] run function gm:left_game
 

@@ -6,6 +6,7 @@
 scoreboard players operation #pc_max tmp = #pc_max const
 scoreboard players operation #pc_max tmp > @a[team=pc_play] pc_points
 #Calculate points
+execute as @a[team=pc_play] run scoreboard players operation @s tmp = @s pc_points
 scoreboard players operation @a[team=pc_play] pc_points *= #maxPoints const
 scoreboard players operation @a[team=pc_play] pc_points /= #pc_max tmp
 #Add points to score and anounce results for each player
@@ -15,7 +16,16 @@ execute as @a[team=pc_play] at @s run tellraw @a[limit=1,sort=nearest] ["",{"tex
 #Find winner
 scoreboard players set #pc_gamestate pc_points 0
 scoreboard players operation #pc_gamestate pc_points > @a[team=pc_play] pc_points
-execute as @a[team=pc_play] if score @s pc_points = #pc_gamestate pc_points run advancement grant @s only pc:minigame_win
+execute as @a[team=pc_play] if score @s pc_points = #pc_gamestate pc_points run tag @s add pc_winner
+advancement grant @a[tag=pc_winner] only pc:minigame_win
+
+execute as @a[team=pc_play] run scoreboard players operation @s pc_highscore > @s tmp
+execute as @a[tag=pc_winner] if score @s pc_highscore >= #pc_highscore pc_highscore run tag @s add pc_highscore
+execute as @a[tag=pc_highscore] run scoreboard players operation #pc_highscore pc_highscore > @s pc_highscore
+execute if entity @a[tag=pc_highscore] run data merge block 391 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=pc_highscore]","objective":"pc_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=pc_highscore]"}'}
+
+tag @a remove pc_winner
+tag @a remove pc_highscore
 
 #reset scores and end game
 clear @a[team=pc_play] smooth_red_sandstone

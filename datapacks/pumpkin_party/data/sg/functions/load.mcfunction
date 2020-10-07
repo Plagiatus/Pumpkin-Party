@@ -1,6 +1,7 @@
 scoreboard objectives add sg_points dummy {"text":"Shooting Gallery","color":"#FF6600"}
 scoreboard objectives add sg_points_tmp dummy
 scoreboard objectives add sg_speed dummy
+scoreboard objectives add sg_highscore dummy
 
 scoreboard players set 2 const 2
 scoreboard players set 10 const 10

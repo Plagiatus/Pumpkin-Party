@@ -24,10 +24,15 @@ tellraw @a ["",{"text":"\nGraveyard Mayhem","underlined":true,"bold":true,"color
 execute if score gm_difficulty settings matches 0 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Normal","color":"#84A887"}]
 execute if score gm_difficulty settings matches 1 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Hard","color":"#AA8686"}]
 execute if score gm_difficulty settings matches 2 run tellraw @a ["",{"text":"Difficulty: ","bold":true,"color":"#FF6600"},{"text":"Nightmare","color":"#AD5454"}]
-tellraw @a "\n"
+tellraw @a ""
 title @a times 0 50 10
 
 advancement grant @a only gm:minigame_play
 execute store result score #gm_playerCount tmp if entity @a[tag=gm_play]
 scoreboard players operation #gm_playerCount const = #gm_playercount tmp
 scoreboard players set #gm_gamestate tmp 2
+
+scoreboard players add @a gm_highscore_sec 0
+scoreboard players add @a gm_highscore_min 0
+scoreboard players add #gm_highscore gm_highscore_sec 0
+scoreboard players add #gm_highscore gm_highscore_min 0
