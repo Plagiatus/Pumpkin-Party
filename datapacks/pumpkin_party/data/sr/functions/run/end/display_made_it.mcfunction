@@ -29,3 +29,5 @@ execute if score #rank tmp matches 4.. if score #mseconds tmp matches 10.. if sc
 
 # winning advancement
 execute if score #rank tmp matches 1 run advancement grant @s only sr:minigame_win
+
+execute if score #rank tmp matches 1 run function sr:run/end/highscore
