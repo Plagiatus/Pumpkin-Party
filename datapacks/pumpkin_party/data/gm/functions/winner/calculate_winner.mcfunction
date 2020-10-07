@@ -28,15 +28,16 @@ scoreboard players operation #gm_gamestate gm_points > @a[tag=gm_play] gm_points
 execute as @a[tag=gm_play] if score @s gm_points = #gm_gamestate gm_points run tag @s add gm_winner
 advancement grant @a[tag=gm_winner] only gm:minigame_win
 
-execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_sec > @s tmp
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore > @s tmp
 
-execute as @a[tag=gm_winner] run scoreboard players operation @s gm_highscore_sec /= #20 const
-execute as @a[tag=gm_winner] run scoreboard players operation @s gm_highscore_min = @s gm_highscore_sec
-execute as @a[tag=gm_winner] run scoreboard players operation @s gm_highscore_sec %= #60 const
-execute as @a[tag=gm_winner] run scoreboard players operation @s gm_highscore_min /= #60 const
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_sec = @s gm_highscore
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_sec /= #20 const
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_min = @s gm_highscore_sec
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_sec %= #60 const
+execute as @a[tag=gm_play] run scoreboard players operation @s gm_highscore_min /= #60 const
 
-execute as @a[tag=gm_winner] if score @s gm_highscore_min = #gm_highscore gm_highscore_min if score @s gm_highscore_sec >= #gm_highscore gm_highscore_sec run tag @s add gm_highscore 
-execute as @a[tag=gm_winner] if score @s gm_highscore_min > #gm_highscore gm_highscore_min run tag @s add gm_highscore 
+execute as @a[tag=gm_winner] if score @s gm_highscore >= #gm_highscore gm_highscore run tag @s add gm_highscore 
+execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore = @s gm_highscore
 execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore_sec = @s gm_highscore_sec
 execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore_min = @s gm_highscore_min
 execute as @a[tag=gm_highscore] if score @s gm_highscore_sec matches ..9 run data merge block 394 87 514 {Text2:'[{"color":"gold","score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_min"}},{"text":":0"},{"score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_sec"}}]',Text4:'{"color":"#FF6600","selector":"@a[tag=gm_highscore]"}'}

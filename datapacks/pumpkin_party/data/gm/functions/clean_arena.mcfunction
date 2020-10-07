@@ -8,6 +8,7 @@ kill @e[type=item,x=507,y=60,z=498,dx=-489,dy=15,dz=516]
 time set 18000
 
 #Put players back into the lobby
+scoreboard players reset * gm_alive
 effect clear @a[tag=gm_play]
 team leave @a[tag=gm_play]
 tag @a remove gm_play
