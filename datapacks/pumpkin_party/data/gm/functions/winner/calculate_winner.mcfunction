@@ -15,6 +15,13 @@ scoreboard players operation @a[tag=gm_play] timer /= #gm_pointConversion tmp
 scoreboard players operation @a[tag=gm_play] gm_points = #maxPoints const
 execute as @a[tag=gm_play] run scoreboard players operation @s gm_points -= @s timer
 
+# leaderboard
+
+tellraw @a [{"text": "\nGraveyard Mayhem Results","color":"#ff6600"},"\n======================"]
+tag @a[tag=gm_play] add gm_high
+scoreboard players set #rank tmp 1
+function gm:winner/display
+
 #Get players with largest score
 scoreboard players set #gm_gamestate gm_points 0
 scoreboard players operation #gm_gamestate gm_points > @a[tag=gm_play] gm_points
