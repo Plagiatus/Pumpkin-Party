@@ -29,3 +29,6 @@ execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id 
 
 # prevent killing of other players
 effect give @a resistance 1 10 true
+
+# background cleanup
+kill @e[type=experience_orb]
