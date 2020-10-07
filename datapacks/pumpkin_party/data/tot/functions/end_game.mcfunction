@@ -30,7 +30,7 @@ execute if entity @a[tag=tot_highscore] run data merge block 382 87 514 {Text2:'
 tp @e[tag=tot_doorMob] ~ ~-500 ~
 fill 1038 67 -986 957 69 -933 structure_void replace redstone_torch
 clear @a[team=tot_play] emerald
-scoreboard players set @a[team=tot_play] tot_treats 0
+scoreboard players reset * tot_treats
 tag @a[team=tot_play] remove tot_tricking
 title @a[team=tot_play] reset
 title @a[team=tot_play] clear

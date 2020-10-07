@@ -32,7 +32,5 @@ execute store result score #gm_playerCount tmp if entity @a[tag=gm_play]
 scoreboard players operation #gm_playerCount const = #gm_playercount tmp
 scoreboard players set #gm_gamestate tmp 2
 
-scoreboard players add @a gm_highscore_sec 0
-scoreboard players add @a gm_highscore_min 0
-scoreboard players add #gm_highscore gm_highscore_sec 0
-scoreboard players add #gm_highscore gm_highscore_min 0
+scoreboard players add @a gm_highscore 0
+scoreboard players add #gm_highscore gm_highscore 0
