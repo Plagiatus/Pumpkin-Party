@@ -11,7 +11,13 @@ scoreboard players operation @a[team=pc_play] pc_points *= #maxPoints const
 scoreboard players operation @a[team=pc_play] pc_points /= #pc_max tmp
 #Add points to score and anounce results for each player
 execute as @a[team=pc_play] run scoreboard players operation @s points += @s pc_points
-execute as @a[team=pc_play] at @s run tellraw @a[limit=1,sort=nearest] ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"pc_points"},"color":"dark_green"}]
+# execute as @a[team=pc_play] at @s run tellraw @a[limit=1,sort=nearest] ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"pc_points"},"color":"dark_green"}]
+
+# leaderboard
+tellraw @a [{"text": "\nPumpkin Carving Results","color":"#ff6600"},"\n======================"]
+tag @a[team=pc_play] add pc_high
+scoreboard players set #rank tmp 1
+function pc:leaderboard
 
 #Find winner
 scoreboard players set #pc_gamestate pc_points 0
