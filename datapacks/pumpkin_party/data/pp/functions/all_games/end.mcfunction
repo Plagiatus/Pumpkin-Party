@@ -5,7 +5,6 @@ spawnpoint @a 400 69 500
 # set them to adventure
 gamemode adventure @a
 
-
 #set correct scoreboard to sidebar
 scoreboard objectives setdisplay sidebar points
 
