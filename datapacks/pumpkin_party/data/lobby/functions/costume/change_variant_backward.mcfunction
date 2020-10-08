@@ -5,7 +5,7 @@ execute if score @s costume matches ..-81 run scoreboard players add @s costume 
 execute if score @s costume matches ..-60 run scoreboard players add @s costume 200
 execute if score @s costume matches -59..-58 run scoreboard players add @s costume 300
 execute if score @s costume matches -57..-34 run scoreboard players add @s costume 400
-execute if score @s costume matches 344 at @s if entity @p[tag=!ul_sans] run scoreboard players remove @s costume 100
+execute if score @s costume matches 344 at @s at @p unless entity @p[distance=..0.1,tag=ul_sans] run scoreboard players remove @s costume 100
 execute if score @s costume matches -33 run scoreboard players add @s costume 500
 
 #Horse

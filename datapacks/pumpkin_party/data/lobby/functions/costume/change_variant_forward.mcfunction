@@ -4,7 +4,7 @@ execute at @s[tag=horse_costume] run scoreboard players add @e[type=minecraft:ar
 execute if score @s costume matches 100..119 run scoreboard players remove @s costume 100
 execute if score @s costume matches 200..240 run scoreboard players remove @s costume 200
 execute if score @s costume matches 300..342 run scoreboard players remove @s costume 300
-execute if score @s costume matches 344 at @s if entity @p[tag=!ul_sans] run scoreboard players remove @s costume 300
+execute if score @s costume matches 344 at @s at @p unless entity @p[distance=..0.1,tag=ul_sans] run scoreboard players remove @s costume 300
 execute if score @s costume matches 400..466 run scoreboard players remove @s costume 400
 execute if score @s costume matches 500..567 run scoreboard players remove @s costume 500
 execute if score @s costume matches 600..667 run scoreboard players remove @s costume 600
