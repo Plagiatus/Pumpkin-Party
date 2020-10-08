@@ -29,6 +29,7 @@
           {"predicate": {"custom_model_data": 69}, "model": "costumes/horse_brown_back"},
           {"predicate": {"custom_model_data": 70}, "model": "costumes/villager_plains_farmer"},
          
+         {"predicate": {"custom_model_data": 103}, "model": "costumes/wither_skull"},
          {"predicate": {"custom_model_data": 121}, "model": "costumes/gold_ghost"},
          {"predicate": {"custom_model_data": 122}, "model": "costumes/cave_spider"},
          {"predicate": {"custom_model_data": 141}, "model": "costumes/fox"},

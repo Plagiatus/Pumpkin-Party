@@ -5,8 +5,17 @@ execute at @e[scores={costume=121}] run particle crit ~ ~0.75 ~ 0.25 0.5 0.25 0 
 execute as @a[team=,gamemode=adventure,scores={costume_sneak=1..}] at @s run function lobby:costume/sneak_interaction
 execute as @a[team=,scores={drop_basket=1..}] at @s run function lobby:costume/basket
 execute as @a[team=,scores={drop_full_basket=1..}] at @s run function lobby:costume/full_basket
-execute as @a[team=,tag=small_puffer,scores={costume=6}] at @s if entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish_big
-execute as @a[team=,tag=!small_puffer,scores={costume=6}] at @s unless entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish_middle
+execute as @a[team=,tag=small_puffer,scores={costume=6}] at @s if entity @a[distance=0.1..2.5] run function lobby:costume/sneak/pufferfish
+execute as @a[team=,tag=!small_puffer,scores={costume=6}] at @s unless entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish
+
+#Costume effects
+execute as @e[tag=lobby_shoot_forward] at @s run function lobby:costume/sneak/shoot_forward
+execute as @a[scores={costume=1,sound_delay=1..}] at @s run function lobby:costume/sneak/creeper
+execute at @e[tag=wither_skull] run particle smoke ~ ~0.5 ~
+execute at @a[scores={costume=2}] run particle large_smoke ~ ~ ~ 0.2 1 0.2 0 1
+execute at @a[scores={costume=2}] run particle large_smoke ~ ~1 ~ 0.2 1 0.2 0 1
+execute at @a[scores={costume=5}] positioned ~ ~1.5 ~ run particle mycelium ^1.7 ^-0.6 ^-0.1
+execute at @a[scores={costume=5}] positioned ~ ~1.5 ~ run particle mycelium ^-1.7 ^-0.6 ^-0.1
 
 #Buy costumes
 execute as @a[scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=360,y=68,z=489,dx=19,dy=21,dz=22] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume

@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "entity/wither/wither",
+		"particle": "entity/wither/wither"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [2, 10.75, 4, 12.75], "texture": "#0"},
+				"east": {"uv": [0, 10.75, 2, 12.75], "texture": "#0"},
+				"south": {"uv": [6, 10.75, 8, 12.75], "texture": "#0"},
+				"west": {"uv": [4, 10.75, 6, 12.75], "texture": "#0"},
+				"up": {"uv": [4, 10.75, 2, 8.75], "texture": "#0"},
+				"down": {"uv": [6, 8.75, 4, 10.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -13, 0],
+			"scale": [2.29, 2.29, 2.29]
+		}
+	}
+}

@@ -3,7 +3,7 @@
 execute if score @s[tag=ul_wither] buyCostume matches 3 run function lobby:costume/info/purchase_twice
 execute if score @s[tag=!ul_wither] buyCostume matches 3 run function lobby:costume/wither
 execute if score @s[tag=ul_pufferfish] buyCostume matches 6 run function lobby:costume/info/purchase_twice
-execute if score @s[tag=!ul_pufferfish] buyCostume matches 6 run function lobby:costume/pufferfish_middle
+execute if score @s[tag=!ul_pufferfish] buyCostume matches 6 run function lobby:costume/pufferfish
 execute if score @s[tag=ul_evocation_fang] buyCostume matches 7 run function lobby:costume/info/purchase_twice
 execute if score @s[tag=!ul_evocation_fang] buyCostume matches 7 run function lobby:costume/evocation_fang
 execute if score @s[tag=ul_enderman] buyCostume matches 8 run function lobby:costume/info/purchase_twice

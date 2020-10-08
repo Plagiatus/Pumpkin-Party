@@ -37,6 +37,21 @@
 			{"name":"item/armor/equip_leather6"}
 		]
 	},
+	"entity.vex.death": {
+		"subtitle": "Ghost screams",
+		"replace": true,
+		"sounds":[
+			{"name":"mob/vex/death1"},
+			{"name":"mob/vex/death2"}
+		]
+	},
+	"entity.vex.ambient": {
+		"subtitle": "Evil laugh",
+		"replace": true,
+		"sounds":[
+			{"name":"mob/vex/idle2"}
+		]
+	},
 	"block.anvil.use": {
 		"replace": true,
 		"subtitle": "Password entered",
