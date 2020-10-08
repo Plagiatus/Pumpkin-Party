@@ -9,7 +9,7 @@ execute as @a[team=sg_play,scores={sg_points=..0}] run scoreboard players operat
 execute as @a[team=sg_play,scores={sg_points=..0}] run scoreboard players operation @s tmp %= #100 const
 advancement grant @a[team=sg_play,scores={sg_points=..0,tmp=44}] only lobby:unlocked/wither_skeleton
 
-# remove armorstands and slimes
+# remove armorstands and magma_cubes
 tp @e[type=minecraft:armor_stand,tag=sg_as] ~ ~-100 ~
 kill @e[type=minecraft:armor_stand,tag=sg_as]
 

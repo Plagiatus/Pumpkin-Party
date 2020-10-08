@@ -1,5 +1,5 @@
-# check for hit slimes
-tag @e[tag=sg_slime,nbt={HurtTime:10s}] add sg_was_hit
+# check for hit magma_cubes
+tag @e[tag=sg_magma_cube,nbt={HurtTime:10s}] add sg_was_hit
 
 # check if needs to be deactivated
 execute as @s[tag=!sg_deactivating,tag=!sg_stasis] if data entity @s Passengers[{Tags:["sg_was_hit"]}] run function sg:targets/deactivate

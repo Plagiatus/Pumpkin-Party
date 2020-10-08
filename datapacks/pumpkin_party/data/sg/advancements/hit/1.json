@@ -1,11 +1,11 @@
 {
     "parent": "sg:root",
     "criteria": {
-      "killed_slime": {
+      "killed_magma_cube": {
         "trigger": "player_hurt_entity",
         "conditions":{
             "entity": {
-                "type":"minecraft:slime",
+                "type":"minecraft:magma_cube",
                 "nbt":"{Tags:[\"sg_1\"]}"
             }
         }

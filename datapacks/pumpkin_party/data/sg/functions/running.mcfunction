@@ -11,8 +11,8 @@ kill @e[type=arrow,nbt={inGround:1b}]
 # handle armorstands
 execute as @e[type=minecraft:armor_stand,tag=sg_as] at @s run function sg:targets/handle
 
-# remove useless slimes
-execute as @e[type=slime,tag=!sg_slime] at @s run tp @s ~ -100 ~
+# remove useless magma_cubes
+execute as @e[type=magma_cube,tag=!sg_magma_cube] at @s run tp @s ~ -100 ~
 
 # take care of players getting points
 execute as @a[tag=sg_hit,tag=sg_next_tick] run function sg:show_points

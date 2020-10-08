@@ -39,7 +39,7 @@ scoreboard players remove @e[tag=sg_new] timer 100
 
 tag @e[tag=sg_new] remove sg_new
 
-kill @e[tag=sg_slime]
+kill @e[tag=sg_magma_cube]
 
 # reset title times
 title @a times 0 20 0
