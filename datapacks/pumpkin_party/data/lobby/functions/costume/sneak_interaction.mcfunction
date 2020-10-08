@@ -26,7 +26,8 @@ execute if entity @s[tag=!costume_sneak,scores={tmp=7..10}] run scoreboard playe
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=21}] run playsound minecraft:entity.vex.death player @a ~ ~ ~ 1 0
 
 #Spiders
-execute if entity @s[tag=!costume_sneak,scores={tmp=22}] run playsound minecraft:entity.spider.ambient player @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=22}] run playsound minecraft:entity.spider.ambient player @a
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=22}] sound_delay 15
 
 #Pumpkins
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=42}] run playsound minecraft:entity.vex.ambient player @a ~ ~ ~ 1 0
