@@ -1,4 +1,5 @@
-title @s[type=player,x=360,y=79,z=489,dx=19,dy=10,dz=22] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
+title @s[type=player,tag=!has_costume,x=360,y=79,z=489,dx=19,dy=10,dz=22] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
+title @s[type=player,tag=has_costume,x=360,y=79,z=489,dx=19,dy=10,dz=22] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Some costumes change their variant when you rightclick them.","color":"none"}]
 
 
 scoreboard players operation @s[type=player,tag=!in_costume] oldCostume = @s costume
