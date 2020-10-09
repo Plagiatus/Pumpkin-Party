@@ -9,8 +9,8 @@ tellraw @a [{"text": "[Spider Run]","color": "#FF6600"},{"text": " Generating tu
 schedule function sr:generation/prepare 10t
 team join sr_play @a
 
-scoreboard players add @a sr_highscore 0
-scoreboard players add #sr_highscore sr_highscore 0
+# execute as @a if score @s sr_highscore = @s sr_highscore run scoreboard players add @a sr_highscore 0
+# scoreboard players add #sr_highscore sr_highscore 0
 
 function pp:all_games/start
 
