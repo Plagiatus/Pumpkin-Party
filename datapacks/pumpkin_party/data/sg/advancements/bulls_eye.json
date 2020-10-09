@@ -7,7 +7,7 @@
     "title": {
       "text": "Bulls Eye"
     },
-    "description": ["",{"text": "Get 10 points with one shot!"}],
+    "description": ["",{"text": "Get 8 points with one shot!"}],
 	"show_toast": true,
 	"announce_to_chat": false
   },
