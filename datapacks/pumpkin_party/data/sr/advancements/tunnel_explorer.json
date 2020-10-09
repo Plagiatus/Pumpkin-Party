@@ -61,8 +61,14 @@
     "hard_vines": {
       "trigger": "impossible"
     }, 
+    "hard_nether": {
+      "trigger": "impossible"
+    },
     "nightmare_slime": {
       "trigger": "impossible"
-    }
+    }, 
+    "nightmare_end": {
+      "trigger": "impossible"
+    } 
   }
 }
