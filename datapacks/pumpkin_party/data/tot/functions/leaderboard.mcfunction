@@ -15,4 +15,4 @@ execute if score #rank tmp matches 4.. as @a[tag=tot_lead] unless score @s tmp m
 tag @a[tag=tot_lead] remove tot_high
 tag @a[tag=tot_lead] remove tot_lead
 scoreboard players add #rank tmp 1
-execute if entity @a[tag=tot_high] run function tot:winner/display
+execute if entity @a[tag=tot_high] run function tot:leaderboard

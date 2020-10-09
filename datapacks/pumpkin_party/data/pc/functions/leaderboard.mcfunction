@@ -15,4 +15,4 @@ execute if score #rank tmp matches 4.. as @a[tag=pc_lead] unless score @s tmp ma
 tag @a[tag=pc_lead] remove pc_high
 tag @a[tag=pc_lead] remove pc_lead
 scoreboard players add #rank tmp 1
-execute if entity @a[tag=pc_high] run function pc:winner/display
+execute if entity @a[tag=pc_high] run function pc:leaderboard
