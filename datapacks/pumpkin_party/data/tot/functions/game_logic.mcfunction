@@ -6,6 +6,8 @@
 
 scoreboard players remove $ticks timer 1
 effect give @a[team=tot_play] saturation 1 60 true
+effect give @a[team=tot_play] regeneration 1 60 true
+effect give @a[team=tot_play] weakness 1 60 true
 function pp:util/display_timer
 
 #Reduce cooldown

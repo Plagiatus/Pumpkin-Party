@@ -1,4 +1,5 @@
 #Start values
+title @a times 0 300 0
 team join pc_play @a
 scoreboard players set @e[tag=pc_arena_marker] tmp -1
 tag @e[tag=pc_occupied] remove pc_occupied
