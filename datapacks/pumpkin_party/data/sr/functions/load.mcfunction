@@ -4,6 +4,8 @@ scoreboard objectives add sr_tunnel dummy
 scoreboard objectives add sr_highscore dummy
 
 team add sr_play
+team modify sr_play collisionRule never
+team modify sr_play friendlyFire false
 
 scoreboard players set -1 const -1
 scoreboard players set 2 const 2
