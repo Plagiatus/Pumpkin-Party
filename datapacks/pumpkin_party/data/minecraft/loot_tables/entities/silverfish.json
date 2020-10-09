@@ -17,7 +17,7 @@
                         },
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"Silverfish Scales\",Lore:[]}}"
+							"tag": "{display:{Name:'{\"text\":\"Silverfish Scales\",\"italic\":false}',Lore:[]}}"
 						}
                     ]
                 }

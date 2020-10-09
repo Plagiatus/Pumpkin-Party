@@ -17,6 +17,8 @@ execute if score bc_difficulty settings matches 0 run tellraw @a ["",{"text":"No
 execute if score bc_difficulty settings matches 1 run tellraw @a ["",{"text":"Hard Rules:","color":"#AA8686","bold":true},{"text":"\n -Ingredients need to be mixed IN THE SPECIFIED ORDER!."}]
 execute if score bc_difficulty settings matches 2 run tellraw @a ["",{"text":"Nightmare Rules:","color":"#AD5454","bold":true},{"text":"\n -Ingredients need to be mixed IN THE SPECIFIED ORDER!."}]
 
+effect clear @e[type=giant] invisibility
+effect give @e[type=giant] invisibility 999999 0 true
 
 scoreboard players reset * bc_click
 
