@@ -7,6 +7,7 @@ execute as @a[scores={costume=6}] run function lobby:costume/pufferfish
 execute as @a[scores={costume=1000..}] run function lobby:costume/sneak_interaction_end
 effect clear @s invisibility
 
+scoreboard players reset @a left_game
 clear @a music_disc_mellohi
 clear @a orange_dye
 clear @a red_dye

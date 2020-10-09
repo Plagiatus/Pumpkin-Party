@@ -11,6 +11,5 @@ execute if score @s game_id = #global game_id run execute if score #gm_timer tim
 execute unless score @s game_id = #global game_id run team join gm_play
 execute unless score @s game_id = #global game_id run scoreboard players set @s timer 1200
 
-#Advancements
 gamemode spectator
 scoreboard players set @s left_game 0
