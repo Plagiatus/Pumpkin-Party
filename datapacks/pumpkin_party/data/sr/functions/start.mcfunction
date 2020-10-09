@@ -15,3 +15,4 @@ team join sr_play @a
 function pp:all_games/start
 
 gamerule spectatorsGenerateChunks true
+scoreboard objectives setdisplay sidebar

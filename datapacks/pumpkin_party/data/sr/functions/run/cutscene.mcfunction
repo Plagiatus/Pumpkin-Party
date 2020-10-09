@@ -17,4 +17,8 @@ execute if score #sr_cutscene sr_time matches 241 as @e[tag=sr_spider,limit=1] a
 execute if score #sr_cutscene sr_time matches 240..270 as @a[x=-465,y=60,z=-545,dx=13,dy=8,dz=12,tag=!sr_caught] run function sr:run/caught
 execute if score sr_difficulty settings matches 0 if score #sr_cutscene sr_time matches 271 run scoreboard players set #sr_phase points 3
 execute if score sr_difficulty settings matches 1 if score #sr_cutscene sr_time matches 261 run scoreboard players set #sr_phase points 3
-execute if score sr_difficulty settings matches 2 if score #sr_cutscene sr_time matches 241 run scoreboard players set #sr_phase points 3
+execute if score sr_difficulty settings matches 2 if score #sr_cutscene sr_time matches 251 run scoreboard players set #sr_phase points 3
+
+execute if score #sr_cutscene sr_time matches 150..270 run execute store result score #spiderX sr_distance run data get entity @e[tag=sr_spider,limit=1] Pos[0] 10
+execute if score #sr_cutscene sr_time matches 150..270 run scoreboard players add #spiderX sr_distance 40
+execute if score #sr_cutscene sr_time matches 150..270 run execute as @a[team=sr_play,tag=!sr_caught] run function sr:run/display_actionbar

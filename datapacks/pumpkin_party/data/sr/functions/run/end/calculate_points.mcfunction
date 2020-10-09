@@ -22,5 +22,5 @@ scoreboard players operation #bonusPointsEnd tmp -= #maxPointsCaught tmp
 
 tellraw @a [{"text": "\nSpider Run Results","color":"#ff6600"},"\n======================"]
 execute if entity @a[team=sr_play,tag=sr_end] run function sr:run/end/made_it
-execute if entity @a[team=sr_play,tag=sr_caught] run function sr:run/end/not_made_it
+execute if entity @a[team=sr_play,tag=sr_caught,tag=!sr_end] run function sr:run/end/not_made_it
 execute as @a run scoreboard players operation @s points += @s sr_distance
