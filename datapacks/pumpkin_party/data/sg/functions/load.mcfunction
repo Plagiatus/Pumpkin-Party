@@ -7,6 +7,8 @@ scoreboard players set 2 const 2
 scoreboard players set 10 const 10
 scoreboard players set 18 const 18
 scoreboard players set 20 const 20
+scoreboard players set 30 const 30
+scoreboard players set 40 const 40
 scoreboard players set 60 const 60
 scoreboard players set 100 const 100
 scoreboard players set 269 const 269

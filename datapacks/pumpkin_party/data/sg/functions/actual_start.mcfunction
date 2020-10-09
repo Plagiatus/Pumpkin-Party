@@ -24,6 +24,7 @@ give @a minecraft:bow{HideFlags:5,Unbreakable:1,Enchantments:[{id:"minecraft:inf
 replaceitem entity @a inventory.0 minecraft:arrow
 
 # summon targets
+execute store result score #players tmp if entity @a
 function sg:spawn/row_one
 function sg:spawn/row_two
 function sg:spawn/row_three
