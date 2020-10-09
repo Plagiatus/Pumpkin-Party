@@ -13,3 +13,4 @@ scoreboard players set 269 const 269
 scoreboard players set 270 const 270
 
 team add sg_play
+team modify sg_play friendlyFire false
