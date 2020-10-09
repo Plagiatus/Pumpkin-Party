@@ -1,6 +1,6 @@
 scoreboard objectives add costume dummy
 scoreboard objectives add oldCostume dummy
-scoreboard objectives add candies dummy "Candies"
+scoreboard objectives add candies dummy {"color":"#FF6600","text":"Candies"}
 scoreboard players add @a candies 0
 scoreboard objectives add buyCostume trigger
 scoreboard objectives add adv_playTime dummy

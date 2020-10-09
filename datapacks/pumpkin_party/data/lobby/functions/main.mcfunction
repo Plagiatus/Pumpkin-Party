@@ -36,6 +36,7 @@ execute as @a[x=8,y=198,z=13,distance=..2.1] run function lobby:tp_to_mansion
 #Effects
 effect give @a[team=] saturation 6 60 true
 effect give @a[team=] instant_health 6 60 true
+effect give @a[team=] weakness 6 60 true
 
 #Teleport Doors
 execute as @a[x=401,y=69,z=505,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/lobby_to_highscore

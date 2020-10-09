@@ -15,7 +15,7 @@ scoreboard objectives add gm_points dummy
 scoreboard objectives add gm_highscore dummy
 scoreboard objectives add gm_highscore_sec dummy
 scoreboard objectives add gm_highscore_min dummy
-scoreboard objectives add gm_alive dummy {"text":"Players alive","color":"#FF6600"}
+scoreboard objectives add gm_alive dummy {"text":"Players Alive","color":"#FF6600"}
 
 #Player-Zombie id
 scoreboard objectives add gm_id dummy
