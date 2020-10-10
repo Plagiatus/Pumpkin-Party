@@ -26,9 +26,9 @@ execute as @a[team=pc_play] if score @s pc_points = #pc_gamestate pc_points run 
 advancement grant @a[tag=pc_winner] only pc:minigame_win
 
 execute as @a[team=pc_play] run scoreboard players operation @s pc_highscore > @s tmp
-execute as @a[tag=pc_winner] if score @s pc_highscore >= #pc_highscore pc_highscore run tag @s add pc_highscore
+execute as @a[tag=pc_winner,limit=1] if score @s pc_highscore >= #pc_highscore pc_highscore run tag @s add pc_highscore
 execute as @a[tag=pc_highscore] run scoreboard players operation #pc_highscore pc_highscore > @s pc_highscore
-execute if entity @a[tag=pc_highscore] run data merge block 391 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=pc_highscore]","objective":"pc_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=pc_highscore]"}'}
+execute if entity @a[tag=pc_highscore] run data merge block 391 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=pc_highscore,limit=1]","objective":"pc_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=pc_highscore,limit=1]"}'}
 
 tag @a remove pc_winner
 tag @a remove pc_highscore
