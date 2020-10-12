@@ -1,6 +1,10 @@
 # handle timer
 scoreboard players remove $ticks timer 1
-function pp:util/display_timer
+scoreboard players operation #tmp tmp = $ticks timer
+scoreboard players operation #tmp tmp %= 20 const
+execute if score #tmp tmp matches 0 run function pp:util/display_timer
+# display recipe in actionbar
+execute if score #tmp tmp matches 0 if score bc_difficulty settings matches ..1 as @e[tag=bc_cauldron] at @s run function bc:recipe/display/display
 
 # handle cauldrons
 execute as @e[tag=bc_cauldron] at @s run function bc:cauldron/handle

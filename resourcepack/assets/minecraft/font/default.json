@@ -1,0 +1,157 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/pumpkin.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf00"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/pumpkin_seeds.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf01"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/gold_nugget.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf02"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/nether_wart.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf03"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/apple.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf04"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/lime_dye.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf05"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/creeper_mucus.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf06"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/gunpowder.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf07"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/spider_eye.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf08"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/slime_ball.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf09"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/recipe.png",
+      "ascent": -5,
+      "height": 20,
+      "chars": [
+        "\uEf10"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/arrow.png",
+      "ascent": -10,
+      "height": 10,
+      "chars": [
+        "\uEf11"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/space_split.png",
+      "ascent": -32768,
+      "height": -41,
+      "chars": [
+        "\uF001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/space_split.png",
+      "ascent": -32768,
+      "height": -50,
+      "chars": [
+        "\uF002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/space_split.png",
+      "ascent": -32768,
+      "height": -32,
+      "chars": [
+        "\uF003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/space_split.png",
+      "ascent": -32768,
+      "height": -74,
+      "chars": [
+        "\uF011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/space_split.png",
+      "ascent": -32768,
+      "height": -80,
+      "chars": [
+        "\uF012"
+      ]
+    }
+  ]
+}

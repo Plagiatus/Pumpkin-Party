@@ -14,3 +14,5 @@ execute if score bc_difficulty settings matches 1.. run function bc:cauldron/che
 execute if score #success tmp matches 1 run function bc:recipe/success
 execute if score #success tmp matches 0 if score #steps tmp matches 1 run function bc:recipe/getting_there
 execute if score #success tmp matches 0 if score #steps tmp matches 0 run function bc:recipe/failed
+
+function bc:recipe/display/update
