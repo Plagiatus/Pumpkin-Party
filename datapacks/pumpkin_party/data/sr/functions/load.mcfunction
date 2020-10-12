@@ -16,8 +16,8 @@ scoreboard players set 2000 const 2000
 
 # spider speed
 scoreboard players set #normal sr_distance 20
-scoreboard players set #hard sr_distance 25
-scoreboard players set #nightmare sr_distance 30
+scoreboard players set #hard sr_distance 24
+scoreboard players set #nightmare sr_distance 27
 
 # amount of tunnel segments
 scoreboard players set #normal sr_tunnel 20
