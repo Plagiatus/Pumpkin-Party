@@ -58,3 +58,6 @@ execute if entity @a[advancements={lobby:mule=false}] at @a[team=,scores={costum
 
 # trigger gamestarts
 execute as @a[scores={lbb_game=1..}] run function lobby:start/check
+
+# offline players
+execute if score #game_ongoing settings matches 0 as @a[scores={left_game=1..}] run function lobby:reset_player
