@@ -134,3 +134,5 @@ execute if score #third tmp matches 9 if score bc_difficulty settings matches 0 
 execute if score #third tmp matches 9 if score bc_difficulty settings matches 1 run data merge block ~ ~-5 ~ {Text3:'{"text":"\\uEf09\\uF002"}'}
 execute if score #third tmp matches 109 if score bc_difficulty settings matches 0 run data merge block ~ ~-5 ~ {Text3:'{"text":"\\uEf09\\uF001","color":"dark_gray"}'}
 execute if score #third tmp matches 109 if score bc_difficulty settings matches 1 run data merge block ~ ~-5 ~ {Text3:'{"text":"\\uEf09\\uF002","color":"dark_gray"}'}
+
+function bc:recipe/display/display
