@@ -7,7 +7,7 @@ scoreboard players set @a pc_points 0
 
 #Assign arenas
 execute as @r run function pc:assign_areas
-
+execute at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run fill ~ ~-3 ~ ~8 ~-3 ~8 smooth_red_sandstone
 
 #Select pumpkins for the round
 scoreboard players set @e[type=minecraft:armor_stand,sort=random,tag=pc_marker] tmp 0 
