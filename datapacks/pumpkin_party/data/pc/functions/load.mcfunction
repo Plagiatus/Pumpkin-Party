@@ -3,7 +3,7 @@ team modify pc_play color gold
 
 
 #Amount of templates
-scoreboard players set #pc_templates const 33
+scoreboard players set #pc_templates const 32
 
 #Amount you need to get #maxPoints points
 scoreboard players set #pc_max const 10
