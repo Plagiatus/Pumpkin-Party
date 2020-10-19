@@ -6,6 +6,7 @@ replaceitem entity @s armor.feet leather_boots{Unbreakable:1,display:{Name:'{"te
 
 tag @s add small_puffer
 
+advancement grant @s only lobby:unlocked/pufferfish
 tag @s add ul_pufferfish
 scoreboard players set @s[type=minecraft:armor_stand] const 1000
 

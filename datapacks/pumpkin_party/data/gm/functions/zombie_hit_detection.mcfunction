@@ -12,9 +12,9 @@ execute unless score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run 
 scoreboard players operation @s tmp = @s costume
 scoreboard players operation @s tmp %= #100 const
 advancement grant @s only gm:a_new_zombie
-advancement grant @s[scores={tmp=43}] only lobby:unlocked/zombie_villager
 advancement grant @s[scores={tmp=45}] only lobby:unlocked/zombified_piglin
 advancement grant @s[scores={tmp=68..69}] only lobby:unlocked/zombie_horse
+advancement grant @s[scores={tmp=70}] only lobby:unlocked/zombie_villager
 
 scoreboard players operation #gm_maxTime tmp = #gm_maxTime const
 scoreboard players operation #gm_maxTime tmp -= @s timer
