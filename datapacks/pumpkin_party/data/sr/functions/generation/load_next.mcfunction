@@ -12,3 +12,6 @@ scoreboard players remove #parts sr_distance 1
 
 # remove AEC
 kill @s
+
+# check if generator stops working (spigot related)
+scoreboard players set #failtimer timer 0
