@@ -33,6 +33,7 @@ tp @a[limit=1,scores={bc_id=11}] @e[tag=bc_marker,scores={bc_id=11},limit=1]
 
 team join bc_play @a[scores={bc_id=1..11}]
 gamemode spectator @a[team=!bc_play]
+tellraw @a[team=!bc_play] [{"text": "I'm sorry, but this minigame is limited to 11 players. You seem to be more than 11 people.","color": "red"}]
 
 execute as @a[team=bc_play] at @s run tp @s ~ ~ ~ facing 550 ~ -500
 execute as @a[team=bc_play] at @s run spawnpoint @s ~ ~ ~

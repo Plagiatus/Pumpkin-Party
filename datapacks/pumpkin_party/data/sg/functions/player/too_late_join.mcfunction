@@ -21,6 +21,7 @@ execute if score #playeramount tmp matches 0..10 run team join sg_play
 # handle overflow
 execute if score #playeramount tmp matches 11.. run tp @s -998.0 59.5 -1006 facing -999 62 -1034
 execute if score #playeramount tmp matches 11.. run gamemode spectator
+execute if score #playeramount tmp matches 11.. run tellraw @s [{"text": "I'm sorry, but this minigame is limited to 11 players. You seem to be more than 11 people.","color": "red"}]
 
 scoreboard players set @s left_game 0
 
