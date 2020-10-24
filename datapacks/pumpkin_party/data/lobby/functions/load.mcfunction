@@ -22,3 +22,6 @@ schedule function lobby:costume/info/highlight_locked_schedule 5t
 
 # 
 scoreboard players add #game_ongoing settings 0
+
+# forceload sign chunks
+forceload add 397 514 382 514
