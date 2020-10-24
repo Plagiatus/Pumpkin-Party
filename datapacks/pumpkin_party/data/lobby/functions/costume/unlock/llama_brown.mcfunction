@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_llama_brown] ["",{"text":"Password: "},
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_llama_brown] run function lobby:costume/already_unlocked
-tag @s add ul_llama_brown
+tag @s[advancements={lobby:unlocked/llama_brown=true}] add ul_llama_brown
 execute if entity @s[team=] run function lobby:costume/llama_brown
 tag @s add valid_password
 

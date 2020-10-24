@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_wandering_trader] ["",{"text":"Password
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_wandering_trader] run function lobby:costume/already_unlocked
-tag @s add ul_wandering_trader
+tag @s[advancements={lobby:unlocked/wandering_trader=true}] add ul_wandering_trader
 execute if entity @s[team=] run function lobby:costume/wandering_trader
 tag @s add valid_password
 

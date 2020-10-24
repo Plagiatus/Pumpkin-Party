@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_snowy_cartographer] ["",{"text
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_villager_snowy_cartographer] run function lobby:costume/already_unlocked
-tag @s add ul_villager_snowy_cartographer
+tag @s[advancements={lobby:unlocked/villager_snowy_cartogropher=true}] add ul_villager_snowy_cartographer
 execute if entity @s[team=] run function lobby:costume/villager_snowy_cartographer
 tag @s add valid_password
 

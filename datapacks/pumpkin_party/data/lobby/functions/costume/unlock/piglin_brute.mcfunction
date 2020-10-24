@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_piglin_brute] ["",{"text":"Password: "}
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_piglin_brute] run function lobby:costume/already_unlocked
-tag @s add ul_piglin_brute
+tag @s[advancements={lobby:unlocked/piglin_brute=true}] add ul_piglin_brute
 execute if entity @s[team=] run function lobby:costume/piglin_brute
 tag @s add valid_password
 

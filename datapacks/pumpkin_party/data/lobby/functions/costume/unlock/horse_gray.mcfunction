@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_horse_gray] ["",{"text":"Password: "},{
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_horse_gray] run function lobby:costume/already_unlocked
-tag @s add ul_horse_gray
+tag @s[advancements={lobby:unlocked/horse_gray=true}] add ul_horse_gray
 tag @s add valid_password
 
 advancement grant @s only lobby:unlocked/horse_gray

@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_savanna_weaponsmith] ["",{"tex
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_villager_savanna_weaponsmith] run function lobby:costume/already_unlocked
-tag @s add ul_villager_savanna_weaponsmith
+tag @s[advancements={lobby:unlocked/villager_savanna_weaponsmith=true}] add ul_villager_savanna_weaponsmith
 execute if entity @s[team=] run function lobby:costume/villager_savanna_weaponsmith
 tag @s add valid_password
 

@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_spider] ["",{"text":"Password: "},{"tex
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_spider] run function lobby:costume/already_unlocked
-tag @s add ul_spider
+tag @s[advancements={lobby:unlocked/spider=true}] add ul_spider
 execute if entity @s[team=] run function lobby:costume/spider
 tag @s add valid_password
 

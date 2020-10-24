@@ -5,7 +5,7 @@ tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_desert_librarian] ["",{"text":
 
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_villager_desert_librarian] run function lobby:costume/already_unlocked
-tag @s add ul_villager_desert_librarian
+tag @s[advancements={lobby:unlocked/villager_desert_librarian=true}] add ul_villager_desert_librarian
 execute if entity @s[team=] run function lobby:costume/villager_desert_librarian
 tag @s add valid_password
 
