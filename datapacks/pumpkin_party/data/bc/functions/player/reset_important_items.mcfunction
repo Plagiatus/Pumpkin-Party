@@ -1,6 +1,6 @@
 clear @s #bc:important
 
-replaceitem entity @s weapon.offhand nether_brick{display:{Name:'{"text":"Map","italic": false}'}}
+#replaceitem entity @s weapon.offhand nether_brick{display:{Name:'{"text":"Map","italic": false}'}}
 give @s iron_axe{CanDestroy:["minecraft:pumpkin"],Unbreakable:1b}
 
 execute if score @s bc_recipe matches 1 run give @p written_book{title:"Cranium Potion",author:"The Witch",generation:0,pages:['["",{"text":"Cranium Potion\\n\\n","color":"dark_green","bold":true,"underlined":true},{"text":"- Pumpkin\\n\\n","color":"#ff6600"},{"text":"- Spider Eye\\n\\n","color":"#64062A"},{"text":"- Apple\\n\\n\\n","color":"red"},{"text":"Gather them all and brew the potion!","color":"gray","italic":true}]']}

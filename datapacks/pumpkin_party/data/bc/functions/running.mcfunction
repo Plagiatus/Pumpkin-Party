@@ -12,9 +12,9 @@ execute as @e[tag=bc_cauldron] at @s run function bc:cauldron/handle
 # make key items stay in players inventory
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_axe"}}] run data merge entity @s {PickupDelay:0}
 execute as @e[type=item,nbt={Item:{id:"minecraft:written_book"}}] run data merge entity @s {PickupDelay:0}
-execute as @e[type=item,nbt={Item:{id:"minecraft:nether_brick"}}] run data merge entity @s {PickupDelay:0}
+#execute as @e[type=item,nbt={Item:{id:"minecraft:nether_brick"}}] run data merge entity @s {PickupDelay:0}
 execute as @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] run data merge entity @s {PickupDelay:0}
-execute as @a[nbt=!{Inventory:[{id:"minecraft:nether_brick",Slot:-106b}]}] run function bc:player/reset_important_items
+#execute as @a[nbt=!{Inventory:[{id:"minecraft:nether_brick",Slot:-106b}]}] run function bc:player/reset_important_items
 
 # cooldowns
 scoreboard players remove #apple bc_timer 1
