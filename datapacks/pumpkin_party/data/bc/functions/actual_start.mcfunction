@@ -53,3 +53,6 @@ execute as @a run function bc:player/reset_inventory
 
 # playing advancement
 advancement grant @a only bc:minigame_play
+
+# viewing area
+fill 551 85 -491 554 85 -488 barrier

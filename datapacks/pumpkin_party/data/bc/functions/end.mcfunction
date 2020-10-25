@@ -15,5 +15,7 @@ scoreboard players set #bc_phase points 0
 # team
 team empty bc_play
 
+fill 551 85 -491 554 85 -488 minecraft:black_stained_glass
+
 # all games
-function pp:all_games/end
+schedule function pp:all_games/end 5s
