@@ -39,16 +39,32 @@ effect give @a[team=] instant_health 6 60 true
 effect give @a[team=] weakness 6 60 true
 
 #Teleport Doors
+particle witch 401 69 505 0.2 0 0.2 0 1 
 execute as @a[x=401,y=69,z=505,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/lobby_to_highscore
+execute as @a[x=401,y=69,z=505,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
+particle witch 400 86 513 0.2 0 0.2 0 1 
 execute as @p[x=400,y=86,z=513,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/highscore_to_lobby
+execute as @p[x=400,y=86,z=513,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
+particle witch 379 86 513 0.2 0 0.2 0 1 
 execute as @p[x=379,y=86,z=513,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/highscore_to_costume
+execute as @p[x=379,y=86,z=513,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
+particle witch 356 79 500 0.2 0 0.2 0 1 
 execute as @p[x=356,y=79,z=500,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/costume_to_lobby
+execute as @p[x=356,y=79,z=500,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
 
+particle witch 365 68 493 0.2 0 0.2 0 1 
 execute as @a[x=365,y=68,z=493,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/credits_to_costume
+execute as @a[x=365,y=68,z=493,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
+particle witch 378 79 492 0.2 0 0.2 0 1 
 execute as @p[x=378,y=79,z=492,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/costume_to_credits
+execute as @p[x=378,y=79,z=492,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
 
+particle witch 387 61 511 0.2 0 0.2 0 1 
 execute as @p[x=387,y=61,z=511,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/lab_to_costume
+execute as @p[x=387,y=61,z=511,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
+particle witch 367 79 510 0.2 0 0.2 0 1 
 execute as @a[x=367,y=79,z=510,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=false] run function lobby:doors/costume_to_lab
+execute as @a[x=367,y=79,z=510,dx=0,dy=0,dz=0] at @s if block ~ ~ ~ dark_oak_door[open=true] run title @s actionbar [{"color": "#FF6600", "text":"[Hint]"},{"text":" Close the door behind you."}]
 
 #Teleport to Costume via Costume in the lobby:
 execute as @p[x=400,y=69,z=496,dx=0,dy=0,dz=0] run function lobby:tp_to_costume
