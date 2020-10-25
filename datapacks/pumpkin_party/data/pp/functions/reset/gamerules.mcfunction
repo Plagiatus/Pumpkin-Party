@@ -5,3 +5,4 @@ gamerule doWeatherCycle false
 gamerule commandBlockOutput false
 gamerule doMobLoot false
 gamerule sendCommandFeedback false
+gamerule reducedDebugInfo true
