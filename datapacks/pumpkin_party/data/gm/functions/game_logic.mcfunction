@@ -19,6 +19,13 @@ execute as @a[gamemode=spectator,tag=gm_play] run title @s actionbar ["",{"text"
 
 execute as @a[tag=gm_play,scores={left_game=1..}] run function gm:left_game
 
+#Spawn new zombie if nobody got caught yet:
+execute store result score #gm_playerCount tmp if entity @a[gamemode=spectator,tag=gm_play]
+execute if score #gm_playerCount tmp matches 0 if score #gm_timer timer matches 601 as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score #gm_playerCount tmp matches 0 if score #gm_timer timer matches 1201 as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score #gm_playerCount tmp matches 0 if score #gm_timer timer matches 1801 as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+effect give @e[type=zombie,tag=gm_new] levitation 1 1 true 
+
 #Detect if a player left and summon a new zombie
 execute store result score #gm_playerCount tmp if entity @a[tag=gm_play]
 execute if score #gm_playerCount tmp < #gm_playerCount const as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s positioned ~ ~1 ~ run function gm:summon_zombie
