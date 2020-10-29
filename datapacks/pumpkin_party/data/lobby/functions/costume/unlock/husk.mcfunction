@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_husk] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Husk Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_husk] ["",{"text":"Password: "},{"text":"\"THEHOTTERZOMBIE\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"THEHOTTERZOMBIE"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/husk=true},tag=!tmp_all_costumes,tag=!ul_husk] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Husk Costume\""}]
+tellraw @s[advancements={lobby:unlocked/husk=true},tag=!tmp_all_costumes,tag=!ul_husk] ["",{"text":"Password: "},{"text":"\"THEHOTTERZOMBIE\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"THEHOTTERZOMBIE"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

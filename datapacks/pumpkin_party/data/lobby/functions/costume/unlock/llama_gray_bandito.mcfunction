@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_llama_gray_bandito] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Gray Llama (El Bandito) Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_llama_gray_bandito] ["",{"text":"Password: "},{"text":"\"ELBANDITO\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"ELBANDITO"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/llama_gray_bandito=true},tag=!tmp_all_costumes,tag=!ul_llama_gray_bandito] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Gray Llama (El Bandito) Costume\""}]
+tellraw @s[advancements={lobby:unlocked/llama_gray_bandito=true},tag=!tmp_all_costumes,tag=!ul_llama_gray_bandito] ["",{"text":"Password: "},{"text":"\"ELBANDITO\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"ELBANDITO"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

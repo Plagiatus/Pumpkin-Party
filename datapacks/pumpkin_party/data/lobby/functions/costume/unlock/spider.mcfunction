@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_spider] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Spider Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_spider] ["",{"text":"Password: "},{"text":"\"EATING3INYOURSLEEP\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"EATING3INYOURSLEEP"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/spider=true},tag=!tmp_all_costumes,tag=!ul_spider] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Spider Costume\""}]
+tellraw @s[advancements={lobby:unlocked/spider=true},tag=!tmp_all_costumes,tag=!ul_spider] ["",{"text":"Password: "},{"text":"\"EATING3INYOURSLEEP\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"EATING3INYOURSLEEP"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_witch] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Witch Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_witch] ["",{"text":"Password: "},{"text":"\"HERMIONEGRANGER\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"HERMIONEGRANGER"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/witch=true},tag=!tmp_all_costumes,tag=!ul_witch] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Witch Costume\""}]
+tellraw @s[advancements={lobby:unlocked/witch=true},tag=!tmp_all_costumes,tag=!ul_witch] ["",{"text":"Password: "},{"text":"\"HERMIONEGRANGER\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"HERMIONEGRANGER"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

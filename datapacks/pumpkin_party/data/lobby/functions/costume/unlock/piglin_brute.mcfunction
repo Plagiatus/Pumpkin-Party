@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_piglin_brute] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Piglin Brute Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_piglin_brute] ["",{"text":"Password: "},{"text":"\"NOTSOEASYTODISTRACT\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"NOTSOEASYTODISTRACT"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/piglin_brute=true},tag=!tmp_all_costumes,tag=!ul_piglin_brute] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Piglin Brute Costume\""}]
+tellraw @s[advancements={lobby:unlocked/piglin_brute=true},tag=!tmp_all_costumes,tag=!ul_piglin_brute] ["",{"text":"Password: "},{"text":"\"NOTSOEASYTODISTRACT\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"NOTSOEASYTODISTRACT"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time
