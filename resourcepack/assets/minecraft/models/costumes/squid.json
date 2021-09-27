@@ -3,7 +3,7 @@
 	"parent": "costumes/head_template",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "entity/squid"
+		"0": "entity/squid/squid"
 	},
 	"elements": [
 		{
