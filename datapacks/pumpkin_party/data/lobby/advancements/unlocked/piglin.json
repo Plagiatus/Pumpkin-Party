@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:145}"
         },
         "title": {
-            "text":"Piglin Costume"
+            "text": "Piglin Costume"
         },
         "description": {
             "text": "Code: \"HUNGRYFORGOLD\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HUNGRYFORGOLD\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HUNGRYFORGOLD\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

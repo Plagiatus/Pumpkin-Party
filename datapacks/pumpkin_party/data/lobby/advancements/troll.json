@@ -3,14 +3,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:2}"
+      "nbt": "{Damage:2}"
     },
     "title": {
       "text": "The Troll"
     },
-    "description": ["",{"text": "Someone's been taking a candy toll. Who is it?"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Someone's been taking a candy toll. Who is it?"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "criteria": {
     "requirement": {
@@ -34,6 +39,6 @@
     }
   },
   "rewards": {
-      "function": "lobby:costume/unlock/squid"
+    "function": "lobby:costume/unlock/squid"
   }
 }

@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:45}"
         },
         "title": {
-            "text":"Zombified Piglin Costume"
+            "text": "Zombified Piglin Costume"
         },
         "description": {
             "text": "Code: \"SPOILEDBACON\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SPOILEDBACON\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SPOILEDBACON\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

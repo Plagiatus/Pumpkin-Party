@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:141}"
         },
         "title": {
-            "text":"Fox Costume"
+            "text": "Fox Costume"
         },
         "description": {
             "text": "Code: \"SLAYEROFCHICKENS\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SLAYEROFCHICKENS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SLAYEROFCHICKENS\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

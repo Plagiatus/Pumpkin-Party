@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Graveyard Mayhem"
     },
-    "description": ["",{"text": "Don't worry, your pals will be back next round for you to beat again."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Don't worry, your pals will be back next round for you to beat again."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "gm:minigame_play",
   "criteria": {

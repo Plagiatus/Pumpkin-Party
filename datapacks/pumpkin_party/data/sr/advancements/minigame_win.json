@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Spider Run"
     },
-    "description": ["",{"text": "You might not be afraid of spiders, but this spider will change your mind."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "You might not be afraid of spiders, but this spider will change your mind."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:minigame_play",
   "criteria": {

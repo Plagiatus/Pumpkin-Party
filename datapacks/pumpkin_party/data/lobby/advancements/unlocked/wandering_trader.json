@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:170}"
         },
         "title": {
-            "text":"Wandering Trader Costume"
+            "text": "Wandering Trader Costume"
         },
         "description": {
             "text": "Code: \"WHEREDIDYOUCOMEFROM\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WHEREDIDYOUCOMEFROM\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WHEREDIDYOUCOMEFROM\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

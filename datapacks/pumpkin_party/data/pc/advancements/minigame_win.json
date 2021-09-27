@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Pumpkin Carving"
     },
-    "description": ["",{"text": "Though a canvas may not be your medium, you have proven your chops as an artist!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Though a canvas may not be your medium, you have proven your chops as an artist!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "pc:minigame_play",
   "criteria": {

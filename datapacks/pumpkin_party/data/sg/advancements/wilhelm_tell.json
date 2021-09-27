@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:9}"
+      "nbt": "{Damage:9}"
     },
     "title": {
       "text": "Wilhelm Tell"
     },
-    "description": ["",{"text": "Gather 40 points in the gallery!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Gather 40 points in the gallery!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sg:bulls_eye",
   "criteria": {

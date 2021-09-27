@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:167}"
         },
         "title": {
-            "text":"Vindicator Costume"
+            "text": "Vindicator Costume"
         },
         "description": {
             "text": "Code: \"JOHNNY\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"JOHNNY\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"JOHNNY\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

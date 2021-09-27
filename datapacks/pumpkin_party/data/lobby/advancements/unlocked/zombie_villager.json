@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:343}"
         },
         "title": {
-            "text":"Zombie Villager Costume"
+            "text": "Zombie Villager Costume"
         },
         "description": {
             "text": "Code: \"WITCHDOCTOR\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WITCHDOCTOR\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WITCHDOCTOR\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

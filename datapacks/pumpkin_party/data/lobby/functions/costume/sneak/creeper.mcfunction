@@ -19,10 +19,10 @@ execute if score @s sound_delay matches 30 run function lobby:costume/sneak/cree
 execute if score @s sound_delay matches 30 run effect give @s invisibility 1 0 true
 execute if score @s sound_delay matches 29 run particle explosion_emitter
 execute if score @s sound_delay matches 29 run playsound entity.generic.explode player @a
-execute if score @s sound_delay matches 29 run replaceitem entity @s armor.head air
-execute if score @s sound_delay matches 29 run replaceitem entity @s armor.chest air
-execute if score @s sound_delay matches 29 run replaceitem entity @s armor.legs air
-execute if score @s sound_delay matches 29 run replaceitem entity @s armor.feet air
-execute if score @s sound_delay matches 29 run replaceitem entity @s armor.feet air
+execute if score @s sound_delay matches 29 run item replace entity @s armor.head with air
+execute if score @s sound_delay matches 29 run item replace entity @s armor.chest with air
+execute if score @s sound_delay matches 29 run item replace entity @s armor.legs with air
+execute if score @s sound_delay matches 29 run item replace entity @s armor.feet with air
+execute if score @s sound_delay matches 29 run item replace entity @s armor.feet with air
 
 execute if score @s sound_delay matches 10 run function lobby:costume/creeper

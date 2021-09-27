@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Brewing Contest"
     },
-    "description": ["",{"text": "Prove you're the best Mixologist/Wizard."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Prove you're the best Mixologist/Wizard."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "bc:minigame_play",
   "criteria": {

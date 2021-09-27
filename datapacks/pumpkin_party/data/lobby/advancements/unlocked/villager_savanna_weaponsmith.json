@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:770}"
         },
         "title": {
-            "text":"Savanna Weaponsmith Costume"
+            "text": "Savanna Weaponsmith Costume"
         },
         "description": {
             "text": "Code: \"WHEREISTHEBLACKSMITH\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WHEREISTHEBLACKSMITH?!?\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WHEREISTHEBLACKSMITH?!?\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:168}"
         },
         "title": {
-            "text":"White Horse Costume"
+            "text": "White Horse Costume"
         },
         "description": {
             "text": "Code: \"PRINCECHARMING\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PRINCECHARMING\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PRINCECHARMING\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

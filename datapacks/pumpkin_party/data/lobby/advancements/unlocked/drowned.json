@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:243}"
         },
         "title": {
-            "text":"Drowned Costume"
+            "text": "Drowned Costume"
         },
         "description": {
             "text": "Code: \"INEVERLEARNEDHOWTOSWIM\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"INEVERLEARNEDHOWTOSWIM\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"INEVERLEARNEDHOWTOSWIM\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

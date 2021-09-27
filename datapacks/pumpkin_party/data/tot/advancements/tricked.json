@@ -7,9 +7,14 @@
     "title": {
       "text": "Tricked!"
     },
-    "description": ["",{"text": "Get bamboozled by a witch."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Get bamboozled by a witch."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "tot:root",
   "criteria": {

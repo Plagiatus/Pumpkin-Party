@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Arcade"
     },
-    "description": ["",{"text": "Oh look, a golden ghost! Shoot it!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Oh look, a golden ghost! Shoot it!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:arcade_play",
   "criteria": {

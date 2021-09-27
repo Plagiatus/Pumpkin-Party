@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:11}"
+      "nbt": "{Damage:11}"
     },
     "title": {
       "text": "Half Way"
     },
-    "description": ["",{"text": "This tunnel might be long, but now you can see the end."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "This tunnel might be long, but now you can see the end."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:root",
   "criteria": {

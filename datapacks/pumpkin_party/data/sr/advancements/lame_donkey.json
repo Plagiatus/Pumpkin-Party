@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:iron_nugget",
-	    "nbt": "{CustomModelData:468}"
+      "nbt": "{CustomModelData:468}"
     },
     "title": {
       "text": "Lame Donkey"
     },
-    "description": ["",{"text":"Get caught in the first few tunnel segments."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Get caught in the first few tunnel segments."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:spider_candy",
   "criteria": {

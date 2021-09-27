@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:345}"
         },
         "title": {
-            "text":"Piglin Chan Costume"
+            "text": "Piglin Chan Costume"
         },
         "description": {
             "text": "Code: \"OWOWHATSTHIS\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"OWOWHATSTHIS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"OWOWHATSTHIS\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

@@ -6,9 +6,14 @@
     "title": {
       "text": "An Armful of Froglegs"
     },
-    "description": ["",{"text": "Have every single ingredient on you at once."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Have every single ingredient on you at once."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "bc:weird_recipes",
   "criteria": {

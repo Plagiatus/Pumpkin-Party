@@ -6,9 +6,14 @@
     "title": {
       "text": "The Lab"
     },
-    "description": ["",{"text": "Find the spooky experiments that the mansion's owner has been hiding."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Find the spooky experiments that the mansion's owner has been hiding."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:root",
   "criteria": {

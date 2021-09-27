@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:570}"
         },
         "title": {
-            "text":"Swamp Villager Costume"
+            "text": "Swamp Villager Costume"
         },
         "description": {
             "text": "Code: \"NOVILLAGE?NOWORK!\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NOVILLAGE?NOWORK!\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NOVILLAGE?NOWORK!\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

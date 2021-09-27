@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:121}"
         },
         "title": {
-            "text":"Gold Ghost Costume"
+            "text": "Gold Ghost Costume"
         },
         "description": {
             "text": "Code: \"BUTTERGHOST\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BUTTERGHOST\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BUTTERGHOST\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

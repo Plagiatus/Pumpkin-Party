@@ -15,10 +15,10 @@
                                 "max": 1
                             }
                         },
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Frog Leg\",\"italic\":false}'}}"
-						}
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Frog Leg\",\"italic\":false}'}}"
+                        }
                     ]
                 }
             ]

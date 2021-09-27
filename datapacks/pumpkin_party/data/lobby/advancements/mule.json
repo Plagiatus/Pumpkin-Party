@@ -7,9 +7,14 @@
     "title": {
       "text": "Mules"
     },
-    "description": ["",{"text": "That's how they're made."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "That's how they're made."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:costumes",
   "criteria": {

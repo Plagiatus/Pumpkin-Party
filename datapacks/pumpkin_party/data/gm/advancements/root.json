@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:43}"
         },
         "title": {
-            "text":"Graveyard Mayhem"
+            "text": "Graveyard Mayhem"
         },
         "description": {
             "text": "Some additional challenges for you."
@@ -17,6 +17,6 @@
     "criteria": {
         "instant": {
             "trigger": "minecraft:tick"
-		}
-	}
+        }
+    }
 }

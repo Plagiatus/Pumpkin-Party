@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:143}"
         },
         "title": {
-            "text":"Husk Costume"
+            "text": "Husk Costume"
         },
         "description": {
             "text": "Code: \"THEHOTTERZOMBIE\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEHOTTERZOMBIE\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEHOTTERZOMBIE\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

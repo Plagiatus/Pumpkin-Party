@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:268}"
         },
         "title": {
-            "text":"Gray Horse Costume"
+            "text": "Gray Horse Costume"
         },
         "description": {
             "text": "Code: \"RANOUTOFINK\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"RANOUTOFINK\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"RANOUTOFINK\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

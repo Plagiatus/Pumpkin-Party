@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:367}"
         },
         "title": {
-            "text":"Evoker Costume"
+            "text": "Evoker Costume"
         },
         "description": {
             "text": "Code: \"WOLOLOOO\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WOLOLOOO\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WOLOLOOO\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

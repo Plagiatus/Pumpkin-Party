@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:267}"
         },
         "title": {
-            "text":"Pillager Costume"
+            "text": "Pillager Costume"
         },
         "description": {
             "text": "Code: \"SOUNDTHEBELLS\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SOUNDTHEBELLS!\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SOUNDTHEBELLS!\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

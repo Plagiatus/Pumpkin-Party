@@ -6,9 +6,14 @@
     "title": {
       "text": "Candy Baron"
     },
-    "description": ["",{"text": "Reduce the fun of others by getting a stack of chocolate ceiling-high."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Reduce the fun of others by getting a stack of chocolate ceiling-high."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "tot:door_knocker",
   "criteria": {

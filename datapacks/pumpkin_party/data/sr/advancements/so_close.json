@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:13}"
+      "nbt": "{Damage:13}"
     },
     "title": {
       "text": "So Close"
     },
-    "description": ["",{"text":"Get caught right before the end."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Get caught right before the end."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:lame_donkey",
   "criteria": {

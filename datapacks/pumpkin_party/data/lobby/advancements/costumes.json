@@ -7,9 +7,14 @@
     "title": {
       "text": "Costumes"
     },
-    "description": ["",{"text": "Go upstairs and get in the Halloween mood!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Go upstairs and get in the Halloween mood!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:root",
   "criteria": {

@@ -7,9 +7,14 @@
     "title": {
       "text": "Short Distances"
     },
-    "description": ["",{"text": "Walk 500 meters."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Walk 500 meters."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:root",
   "criteria": {

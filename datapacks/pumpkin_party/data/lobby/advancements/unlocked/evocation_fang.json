@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:7}"
         },
         "title": {
-            "text":"Evocation Fang Costume"
+            "text": "Evocation Fang Costume"
         },
         "description": {
             "text": "Code: \"HEADINBEARTRAP\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HEADINBEARTRAP\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HEADINBEARTRAP\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

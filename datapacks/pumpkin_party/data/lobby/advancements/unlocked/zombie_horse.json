@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:668}"
         },
         "title": {
-            "text":"Zombie Horse Costume"
+            "text": "Zombie Horse Costume"
         },
         "description": {
             "text": "Code: \"THEUNDEADRIDEAGAIN\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEUNDEADRIDEAGAIN\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEUNDEADRIDEAGAIN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

@@ -4,7 +4,7 @@
             "item": "minecraft:cauldron"
         },
         "title": {
-            "text":"Brewing Contest"
+            "text": "Brewing Contest"
         },
         "description": {
             "text": "Some additional challenges for you."
@@ -16,6 +16,6 @@
     "criteria": {
         "instant": {
             "trigger": "minecraft:tick"
-		}
-	}
+        }
+    }
 }

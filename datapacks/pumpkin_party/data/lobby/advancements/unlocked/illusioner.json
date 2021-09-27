@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:467}"
         },
         "title": {
-            "text":"Illusioner Costume"
+            "text": "Illusioner Costume"
         },
         "description": {
             "text": "Code: \"WASTEDPOTENTIAL\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WASTEDPOTENTIAL\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WASTEDPOTENTIAL\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

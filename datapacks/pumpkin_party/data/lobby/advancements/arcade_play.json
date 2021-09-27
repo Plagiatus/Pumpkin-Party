@@ -6,9 +6,14 @@
     "title": {
       "text": "Play Arcade"
     },
-    "description": ["",{"text": "Stop being so picky and play all the games together."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Stop being so picky and play all the games together."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "lobby:root",
   "criteria": {

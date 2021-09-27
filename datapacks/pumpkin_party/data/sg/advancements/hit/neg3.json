@@ -1,18 +1,17 @@
 {
     "parent": "sg:root",
     "criteria": {
-      "killed_magma_cube": {
-        "trigger": "player_hurt_entity",
-        "conditions":{
-            "entity": {
-                "type":"minecraft:magma_cube",
-                "nbt":"{Tags:[\"sg_neg3\"]}"
+        "killed_magma_cube": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:magma_cube",
+                    "nbt": "{Tags:[\"sg_neg3\"]}"
+                }
             }
         }
-      }
     },
-    "rewards":{
+    "rewards": {
         "function": "sg:targets/hit/neg3"
     }
-  }
-  
+}
