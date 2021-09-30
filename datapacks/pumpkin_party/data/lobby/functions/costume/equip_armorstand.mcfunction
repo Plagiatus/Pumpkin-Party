@@ -3,5 +3,5 @@
 function lobby:costume/detection
 
 playsound minecraft:item.armor.equip_turtle master @a
-replaceitem entity @s weapon.mainhand nether_brick
+item replace entity @s weapon.mainhand with nether_brick
 tag @s remove has_costume

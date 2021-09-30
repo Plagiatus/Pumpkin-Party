@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:70}"
         },
         "title": {
-            "text":"Plains Farmer Costume"
+            "text": "Plains Farmer Costume"
         },
         "description": {
             "text": "Code: \"PEPPERIDGEFARMREMEMBERS\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PEPPERIDGEFARMREMEMBERS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PEPPERIDGEFARMREMEMBERS\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

@@ -1,12 +1,11 @@
 {
     "parent": "lobby:unlocked/blaze",
-    
     "display": {
         "icon": {
             "item": "minecraft:creeper_head"
         },
         "title": {
-            "text":"Creeper Costume"
+            "text": "Creeper Costume"
         },
         "description": {
             "text": "Always unlocked."
@@ -15,7 +14,6 @@
         "show_toast": false,
         "announce_to_chat": false
     },
-
     "criteria": {
         "requirement": {
             "trigger": "minecraft:tick"

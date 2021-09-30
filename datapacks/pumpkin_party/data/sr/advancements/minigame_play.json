@@ -6,9 +6,14 @@
     "title": {
       "text": "Play Spider Run"
     },
-    "description": ["",{"text": "Leave your friends struggling through cobwebs and be the last one standing."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Leave your friends struggling through cobwebs and be the last one standing."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:root",
   "criteria": {

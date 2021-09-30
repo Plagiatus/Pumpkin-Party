@@ -6,17 +6,22 @@
     "title": {
       "text": "Small Mistakes"
     },
-    "description": ["",{"text": "Make use of the spare pumpkin you were gonna leave for pie."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Make use of the spare pumpkin you were gonna leave for pie."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "pc:root",
   "criteria": {
     "place_filler": {
-		"trigger":"placed_block",
-		"conditions": {
-			"block": "minecraft:smooth_red_sandstone"
-		}
-	}
+      "trigger": "placed_block",
+      "conditions": {
+        "block": "minecraft:smooth_red_sandstone"
+      }
+    }
   }
 }

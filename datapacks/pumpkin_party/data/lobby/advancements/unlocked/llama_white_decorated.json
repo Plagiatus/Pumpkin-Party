@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:366}"
         },
         "title": {
-            "text":"Llama White Decorated Costume"
+            "text": "Llama White Decorated Costume"
         },
         "description": {
             "text": "Code: \"LONGNECKSHEEP\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LONGNECKSHEEP\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LONGNECKSHEEP\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

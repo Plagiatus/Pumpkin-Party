@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:4}"
         },
         "title": {
-            "text":"Squid Costume"
+            "text": "Squid Costume"
         },
         "description": {
             "text": "Code: \"BLUBB\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BLUBB\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BLUBB\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

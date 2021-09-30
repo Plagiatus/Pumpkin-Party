@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:5}"
+      "nbt": "{Damage:5}"
     },
     "title": {
       "text": "Saved by the Sun"
     },
-    "description": ["",{"text": "Those zombies should've worn sunscreen."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Those zombies should've worn sunscreen."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "gm:root",
   "criteria": {

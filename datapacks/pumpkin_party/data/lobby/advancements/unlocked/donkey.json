@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:468}"
         },
         "title": {
-            "text":"Donkey Costume"
+            "text": "Donkey Costume"
         },
         "description": {
             "text": "Code: \"AREWETHEREYET\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"AREWETHEREYET?\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"AREWETHEREYET?\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

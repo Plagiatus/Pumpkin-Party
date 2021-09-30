@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:166}"
         },
         "title": {
-            "text":"Beige Trader Llama Costume"
+            "text": "Beige Trader Llama Costume"
         },
         "description": {
             "text": "Code: \"INTERESTINGBODYGUARD\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"INTERESTINGBODYGUARD\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"INTERESTINGBODYGUARD\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

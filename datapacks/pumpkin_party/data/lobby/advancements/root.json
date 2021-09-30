@@ -4,7 +4,7 @@
             "item": "minecraft:cyan_carpet"
         },
         "title": {
-            "text":"Pumpkin Party!"
+            "text": "Pumpkin Party!"
         },
         "description": {
             "text": "Some additional challenges for you."
@@ -16,6 +16,6 @@
     "criteria": {
         "instant": {
             "trigger": "minecraft:tick"
-		}
-	}
+        }
+    }
 }

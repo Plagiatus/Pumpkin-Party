@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:22}"
         },
         "title": {
-            "text":"Spider Costume"
+            "text": "Spider Costume"
         },
         "description": {
             "text": "Code: \"EATING3INYOURSLEEP\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"EATING3INYOURSLEEP\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"EATING3INYOURSLEEP\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

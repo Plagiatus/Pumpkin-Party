@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:6}"
+      "nbt": "{Damage:6}"
     },
     "title": {
       "text": "Slowest of them all"
     },
-    "description": ["",{"text": "Get infected in the first 5 seconds of the game."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Get infected in the first 5 seconds of the game."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "gm:a_new_zombie",
   "criteria": {

@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_taiga_armorer] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Armorer Villager Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_villager_taiga_armorer] ["",{"text":"Password: "},{"text":"\"DEFENSEISTHEBESTOFFENSE\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"DEFENSEISTHEBESTOFFENSE"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/villager_taiga_armorer=true},tag=!tmp_all_costumes,tag=!ul_villager_taiga_armorer] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Armorer Villager Costume\""}]
+tellraw @s[advancements={lobby:unlocked/villager_taiga_armorer=true},tag=!tmp_all_costumes,tag=!ul_villager_taiga_armorer] ["",{"text":"Password: "},{"text":"\"DEFENSEISTHEBESTOFFENSE\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"DEFENSEISTHEBESTOFFENSE"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

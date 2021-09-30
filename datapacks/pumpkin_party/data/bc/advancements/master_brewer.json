@@ -6,9 +6,14 @@
     "title": {
       "text": "Master Brewer"
     },
-    "description": ["",{"text": "Brew all ten different potions at least once."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Brew all ten different potions at least once."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "bc:root",
   "criteria": {

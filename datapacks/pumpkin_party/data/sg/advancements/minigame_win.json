@@ -6,9 +6,14 @@
     "title": {
       "text": "Win Shooting Gallery"
     },
-    "description": ["",{"text": "Show off and reveal to your friends your steady hand and eagle eyesight."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Show off and reveal to your friends your steady hand and eagle eyesight."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sg:minigame_play",
   "criteria": {

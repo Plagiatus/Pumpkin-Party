@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:142}"
         },
         "title": {
-            "text":"Headless Horseman Costume"
+            "text": "Headless Horseman Costume"
         },
         "description": {
             "text": "Code: \"PUMPKINHEAD\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PUMPKINHEAD\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PUMPKINHEAD\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

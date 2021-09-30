@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:242}"
         },
         "title": {
-            "text":"White Pumpkin Costume"
+            "text": "White Pumpkin Costume"
         },
         "description": {
             "text": "Code: \"BOOBYTRAPPINGBOOBYTRAPS\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BOOBYTRAPPINGBOOBYTRAPS\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BOOBYTRAPPINGBOOBYTRAPS\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

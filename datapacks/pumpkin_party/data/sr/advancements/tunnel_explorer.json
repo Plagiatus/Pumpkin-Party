@@ -2,73 +2,78 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:14}"
+      "nbt": "{Damage:14}"
     },
     "title": {
       "text": "Tunnel Explorer"
     },
-    "description": ["",{"text":"Visit every different kind of tunnel."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Visit every different kind of tunnel."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:root",
   "criteria": {
     "normal_bridge": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_broken_door": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_hangman": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_ice": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_leaves": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_magma": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_mineshaft": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_net": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_oak_tree": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_prismarine": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_stonepillar": {
       "trigger": "impossible"
-    }, 
+    },
     "normal_wall": {
       "trigger": "impossible"
-    }, 
+    },
     "hard_gravel": {
       "trigger": "impossible"
-    }, 
+    },
     "hard_lava": {
       "trigger": "impossible"
-    }, 
+    },
     "hard_spiders": {
       "trigger": "impossible"
-    }, 
+    },
     "hard_vines": {
       "trigger": "impossible"
-    }, 
+    },
     "hard_nether": {
       "trigger": "impossible"
     },
     "nightmare_slime": {
       "trigger": "impossible"
-    }, 
+    },
     "nightmare_end": {
       "trigger": "impossible"
-    } 
+    }
   }
 }

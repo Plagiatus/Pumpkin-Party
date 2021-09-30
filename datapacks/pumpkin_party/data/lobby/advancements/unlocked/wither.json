@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:3}"
         },
         "title": {
-            "text":"Wither Costume"
+            "text": "Wither Costume"
         },
         "description": {
             "text": "Code: \"THREEHEADSAREBETTERTHANONE\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THREEHEADSAREBETTERTHANONE\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THREEHEADSAREBETTERTHANONE\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

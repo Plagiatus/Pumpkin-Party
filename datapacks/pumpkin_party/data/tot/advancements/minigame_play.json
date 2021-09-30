@@ -6,9 +6,14 @@
     "title": {
       "text": "Play Trick or Treat"
     },
-    "description": ["",{"text": "Go from door to door satisfying your sweet tooth."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Go from door to door satisfying your sweet tooth."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "tot:root",
   "criteria": {

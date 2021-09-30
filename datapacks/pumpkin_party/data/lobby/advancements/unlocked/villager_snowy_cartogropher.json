@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:670}"
         },
         "title": {
-            "text":"Snowy Cartographer Costume"
+            "text": "Snowy Cartographer Costume"
         },
         "description": {
             "text": "Code: \"ARTICEXPLORER\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ARTICEXPLORER\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ARTICEXPLORER\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

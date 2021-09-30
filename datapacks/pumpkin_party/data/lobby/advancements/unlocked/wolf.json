@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:41}"
         },
         "title": {
-            "text":"Wolf Costume"
+            "text": "Wolf Costume"
         },
         "description": {
             "text": "Code: \"YOUREGONNASTARTAHOWL\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"YOUREGONNASTARTAHOWL\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"YOUREGONNASTARTAHOWL\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

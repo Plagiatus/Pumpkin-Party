@@ -6,9 +6,14 @@
     "title": {
       "text": "Play Shooting Gallery"
     },
-    "description": ["",{"text": "Grab some arrows and knock down as many spookies as you can!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Grab some arrows and knock down as many spookies as you can!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sg:root",
   "criteria": {

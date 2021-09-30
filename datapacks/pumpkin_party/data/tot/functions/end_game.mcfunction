@@ -46,3 +46,5 @@ scoreboard players set #tot_gamestate tmp 0
 tag @a remove tot_winner
 tag @a remove tot_highscore
 schedule function pp:all_games/end 7s
+
+scoreboard players reset @e[name=tot_doorbell] points

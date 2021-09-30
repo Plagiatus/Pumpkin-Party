@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:470}"
         },
         "title": {
-            "text":"Desert Librarian Costume"
+            "text": "Desert Librarian Costume"
         },
         "description": {
             "text": "Code: \"THEPENISMIGHTIERTHANTHESWORD\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEPENISMIGHTIERTHANTHESWORD\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEPENISMIGHTIERTHANTHESWORD\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

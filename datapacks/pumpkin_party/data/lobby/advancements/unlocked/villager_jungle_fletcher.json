@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:270}"
         },
         "title": {
-            "text":"Jungle Fletcher Costume"
+            "text": "Jungle Fletcher Costume"
         },
         "description": {
             "text": "Code: \"GRAVELANDCHICKEN\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"GRAVELANDCHICKEN\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"GRAVELANDCHICKEN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

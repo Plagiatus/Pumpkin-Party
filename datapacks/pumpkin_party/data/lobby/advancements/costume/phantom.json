@@ -8,9 +8,14 @@
     "title": {
       "text": "Party time, all the time!"
     },
-    "description": ["",{"text": "Play for 5 ingame days."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Play for 5 ingame days."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "criteria": {
     "impossible1": {

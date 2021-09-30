@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:8}"
+      "nbt": "{Damage:8}"
     },
     "title": {
       "text": "Perhaps a different game..."
     },
-    "description": ["",{"text": "Do really badly. Really, really badly."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Do really badly. Really, really badly."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sg:bad_luck_kitty",
   "criteria": {

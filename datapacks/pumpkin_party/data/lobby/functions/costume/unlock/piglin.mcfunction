@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_piglin] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Piglin Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_piglin] ["",{"text":"Password: "},{"text":"\"HUNGRYFORGOLD\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"HUNGRYFORGOLD"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/piglin=true},tag=!tmp_all_costumes,tag=!ul_piglin] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Piglin Costume\""}]
+tellraw @s[advancements={lobby:unlocked/piglin=true},tag=!tmp_all_costumes,tag=!ul_piglin] ["",{"text":"Password: "},{"text":"\"HUNGRYFORGOLD\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"HUNGRYFORGOLD"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

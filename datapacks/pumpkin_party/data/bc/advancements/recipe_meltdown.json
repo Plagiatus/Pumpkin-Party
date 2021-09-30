@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:7}"
+      "nbt": "{Damage:7}"
     },
     "title": {
       "text": "Recipe Meltdown"
     },
-    "description": ["",{"text": "Store-bought drinks might not blow up on you, but these potions will."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Store-bought drinks might not blow up on you, but these potions will."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "bc:root",
   "criteria": {

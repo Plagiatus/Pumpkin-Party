@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:6}"
         },
         "title": {
-            "text":"Pufferfish Costume"
+            "text": "Pufferfish Costume"
         },
         "description": {
             "text": "Code: \"PRAISETHEPUFFERFISH\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PRAISETHEPUFFERFISH\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"PRAISETHEPUFFERFISH\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

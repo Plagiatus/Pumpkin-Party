@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:370}"
         },
         "title": {
-            "text":"Taiga Armorer Costume"
+            "text": "Taiga Armorer Costume"
         },
         "description": {
             "text": "Code: \"DEFENSEISTHEBESTOFFENSE\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"DEFENSEISTHEBESTOFFENSE\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"DEFENSEISTHEBESTOFFENSE\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

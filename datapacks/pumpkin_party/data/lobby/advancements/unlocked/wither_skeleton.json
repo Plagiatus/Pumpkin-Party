@@ -5,7 +5,7 @@
             "item": "minecraft:wither_skeleton_skull"
         },
         "title": {
-            "text":"Wither Skeleton Costume"
+            "text": "Wither Skeleton Costume"
         },
         "description": {
             "text": "Code: \"FORGOTTHESUNSCREEN\" "
@@ -20,8 +20,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"FORGOTTHESUNSCREEN\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"FORGOTTHESUNSCREEN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

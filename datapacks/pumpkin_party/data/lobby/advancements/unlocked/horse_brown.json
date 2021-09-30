@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:68}"
         },
         "title": {
-            "text":"Brown Horse Costume"
+            "text": "Brown Horse Costume"
         },
         "description": {
             "text": "Code: \"LOOKATMYHORSEMYHORSEISAMAZING\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LOOKATMYHORSEMYHORSEISAMAZING\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LOOKATMYHORSEMYHORSEISAMAZING\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

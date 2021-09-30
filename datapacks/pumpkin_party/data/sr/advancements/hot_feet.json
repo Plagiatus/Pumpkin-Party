@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:iron_nugget",
-	    "nbt": "{CustomModelData:10}"
+      "nbt": "{CustomModelData:10}"
     },
     "title": {
       "text": "Hot Feet"
     },
-    "description": ["",{"text": "Fall into the lava."}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Fall into the lava."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sr:tunnel_explorer",
   "criteria": {

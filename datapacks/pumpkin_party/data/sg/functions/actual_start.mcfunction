@@ -21,7 +21,7 @@ scoreboard players set $ticks timer 2400
 
 # give everyone equipment
 give @a minecraft:bow{HideFlags:5,Unbreakable:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1
-replaceitem entity @a inventory.0 minecraft:arrow
+item replace entity @a inventory.0 with minecraft:arrow
 
 # summon targets
 execute store result score #players tmp if entity @a

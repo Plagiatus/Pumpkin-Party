@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:266}"
         },
         "title": {
-            "text":"Llama Gray Bandito Costume"
+            "text": "Llama Gray Bandito Costume"
         },
         "description": {
             "text": "Code: \"ELBANDITO\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ELBANDITO\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ELBANDITO\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

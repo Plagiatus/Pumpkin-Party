@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:144}"
         },
         "title": {
-            "text":"Stray Costume"
+            "text": "Stray Costume"
         },
         "description": {
             "text": "Code: \"THECOOLERSKELETON\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THECOOLERSKELETON\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THECOOLERSKELETON\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

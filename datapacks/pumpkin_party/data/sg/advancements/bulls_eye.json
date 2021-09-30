@@ -2,14 +2,19 @@
   "display": {
     "icon": {
       "item": "minecraft:stone_hoe",
-	    "nbt": "{Damage:10}"
+      "nbt": "{Damage:10}"
     },
     "title": {
       "text": "Bulls Eye"
     },
-    "description": ["",{"text": "Get 8 points with one shot!"}],
-	"show_toast": true,
-	"announce_to_chat": false
+    "description": [
+      "",
+      {
+        "text": "Get 8 points with one shot!"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
   },
   "parent": "sg:golden_ghost",
   "criteria": {

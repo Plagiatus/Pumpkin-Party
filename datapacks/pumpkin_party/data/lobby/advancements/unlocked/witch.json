@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:67}"
         },
         "title": {
-            "text":"Witch Costume"
+            "text": "Witch Costume"
         },
         "description": {
             "text": "Code: \"HERMIONEGRANGER\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HERMIONEGRANGER\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HERMIONEGRANGER\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

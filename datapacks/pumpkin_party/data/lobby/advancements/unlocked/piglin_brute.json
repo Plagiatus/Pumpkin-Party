@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:245}"
         },
         "title": {
-            "text":"Piglin Brute Costume"
+            "text": "Piglin Brute Costume"
         },
         "description": {
             "text": "Code: \"NOTSOEASYTODISTRACT\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NOTSOEASYTODISTRACT\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NOTSOEASYTODISTRACT\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

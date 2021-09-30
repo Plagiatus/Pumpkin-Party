@@ -6,7 +6,7 @@
             "nbt": "{CustomModelData:66}"
         },
         "title": {
-            "text":"Llama Brown Costume"
+            "text": "Llama Brown Costume"
         },
         "description": {
             "text": "Code: \"LIVINGTURRET\" "
@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LIVINGTURRET\"}'}}"
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"LIVINGTURRET\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
                     }
                 ]
             }

@@ -1,6 +1,6 @@
 #First Time 
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_snow_fox] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Snow Fox Costume\""}]
-tellraw @s[tag=!tmp_all_costumes,tag=!ul_snow_fox] ["",{"text":"Password: "},{"text":"\"BOOPDASNOOT\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"BOOPDASNOOT"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/snow_fox=true},tag=!tmp_all_costumes,tag=!ul_snow_fox] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Snow Fox Costume\""}]
+tellraw @s[advancements={lobby:unlocked/snow_fox=true},tag=!tmp_all_costumes,tag=!ul_snow_fox] ["",{"text":"Password: "},{"text":"\"BOOPDASNOOT\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"BOOPDASNOOT"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time
