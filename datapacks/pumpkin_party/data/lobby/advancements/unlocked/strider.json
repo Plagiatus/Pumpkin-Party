@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/squid",
+    "parent": "lobby:unlocked/zombified_piglin",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",

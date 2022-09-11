@@ -11,16 +11,17 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=2}] run functi
 #Wither
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=3}] run function lobby:costume/sneak/wither
 
-#Squid
-execute if entity @s[tag=!costume_sneak,scores={tmp=4}] run particle minecraft:squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] run playsound minecraft:entity.squid.hurt player @a ~ ~ ~
-scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] sound_delay 10
-
 #Phantom
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=5}] run playsound minecraft:entity.phantom.ambient player @a
 
-#Strider, Ghast, Enderman, Evocation Fangs
+#Strider, Ghast, Enderman, Evocation Fangs, Warden
 execute if entity @s[tag=!costume_sneak,scores={tmp=7..10}] run scoreboard players add @s costume 1000
+
+#Bee
+execute if entity @s[tag=!costume_sneak,scores={tmp=12}] run scoreboard players add @s costume 1000
+
+#Warden
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=11}] sound_delay 60
 
 #Ghosts
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=21}] run playsound minecraft:entity.vex.death player @a ~ ~ ~ 1 0
@@ -29,8 +30,15 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=21}] run plays
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=22}] run playsound minecraft:entity.spider.ambient player @a
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=22}] sound_delay 15
 
+#Squid
+execute if entity @s[tag=!costume_sneak,scores={costume=23}] run particle minecraft:squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
+execute if entity @s[tag=!costume_sneak,scores={costume=123}] run particle minecraft:glow_squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=23}] run playsound minecraft:entity.squid.hurt player @a ~ ~ ~
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=123}] run playsound minecraft:entity.glow_squid.hurt player @a ~ ~ ~
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=23}] sound_delay 10
+
 #Pumpkins
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=42}] run playsound minecraft:entity.vex.ambient player @a ~ ~ ~ 1 0
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=42}] run playsound minecraft:entity.vex.ambient player @a ~ ~ ~ 10 0
 
 #Zombies
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=43}] run playsound minecraft:entity.zombie.ambient player @a
@@ -86,6 +94,9 @@ scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=70}] soun
 #Special costumes with changing models
 execute if score @s[tag=!costume_sneak,scores={costume=1000..}] costume matches 1000.. run function lobby:costume/equip_costume7
 
+#Bee
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=12}] run scoreboard players add @s sound_delay 90
+#General
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0}] sound_delay 30
 
 tag @s add costume_sneak

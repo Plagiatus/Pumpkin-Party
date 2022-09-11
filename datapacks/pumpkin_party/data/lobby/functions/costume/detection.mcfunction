@@ -1,6 +1,5 @@
-title @s[type=player,tag=!has_costume,x=360,y=79,z=489,dx=19,dy=10,dz=22] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
-title @s[type=player,tag=has_costume,x=360,y=79,z=489,dx=19,dy=10,dz=22] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Some costumes change their variant when you right click them.","color":"none"}]
-
+title @s[type=player,tag=!has_costume] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
+title @s[type=player,tag=has_costume] actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Some costumes change their variant when you right click them.","color":"none"}]
 
 scoreboard players operation @s[type=player,tag=!in_costume] oldCostume = @s costume
 execute positioned ~-0.75 ~ ~-0.75 run scoreboard players operation @s[type=player,tag=!in_costume] costume = @e[type=minecraft:armor_stand,dy=0.5,dx=0.25,dz=0.25,limit=1,tag=Costume] costume

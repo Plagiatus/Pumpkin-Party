@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/phantom",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:11}"
+        },
+        "title": {
+            "text": "Warden Costume"
+        },
+        "description": {
+            "text": "Code: \"SILENTSCREAMER\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SILENTSCREAMER\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/warden"
+    }
+}

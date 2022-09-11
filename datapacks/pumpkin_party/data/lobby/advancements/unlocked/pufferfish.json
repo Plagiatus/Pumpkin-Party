@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/phantom",
+    "parent": "lobby:unlocked/root",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",

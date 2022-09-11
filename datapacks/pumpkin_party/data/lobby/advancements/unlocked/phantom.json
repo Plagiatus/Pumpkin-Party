@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/ghast",
+    "parent": "lobby:unlocked/cave_spider",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",

@@ -12,5 +12,4 @@ execute if score #sr_phase points matches 3.. as @a[scores={left_game=1..}] if s
 execute if score #sr_phase points matches 3.. as @a[scores={left_game=1..}] if score @s game_id = #global game_id run function pp:all_games/reset_player
 
 # give needed effects
-execute if score #sr_phase points matches 1.. run effect give @a fire_resistance 1 0 true
 execute if score #sr_phase points matches 1.. run effect give @a resistance 1 5 true

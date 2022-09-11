@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/bee",
+	"textures": {
+		"2": "entity/bee/bee_angry",
+		"8": "costumes/bee_face_angry"
+	}
+}

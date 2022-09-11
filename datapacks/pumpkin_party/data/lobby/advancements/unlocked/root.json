@@ -42,7 +42,7 @@
             "trigger": "minecraft:impossible"
         },
         "ghast": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick"
         },
         "ghost": {
             "trigger": "minecraft:tick"

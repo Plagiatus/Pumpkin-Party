@@ -21,20 +21,6 @@
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "min": 360,
-            "max": 378
-          },
-          "y": {
-            "min": 79,
-            "max": 84
-          },
-          "z": {
-            "min": 489,
-            "max": 510
-          }
-        },
         "player": [
           {
             "condition": "minecraft:entity_scores",

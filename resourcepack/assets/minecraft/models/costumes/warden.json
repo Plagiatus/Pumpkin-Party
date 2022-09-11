@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/head_template",
+	"texture_size": [64, 32],
+	"textures": {
+		"7": "costumes/warden_face",
+		"8": "entity/warden/warden"
+	},
+	"elements": [
+		{
+			"name": "Helmet inverted",
+			"from": [14.76, 11.11361, 12.732],
+			"to": [1.24, -2.40639, 3.268],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-17.2042, -32.42015, 1.25651]},
+			"faces": {
+				"north": {"uv": [4.5, 7.25, 6.5, 5.25], "texture": "#8"},
+				"east": {"uv": [3.25, 7.25, 4.5, 5.25], "texture": "#8"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#7"},
+				"west": {"uv": [0, 7.25, 1.25, 5.25], "texture": "#8"},
+				"up": {"uv": [5.25, 4, 3.25, 5.25], "texture": "#8"},
+				"down": {"uv": [3.25, 4, 1.25, 5.25], "texture": "#8"}
+			}
+		},
+		{
+			"name": "left_antenna",
+			"from": [-12.2, 5.19995, 8],
+			"to": [1.32, 18.71995, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [22.1756, -48.29202, 3.8529]},
+			"faces": {
+				"north": {"uv": [7.25, 0, 9.25, 2], "texture": "#8"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#8"},
+				"south": {"uv": [9.25, 0, 7.25, 2], "texture": "#8"},
+				"west": {"uv": [1.25, 0.75, 0.5, 1.25], "texture": "#8"},
+				"up": {"uv": [1.25, 0.75, 1.5, 0], "texture": "#8"},
+				"down": {"uv": [1.5, 0, 1.75, 0.75], "texture": "#8"}
+			}
+		},
+		{
+			"name": "left_antenna",
+			"from": [14.77218, 5.19995, 8],
+			"to": [28.29218, 18.71995, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-23.5276, -48.29202, 3.8529]},
+			"faces": {
+				"north": {"uv": [6.5, 4, 8.5, 6], "texture": "#8"},
+				"east": {"uv": [0.5, 0.75, 1.25, 1.25], "texture": "#8"},
+				"south": {"uv": [8.5, 4, 6.5, 6], "texture": "#8"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#8"},
+				"up": {"uv": [1.5, 0.75, 1.25, 0], "texture": "#8"},
+				"down": {"uv": [1.75, 0, 1.5, 0.75], "texture": "#8"}
+			}
+		},
+		{
+			"name": "Helmet",
+			"from": [1.24, -2.40639, 3.268],
+			"to": [14.76, 11.11361, 12.732],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-17.2042, -32.42015, 1.25651]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#7"},
+				"east": {"uv": [0, 5.25, 1.25, 7.25], "texture": "#8"},
+				"south": {"uv": [4.5, 5.25, 6.5, 7.25], "texture": "#8"},
+				"west": {"uv": [3.25, 5.25, 4.5, 7.25], "texture": "#8"},
+				"up": {"uv": [1.25, 4, 3.25, 5.25], "texture": "#8"},
+				"down": {"uv": [3.25, 4, 5.25, 5.25], "texture": "#8"}
+			}
+		}
+	]
+}

@@ -4,8 +4,6 @@ execute if score @s costume matches 1 run function lobby:costume/creeper
 execute if score @s costume matches 2 run function lobby:costume/blaze
 execute if score @s[tag=ul_wither] costume matches 3 run function lobby:costume/wither
 execute if score @s[tag=!ul_wither] costume matches 3 run function lobby:costume/info/wither
-execute if score @s[tag=ul_squid] costume matches 4 run function lobby:costume/squid
-execute if score @s[tag=!ul_squid] costume matches 4 run function lobby:costume/info/squid
 execute if score @s[tag=ul_phantom] costume matches 5 run function lobby:costume/phantom
 execute if score @s[tag=!ul_phantom] costume matches 5 run function lobby:costume/info/phantom
  
@@ -19,11 +17,17 @@ execute if score @s[tag=!ul_enderman] costume matches 8 run function lobby:costu
 execute if score @s costume matches 9 run function lobby:costume/ghast
 execute if score @s[tag=ul_strider] costume matches 10 run function lobby:costume/strider
 execute if score @s[tag=!ul_strider] costume matches 10 run function lobby:costume/info/strider
+execute if score @s[tag=ul_warden] costume matches 11 run function lobby:costume/warden
+execute if score @s[tag=!ul_warden] costume matches 11 run function lobby:costume/info/warden
+execute if score @s[tag=ul_warden] costume matches 12 run function lobby:costume/bee
+execute if score @s[tag=!ul_warden] costume matches 12 run function lobby:costume/info/bee
 
 
 execute if score @s costume matches 21 run function lobby:costume/ghost
 execute if score @s[tag=ul_spider] costume matches 22 run function lobby:costume/spider
 execute if score @s[tag=!ul_spider] costume matches 22 run function lobby:costume/info/spider
+execute if score @s[tag=ul_squid] costume matches 23 run function lobby:costume/squid
+execute if score @s[tag=!ul_squid] costume matches 23 run function lobby:costume/info/squid
 execute if score @s[tag=ul_wolf] costume matches 41 run function lobby:costume/wolf
 execute if score @s[tag=!ul_wolf] costume matches 41 run function lobby:costume/info/wolf
 execute if score @s costume matches 42 run function lobby:costume/jack_o_lantern

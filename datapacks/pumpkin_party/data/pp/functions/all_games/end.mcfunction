@@ -1,6 +1,8 @@
 # move players back to mansion
 tp @a 400 69 500 90 -5
 spawnpoint @a 400 69 500
+scoreboard players set @a sound_delay 0
+scoreboard players set @a costume_sneak 0
 
 # set them to adventure
 gamemode adventure @a

@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/evocation_fang",
+    "parent": "lobby:unlocked/blaze",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",

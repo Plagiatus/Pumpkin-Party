@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/squid",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:123}"
+        },
+        "title": {
+            "text": "Glow Squid Costume"
+        },
+        "description": {
+            "text": "Code: \"GLOWBLUBB\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"GLOWBLUBB\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/glow_squid"
+    }
+}

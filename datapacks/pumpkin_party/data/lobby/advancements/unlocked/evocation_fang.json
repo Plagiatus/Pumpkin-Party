@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/enderman",
+    "parent": "lobby:unlocked/illusioner",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",

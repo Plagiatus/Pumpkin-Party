@@ -19,7 +19,6 @@ scoreboard objectives setdisplay sidebar
 
 function pp:all_games/start
 
-gamerule fallDamage false
 tellraw @a ["",{"text":"\nGraveyard Mayhem","underlined":true,"bold":true,"color":"#FF6600"},{"text":"\nSupercharged zombies!?\nOne bite turns you into one of them!","color":"gold"},{"text":"\nGoal: ","bold":true,"color":"#FF6600"},{"text":"Don't get bitten until sunrise.","color":"gold"}]
 execute if score gm_difficulty settings matches 0 run tellraw @a ["",{"text":"Normal Rules:","color":"#84A887","bold":true},{"text":"\n -1 or 2 zombies at the start."}]
 execute if score gm_difficulty settings matches 1 run tellraw @a ["",{"text":"Hard Rules:","color":"#AA8686","bold":true},{"text":"\n -2 or 3 zombies at the start."}]

@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/snow_fox",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:12}"
+        },
+        "title": {
+            "text": "Bee Costume"
+        },
+        "description": {
+            "text": "Code: \"BIGBUMBLEBEE\""
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"BIGBUMBLEBEE\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/bee"
+    }
+}
