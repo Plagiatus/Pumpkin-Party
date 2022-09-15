@@ -12,13 +12,14 @@ scoreboard players set #wd_total wd_timer 0
 
 scoreboard players reset * wd_click
 
-kill @e[type=marker,tag=wd_marker]
-kill @e[type=marker,tag=wd_warden]
-scoreboard players set #id wd_id 0
-execute as @a run function wd:setup/player_id
+scoreboard objectives setdisplay sidebar
+
+execute if score wd_difficulty settings matches 0 run scoreboard players operation @a wd_lives = #normal wd_lives
+execute if score wd_difficulty settings matches 1 run scoreboard players operation @a wd_lives = #hard wd_lives
+execute if score wd_difficulty settings matches 2 run scoreboard players operation @a wd_lives = #nightmare wd_lives
 
 execute if score wd_difficulty settings matches 0 run scoreboard players operation #delay wd_timer = #normal wd_timer
 execute if score wd_difficulty settings matches 1 run scoreboard players operation #delay wd_timer = #hard wd_timer
 execute if score wd_difficulty settings matches 2 run scoreboard players operation #delay wd_timer = #nightmare wd_timer
 
-summon marker -495 80 0 {Tags:["wd_warden"]}
+team join wd_play @a

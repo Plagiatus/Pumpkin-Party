@@ -1,7 +1,8 @@
+# check if player didn't finish
+execute as @a if score @s wd_timer < #wd_total wd_timer run scoreboard players add @s wd_mistake 1
+
 scoreboard players set #punish wd_timer 0
 execute as @a[scores={wd_mistake=1..},limit=1] run scoreboard players set #punish wd_timer 1
-
-# TODO: check if player didn't finish
 
 scoreboard players set #wd_phase points 99
 
