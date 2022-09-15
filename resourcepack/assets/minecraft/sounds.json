@@ -1,10 +1,19 @@
 {
 	"custom.evil_laugh": {
+		"subtitle": "Evil laughter",
 		"sounds":[
 			{
 				"name":"custom/evil_laugh",
 				"stream":true
 			}
+		]
+	},
+	"custom.record_scratch": {
+		"subtitle": "Record scratches",
+		"sounds":[
+			{"name":"custom/scratch/scratch1"},
+			{"name":"custom/scratch/scratch2"},
+			{"name":"custom/scratch/scratch3"}
 		]
 	},
 	"item.armor.equip_generic": {
