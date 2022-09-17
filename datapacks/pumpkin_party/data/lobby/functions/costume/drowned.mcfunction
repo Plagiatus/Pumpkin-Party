@@ -1,5 +1,5 @@
 tag @s remove costume_failed
-item replace entity @s armor.head with minecraft:iron_nugget{CustomModelData:243,Unbreakable:1,display:{Name:'{"text":"Drowned Costume","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+item replace entity @s armor.head with minecraft:iron_nugget{CustomModelData:3203,Unbreakable:1,display:{Name:'{"text":"Drowned Costume","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 item replace entity @s armor.chest with leather_chestplate{Unbreakable:1,display:{Name:'{"text":"Drowned Costume","italic":false}',color:7887164},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 item replace entity @s armor.legs with leather_leggings{Unbreakable:1,display:{Name:'{"text":"Drowned Costume","italic":false}',color:6571569},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name:'{"text":"Drowned Costume","italic":false}',color:5670014},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
@@ -7,5 +7,5 @@ item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name
 advancement grant @s only lobby:unlocked/drowned
 tag @s add ul_drowned
 
-scoreboard players set @s costume 243
+scoreboard players set @s costume 3203
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Drowned"'}

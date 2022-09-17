@@ -5,5 +5,5 @@ item replace entity @s armor.legs with leather_leggings{Unbreakable:1,display:{N
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name:'{"text":"Skeleton Costume","italic":false}',color:9342350},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 
 
-scoreboard players set @s costume 44
+scoreboard players set @s costume 3001
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Skeleton"'}

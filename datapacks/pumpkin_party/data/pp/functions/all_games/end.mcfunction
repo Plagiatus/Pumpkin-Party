@@ -23,5 +23,5 @@ execute if score #games_to_play settings matches ..0 run schedule function lobby
 team leave @a
 
 # give correct basket
-execute as @a unless score @s costume matches 121 run function lobby:costume/basket
-execute as @a if score @s costume matches 121 run function lobby:costume/full_basket
+execute as @a unless score @s costume matches 1111 run function lobby:costume/basket
+execute as @a if score @s costume matches 1111 run function lobby:costume/full_basket

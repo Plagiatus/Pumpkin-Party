@@ -19,7 +19,7 @@ execute as @a[tag=gm_play] run scoreboard players operation @s points += @s gm_p
 #Let zombies burn
 time set day
 advancement grant @a[gamemode=adventure] only gm:saved_by_the_sun
-advancement grant @a[gamemode=adventure,scores={costume=43}] only lobby:unlocked/husk
+advancement grant @a[gamemode=adventure,scores={costume=3003}] only lobby:unlocked/husk
 execute as @e[tag=gm] run data merge entity @s {Fire:1000000,Invulnerable:0b}
 gamemode spectator @a
 

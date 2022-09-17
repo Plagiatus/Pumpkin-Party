@@ -5,5 +5,5 @@ item replace entity @s armor.legs with leather_leggings{Unbreakable:1,display:{N
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name:'{"text":"Jack o\'Lantern Costume","italic":false}',color:14912029},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 
 
-scoreboard players set @s costume 42
+scoreboard players set @s costume 2010
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Jack o\'Lantern"'}

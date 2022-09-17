@@ -5,4 +5,4 @@ item replace entity @s armor.legs with leather_leggings{Unbreakable:1,display:{N
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name:'{"text":"Giant Spider Costume","italic":false}',color:0},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
 title @s actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" This is a lobby-only costume. You'll wear the normal spider costume during a minigame instead.","color":"none"}]
 
-scoreboard players set @s costume 222
+scoreboard players set @s costume 1204
