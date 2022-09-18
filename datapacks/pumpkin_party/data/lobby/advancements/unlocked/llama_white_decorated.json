@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:366}"
+            "nbt": "{CustomModelData:3328}"
         },
         "title": {
             "text": "Llama White Decorated Costume"

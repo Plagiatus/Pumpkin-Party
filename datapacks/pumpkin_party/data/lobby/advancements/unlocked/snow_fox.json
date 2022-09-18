@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:241}"
+            "nbt": "{CustomModelData:2229}"
         },
         "title": {
             "text": "Snow Fox Costume"

@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:370}"
+            "nbt": "{CustomModelData:7327}"
         },
         "title": {
             "text": "Taiga Armorer Costume"

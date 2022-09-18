@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:270}"
+            "nbt": "{CustomModelData:7227}"
         },
         "title": {
             "text": "Jungle Fletcher Costume"

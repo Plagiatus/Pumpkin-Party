@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:167}"
+            "nbt": "{CustomModelData:6108}"
         },
         "title": {
             "text": "Vindicator Costume"

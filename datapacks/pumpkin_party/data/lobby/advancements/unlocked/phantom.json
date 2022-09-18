@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:5}"
+            "nbt": "{CustomModelData:2106}"
         },
         "title": {
             "text": "Phantom Costume"

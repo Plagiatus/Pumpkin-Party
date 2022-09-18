@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:170}"
+            "nbt": "{CustomModelData:7127}"
         },
         "title": {
             "text": "Wandering Trader Costume"

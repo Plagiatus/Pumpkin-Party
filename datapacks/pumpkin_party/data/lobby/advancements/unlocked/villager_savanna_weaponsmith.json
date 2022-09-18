@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:770}"
+            "nbt": "{CustomModelData:7727}"
         },
         "title": {
             "text": "Savanna Weaponsmith Costume"

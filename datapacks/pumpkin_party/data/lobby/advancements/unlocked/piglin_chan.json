@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:345}"
+            "nbt": "{CustomModelData:3317}"
         },
         "title": {
             "text": "Piglin Chan Costume"

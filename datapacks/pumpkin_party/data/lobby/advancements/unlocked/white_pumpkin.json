@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:242}"
+            "nbt": "{CustomModelData:2210}"
         },
         "title": {
             "text": "White Pumpkin Costume"

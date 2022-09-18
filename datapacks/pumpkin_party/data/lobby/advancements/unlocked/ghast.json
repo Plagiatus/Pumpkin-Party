@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:9}"
+            "nbt": "{CustomModelData:15}"
         },
         "title": {
             "text": "Ghast Costume"

@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:367}"
+            "nbt": "{CustomModelData:6308}"
         },
         "title": {
             "text": "Evoker Costume"

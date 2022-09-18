@@ -38,6 +38,8 @@ execute if score @s[tag=ul_mule] costume matches 6530 run function lobby:costume
 execute if score @s[tag=ul_mule] costume matches 6531 run function lobby:costume/mule_back
 execute if score @s[tag=!ul_mule] costume matches 6530..6531 run function lobby:costume/info/mule
 
+execute if score @s[tag=ul_ravager] costume matches 6608 run function lobby:costume/ravager
+execute if score @s[tag=!ul_ravager] costume matches 6608 run function lobby:costume/info/ravager
 execute if score @s[tag=ul_zombie_horse] costume matches 6630 run function lobby:costume/zombie_horse
 execute if score @s[tag=ul_zombie_horse] costume matches 6631 run function lobby:costume/zombie_horse_back
 execute if score @s[tag=!ul_zombie_horse] costume matches 6630..66319 run function lobby:costume/info/zombie_horse

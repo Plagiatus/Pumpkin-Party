@@ -1,0 +1,137 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/head_template",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "entity/illager/ravager"
+	},
+	"elements": [
+		{
+			"name": "mouth",
+			"from": [0.01, -0.99, 0.01],
+			"to": [15.99, 1.99, 15.99],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 1, 14]},
+			"faces": {
+				"north": {"uv": [2, 6.5, 4, 6.875], "texture": "#0"},
+				"east": {"uv": [0, 6.5, 2, 6.875], "texture": "#0"},
+				"south": {"uv": [6, 6.5, 8, 6.875], "texture": "#0"},
+				"west": {"uv": [4, 6.5, 6, 6.875], "texture": "#0"},
+				"up": {"uv": [4, 6.5, 2, 4.5], "texture": "#0"},
+				"down": {"uv": [6, 4.5, 4, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "mouth inverted",
+			"from": [15.99, 1.99, 15.99],
+			"to": [0.01, -0.99, 0.01],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 1, 14]},
+			"faces": {
+				"north": {"uv": [6, 6.875, 8, 6.5], "texture": "#0"},
+				"east": {"uv": [4, 6.875, 6, 6.5], "texture": "#0"},
+				"south": {"uv": [2, 6.875, 4, 6.5], "texture": "#0"},
+				"west": {"uv": [0, 6.875, 2, 6.5], "texture": "#0"},
+				"up": {"uv": [4, 4.5, 6, 6.5], "texture": "#0"},
+				"down": {"uv": [2, 6.5, 4, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "nose",
+			"from": [6, -2, -4],
+			"to": [10, 6, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -14, 24]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 1, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1.5], "texture": "#0"},
+				"south": {"uv": [1.5, 0.5, 2, 1.5], "texture": "#0"},
+				"west": {"uv": [1, 0.5, 1.5, 1.5], "texture": "#0"},
+				"up": {"uv": [1, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [1.5, 0, 1, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "horns",
+			"from": [-2, 12, -9],
+			"to": [0, 16, 5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [16, 13, 5]},
+			"faces": {
+				"north": {"uv": [10, 7.375, 9.75, 6.875], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [9.25, 7.375, 9.75, 9.125], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.25, 6.875, 10, 7.375], "texture": "#0"},
+				"west": {"uv": [10, 7.375, 10.5, 9.125], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 7.375, 10.75, 9.125], "texture": "#0"},
+				"down": {"uv": [9.75, 7.375, 10, 9.125], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "horns",
+			"from": [16, 12, -9],
+			"to": [18, 16, 5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [16, 13, 5]},
+			"faces": {
+				"north": {"uv": [10, 7.375, 9.75, 6.875], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [9.25, 7.375, 9.75, 9.125], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.25, 6.875, 10, 7.375], "texture": "#0"},
+				"west": {"uv": [10, 7.375, 10.5, 9.125], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 7.375, 10.75, 9.125], "texture": "#0"},
+				"down": {"uv": [9.75, 7.375, 10, 9.125], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [0, 0, 0],
+			"to": [16, 20, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -14, 24]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4.5], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 4.5], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 4.5], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head inverted",
+			"from": [16, 20, 16],
+			"to": [0, 0, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -14, 24]},
+			"faces": {
+				"north": {"uv": [6, 4.5, 8, 2], "texture": "#0"},
+				"east": {"uv": [4, 4.5, 6, 2], "texture": "#0"},
+				"south": {"uv": [2, 4.5, 4, 2], "texture": "#0"},
+				"west": {"uv": [0, 4.5, 2, 2], "texture": "#0"},
+				"up": {"uv": [4, 0, 6, 2], "texture": "#0"},
+				"down": {"uv": [2, 2, 4, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [15, 150, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"head": {
+			"rotation": [22.5, 0, 0],
+			"translation": [0, 5.5, 1.5],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "mouth",
+			"origin": [8, 5, 24],
+			"color": 0,
+			"children": [0, 1]
+		},
+		2,
+		3,
+		4,
+		{
+			"name": "head",
+			"origin": [8, -14, 24],
+			"color": 0,
+			"children": [5, 6]
+		}
+	]
+}

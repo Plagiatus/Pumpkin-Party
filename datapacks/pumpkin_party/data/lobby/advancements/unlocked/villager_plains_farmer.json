@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:70}"
+            "nbt": "{CustomModelData:7027}"
         },
         "title": {
             "text": "Plains Farmer Costume"

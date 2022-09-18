@@ -9,8 +9,12 @@ execute if score @s[tag=ul_wither] costume matches 14 run function lobby:costume
 execute if score @s[tag=!ul_wither] costume matches 14 run function lobby:costume/info/wither
 execute if score @s costume matches 15 run function lobby:costume/ghast
 execute if score @s costume matches 16 run function lobby:costume/blaze
- execute if score @s[tag=ul_warden] costume matches 19 run function lobby:costume/warden
+execute if score @s[tag=ul_warden] costume matches 19 run function lobby:costume/warden
 execute if score @s[tag=!ul_warden] costume matches 19 run function lobby:costume/info/warden
+execute if score @s[tag=ul_goat] costume matches 25 run function lobby:costume/goat
+execute if score @s[tag=!ul_goat] costume matches 25 run function lobby:costume/info/goat
+execute if score @s[tag=ul_arch_illager] costume matches 26 run function lobby:costume/arch_illager
+execute if score @s[tag=!ul_arch_illager] costume matches 26 run function lobby:costume/info/arch_illager
 execute if score @s[tag=ul_warden] costume matches 32 run function lobby:costume/bee
 execute if score @s[tag=!ul_warden] costume matches 32 run function lobby:costume/info/bee
 

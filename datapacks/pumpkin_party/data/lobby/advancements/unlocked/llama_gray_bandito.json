@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:266}"
+            "nbt": "{CustomModelData:3228}"
         },
         "title": {
             "text": "Llama Gray Bandito Costume"

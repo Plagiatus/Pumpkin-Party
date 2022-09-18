@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:570}"
+            "nbt": "{CustomModelData:7527}"
         },
         "title": {
             "text": "Swamp Villager Costume"

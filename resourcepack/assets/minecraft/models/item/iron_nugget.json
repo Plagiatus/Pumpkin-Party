@@ -39,17 +39,17 @@
 		 
          {"predicate": {"custom_model_data": 2006}, "model": "costumes/bat"},
          {"predicate": {"custom_model_data": 2010}, "model": "block/jack_o_lantern"},
-         {"predicate": {"custom_model_data": 2020}, "model": "costumes/orange_frog"},
+         {"predicate": {"custom_model_data": 2020}, "model": "costumes/frog_orange"},
          {"predicate": {"custom_model_data": 2029}, "model": "costumes/wolf"},
 		 
          {"predicate": {"custom_model_data": 2106}, "model": "costumes/phantom"},
          {"predicate": {"custom_model_data": 2110}, "model": "costumes/headless_horseman"},
-         {"predicate": {"custom_model_data": 2120}, "model": "costumes/white_frog"},
+         {"predicate": {"custom_model_data": 2120}, "model": "costumes/frog_white"},
          {"predicate": {"custom_model_data": 2129}, "model": "costumes/fox"},
 		 
          {"predicate": {"custom_model_data": 2206}, "model": "costumes/ender_dragon"},
          {"predicate": {"custom_model_data": 2210}, "model": "costumes/white_pumpkin"},
-         {"predicate": {"custom_model_data": 2220}, "model": "costumes/green_frog"},
+         {"predicate": {"custom_model_data": 2220}, "model": "costumes/frog_green"},
          {"predicate": {"custom_model_data": 2229}, "model": "costumes/snow_fox"},
 		 
 		 
@@ -73,10 +73,10 @@
          {"predicate": {"custom_model_data": 3317}, "model": "costumes/piglin_chan"},
 		 {"predicate": {"custom_model_data": 3328}, "model": "costumes/llama_white_decorated"},
 
-         {"predicate": {"custom_model_data": 5021}, "model": "costumes/axolotl_pink"},
+         {"predicate": {"custom_model_data": 5021}, "model": "costumes/axolotl_lucy"},
          {"predicate": {"custom_model_data": 5121}, "model": "costumes/axolotl_cyan"},
-         {"predicate": {"custom_model_data": 5221}, "model": "costumes/axolotl_yellow"},
-         {"predicate": {"custom_model_data": 5321}, "model": "costumes/axolotl_brown"},
+         {"predicate": {"custom_model_data": 5221}, "model": "costumes/axolotl_gold"},
+         {"predicate": {"custom_model_data": 5321}, "model": "costumes/axolotl_wild"},
          {"predicate": {"custom_model_data": 5421}, "model": "costumes/axolotl_blue"},
          {"predicate": {"custom_model_data": 5521}, "model": "costumes/axolotl_green"},
 		 
@@ -135,11 +135,15 @@
         {"predicate": {"custom_model_data": 11009}, "model": "costumes/slime_big"},
         {"predicate": {"custom_model_data": 11022}, "model": "costumes/pufferfish_big"},
         {"predicate": {"custom_model_data": 11109}, "model": "costumes/magma_cube_big"},
+        {"predicate": {"custom_model_data": 12020}, "model": "costumes/frog_orange_open"},
         {"predicate": {"custom_model_data": 12029}, "model": "costumes/wolf_angry"},
+        {"predicate": {"custom_model_data": 12120}, "model": "costumes/frog_white_open"},
         {"predicate": {"custom_model_data": 12129}, "model": "costumes/fox_sleeping"},
+        {"predicate": {"custom_model_data": 12220}, "model": "costumes/frog_green_open"},
         {"predicate": {"custom_model_data": 12229}, "model": "costumes/snow_fox_sleeping"},
         {"predicate": {"custom_model_data": 13301}, "model": "costumes/sans_eye"},
 		{"predicate": {"custom_model_data": 16408}, "model": "costumes/evocation_fang_closed"},
+        {"predicate": {"custom_model_data": 16608}, "model": "costumes/ravager_roar"},
         
 		{"predicate": {"custom_model_data": 20000}, "model": "costumes/error"}	
 	]

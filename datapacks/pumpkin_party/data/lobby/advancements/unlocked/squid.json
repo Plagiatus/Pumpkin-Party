@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:23}"
+            "nbt": "{CustomModelData:1024}"
         },
         "title": {
             "text": "Squid Costume"

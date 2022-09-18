@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:243}"
+            "nbt": "{CustomModelData:3203}"
         },
         "title": {
             "text": "Drowned Costume"

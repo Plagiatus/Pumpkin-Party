@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:42}"
+            "nbt": "{CustomModelData:2010}"
         },
         "title": {
             "text": "Jack o'Lantern Costume"

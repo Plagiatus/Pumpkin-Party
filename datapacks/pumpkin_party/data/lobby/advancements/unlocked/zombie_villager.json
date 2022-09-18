@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:343}"
+            "nbt": "{CustomModelData:3303}"
         },
         "title": {
             "text": "Zombie Villager Costume"

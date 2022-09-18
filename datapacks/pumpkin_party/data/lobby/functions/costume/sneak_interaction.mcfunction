@@ -14,17 +14,19 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=14}] run f
 #Phantom
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.phantom.ambient player @a
 
-#Enderman, Shulker, Strider, Ghast, Wolf/Foxes, Bee, Sans, Evocation Fangs
+#Enderman, Shulker, Slime, Strider, Ghast, Frog, Wolf/Foxes, Bee, Sans, Evocation Fangs, Ravager
 execute if entity @s[tag=!costume_sneak,scores={costume=5}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=7}] run scoreboard players add @s costume 10000
+execute if entity @s[tag=!costume_sneak,scores={tmp=9}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=13}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=15}] run scoreboard players add @s costume 10000
+execute if entity @s[tag=!costume_sneak,scores={tmp=20}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={tmp=29}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=32}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=3301}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=6408}] run scoreboard players add @s costume 10000
-
-tellraw @a {"score":{"name":"@s","objective":"sound_delay"}}
+execute if entity @s[tag=!costume_sneak,scores={costume=6608}] run scoreboard players add @s costume 10000
+#tellraw @a {"score":{"name":"@s","objective":"sound_delay"}}
 #Warden
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=19}] sound_delay 60
 
@@ -44,6 +46,12 @@ scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=24}] soun
 
 #Pumpkins
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=10}] run playsound minecraft:entity.vex.ambient player @a ~ ~ ~ 10 0
+
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=25}] run playsound minecraft:entity.goat.screaming.prepare_ram player @a ~ ~ ~ 10
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=25}] run effect give @s speed 2 10 true
+
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=21}] run playsound minecraft:entity.axolotl.idle_air player @a ~ ~ ~ 10
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=21}] sound_delay 10
 
 #Zombies
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3003}] run playsound minecraft:entity.zombie.ambient player @a
@@ -71,7 +79,7 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=6108}] run
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=6208}] run playsound minecraft:entity.pillager.ambient player @a
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=6308}] run playsound minecraft:entity.evoker.ambient player @a
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=6508}] run playsound minecraft:entity.illusioner.ambient player @a
-execute unless score @s[tag=!costume_sneak,scores={sound_delay=0,tmp=8}] costume matches 6408 run scoreboard players set sound_delay 15
+execute unless score @s[tag=!costume_sneak,scores={sound_delay=0,tmp=8}] costume matches 6408 unless score @s costume matches 16608 run scoreboard players set @s sound_delay 15
 
 #Horses
 execute if score @s[tag=!costume_sneak,scores={sound_delay=0,tmp=30}] costume matches ..6330 run playsound minecraft:entity.horse.ambient player @a
@@ -91,14 +99,19 @@ execute unless score @s[tag=!costume_sneak,scores={sound_delay=0,tmp=27}] costum
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=7127}] run playsound minecraft:entity.wandering_trader.ambient player @a ~ ~ ~
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=27}] sound_delay 15
 
+
 #Special costumes with changing models
 execute if entity @s[tag=!costume_sneak,scores={costume=10000..}] run function lobby:costume/equip_costume10
 
 #Bee
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=32}] run scoreboard players add @s sound_delay 90
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=10032}] run scoreboard players add @s sound_delay 80
+
+#Sans
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=13301}] run scoreboard players add @s sound_delay 40
+
+
 #General
-scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0}] sound_delay 30
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,costume=1..}] sound_delay 30
 
 tag @s add costume_sneak
 execute unless predicate lobby:is_sneaking if score @s costume matches 10000.. run function lobby:costume/sneak_interaction_end

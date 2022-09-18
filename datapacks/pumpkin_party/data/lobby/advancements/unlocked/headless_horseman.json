@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:142}"
+            "nbt": "{CustomModelData:2110}"
         },
         "title": {
             "text": "Headless Horseman Costume"

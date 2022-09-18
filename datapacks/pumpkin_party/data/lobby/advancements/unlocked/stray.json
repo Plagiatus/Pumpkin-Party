@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:144}"
+            "nbt": "{CustomModelData:3101}"
         },
         "title": {
             "text": "Stray Costume"

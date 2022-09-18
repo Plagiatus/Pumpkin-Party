@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:68}"
+            "nbt": "{CustomModelData:6030}"
         },
         "title": {
             "text": "Brown Horse Costume"

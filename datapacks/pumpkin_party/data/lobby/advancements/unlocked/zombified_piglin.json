@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:45}"
+            "nbt": "{CustomModelData:3017}"
         },
         "title": {
             "text": "Zombified Piglin Costume"

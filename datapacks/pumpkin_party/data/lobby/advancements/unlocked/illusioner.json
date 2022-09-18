@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/evoker",
+    "parent": "lobby:unlocked/evocation_fang",
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:467}"
+            "nbt": "{CustomModelData:6508}"
         },
         "title": {
             "text": "Illusioner Costume"

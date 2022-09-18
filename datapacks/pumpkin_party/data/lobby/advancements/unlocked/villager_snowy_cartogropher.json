@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:670}"
+            "nbt": "{CustomModelData:7627}"
         },
         "title": {
             "text": "Snowy Cartographer Costume"
