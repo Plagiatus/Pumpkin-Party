@@ -3,6 +3,8 @@ execute if score @s costume matches 0 run function lobby:costume/none
 execute if score @s costume matches 2 run function lobby:costume/creeper
 execute if score @s[tag=ul_enderman] costume matches 5 run function lobby:costume/enderman
 execute if score @s[tag=!ul_enderman] costume matches 5 run function lobby:costume/info/enderman
+execute if score @s[tag=ul_shulker] costume matches 7 run function lobby:costume/shulker
+execute if score @s[tag=!ul_shulker] costume matches 7 run function lobby:costume/info/shulker
 execute if score @s[tag=ul_strider] costume matches 13 run function lobby:costume/strider
 execute if score @s[tag=!ul_strider] costume matches 13 run function lobby:costume/info/strider
 execute if score @s[tag=ul_wither] costume matches 14 run function lobby:costume/wither

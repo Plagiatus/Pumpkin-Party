@@ -1,4 +1,5 @@
 scoreboard players remove @s costume 10000
+execute if score @s costume matches 7 run playsound entity.shulker.close player @a
 execute if score @s costume matches 0..999 run function lobby:costume/equip_costume0
 execute if score @s costume matches 1000..1999 run function lobby:costume/equip_costume1
 execute if score @s costume matches 2000..2999 run function lobby:costume/equip_costume2

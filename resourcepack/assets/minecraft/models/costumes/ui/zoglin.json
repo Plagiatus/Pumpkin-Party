@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/ui/hoglin",
+	"textures": {
+		"0": "entity/hoglin/zoglin"
+	}
+}

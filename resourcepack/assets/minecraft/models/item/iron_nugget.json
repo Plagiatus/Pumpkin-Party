@@ -6,7 +6,7 @@
 	"overrides": [
 		    {"predicate": {"custom_model_data": 2}, "model": "item/creeper_head"},
 		    {"predicate": {"custom_model_data": 5}, "model": "costumes/enderman"},
-		    {"predicate": {"custom_model_data": 7}, "model": "costumes/shulker"},
+		    {"predicate": {"custom_model_data": 7}, "model": "item/shulker_box"},
            {"predicate": {"custom_model_data": 13}, "model": "costumes/strider"},
            {"predicate": {"custom_model_data": 14}, "model": "costumes/wither"},
            {"predicate": {"custom_model_data": 15}, "model": "costumes/ghast"},
@@ -25,31 +25,31 @@
          {"predicate": {"custom_model_data": 1018}, "model": "costumes/hoglin"},
          {"predicate": {"custom_model_data": 1022}, "model": "costumes/pufferfish_middle"},
          {"predicate": {"custom_model_data": 1023}, "model": "costumes/guardian"},
-         {"predicate": {"custom_model_data": 1024}, "model": "costumes/squid"},
 		 
          {"predicate": {"custom_model_data": 1104}, "model": "costumes/cave_spider"},
          {"predicate": {"custom_model_data": 1109}, "model": "costumes/magma_cube"},
          {"predicate": {"custom_model_data": 1111}, "model": "costumes/gold_ghost"},
          {"predicate": {"custom_model_data": 1112}, "model": "costumes/vex"},
          {"predicate": {"custom_model_data": 1118}, "model": "costumes/zoglin"},
-         {"predicate": {"custom_model_data": 1122}, "model": "costumes/turtle"},
          {"predicate": {"custom_model_data": 1123}, "model": "costumes/elder_guardian"},
-         {"predicate": {"custom_model_data": 1124}, "model": "costumes/glow_squid"},
 		 
 		 
          {"predicate": {"custom_model_data": 2006}, "model": "costumes/bat"},
          {"predicate": {"custom_model_data": 2010}, "model": "block/jack_o_lantern"},
          {"predicate": {"custom_model_data": 2020}, "model": "costumes/frog_orange"},
+         {"predicate": {"custom_model_data": 2024}, "model": "costumes/squid"},
          {"predicate": {"custom_model_data": 2029}, "model": "costumes/wolf"},
 		 
          {"predicate": {"custom_model_data": 2106}, "model": "costumes/phantom"},
          {"predicate": {"custom_model_data": 2110}, "model": "costumes/headless_horseman"},
          {"predicate": {"custom_model_data": 2120}, "model": "costumes/frog_white"},
+         {"predicate": {"custom_model_data": 2124}, "model": "costumes/glow_squid"},
          {"predicate": {"custom_model_data": 2129}, "model": "costumes/fox"},
 		 
          {"predicate": {"custom_model_data": 2206}, "model": "costumes/ender_dragon"},
          {"predicate": {"custom_model_data": 2210}, "model": "costumes/white_pumpkin"},
          {"predicate": {"custom_model_data": 2220}, "model": "costumes/frog_green"},
+         {"predicate": {"custom_model_data": 2224}, "model": "costumes/turtle"},
          {"predicate": {"custom_model_data": 2229}, "model": "costumes/snow_fox"},
 		 
 		 
@@ -73,12 +73,14 @@
          {"predicate": {"custom_model_data": 3317}, "model": "costumes/piglin_chan"},
 		 {"predicate": {"custom_model_data": 3328}, "model": "costumes/llama_white_decorated"},
 
+		 
          {"predicate": {"custom_model_data": 5021}, "model": "costumes/axolotl_lucy"},
          {"predicate": {"custom_model_data": 5121}, "model": "costumes/axolotl_cyan"},
          {"predicate": {"custom_model_data": 5221}, "model": "costumes/axolotl_gold"},
          {"predicate": {"custom_model_data": 5321}, "model": "costumes/axolotl_wild"},
          {"predicate": {"custom_model_data": 5421}, "model": "costumes/axolotl_blue"},
          {"predicate": {"custom_model_data": 5521}, "model": "costumes/axolotl_green"},
+		 
 		 
          {"predicate": {"custom_model_data": 6008}, "model": "costumes/witch"},
          {"predicate": {"custom_model_data": 6030}, "model": "costumes/horse_brown"},
@@ -110,29 +112,23 @@
 		 
 		 
          {"predicate": {"custom_model_data": 7027}, "model": "costumes/villager_plains_farmer"},
-		 
 		 {"predicate": {"custom_model_data": 7127}, "model": "costumes/wandering_trader"},
-         
 		 {"predicate": {"custom_model_data": 7227}, "model": "costumes/villager_jungle_fletcher"},
-		 
 		 {"predicate": {"custom_model_data": 7327}, "model": "costumes/villager_taiga_armorer"},
-		 
 		 {"predicate": {"custom_model_data": 7427}, "model": "costumes/villager_desert_librarian"},
-		 
 		 {"predicate": {"custom_model_data": 7527}, "model": "costumes/villager_swamp_nitwit"},
-		 
 		 {"predicate": {"custom_model_data": 7627}, "model": "costumes/villager_snowy_cartographer"},
-		 
 		 {"predicate": {"custom_model_data": 7727}, "model": "costumes/villager_savanna_weaponsmith"},
         
          
 		{"predicate": {"custom_model_data": 10005}, "model": "costumes/enderman_angry"},
-        {"predicate": {"custom_model_data": 10007}, "model": "costumes/shulker_close"},
+        {"predicate": {"custom_model_data": 10007}, "model": "costumes/shulker_open"},
         {"predicate": {"custom_model_data": 10013}, "model": "costumes/strider_cold"},
         {"predicate": {"custom_model_data": 10014}, "model": "costumes/wither_skull"},
 		{"predicate": {"custom_model_data": 10015}, "model": "costumes/ghast_angry"},
         {"predicate": {"custom_model_data": 10032}, "model": "costumes/bee_angry"},
         {"predicate": {"custom_model_data": 11009}, "model": "costumes/slime_big"},
+        {"predicate": {"custom_model_data": 11112}, "model": "costumes/vex_charging"},
         {"predicate": {"custom_model_data": 11022}, "model": "costumes/pufferfish_big"},
         {"predicate": {"custom_model_data": 11109}, "model": "costumes/magma_cube_big"},
         {"predicate": {"custom_model_data": 12020}, "model": "costumes/frog_orange_open"},

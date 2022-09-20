@@ -8,4 +8,4 @@ advancement grant @s only lobby:unlocked/arch_illager
 tag @s add ul_arch_illager
 
 scoreboard players set @s costume 26
-data merge entity @s[type=minecraft:armor_stand] {CustomName:'"   Arch     Illager"'}
+data merge entity @s[type=minecraft:armor_stand] {CustomName:'"   Arch     Illager"',Small:1b}

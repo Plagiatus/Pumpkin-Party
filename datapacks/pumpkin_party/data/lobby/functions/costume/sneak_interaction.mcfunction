@@ -11,8 +11,12 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=16}] run f
 #Wither
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=14}] run function lobby:costume/sneak/wither
 
+#Bat
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.bat.ambient player @a ~ ~ ~ 0.25 1 0.25
 #Phantom
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.phantom.ambient player @a
+#Ender Dragon
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.ender_dragon.ambient player @a
 
 #Enderman, Shulker, Slime, Strider, Ghast, Frog, Wolf/Foxes, Bee, Sans, Evocation Fangs, Ravager
 execute if entity @s[tag=!costume_sneak,scores={costume=5}] run scoreboard players add @s costume 10000
@@ -23,6 +27,7 @@ execute if entity @s[tag=!costume_sneak,scores={costume=15}] run scoreboard play
 execute if entity @s[tag=!costume_sneak,scores={tmp=20}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={tmp=29}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=32}] run scoreboard players add @s costume 10000
+execute if entity @s[tag=!costume_sneak,scores={costume=1112}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=3301}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=6408}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=6608}] run scoreboard players add @s costume 10000
@@ -38,10 +43,10 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] run playso
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] sound_delay 15
 
 #Squid
-execute if entity @s[tag=!costume_sneak,scores={costume=1024}] run particle minecraft:squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=1024}] run playsound minecraft:entity.squid.hurt player @a ~ ~ ~
-execute if entity @s[tag=!costume_sneak,scores={costume=1124}] run particle minecraft:glow_squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=1124}] run playsound minecraft:entity.glow_squid.hurt player @a ~ ~ ~
+execute if entity @s[tag=!costume_sneak,scores={costume=2024}] run particle minecraft:squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2024}] run playsound minecraft:entity.squid.hurt player @a ~ ~ ~
+execute if entity @s[tag=!costume_sneak,scores={costume=2124}] run particle minecraft:glow_squid_ink ~ ~1 ~ 0 0 0 0.05 10 force @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2124}] run playsound minecraft:entity.glow_squid.hurt player @a ~ ~ ~
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=24}] sound_delay 10
 
 #Pumpkins
@@ -102,6 +107,9 @@ scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=27}] soun
 
 #Special costumes with changing models
 execute if entity @s[tag=!costume_sneak,scores={costume=10000..}] run function lobby:costume/equip_costume10
+
+#Shulker
+scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,costume=10007}] sound_delay 10
 
 #Bee
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=10032}] run scoreboard players add @s sound_delay 80
