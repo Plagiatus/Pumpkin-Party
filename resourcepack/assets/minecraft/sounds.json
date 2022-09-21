@@ -78,5 +78,23 @@
 				"name":"custom/no_sound"
 			}
 		]
+	},
+	"entity.archillager.idle": {
+		"subtitle": "subtitles.entity.archillager.idle",
+		"sounds":[
+			{"name":"dungeons/archillager_idle_001"},
+			{"name":"dungeons/archillager_idle_002"},
+			{"name":"dungeons/archillager_idle_003"},
+			{"name":"dungeons/archillager_idle_004"},
+			{"name":"dungeons/archillager_idle_005"},
+			{"name":"dungeons/archillager_idle_006"},
+			{"name":"dungeons/archillager_idle_007"},
+			{"name":"dungeons/archillager_idle_008"},
+			{"name":"dungeons/archillager_idle_009"},
+			{"name":"dungeons/archillager_idle_010"},
+			{"name":"dungeons/archillager_idle_011"},
+			{"name":"dungeons/archillager_idle_012"},
+			{"name":"dungeons/archillager_idle_013"}
+		]
 	}	
 }
