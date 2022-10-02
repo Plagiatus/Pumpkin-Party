@@ -96,5 +96,155 @@
 			{"name":"dungeons/archillager_idle_012"},
 			{"name":"dungeons/archillager_idle_013"}
 		]
-	}	
+	},
+	
+  "entity.rabbit.ambient": {
+    "sounds": [
+      {
+        "name": "mob/frog/idle1",
+        "pitch": 0.95,
+        "volume": 0.8
+      },
+      {
+        "name": "mob/frog/idle2",
+        "pitch": 0.9
+      },
+      {
+        "name": "mob/frog/idle3",
+        "pitch": 0.9,
+        "volume": 0.9
+      },
+      {
+        "name": "mob/frog/idle4",
+        "pitch": 0.95,
+        "volume": 0.8
+      },
+      {
+        "name": "mob/frog/idle5",
+        "pitch": 0.9,
+        "volume": 0.85
+      },
+      {
+        "name": "mob/frog/idle6",
+        "pitch": 0.9,
+        "volume": 0.9
+      },
+      {
+        "name": "mob/frog/idle7",
+        "pitch": 0.9,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/frog/idle8",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "name": "mob/rabbit/idle_custom",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.frog.ambient"
+  },
+  "entity.rabbit.death": {
+    "sounds": [
+      "mob/frog/death1",
+      "mob/frog/death2",
+      "mob/frog/death3"
+    ],
+    "subtitle": "subtitles.entity.frog.death"
+  },
+  "entity.rabbit.attack": {
+    "sounds": [
+      {
+        "name": "mob/frog/eat1",
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat1",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat2",
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat2",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat3",
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat3",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat4",
+        "volume": 0.6
+      },
+      {
+        "name": "mob/frog/eat4",
+        "pitch": 0.9,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.entity.frog.eat"
+  },
+  "entity.rabbit.hurt": {
+    "sounds": [
+      "mob/frog/hurt1",
+      "mob/frog/hurt2",
+      "mob/frog/hurt3",
+      "mob/frog/hurt4",
+      "mob/frog/hurt5"
+    ],
+    "subtitle": "subtitles.entity.frog.hurt"
+  },
+  "entity.rabbit.jump": {
+    "sounds": [
+      {
+        "name": "mob/frog/long_jump1",
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump1",
+        "pitch": 0.8,
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump2",
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump2",
+        "pitch": 0.8,
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump3",
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump3",
+        "pitch": 0.8,
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump4",
+        "volume": 0.12
+      },
+      {
+        "name": "mob/frog/long_jump4",
+        "pitch": 0.8,
+        "volume": 0.12
+      }
+    ],
+    "subtitle": "subtitles.entity.frog.long_jump"
+  }
 }
