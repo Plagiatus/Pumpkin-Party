@@ -22,6 +22,7 @@ scoreboard players set 3 const 3
 scoreboard players set 4 const 4
 scoreboard players set 5 const 5
 scoreboard players set 8 const 8
+scoreboard players set 10 const 10
 
 # set all games to "normal" difficulty, if not set otherwise yet. 0=normal, 1=hard, 2=nightmare
 execute unless score bc_difficulty settings = bc_difficulty settings run scoreboard players set bc_difficulty settings 0

@@ -1,4 +1,3 @@
-
 execute if score #wd_phase points matches 99 run function wd:play/music
 execute if score #wd_phase points matches 2..5 run function wd:play/music
 execute if score #wd_phase points matches 3 run function wd:play/bridge/main
@@ -8,6 +7,9 @@ execute if score #wd_phase points matches 6 run function wd:play/punish/main
 
 # anti itemdrop
 execute as @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] run data merge entity @s {PickupDelay:0}
+
+#visual block stuff 
+function wd:decoration/main
 
 # life display
 title @a[scores={wd_lives=5}] actionbar [{"text": "❤❤❤❤❤", "color": "red"}]

@@ -2,6 +2,6 @@
     "parent": "block/cube_all",
     "textures": {
 	    "particle": "block/magenta_glazed_terracotta_north",
-        "0": "block/magenta_glazed_terracotta_north"
+        "all": "block/magenta_glazed_terracotta_north"
     }
 }
