@@ -11,5 +11,6 @@ execute if score #selected tmp matches 3 run item replace entity @e[tag=lbb_Pain
 execute if score #selected tmp matches 4 run item replace entity @e[tag=lbb_PaintingSelect] weapon.mainhand with lime_carpet
 execute if score #selected tmp matches 5 run item replace entity @e[tag=lbb_PaintingSelect] weapon.mainhand with pink_carpet
 execute if score #selected tmp matches 6 run item replace entity @e[tag=lbb_PaintingSelect] weapon.mainhand with orange_carpet
+execute if score #selected tmp matches 7 run item replace entity @e[tag=lbb_PaintingSelect] weapon.mainhand with gray_carpet
 
 execute as @a at @s run playsound minecraft:block.note_block.hat voice @s

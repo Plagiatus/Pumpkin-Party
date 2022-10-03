@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/jack_o_lantern",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:2110}"
         },
         "title": {

@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/root",
+    "parent": "lobby:unlocked/zombie_villager",
     "display": {
         "icon": {
             "item": "minecraft:skeleton_skull"

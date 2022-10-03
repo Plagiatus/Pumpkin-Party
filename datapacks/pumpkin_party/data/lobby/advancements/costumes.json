@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:70}"
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:7027}"
     },
     "title": {
       "text": "Costumes"

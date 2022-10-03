@@ -1,8 +1,8 @@
 {
-    "parent": "lobby:unlocked/zombified_piglin",
+    "parent": "lobby:unlocked/ghast",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:13}"
         },
         "title": {

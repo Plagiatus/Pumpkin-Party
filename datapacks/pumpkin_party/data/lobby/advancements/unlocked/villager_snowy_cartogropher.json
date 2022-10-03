@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/villager_swamp_nitwit",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:7627}"
         },
         "title": {

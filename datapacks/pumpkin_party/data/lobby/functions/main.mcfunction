@@ -1,5 +1,5 @@
 #Costume
-execute as @a[x=344,y=78,z=469,dx=40,dy=21,dz=50] at @s run function lobby:costume/detection
+execute as @a[x=344,y=78,z=469,dx=34,dy=7,dz=50] at @s run function lobby:costume/detection
 execute as @a[x=344,y=68,z=469,dx=40,dy=21,dz=50] at @s run function lobby:costume/show_names
 execute at @e[scores={costume=1111}] run particle crit ~ ~0.75 ~ 0.25 0.5 0.25 0 3 force
 execute as @a[team=,gamemode=adventure,scores={costume_sneak=1..}] at @s run function lobby:costume/sneak_interaction

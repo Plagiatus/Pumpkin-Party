@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/illusioner",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6608}"
+        },
+        "title": {
+            "text": "Ravager Costume"
+        },
+        "description": {
+            "text": "Code: \"WHATAWEIRDHORSE\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"WHATAWEIRDHORSE\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/ravager"
+    }
+}

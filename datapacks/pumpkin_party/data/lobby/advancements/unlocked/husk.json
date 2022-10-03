@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/zombie",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:3103}"
         },
         "title": {

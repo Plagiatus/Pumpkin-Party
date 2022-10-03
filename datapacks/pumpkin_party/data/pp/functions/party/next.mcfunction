@@ -9,5 +9,6 @@ execute if score #pc settings matches 1 run data modify storage pp:party games a
 execute if score #sg settings matches 1 run data modify storage pp:party games append value 4
 execute if score #sr settings matches 1 run data modify storage pp:party games append value 5
 execute if score #tot settings matches 1 run data modify storage pp:party games append value 6
+execute if score #wd settings matches 1 run data modify storage pp:party games append value 7
 
 function pp:party/choose_random

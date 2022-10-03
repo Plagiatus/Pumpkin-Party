@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/phantom",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:19}"
         },
         "title": {

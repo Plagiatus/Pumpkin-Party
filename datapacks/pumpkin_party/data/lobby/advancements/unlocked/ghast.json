@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/blaze",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:15}"
         },
         "title": {

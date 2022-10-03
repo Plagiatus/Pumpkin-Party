@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/villager_taiga_armorer",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:7427}"
         },
         "title": {

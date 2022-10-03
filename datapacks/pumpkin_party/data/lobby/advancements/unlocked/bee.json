@@ -1,8 +1,8 @@
 {
-    "parent": "lobby:unlocked/snow_fox",
+    "parent": "lobby:unlocked/goat",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:32}"
         },
         "title": {

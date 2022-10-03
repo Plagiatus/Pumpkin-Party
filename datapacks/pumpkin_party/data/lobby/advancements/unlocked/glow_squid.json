@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/squid",
+    "parent": "lobby:unlocked/elder_guardian",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:1124}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2124}"
         },
         "title": {
             "text": "Glow Squid Costume"

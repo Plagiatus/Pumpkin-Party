@@ -2,8 +2,8 @@
   "parent": "lobby:mule",
   "display": {
     "icon": {
-      "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:5}"
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:2106}"
     },
     "title": {
       "text": "Party time, all the time!"

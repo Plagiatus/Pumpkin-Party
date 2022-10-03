@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/drowned",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:3303}"
         },
         "title": {

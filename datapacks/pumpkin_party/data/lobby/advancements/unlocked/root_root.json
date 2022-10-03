@@ -1,13 +1,14 @@
 {
+    "parent": "lobby:unlocked/llama_white_decorated",
     "display": {
         "icon": {
             "item": "minecraft:leather_chestplate"
         },
         "title": {
-            "text": "Costumes"
+            "text": "Unlocking Costumes"
         },
         "description": {
-            "text": "Overview of costumes you unlocked.\nWrite the codes down somewhere safe so you don't lose them ^^"
+            "text": "Write the codes down somewhere safe so you don't lose them ^^\nCodes can be used in the basement."
         },
         "background": "minecraft:textures/block/orange_concrete.png",
         "show_toast": false,

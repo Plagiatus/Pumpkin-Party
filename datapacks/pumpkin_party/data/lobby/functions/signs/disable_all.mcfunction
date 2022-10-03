@@ -1,7 +1,7 @@
 execute positioned 392 70 490 run function lobby:signs/disable_one
 execute positioned 397 70 490 run function lobby:signs/disable_one
 execute positioned 387 70 510 run function lobby:signs/disable_one
-execute positioned 387 70 490 run function lobby:signs/disable_one
+execute positioned 386 70 490 run function lobby:signs/disable_one
 execute positioned 393 70 510 run function lobby:signs/disable_one
 execute positioned 390 72 510 run function lobby:signs/disable_one
 

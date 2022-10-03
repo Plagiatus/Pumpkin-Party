@@ -49,7 +49,7 @@
          {"predicate": {"custom_model_data": 2206}, "model": "costumes/ender_dragon"},
          {"predicate": {"custom_model_data": 2210}, "model": "costumes/white_pumpkin"},
          {"predicate": {"custom_model_data": 2220}, "model": "costumes/frog_green"},
-         {"predicate": {"custom_model_data": 2224}, "model": "costumes/turtle"},
+         {"predicate": {"custom_model_data": 2224}, "model": "costumes/ui/turtle"},
          {"predicate": {"custom_model_data": 2229}, "model": "costumes/snow_fox"},
 		 
 		 

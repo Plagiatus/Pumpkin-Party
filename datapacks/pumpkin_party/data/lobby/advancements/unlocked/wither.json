@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/strider",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:14}"
         },
         "title": {

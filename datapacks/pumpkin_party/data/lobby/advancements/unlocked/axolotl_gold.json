@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/axolotl_cyan",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:5221}"
+        },
+        "title": {
+            "text": "Axolotl (Gold) Costume"
+        },
+        "description": {
+            "text": "Code: \"ALLTHATGLITTERSISNOTGOLD\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ALLTHATGLITTERSISNOTGOLD\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/axolotl_gold"
+    }
+}

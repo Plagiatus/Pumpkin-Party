@@ -2,7 +2,7 @@
     "parent": "lobby:unlocked/villager_snowy_cartogropher",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:7727}"
         },
         "title": {

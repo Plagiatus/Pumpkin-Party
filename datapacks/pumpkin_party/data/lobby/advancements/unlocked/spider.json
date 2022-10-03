@@ -1,8 +1,8 @@
 {
-    "parent": "lobby:unlocked/enderman",
+    "parent": "lobby:unlocked/magma_cube",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:gold_nugget",
             "nbt": "{CustomModelData:1004}"
         },
         "title": {
