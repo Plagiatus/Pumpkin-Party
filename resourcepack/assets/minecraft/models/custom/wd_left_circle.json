@@ -1,0 +1,7 @@
+{
+	"parent": "custom/wd_up_triangle",
+	"textures": {
+		"0": "custom/wd_left_circle",
+		"particle": "custom/wd_left_circle"
+	}
+}
