@@ -20,3 +20,6 @@ scoreboard players operation #on_beat wd_timer = #wd_music_counter wd_timer
 scoreboard players operation #on_beat wd_timer %= 2 const
 
 execute if score #on_beat wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_phase points matches 2 as @e[type=marker,tag=wd_warden] at @s run function wd:play/warden/warden
+
+# visual stuff on the beat
+execute if score #on_beat wd_timer matches 0 if score #wd_music wd_timer matches 0 run function wd:decoration/main

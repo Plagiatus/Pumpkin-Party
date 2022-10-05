@@ -1,7 +1,7 @@
 
 function pp:all_games/start
 
-tp @a -500 80 0
+tp @a -1000 65 1000 180 0
 
 scoreboard players set #wd_phase points 1
 scoreboard players set #cutscene wd_timer -40
