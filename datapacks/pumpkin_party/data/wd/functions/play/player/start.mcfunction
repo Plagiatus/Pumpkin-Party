@@ -6,4 +6,6 @@ scoreboard players set @a wd_mistake 0
 scoreboard players set @a wd_click 0
 scoreboard players set @a wd_timer 0
 
+title @a subtitle [{"text": ""}]
+
 function wd:decoration/lights/audience

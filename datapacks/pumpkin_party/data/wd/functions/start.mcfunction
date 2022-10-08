@@ -7,7 +7,7 @@ scoreboard players set #wd_phase points 1
 scoreboard players set #cutscene wd_timer -10
 scoreboard players set #wd_music wd_timer 0
 scoreboard players set #decoration wd_timer 0
-scoreboard players set #wd_music_counter wd_timer 7
+scoreboard players set #wd_music_counter wd_timer 1
 scoreboard players set #wd_count wd_timer 0
 scoreboard players set #wd_total wd_timer 0
 

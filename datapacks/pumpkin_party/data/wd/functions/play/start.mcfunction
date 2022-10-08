@@ -7,7 +7,7 @@ item replace entity @a hotbar.1 with carrot_on_a_stick{Warden:1,CustomModelData:
 item replace entity @a hotbar.2 with carrot_on_a_stick{Warden:2,CustomModelData:4,Unbreakable:1b,display:{Name:'{"text":"☆ → ☆","italic": false, "color": "yellow"}'}}
 item replace entity @a hotbar.3 with carrot_on_a_stick{Warden:3,CustomModelData:1,Unbreakable:1b,display:{Name:'{"text":"△ ↑ △","italic": false, "color": "light_purple"}'}}
 
-function wd:play/bridge_back/start
+function wd:play/bridge_back/start_first_time
 
 scoreboard players set @a left_game 0
 
