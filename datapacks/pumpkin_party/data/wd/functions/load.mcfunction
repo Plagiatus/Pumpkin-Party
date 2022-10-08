@@ -23,3 +23,9 @@ scoreboard players set #nightmare wd_timer 5
 scoreboard players set #normal wd_lives 4
 scoreboard players set #hard wd_lives 2
 scoreboard players set #nightmare wd_lives 2
+
+# consts
+scoreboard players set 24000 const 24000
+scoreboard players set warden_spawn_start const 58
+scoreboard players set warden_spawn const 284
+scoreboard players set warden_attack const 60
