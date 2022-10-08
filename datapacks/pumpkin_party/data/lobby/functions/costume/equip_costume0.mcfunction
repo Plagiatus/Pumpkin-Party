@@ -17,8 +17,8 @@ execute if score @s[tag=ul_goat] costume matches 25 run function lobby:costume/g
 execute if score @s[tag=!ul_goat] costume matches 25 run function lobby:costume/info/goat
 execute if score @s[tag=ul_arch_illager] costume matches 26 run function lobby:costume/arch_illager
 execute if score @s[tag=!ul_arch_illager] costume matches 26 run function lobby:costume/info/arch_illager
-execute if score @s[tag=ul_warden] costume matches 32 run function lobby:costume/bee
-execute if score @s[tag=!ul_warden] costume matches 32 run function lobby:costume/info/bee
+execute if score @s[tag=ul_bee] costume matches 32 run function lobby:costume/bee
+execute if score @s[tag=!ul_bee] costume matches 32 run function lobby:costume/info/bee
 
 
 execute store result score @s[type=player,tag=!costume_sneak] tmp run clear @s orange_dye 0

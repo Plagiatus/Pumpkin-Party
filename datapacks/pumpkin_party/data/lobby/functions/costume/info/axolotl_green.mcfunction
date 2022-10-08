@@ -1,3 +1,3 @@
 function lobby:costume/info/not_unlocked_yet_message
 
-tellraw @s ["",{"text":"Finish the achievement "},{"text":"TODO","underlined":true,"hoverEvent":{"action":"show_text","contents":{"text":"Fall into the Lava."}}},{"text":" in the \"Spider Run\" tab.\n"}]
+tellraw @s ["",{"text":"Finish the achievement "},{"text":"Recipe Meltdown","underlined":true,"hoverEvent":{"action":"show_text","contents":{"text":"Store-bought drinks might not blow up on you, but these potions will."}}},{"text":" in the \"Brewing Contest\" tab while wearing an "},{"text":"axolotl costume.\n","italic": true,"color": "#FF6600"}]

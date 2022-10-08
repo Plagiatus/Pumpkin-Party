@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "lobby:costume/unlock/stray"
+    "function": "lobby:costume/unlock/pillager"
   }
 }

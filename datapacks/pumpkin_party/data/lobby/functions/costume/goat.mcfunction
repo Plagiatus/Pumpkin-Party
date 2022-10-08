@@ -6,6 +6,7 @@ item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name
 
 advancement grant @s only lobby:unlocked/goat
 tag @s add ul_goat
+scoreboard players set @s[type=minecraft:armor_stand] const 300
 
 scoreboard players set @s costume 25
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Goat"'}

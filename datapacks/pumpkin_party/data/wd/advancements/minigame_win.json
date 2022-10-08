@@ -1,28 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:13}"
+      "item": "minecraft:red_dye"
     },
     "title": {
-      "text": "Hot Feet"
+      "text": "Win Warden's Lair"
     },
     "description": [
       "",
       {
-        "text": "Fall into the lava."
+        "text": "You successfully survived the trial of the Warden."
       }
     ],
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sr:root",
+  "parent": "wd:minigame_play",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
     }
-  },
-  "rewards": {
-    "function": "lobby:costume/unlock/strider"
   }
 }

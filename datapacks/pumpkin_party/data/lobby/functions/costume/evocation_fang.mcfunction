@@ -6,7 +6,7 @@ item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name
 
 advancement grant @s only lobby:unlocked/evocation_fang
 tag @s add ul_evocation_fang
-scoreboard players set @s[type=minecraft:armor_stand] const 500
+scoreboard players set @s[type=minecraft:armor_stand] const 300
 
 scoreboard players set @s costume 6408
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Evocation Fang"'}

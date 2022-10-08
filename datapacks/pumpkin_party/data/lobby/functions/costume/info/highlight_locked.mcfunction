@@ -6,7 +6,7 @@ execute if entity @s[tag=!ul_axolotl_gold] at @e[type=minecraft:armor_stand,scor
 execute if entity @s[tag=!ul_axolotl_green] at @e[type=minecraft:armor_stand,scores={costume=5521},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_axolotl_lucy] at @e[type=minecraft:armor_stand,scores={costume=5021},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_axolotl_wild] at @e[type=minecraft:armor_stand,scores={costume=5321},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
-#execute if entity @s[tag=!ul_bat] at @e[type=minecraft:armor_stand,scores={costume=2006},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
+execute if entity @s[tag=!ul_bat] at @e[type=minecraft:armor_stand,scores={costume=2006},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 #execute if entity @s[tag=!ul_blaze] at @e[type=minecraft:armor_stand,scores={costume=16},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_bee] at @e[type=minecraft:armor_stand,scores={costume=32},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_cave_spider] at @e[type=minecraft:armor_stand,scores={costume=1104},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
@@ -20,7 +20,7 @@ execute if entity @s[tag=!ul_evocation_fang] at @e[type=minecraft:armor_stand,sc
 execute if entity @s[tag=!ul_evoker] at @e[type=minecraft:armor_stand,scores={costume=6308},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_fox] at @e[type=minecraft:armor_stand,scores={costume=2129},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_frog_green] at @e[type=minecraft:armor_stand,scores={costume=2220},distance=..4] facing entity @s feet positioned ^ ^ ^1 run function lobby:costume/info/highlight_locked_visual
-execute if entity @s[tag=!ul_frog_orange] at @e[type=minecraft:armor_stand,scores={costume=2120},distance=..4] facing entity @s feet positioned ^ ^ ^1 run function lobby:costume/info/highlight_locked_visual
+execute if entity @s[tag=!ul_frog_orange] at @e[type=minecraft:armor_stand,scores={costume=2020},distance=..4] facing entity @s feet positioned ^ ^ ^1 run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_frog_white] at @e[type=minecraft:armor_stand,scores={costume=2120},distance=..4] facing entity @s feet positioned ^ ^ ^1 run function lobby:costume/info/highlight_locked_visual
 #execute if entity @s[tag=!ul_ghast] at @e[type=minecraft:armor_stand,scores={costume=15},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 #execute if entity @s[tag=!ul_ghost] at @e[type=minecraft:armor_stand,scores={costume=1011},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
@@ -55,7 +55,7 @@ execute if entity @s[tag=!ul_shulker] at @e[type=minecraft:armor_stand,scores={c
 execute if entity @s[tag=!ul_slime] at @e[type=minecraft:armor_stand,scores={costume=1009},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_snow_fox] at @e[type=minecraft:armor_stand,scores={costume=2229},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_spider] at @e[type=minecraft:armor_stand,scores={costume=1004},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
-execute if entity @s[tag=!ul_squid] at @e[type=minecraft:armor_stand,scores={costume=2024},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
+#execute if entity @s[tag=!ul_squid] at @e[type=minecraft:armor_stand,scores={costume=2024},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_stray] at @e[type=minecraft:armor_stand,scores={costume=3101},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_strider] at @e[type=minecraft:armor_stand,scores={costume=13},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual
 execute if entity @s[tag=!ul_trader_llama_beige] at @e[type=minecraft:armor_stand,scores={costume=3128},distance=..4] facing entity @s feet run function lobby:costume/info/highlight_locked_visual

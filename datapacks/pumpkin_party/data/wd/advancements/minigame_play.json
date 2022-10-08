@@ -1,28 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:13}"
+      "item": "minecraft:orange_dye"
     },
     "title": {
-      "text": "Hot Feet"
+      "text": "Play Warden's Lair"
     },
     "description": [
       "",
       {
-        "text": "Fall into the lava."
+        "text": "Will you come back alive?"
       }
     ],
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sr:root",
+  "parent": "wd:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
     }
-  },
-  "rewards": {
-    "function": "lobby:costume/unlock/strider"
   }
 }

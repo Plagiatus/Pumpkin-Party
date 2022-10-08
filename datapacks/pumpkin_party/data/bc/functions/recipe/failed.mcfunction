@@ -8,6 +8,7 @@ execute as @a if score @s bc_id = @e[tag=self,limit=1] bc_id run advancement gra
 
 execute as @a run scoreboard players operation @s tmp = @s costume
 execute as @a run scoreboard players operation @s tmp %= #100 const
+execute as @a[scores={tmp=21}] if score @s bc_id = @e[tag=self,limit=1] bc_id run advancement grant @s only lobby:unlocked/axolotl_green
 execute as @a[scores={tmp=45}] if score @s bc_id = @e[tag=self,limit=1] bc_id run advancement grant @s only lobby:unlocked/piglin_chan
 
 tag @s remove self

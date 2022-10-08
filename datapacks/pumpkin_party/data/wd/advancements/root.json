@@ -1,11 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_nugget",
-            "nbt": "{CustomModelData:3003}"
+            "item": "minecraft:sculk_shrieker"
         },
         "title": {
-            "text": "Graveyard Mayhem"
+            "text": "Warden's Lair"
         },
         "description": {
             "text": "Some additional challenges for you."

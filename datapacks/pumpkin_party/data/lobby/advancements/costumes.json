@@ -27,13 +27,15 @@
             "entity": "this",
             "scores": {
               "costume": {
-                "min": 1,
-                "max": 2000
+                "min": 1
               }
             }
           }
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/villager_plains_farmer"
   }
 }

@@ -15,7 +15,7 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "lobby:root",
+  "parent": "lobby:magic_cabinets",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -40,5 +40,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/vex"
   }
 }

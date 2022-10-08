@@ -6,6 +6,7 @@ item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name
 
 advancement grant @s only lobby:unlocked/axolotl_lucy
 tag @s add ul_axolotl_lucy
+scoreboard players set @s[type=minecraft:armor_stand] const 100
 
 scoreboard players set @s costume 5021
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Axolotl (Lucy)"'}

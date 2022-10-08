@@ -21,5 +21,8 @@
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/stray"
   }
 }

@@ -6,7 +6,7 @@ tellraw @s[advancements={lobby:unlocked/villager_plains_farmer=true},tag=!tmp_al
 #Every other time
 execute as @s[tag=!tmp_all_costumes,tag=ul_villager_plains_farmer] run function lobby:costume/already_unlocked
 tag @s[advancements={lobby:unlocked/villager_plains_farmer=true}] add ul_villager_plains_farmer
-execute if entity @s[team=] run function lobby:costume/villager_plains_farmer
+execute if entity @s[team=] if entity @e[type=armor_stand,limit=1,sort=nearest,distance=..3,tag=ul_villager_plains_farmer] run function lobby:costume/villager_plains_farmer
 tag @s add valid_password
 
 advancement grant @s only lobby:unlocked/villager_plains_farmer

@@ -9,6 +9,7 @@ item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name
 
 advancement grant @s only lobby:unlocked/shulker
 tag @s add ul_shulker
+scoreboard players set @s[type=minecraft:armor_stand] const 100
 
 scoreboard players set @s costume 7
 data merge entity @s[type=minecraft:armor_stand] {CustomName:'"Shulker"'}

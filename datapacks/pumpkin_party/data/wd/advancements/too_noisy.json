@@ -2,27 +2,27 @@
   "display": {
     "icon": {
       "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:13}"
+      "nbt": "{CustomModelData:2006}"
     },
     "title": {
-      "text": "Hot Feet"
+      "text": "Too noisy!"
     },
     "description": [
       "",
       {
-        "text": "Fall into the lava."
+        "text": "Fail the Warden's trial."
       }
     ],
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sr:root",
+  "parent": "wd:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "lobby:costume/unlock/strider"
+    "function": "lobby:costume/unlock/bat"
   }
 }

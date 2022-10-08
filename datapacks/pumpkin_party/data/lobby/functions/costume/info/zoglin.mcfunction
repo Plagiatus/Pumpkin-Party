@@ -1,3 +1,3 @@
 function lobby:costume/info/not_unlocked_yet_message
 
-tellraw @s ["",{"text":"Finish the achievement "},{"text":"TODO","underlined":true,"hoverEvent":{"action":"show_text","contents":{"text":"Fall into the Lava."}}},{"text":" in the \"Spider Run\" tab.\n"}]
+tellraw @s ["",{"text":"Finish the achievement "},{"text":"A New Zombie","underlined":true,"hoverEvent":{"action":"show_text","contents":{"text":"Become greener than you were at the start of the round."}}},{"text":" in the \"Graveyard Mayhem\" tab while wearing the "},{"text":"Hoglin costume.\n","italic": true,"color": "#FF6600"}]
