@@ -12,6 +12,7 @@
            {"predicate": {"custom_model_data": 15}, "model": "costumes/ghast"},
 		   {"predicate": {"custom_model_data": 16}, "model": "costumes/blaze"},
            {"predicate": {"custom_model_data": 19}, "model": "costumes/warden"},
+           {"predicate": {"custom_model_data": 22}, "model": "costumes/pufferfish_middle"},
     	   {"predicate": {"custom_model_data": 25}, "model": "costumes/goat"},
     	   {"predicate": {"custom_model_data": 26}, "model": "costumes/ui/arch_illager"},
            {"predicate": {"custom_model_data": 32}, "model": "costumes/bee"},
@@ -23,7 +24,6 @@
          {"predicate": {"custom_model_data": 1011}, "model": "costumes/ghost"},
          {"predicate": {"custom_model_data": 1012}, "model": "costumes/ui/allay"},
          {"predicate": {"custom_model_data": 1018}, "model": "costumes/ui/hoglin"},
-         {"predicate": {"custom_model_data": 1022}, "model": "costumes/pufferfish_middle"},
          {"predicate": {"custom_model_data": 1023}, "model": "costumes/ui/guardian"},
 		 
          {"predicate": {"custom_model_data": 1104}, "model": "costumes/cave_spider"},
@@ -55,22 +55,22 @@
 		 
          {"predicate": {"custom_model_data": 3001}, "model": "item/skeleton_skull"},
          {"predicate": {"custom_model_data": 3003}, "model": "costumes/zombie"},
-         {"predicate": {"custom_model_data": 3017}, "model": "costumes/zombified_piglin"},
+         {"predicate": {"custom_model_data": 3017}, "model": "costumes/piglin"},
          {"predicate": {"custom_model_data": 3028}, "model": "costumes/llama_brown"},
 		 
          {"predicate": {"custom_model_data": 3101}, "model": "costumes/stray"},
          {"predicate": {"custom_model_data": 3103}, "model": "costumes/husk"},
-         {"predicate": {"custom_model_data": 3117}, "model": "costumes/piglin"},
+         {"predicate": {"custom_model_data": 3117}, "model": "costumes/piglin_brute"},
 		 {"predicate": {"custom_model_data": 3128}, "model": "costumes/trader_llama_beige"},
 
 		 {"predicate": {"custom_model_data": 3201}, "model": "item/wither_skeleton_skull"},
          {"predicate": {"custom_model_data": 3203}, "model": "costumes/drowned"},
-         {"predicate": {"custom_model_data": 3217}, "model": "costumes/piglin_brute"},   
+         {"predicate": {"custom_model_data": 3217}, "model": "costumes/piglin_chan"},   
 		 {"predicate": {"custom_model_data": 3228}, "model": "costumes/llama_gray_bandito"},
 		 
 		 {"predicate": {"custom_model_data": 3301}, "model": "costumes/sans"},
 		 {"predicate": {"custom_model_data": 3303}, "model": "costumes/zombie_villager"},
-         {"predicate": {"custom_model_data": 3317}, "model": "costumes/piglin_chan"},
+         {"predicate": {"custom_model_data": 3317}, "model": "costumes/zombified_piglin"},
 		 {"predicate": {"custom_model_data": 3328}, "model": "costumes/llama_white_decorated"},
 
 		 

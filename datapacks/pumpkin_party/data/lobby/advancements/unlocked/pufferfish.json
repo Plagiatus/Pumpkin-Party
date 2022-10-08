@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:gold_nugget",
-            "nbt": "{CustomModelData:1022}"
+            "nbt": "{CustomModelData:22}"
         },
         "title": {
             "text": "Pufferfish Costume"

@@ -15,8 +15,8 @@ execute if score @s[tag=!ul_villager_taiga_armorer] costume matches 7327 run fun
 execute if score @s[tag=ul_villager_desert_librarian] costume matches 7427 run function lobby:costume/villager_desert_librarian
 execute if score @s[tag=!ul_villager_desert_librarian] costume matches 7427 run function lobby:costume/info/villager_desert_librarian
 
-execute if score @s[tag=ul_villager_swamp] costume matches 7527 run function lobby:costume/villager_swamp
-execute if score @s[tag=!ul_villager_swamp] costume matches 7527 run function lobby:costume/info/villager_swamp
+execute if score @s[tag=ul_villager_swamp_nitwit] costume matches 7527 run function lobby:costume/villager_swamp_nitwit
+execute if score @s[tag=!ul_villager_swamp_nitwit] costume matches 7527 run function lobby:costume/info/villager_swamp_nitwit
 
 execute if score @s[tag=ul_villager_snowy_cartographer] costume matches 7627 run function lobby:costume/villager_snowy_cartographer
 execute if score @s[tag=!ul_villager_snowy_cartographer] costume matches 7627 run function lobby:costume/info/villager_snowy_cartographer

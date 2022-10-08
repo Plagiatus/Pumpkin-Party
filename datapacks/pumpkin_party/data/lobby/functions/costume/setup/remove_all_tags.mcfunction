@@ -39,7 +39,7 @@ tag @s remove ul_husk
 tag @s remove ul_illusioner
 tag @s remove ul_jack_o_lantern
 tag @s remove ul_llama_brown
-tag @s remove ul_llama_gray
+tag @s remove ul_llama_gray_bandito
 tag @s remove ul_llama_white_decorated
 tag @s remove ul_magma_cube
 tag @s remove ul_mule
@@ -67,7 +67,7 @@ tag @s remove ul_villager_jungle_fletcher
 tag @s remove ul_villager_plains_farmer
 tag @s remove ul_villager_savanna_weaponsmith
 tag @s remove ul_villager_snowy_cartographer
-tag @s remove ul_villager_swamp
+tag @s remove ul_villager_swamp_nitwit
 tag @s remove ul_villager_taiga_armorer
 tag @s remove ul_vindicator
 tag @s remove ul_wandering_trader

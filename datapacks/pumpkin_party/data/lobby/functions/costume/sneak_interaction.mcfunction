@@ -73,10 +73,10 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=14}] run f
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=16}] run function lobby:costume/sneak/blaze
 
 #Piglins
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3017}] run playsound minecraft:entity.zombified_piglin.ambient player @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3117}] run playsound minecraft:entity.piglin.ambient player @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3217}] run playsound minecraft:entity.piglin_brute.ambient player @a
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3317}] run playsound minecraft:entity.piglin.admiring_item player @a ~ ~ ~ 1 2
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3317}] run playsound minecraft:entity.zombified_piglin.ambient player @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3017}] run playsound minecraft:entity.piglin.ambient player @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3117}] run playsound minecraft:entity.piglin_brute.ambient player @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=3217}] run playsound minecraft:entity.piglin.admiring_item player @a ~ ~ ~ 1 2
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=17}] sound_delay 25
 
 #Hoglin

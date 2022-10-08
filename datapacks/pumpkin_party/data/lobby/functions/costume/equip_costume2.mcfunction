@@ -1,7 +1,8 @@
 tag @s[type=player] add has_costume
 
-execute if score @s[tag=ul_bat] costume matches 2006 run function lobby:costume/bat
-execute if score @s[tag=!ul_bat] costume matches 2006 run function lobby:costume/info/bat
+#execute if score @s[tag=ul_bat] costume matches 2006 run function lobby:costume/bat
+#execute if score @s[tag=!ul_bat] costume matches 2006 run function lobby:costume/info/bat
+execute if score @s costume matches 2006 run function lobby:costume/bat
 execute if score @s costume matches 2010 run function lobby:costume/jack_o_lantern
 execute if score @s[tag=ul_frog_orange] costume matches 2020 run function lobby:costume/frog_orange
 execute if score @s[tag=!ul_frog_orange] costume matches 2020 run function lobby:costume/info/frog_orange

@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:gold_nugget",
-            "nbt": "{CustomModelData:3117}"
+            "nbt": "{CustomModelData:3017}"
         },
         "title": {
             "text": "Piglin Costume"

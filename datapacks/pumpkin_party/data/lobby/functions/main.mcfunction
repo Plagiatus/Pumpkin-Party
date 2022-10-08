@@ -5,8 +5,8 @@ execute at @e[scores={costume=1111}] run particle crit ~ ~0.75 ~ 0.25 0.5 0.25 0
 execute as @a[team=,gamemode=adventure,scores={costume_sneak=1..}] at @s run function lobby:costume/sneak_interaction
 execute as @a[team=,scores={drop_basket=1..}] at @s run function lobby:costume/basket
 execute as @a[team=,scores={drop_full_basket=1..}] at @s run function lobby:costume/full_basket
-execute as @a[tag=ul_pufferfish,team=,tag=small_puffer,scores={costume=1022}] at @s if entity @a[distance=0.1..2.5] run function lobby:costume/sneak/pufferfish
-execute as @a[tag=ul_pufferfish,team=,tag=!small_puffer,scores={costume=1022}] at @s unless entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish
+execute as @a[tag=ul_pufferfish,team=,tag=small_puffer,scores={costume=22}] at @s if entity @a[distance=0.1..2.5] run function lobby:costume/sneak/pufferfish
+execute as @a[tag=ul_pufferfish,team=,tag=!small_puffer,scores={costume=22}] at @s unless entity @a[distance=0.1..2.5] run function lobby:costume/pufferfish
 
 #Costume effects
 execute as @e[tag=lobby_shoot_forward] at @s run function lobby:costume/sneak/shoot_forward
