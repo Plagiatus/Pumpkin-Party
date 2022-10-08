@@ -6,3 +6,6 @@ summon armor_stand -1000 69 1016 {Tags:["wd_warden"],ArmorItems: [{},{},{},{Coun
 fill -1003 68 1012 -997 68 1013 air replace sculk
 setblock -1000 68 1012 light[level=15]
 function wd:play/start
+
+effect clear @a
+effect give @a blindness 2 1 true

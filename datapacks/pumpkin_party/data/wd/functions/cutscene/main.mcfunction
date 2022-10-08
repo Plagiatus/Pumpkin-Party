@@ -10,6 +10,8 @@ execute if score #cutscene wd_timer matches 95 run function wd:cutscene/start_wa
 
 execute if score #cutscene wd_timer matches 300 run fill -995 67 1022 -1005 67 1022 air replace minecraft:tinted_glass
 
-# execute if score #cutscene wd_timer matches 5..95 run effect give @a slowness 2 4 true
+execute if score #cutscene wd_timer matches 5..375 run effect give @a darkness 5 4 true
+execute if score #cutscene wd_timer matches 5..286 as @e[type=minecraft:armor_stand,tag=wd_camera] at @s run tp @s ^-.06 ^ ^ ~-1.1 ~-0.1
+execute if score #cutscene wd_timer matches 287..360 as @e[type=minecraft:armor_stand,tag=wd_camera] at @s run tp @s ^ ^ ^-.025 ~ ~
 
-execute if score #cutscene wd_timer matches 379 run function wd:cutscene/end
+execute if score #cutscene wd_timer matches 360 run function wd:cutscene/end
