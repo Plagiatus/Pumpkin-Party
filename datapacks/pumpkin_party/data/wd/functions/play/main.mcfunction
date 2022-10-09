@@ -19,7 +19,7 @@ title @a[scores={wd_lives=2}] actionbar [{"text": "❤❤", "color": "red"},{"te
 title @a[scores={wd_lives=1}] actionbar [{"text": "❤", "color": "dark_red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 
 # check for game over
-execute unless entity @a[team=wd_play] run function wd:end_trigger
+execute unless entity @a[gamemode=spectator] run function wd:end_trigger
 
 # leaving players
 execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function wd:player/too_late_join
