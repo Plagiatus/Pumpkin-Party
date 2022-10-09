@@ -5,10 +5,10 @@ team modify wd_play friendlyFire false
 scoreboard objectives add wd_timer dummy
 scoreboard objectives add wd_id dummy
 scoreboard objectives add wd_lives dummy
+scoreboard objectives add wd_phases dummy
 scoreboard objectives add wd_mistake dummy
 scoreboard objectives add wd_points dummy
 scoreboard objectives add wd_click minecraft.used:minecraft.carrot_on_a_stick
-# scoreboard players set #wd_phase points 0
 scoreboard objectives add wd_highscore dummy
 
 scoreboard players set 4 const 4
@@ -23,6 +23,11 @@ scoreboard players set #nightmare wd_timer 5
 scoreboard players set #normal wd_lives 4
 scoreboard players set #hard wd_lives 2
 scoreboard players set #nightmare wd_lives 2
+
+# how many rounds there are
+scoreboard players set #normal wd_phases 12
+scoreboard players set #hard wd_phases 15
+scoreboard players set #nightmare wd_phases 20
 
 # consts
 scoreboard players set 24000 const 24000
