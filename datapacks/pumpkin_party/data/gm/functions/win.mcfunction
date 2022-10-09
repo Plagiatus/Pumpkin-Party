@@ -14,7 +14,7 @@ function gm:winner/calculate_winner
 
 # #Points
 execute as @a[tag=gm_play] run scoreboard players operation @s points += @s gm_points
-# execute if entity @e[type=minecraft:armor_stand,tag=GEN,tag=!singleGame] as @a[tag=gm_play] run tellraw @s ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"gm_points"},"color":"dark_green"}]
+# execute if entity @e[type=minecraft:marker,tag=GEN,tag=!singleGame] as @a[tag=gm_play] run tellraw @s ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"gm_points"},"color":"dark_green"}]
 
 #Let zombies burn
 time set day
