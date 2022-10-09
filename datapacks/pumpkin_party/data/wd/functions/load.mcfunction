@@ -31,6 +31,6 @@ scoreboard players set #nightmare wd_phases 20
 
 # consts
 scoreboard players set 24000 const 24000
-scoreboard players set warden_spawn_start const 10
+scoreboard players set warden_spawn_start const 0
 scoreboard players set warden_spawn const 280
 scoreboard players set warden_attack const 60
