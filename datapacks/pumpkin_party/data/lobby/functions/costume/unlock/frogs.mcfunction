@@ -1,3 +1,3 @@
-function lobby:costume/frog_green
-function lobby:costume/frog_orange
-function lobby:costume/frog_white
+function lobby:costume/unlock/frog_green
+function lobby:costume/unlock/frog_orange
+function lobby:costume/unlock/frog_white

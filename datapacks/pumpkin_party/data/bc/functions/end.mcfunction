@@ -9,6 +9,10 @@ function bc:end/handle_points
 clear @a #bc:ingredients
 clear @a #bc:important
 
+# in case of spider jockey
+clear @a bone
+clear @a arrow
+
 # deactivate main loop
 scoreboard players set #bc_phase points 0
 
