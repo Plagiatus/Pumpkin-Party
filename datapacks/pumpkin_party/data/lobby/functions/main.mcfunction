@@ -1,5 +1,5 @@
 #Costume
-execute as @a[x=344,y=78,z=469,dx=34,dy=7,dz=50] at @s run function lobby:costume/detection
+execute as @a[x=344,y=75,z=469,dx=34,dy=10,dz=50] at @s run function lobby:costume/detection
 execute as @a[x=344,y=68,z=469,dx=40,dy=21,dz=50] at @s run function lobby:costume/show_names
 execute at @e[scores={costume=1111}] run particle crit ~ ~0.75 ~ 0.25 0.5 0.25 0 3 force
 execute as @a[team=,gamemode=adventure,scores={costume_sneak=1..}] at @s run function lobby:costume/sneak_interaction
@@ -19,7 +19,7 @@ execute at @a[team=,scores={costume=2106}] positioned ~ ~1.5 ~ run particle myce
 execute as @a[team=,scores={costume=19}] at @s run function lobby:costume/sneak/warden
 
 #Buy costumes
-execute as @a[team=,scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=344,y=78,z=469,dx=34,dy=7,dz=50] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume
+execute as @a[team=,scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=344,y=75,z=469,dx=34,dy=10,dz=50] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume
 
 #Costume sounds and delay
 scoreboard players add @a sound_delay 0

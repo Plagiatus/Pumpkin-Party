@@ -1,4 +1,4 @@
-tp @a 391 69 500 90 -10
+tp @a 391 69.0625 500 90 -10
 scoreboard players set #party_timer timer 140
 
 data merge storage pp:party {games:[]}

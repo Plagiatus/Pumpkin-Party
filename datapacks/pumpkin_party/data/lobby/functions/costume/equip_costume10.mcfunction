@@ -1,5 +1,4 @@
 tag @s[type=player] add has_costume
-
 execute if score @s costume matches 10005 run function lobby:costume/sneak/enderman
 execute if score @s costume matches 10007 run function lobby:costume/sneak/shulker
 execute if score @s costume matches 10013 run function lobby:costume/sneak/strider

@@ -31,6 +31,7 @@ gamemode spectator @s
 #Put costume (or player) head on the zombie
 execute if entity @s[tag=has_costume] run data modify entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] ArmorItems[3] set from entity @s Inventory[{Slot:103b}]
 execute unless entity @s[tag=has_costume] run loot replace entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] armor.head loot gm:player_head
+tag @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] remove gm_new
 
 #Give zombie and player same id
 scoreboard players add #gm_gamestate gm_id 1
