@@ -23,5 +23,5 @@ execute if score @s wd_timer = #wd_total wd_timer run title @s title [{"text": "
 
 # mistake
 execute unless score @s tmp = #next wd_timer run title @s title [{"text": "Wrong!", "color": "red"}]
-execute unless score @s tmp = #next wd_timer run playsound block.note_block.didgeridoo master @s ~ ~ ~ 1 1
+execute unless score @s tmp = #next wd_timer at @s run playsound block.note_block.didgeridoo master @s ~ ~ ~ 1 0.594604
 execute unless score @s tmp = #next wd_timer run scoreboard players add @s wd_mistake 1
