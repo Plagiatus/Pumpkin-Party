@@ -11,6 +11,8 @@ scoreboard objectives add wd_points dummy
 scoreboard objectives add wd_click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add wd_highscore dummy
 
+
+scoreboard players set 40 const 40
 scoreboard players set 4 const 4
 scoreboard players set 2 const 2
 
@@ -32,5 +34,6 @@ scoreboard players set #nightmare wd_phases 20
 # consts
 scoreboard players set 24000 const 24000
 scoreboard players set warden_spawn_start const 0
+scoreboard players set warden_attack_start const 10
 scoreboard players set warden_spawn const 280
-scoreboard players set warden_attack const 60
+scoreboard players set warden_attack const 80

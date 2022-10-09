@@ -4,7 +4,7 @@ execute if score #bridge_wait wd_timer matches 1 if score #wd_music wd_timer mat
 
 title @a times 0 10 5
 
-execute if score #bridge_wait wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_music_counter wd_timer matches 0 run title @a subtitle [{"text": "4"}]
+execute if score #bridge_wait wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_music_counter wd_timer matches 0 run title @a subtitle [{"text": "your turn"}]
 execute if score #bridge_wait wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_music_counter wd_timer matches 2 run title @a subtitle [{"text": "3"}]
 execute if score #bridge_wait wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_music_counter wd_timer matches 4 run title @a subtitle [{"text": "2"}]
 execute if score #bridge_wait wd_timer matches 0 if score #wd_music wd_timer matches 0 if score #wd_music_counter wd_timer matches 6 run title @a subtitle [{"text": "1"}]

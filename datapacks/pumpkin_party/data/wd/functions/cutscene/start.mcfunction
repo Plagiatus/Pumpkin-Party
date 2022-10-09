@@ -7,9 +7,9 @@ kill @e[type=armor_stand,tag=wd_warden]
 kill @e[type=armor_stand,tag=wd_camera]
 kill @e[type=item_frame,tag=wd_camera_if]
 
-summon armor_stand -1003 74 1014 {Tags:[wd_camera],Rotation:[-45, 55],NoBasePlate:1b, NoGravity:1b, Invisible:1b}
+summon armor_stand -1001.91 68.50 1015.10 {Tags:[wd_camera],Rotation:[-42, 12],NoBasePlate:1b, NoGravity:1b, Invisible:1b}
 
-tp @e[type=minecraft:armor_stand,tag=wd_camera] -1001.91 68.50 1015.10 -2202.64 12.00
+tp @e[type=minecraft:armor_stand,tag=wd_camera] -1001.91 68.50 1015.10 -42.64 12.00
 
 gamemode spectator @a
 execute as @a run spectate @e[tag=wd_camera,limit=1] @s
