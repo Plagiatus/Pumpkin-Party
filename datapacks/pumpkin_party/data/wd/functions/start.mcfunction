@@ -30,7 +30,7 @@ execute if score wd_difficulty settings matches 1 run scoreboard players operati
 execute if score wd_difficulty settings matches 2 run scoreboard players operation #total wd_phases = #nightmare wd_phases
 
 team join wd_play @a
-
+tag * remove wd_mistake
 
 scoreboard players add @a wd_highscore 0
 scoreboard players add #wd_highscore wd_highscore 0
