@@ -22,7 +22,7 @@ execute if score #rank tmp matches 1 as @a[tag=wd_lead] run advancement grant @s
 
 #Highscore
 execute if score #rank tmp matches 1 as @a run scoreboard players operation @s wd_highscore > @s wd_points 
-execute if score #rank tmp matches 1 as @a[tag=wd_lead] if score @s wd_highscore > #wd_highscore wd_highscore run tag @s add wd_highscore 
+execute if score #rank tmp matches 1 as @a[tag=wd_lead] if score @s wd_highscore > #wd_highscore wd_highscore run tag @s add wd_highscore
 execute if score #rank tmp matches 1 as @a[tag=wd_highscore] run scoreboard players operation #wd_highscore wd_highscore > @s wd_highscore
 execute if score #rank tmp matches 1 if entity @a[tag=wd_highscore] run data merge block 379 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=wd_highscore]","objective":"wd_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=wd_highscore]"}'}
 execute if score #rank tmp matches 1 run tag @a remove wd_highscore
