@@ -7,4 +7,4 @@ clear @a carrot_on_a_stick
 
 fill -995 67 1022 -1005 67 1022 minecraft:tinted_glass replace air
 
-# function pp:all_games/end
+function pp:all_games/end
