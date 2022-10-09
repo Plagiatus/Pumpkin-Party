@@ -15,3 +15,5 @@ execute if score #cutscene wd_timer matches 5..286 as @e[type=minecraft:armor_st
 execute if score #cutscene wd_timer matches 287..360 as @e[type=minecraft:armor_stand,tag=wd_camera] at @s run tp @s ^ ^ ^-.025 ~ ~
 
 execute if score #cutscene wd_timer matches 360 run function wd:cutscene/end
+
+execute as @a[scores={left_game=1..}] run function wd:player/cutscene_join
