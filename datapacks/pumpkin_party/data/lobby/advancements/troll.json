@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "lobby:costume/unlock/squid"
+    "function": "lobby:costume/unlock/glow_squid"
   }
 }

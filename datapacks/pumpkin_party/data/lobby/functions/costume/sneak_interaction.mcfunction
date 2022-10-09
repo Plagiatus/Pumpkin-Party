@@ -41,11 +41,11 @@ execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] run playso
 scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] sound_delay 15
 
 #Bat
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.bat.ambient player @a ~ ~ ~ 0.25 1 0.25
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2006}] run playsound minecraft:entity.bat.ambient player @a ~ ~ ~ 0.25 1 0.25
 #Phantom
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.phantom.ambient player @a
 #Ender Dragon
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.ender_dragon.ambient player @a
+execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2206}] run playsound minecraft:entity.ender_dragon.ambient player @a
 
 
 #Illagers

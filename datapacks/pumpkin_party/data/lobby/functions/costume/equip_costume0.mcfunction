@@ -13,6 +13,8 @@ execute if score @s costume matches 15 run function lobby:costume/ghast
 execute if score @s costume matches 16 run function lobby:costume/blaze
 execute if score @s[tag=ul_warden] costume matches 19 run function lobby:costume/warden
 execute if score @s[tag=!ul_warden] costume matches 19 run function lobby:costume/info/warden
+execute if score @s[tag=ul_pufferfish] costume matches 22 run function lobby:costume/pufferfish
+execute if score @s[tag=!ul_pufferfish] costume matches 22 run function lobby:costume/info/pufferfish
 execute if score @s[tag=ul_goat] costume matches 25 run function lobby:costume/goat
 execute if score @s[tag=!ul_goat] costume matches 25 run function lobby:costume/info/goat
 execute if score @s[tag=ul_arch_illager] costume matches 26 run function lobby:costume/arch_illager

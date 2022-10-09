@@ -19,7 +19,7 @@ execute at @a[team=,scores={costume=2106}] positioned ~ ~1.5 ~ run particle myce
 execute as @a[team=,scores={costume=19}] at @s run function lobby:costume/sneak/warden
 
 #Buy costumes
-execute as @a[team=,scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=360,y=68,z=489,dx=19,dy=21,dz=22] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume
+execute as @a[team=,scores={buyCostume=1..}] at @s at @e[type=armor_stand,x=344,y=78,z=469,dx=34,dy=7,dz=50] if score @s buyCostume = @e[type=armor_stand,distance=..0.1,limit=1] costume run function lobby:costume/info/purchase_costume
 
 #Costume sounds and delay
 scoreboard players add @a sound_delay 0

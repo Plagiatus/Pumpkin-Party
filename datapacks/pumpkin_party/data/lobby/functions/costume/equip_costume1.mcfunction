@@ -11,8 +11,6 @@ execute if score @s[tag=ul_hoglin] costume matches 1018 run function lobby:costu
 execute if score @s[tag=!ul_hoglin] costume matches 1018 run function lobby:costume/info/hoglin
 execute if score @s[tag=ul_guardian] costume matches 1023 run function lobby:costume/guardian
 execute if score @s[tag=!ul_guardian] costume matches 1023 run function lobby:costume/info/guardian
-execute if score @s[tag=ul_pufferfish] costume matches 22 run function lobby:costume/pufferfish
-execute if score @s[tag=!ul_pufferfish] costume matches 22 run function lobby:costume/info/pufferfish
 
 execute if score @s[tag=ul_cave_spider] costume matches 1104 run function lobby:costume/cave_spider
 execute if score @s[tag=!ul_cave_spider] costume matches 1104 run function lobby:costume/info/cave_spider

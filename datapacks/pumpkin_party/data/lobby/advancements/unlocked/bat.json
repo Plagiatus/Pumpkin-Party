@@ -17,7 +17,20 @@
     },
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NANANANANANANANABATMAN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
         }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/bat"
     }
 }
