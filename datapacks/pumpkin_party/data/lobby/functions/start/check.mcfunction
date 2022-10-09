@@ -4,6 +4,7 @@ execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 3
 execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 4 run function sg:start
 execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 5 run function sr:start
 execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 6 run function tot:start
+execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 7 run function wd:start
 
 execute if score #game_ongoing settings matches 0 if score @s lbb_game matches 99 run function lobby:start/party
 
