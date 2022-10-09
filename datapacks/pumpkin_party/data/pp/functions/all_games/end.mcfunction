@@ -22,6 +22,8 @@ execute if score #games_to_play settings matches ..0 run schedule function lobby
 # leaving any teams they were in and clearing any effects
 team leave @a
 
+clear @s #pp:items_to_clear_from_minigames
+
 # give correct basket
 execute as @a unless score @s costume matches 1111 run function lobby:costume/basket
 execute as @a if score @s costume matches 1111 run function lobby:costume/full_basket
