@@ -12,6 +12,7 @@ execute if score @s costume matches 12020 run function lobby:costume/sneak/frog_
 execute if score @s costume matches 12029 run function lobby:costume/sneak/wolf
 execute if score @s costume matches 12120 run function lobby:costume/sneak/frog_white
 execute if score @s costume matches 12129 run function lobby:costume/sneak/fox
+execute if score @s costume matches 12206 run function lobby:costume/sneak/ender_dragon
 execute if score @s costume matches 12220 run function lobby:costume/sneak/frog_green
 execute if score @s costume matches 12229 run function lobby:costume/sneak/snow_fox
 execute if score @s costume matches 13301 run function lobby:costume/sneak/sans

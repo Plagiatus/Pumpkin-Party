@@ -135,6 +135,7 @@
         {"predicate": {"custom_model_data": 12029}, "model": "costumes/wolf_angry"},
         {"predicate": {"custom_model_data": 12120}, "model": "costumes/frog_white_open"},
         {"predicate": {"custom_model_data": 12129}, "model": "costumes/fox_sleeping"},
+        {"predicate": {"custom_model_data": 12206}, "model": "costumes/ender_dragon_open"},
         {"predicate": {"custom_model_data": 12220}, "model": "costumes/frog_green_open"},
         {"predicate": {"custom_model_data": 12229}, "model": "costumes/snow_fox_sleeping"},
         {"predicate": {"custom_model_data": 13301}, "model": "costumes/sans_eye"},

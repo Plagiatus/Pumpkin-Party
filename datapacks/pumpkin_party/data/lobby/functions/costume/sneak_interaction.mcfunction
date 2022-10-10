@@ -3,7 +3,7 @@ scoreboard players operation @s[tag=!costume_sneak] tmp = @s costume
 scoreboard players operation @s[tag=!costume_sneak] tmp %= #100 const
 
 ##Mobs with changing models:
-#Enderman, Shulker, Slime, Strider, Ghast, Frog, Wolf/Foxes, Bee, Vex, Sans, Evocation Fangs, Ravager
+#Enderman, Shulker, Slime, Strider, Ghast, Frog, Wolf/Foxes, Bee, Vex, Ender Dragon, Sans, Evocation Fangs, Ravager
 execute if entity @s[tag=!costume_sneak,scores={costume=5}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=7}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={tmp=9}] run scoreboard players add @s costume 10000
@@ -13,6 +13,7 @@ execute if entity @s[tag=!costume_sneak,scores={tmp=20}] run scoreboard players 
 execute if entity @s[tag=!costume_sneak,scores={tmp=29}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=32}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=1112}] run scoreboard players add @s costume 10000
+execute if entity @s[tag=!costume_sneak,scores={costume=2206}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=3301}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=6408}] run scoreboard players add @s costume 10000
 execute if entity @s[tag=!costume_sneak,scores={costume=6608}] run scoreboard players add @s costume 10000
@@ -44,8 +45,6 @@ scoreboard players set @s[tag=!costume_sneak,scores={sound_delay=0,tmp=4}] sound
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2006}] run playsound minecraft:entity.bat.ambient player @a ~ ~ ~ 0.25 1 0.25
 #Phantom
 execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2106}] run playsound minecraft:entity.phantom.ambient player @a
-#Ender Dragon
-execute if entity @s[tag=!costume_sneak,scores={sound_delay=0,costume=2206}] run playsound minecraft:entity.ender_dragon.ambient player @a
 
 
 #Illagers
