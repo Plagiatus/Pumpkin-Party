@@ -25,3 +25,6 @@ scoreboard players add #game_ongoing settings 0
 
 # forceload sign chunks
 forceload add 397 514 382 514
+
+# re-equip costumes on armorstands
+execute as @e[type=armor_stand,tag=Costume] run function lobby:costume/detection

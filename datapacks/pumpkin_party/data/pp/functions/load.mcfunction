@@ -1,4 +1,5 @@
 function pp:resetgamerules
+scoreboard objectives setdisplay list
 
 scoreboard objectives add points dummy {"color":"#FF6600","text":"Party Points"}
 scoreboard objectives add const dummy

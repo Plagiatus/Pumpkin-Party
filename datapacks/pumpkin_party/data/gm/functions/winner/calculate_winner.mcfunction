@@ -40,8 +40,8 @@ execute as @a[tag=gm_winner] if score @s gm_highscore >= #gm_highscore gm_highsc
 execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore = @s gm_highscore
 execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore_sec = @s gm_highscore_sec
 execute as @a[tag=gm_highscore] run scoreboard players operation #gm_highscore gm_highscore_min = @s gm_highscore_min
-execute as @a[tag=gm_highscore] if score @s gm_highscore_sec matches ..9 run data merge block 394 87 514 {Text2:'[{"color":"gold","score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_min"}},{"text":":0"},{"score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_sec"}}]',Text4:'{"color":"#FF6600","selector":"@a[tag=gm_highscore]"}'}
-execute as @a[tag=gm_highscore] if score @s gm_highscore_sec matches 10.. run data merge block 394 87 514 {Text2:'[{"color":"gold","score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_min"}},{"text":":"},{"score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_sec"}}]',Text4:'{"color":"#FF6600","selector":"@a[tag=gm_highscore]"}'}
+execute as @p[tag=gm_highscore] if score @s gm_highscore_sec matches ..9 run data merge block 394 87 514 {Text2:'[{"color":"gold","score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_min"}},{"text":":0"},{"score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_sec"}}]',Text4:'{"color":"#FF6600","selector":"@a[tag=gm_highscore]"}'}
+execute as @p[tag=gm_highscore] if score @s gm_highscore_sec matches 10.. run data merge block 394 87 514 {Text2:'[{"color":"gold","score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_min"}},{"text":":"},{"score":{"name":"@a[tag=gm_highscore]","objective":"gm_highscore_sec"}}]',Text4:'{"color":"#FF6600","selector":"@a[tag=gm_highscore]"}'}
 
 tag @a remove gm_winner
 tag @a remove gm_highscore
