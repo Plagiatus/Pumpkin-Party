@@ -1,5 +1,3 @@
-#stop player from spectating
-execute as @a run spectate
 gamemode adventure @a
 spreadplayers -1000 1000 5 2 false @a
 execute as @a at @s run tp @s ~ ~ ~ facing -1000 71 1016

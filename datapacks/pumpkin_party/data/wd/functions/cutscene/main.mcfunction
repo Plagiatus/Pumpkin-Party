@@ -1,7 +1,7 @@
 scoreboard players add #cutscene wd_timer 1
 
 gamemode spectator @a[gamemode=!spectator]
-execute as @a run spectate @e[tag=wd_camera,limit=1] @s
+execute if score #cutscene wd_timer matches 0..363 as @a run spectate @e[tag=wd_camera,limit=1] @s
 
 execute if score #cutscene wd_timer matches 0 run function wd:cutscene/start
 
@@ -18,6 +18,8 @@ execute if score #cutscene wd_timer matches 1 as @e[type=minecraft:armor_stand,t
 execute if score #cutscene wd_timer matches 2..286 as @e[type=minecraft:armor_stand,tag=wd_camera] at @s run tp @s ^-.06 ^ ^ ~-1.1 ~-0.1
 execute if score #cutscene wd_timer matches 287..360 as @e[type=minecraft:armor_stand,tag=wd_camera] at @s run tp @s ^ ^ ^-.025 ~ ~
 
+#stop player from spectating
+execute if score #cutscene wd_timer matches 363 as @a run spectate
 execute if score #cutscene wd_timer matches 364 run function wd:cutscene/end
 
 execute as @a[scores={left_game=1..}] run function wd:player/cutscene_join
