@@ -1,5 +1,7 @@
+#stop player from spectating
+execute as @a run spectate
 gamemode adventure @a
-spreadplayers -1000 1000 5 1 false @a
+spreadplayers -1000 1000 5 2 false @a
 execute as @a at @s run tp @s ~ ~ ~ facing -1000 71 1016
 
 item replace entity @a hotbar.0 with carrot_on_a_stick{Warden:0,CustomModelData:3,Unbreakable:1b,display:{Name:'{"text":"□ ↓ □","italic": false, "color": "green"}'}}

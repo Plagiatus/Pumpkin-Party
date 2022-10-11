@@ -7,7 +7,7 @@ kill @e[type=armor_stand,tag=wd_warden]
 kill @e[type=armor_stand,tag=wd_camera]
 kill @e[type=item_frame,tag=wd_camera_if]
 
-summon armor_stand -1001.91 68.50 1015.10 {Tags:[wd_camera],Rotation:[-42, 12],NoBasePlate:1b, NoGravity:1b, Invisible:1b}
+summon armor_stand -1001.91 68.50 1015.10 {Tags:[wd_camera],Rotation:[-42, 12],NoBasePlate:1b, NoGravity:0b, Invisible:1b}
 
 tp @e[type=minecraft:armor_stand,tag=wd_camera] -1001.91 68.50 1015.10 -42.64 12.00
 

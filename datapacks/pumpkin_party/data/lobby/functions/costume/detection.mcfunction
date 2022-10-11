@@ -1,5 +1,5 @@
-execute as @s[type=player,tag=!has_costume] unless block ~ ~ ~ dark_oak_door unless entity @e[type=armor_stand,scores={costume=1204},distance=..4] run title @s actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
-execute as @s[type=player,tag=has_costume] unless block ~ ~ ~ dark_oak_door unless entity @e[type=armor_stand,scores={costume=1204},distance=..4] run title @s actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Some costumes change their variant when you right click them.","color":"none"}]
+execute as @s[type=player] unless score @s costume matches 1.. unless block ~ ~ ~ dark_oak_door unless entity @e[type=armor_stand,scores={costume=1204},distance=..4] run title @s actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Walk into a costume to wear it.","color":"none"}]
+execute as @s[type=player] if score @s costume matches 1.. unless block ~ ~ ~ dark_oak_door unless entity @e[type=armor_stand,scores={costume=1204},distance=..4] run title @s actionbar ["",{"text":"[INFO]","color":"gold"},{"text":" Some costumes change their variant when you right click them.","color":"none"}]
 
 scoreboard players operation @s[type=player,tag=!in_costume] oldCostume = @s costume
 execute positioned ~-0.75 ~ ~-0.75 run scoreboard players operation @s[type=player,tag=!in_costume] costume = @e[type=minecraft:armor_stand,dy=0.5,dx=0.25,dz=0.25,limit=1,tag=Costume] costume
