@@ -16,7 +16,7 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sg:bulls_eye",
+  "parent": "sg:golden_ghost",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
