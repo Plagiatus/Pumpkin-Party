@@ -13,7 +13,7 @@ execute if score #sr_cutscene sr_time matches 155..220 run data merge entity @e[
 execute if score #sr_cutscene sr_time matches 155..210 at @e[tag=sr_spider,limit=1] run fill ~ ~ ~ ~ ~1 ~-2 air
 execute if score #sr_cutscene sr_time matches 155..210 at @e[tag=sr_spider,limit=1] run fill ~ ~-1 ~ ~ ~-1 ~-2 stone
 execute if score #sr_cutscene sr_time matches 210..240 as @e[tag=sr_spider,limit=1] at @s run tp @s ~ ~ ~ ~3 ~
-execute if score #sr_cutscene sr_time matches 241 as @e[tag=sr_spider,limit=1] at @s run summon cave_spider ~2 ~2.8 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Rotation:[-90F,21F],Tags:["sr_spider_spider"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:10000000,ShowParticles:0b}]}
+execute if score #sr_cutscene sr_time matches 241 as @e[tag=sr_spider,limit=1] at @s run summon cave_spider ~2 ~2.8 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Rotation:[-90F,21F],Tags:["sr_spider_spider"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:10000000,ShowParticles:0b}],PersistenceRequired:1b}
 execute if score #sr_cutscene sr_time matches 240..270 as @a[x=-465,y=60,z=-545,dx=13,dy=8,dz=12,tag=!sr_caught] run function sr:run/caught
 execute if score sr_difficulty settings matches 0 if score #sr_cutscene sr_time matches 271 run scoreboard players set #sr_phase points 3
 execute if score sr_difficulty settings matches 1 if score #sr_cutscene sr_time matches 261 run scoreboard players set #sr_phase points 3

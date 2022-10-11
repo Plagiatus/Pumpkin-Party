@@ -12,11 +12,11 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] run data 
 # function wd:decoration/main
 
 # life display
-title @a[scores={wd_lives=5}] actionbar [{"text": "❤❤❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
-title @a[scores={wd_lives=4}] actionbar [{"text": "❤❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
-title @a[scores={wd_lives=3}] actionbar [{"text": "❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
-title @a[scores={wd_lives=2}] actionbar [{"text": "❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
-title @a[scores={wd_lives=1}] actionbar [{"text": "❤", "color": "dark_red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
+execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=5}] actionbar [{"text": "❤❤❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
+execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=4}] actionbar [{"text": "❤❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
+execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=3}] actionbar [{"text": "❤❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
+execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=2}] actionbar [{"text": "❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
+execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=1}] actionbar [{"text": "❤", "color": "dark_red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 
 # check for game over
 execute if score #wd_phase points matches 2..5 unless entity @a[gamemode=adventure] run function wd:end_trigger
