@@ -18,7 +18,7 @@ execute if score $random tmp matches 84..85 run setblock ~ ~ ~ minecraft:structu
 execute if score $random tmp matches 86..87 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:0,posZ:-1,integrity:1.0f,name:"sr:hard/lava"}
 execute if score $random tmp matches 88..89 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:0,posZ:0,integrity:1.0f,name:"sr:hard/spiders"}
 execute if score $random tmp matches 90..91 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:0,posZ:0,integrity:1.0f,name:"sr:hard/vines"}
-execute if score $random tmp matches 93..93 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:-5,posZ:-3,integrity:1.0f,name:"sr:hard/nether"}
+execute if score $random tmp matches 92..93 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:-5,posZ:-3,integrity:1.0f,name:"sr:hard/nether"}
 
 execute if score $random tmp matches 94..96 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:0,posZ:0,integrity:1.0f,name:"sr:nightmare/slime"}
-execute if score $random tmp matches 96..99 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:-4,posZ:0,integrity:1.0f,name:"sr:nightmare/end"}
+execute if score $random tmp matches 97..99 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{ignoreEntities:0b,rotation:"NONE",mode:"LOAD",posX:0,posY:-4,posZ:0,integrity:1.0f,name:"sr:nightmare/end"}
