@@ -16,7 +16,7 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sr:root",
+  "parent": "sr:sticky_parkour",
   "criteria": {
     "normal_bridge": {
       "trigger": "impossible"
@@ -75,5 +75,8 @@
     "nightmare_end": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/magma_cube"
   }
 }

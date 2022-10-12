@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion",
+        "layer1": "item/potion_overlay"
+    },
+	"overrides": [
+	    {"predicate": {"custom_model_data": 1}, "model": "objmc/warden_emerge"},
+	    {"predicate": {"custom_model_data": 2}, "model": "objmc/warden_sonic_boom"}
+	]
+}

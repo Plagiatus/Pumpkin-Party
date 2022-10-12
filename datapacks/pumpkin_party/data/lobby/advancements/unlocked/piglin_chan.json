@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/piglin_brute",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:345}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3217}"
         },
         "title": {
             "text": "Piglin Chan Costume"

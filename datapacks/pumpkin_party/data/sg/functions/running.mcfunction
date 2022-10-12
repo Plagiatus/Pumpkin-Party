@@ -12,7 +12,8 @@ kill @e[type=arrow,nbt={inGround:1b}]
 execute as @e[type=minecraft:armor_stand,tag=sg_as] at @s run function sg:targets/handle
 
 # remove useless magma_cubes
-execute as @e[type=magma_cube,tag=!sg_magma_cube] at @s run tp @s ~ -100 ~
+execute as @e[type=magma_cube,tag=!sg_magma_cube,tag=!removed] at @s run tp @s ~ -200 ~
+execute as @e[type=magma_cube,tag=!sg_magma_cube,tag=!removed] run data merge entity @s {DeathTime:19s,Tags:["removed"]}
 
 # take care of players getting points
 execute as @a[tag=sg_hit,tag=sg_next_tick] run function sg:show_points

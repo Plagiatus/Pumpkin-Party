@@ -1,6 +1,8 @@
 # move players back to mansion
 tp @a 400 69 500 90 -5
 spawnpoint @a 400 69 500
+scoreboard players set @a sound_delay 0
+scoreboard players set @a costume_sneak 0
 
 # set them to adventure
 gamemode adventure @a
@@ -20,6 +22,8 @@ execute if score #games_to_play settings matches ..0 run schedule function lobby
 # leaving any teams they were in and clearing any effects
 team leave @a
 
+clear @s #pp:items_to_clear_from_minigames
+
 # give correct basket
-execute as @a unless score @s costume matches 121 run function lobby:costume/basket
-execute as @a if score @s costume matches 121 run function lobby:costume/full_basket
+execute as @a unless score @s costume matches 1111 run function lobby:costume/basket
+execute as @a if score @s costume matches 1111 run function lobby:costume/full_basket

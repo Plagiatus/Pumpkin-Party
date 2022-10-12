@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/turtle",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2020}"
+        },
+        "title": {
+            "text": "Frog Costume (Temperate)"
+        },
+        "description": {
+            "text": "Code: \"ITSWEDNESDAY\""
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"ITSWEDNESDAY\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/frog_orange"
+    }
+}

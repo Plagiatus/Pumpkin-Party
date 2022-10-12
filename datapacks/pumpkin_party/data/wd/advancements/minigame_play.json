@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_dye"
+    },
+    "title": {
+      "text": "Play Warden's Lair"
+    },
+    "description": [
+      "",
+      {
+        "text": "Will you come back alive?"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "wd:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

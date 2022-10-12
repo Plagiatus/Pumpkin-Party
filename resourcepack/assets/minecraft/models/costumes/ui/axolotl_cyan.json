@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/ui/axolotl_lucy",
+	"textures": {
+		"0": "entity/axolotl/axolotl_cyan"
+	}
+}

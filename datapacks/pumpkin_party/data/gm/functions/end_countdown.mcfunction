@@ -10,11 +10,11 @@ scoreboard players set @a[tag=gm_play] left_game 0
 scoreboard objectives setdisplay sidebar gm_alive
 
 #Summon zombies depending on the player count
-execute as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score #gm_playerCount tmp matches ..3 as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score gm_difficulty settings matches 1.. as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-execute if score gm_difficulty settings matches 2.. as @e[limit=1,type=minecraft:armor_stand,tag=gm_center,sort=random] at @s run function gm:summon_zombie
-effect give @e[type=zombie,tag=gm_new] levitation 1 1 true 
+execute as @e[limit=1,type=minecraft:marker,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score #gm_playerCount tmp matches ..3 as @e[limit=1,type=minecraft:marker,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score gm_difficulty settings matches 1.. as @e[limit=1,type=minecraft:marker,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+execute if score gm_difficulty settings matches 2.. as @e[limit=1,type=minecraft:marker,tag=gm_center,sort=random] at @s run function gm:summon_zombie
+effect give @e[type=zombie,tag=gm_new] levitation 1 3 true
 
 #Give relevant effects
 effect give @a minecraft:instant_health 6 6 true

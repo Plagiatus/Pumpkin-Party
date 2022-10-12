@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/skeleton",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:144}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3101}"
         },
         "title": {
             "text": "Stray Costume"

@@ -14,12 +14,12 @@ function gm:winner/calculate_winner
 
 # #Points
 execute as @a[tag=gm_play] run scoreboard players operation @s points += @s gm_points
-# execute if entity @e[type=minecraft:armor_stand,tag=GEN,tag=!singleGame] as @a[tag=gm_play] run tellraw @s ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"gm_points"},"color":"dark_green"}]
+# execute if entity @e[type=minecraft:marker,tag=GEN,tag=!singleGame] as @a[tag=gm_play] run tellraw @s ["",{"text":"Candies Earned = ","color":"dark_gray"},{"text":"+","color":"dark_green"},{"score":{"name":"@s","objective":"gm_points"},"color":"dark_green"}]
 
 #Let zombies burn
 time set day
 advancement grant @a[gamemode=adventure] only gm:saved_by_the_sun
-advancement grant @a[gamemode=adventure,scores={costume=43}] only lobby:unlocked/husk
+advancement grant @a[gamemode=adventure,scores={costume=3003}] only lobby:unlocked/husk
 execute as @e[tag=gm] run data merge entity @s {Fire:1000000,Invulnerable:0b}
 gamemode spectator @a
 

@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/enderman",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2206}"
+        },
+        "title": {
+            "text": "Ender Dragon Costume"
+        },
+        "description": {
+            "text": "Code: \"THEENDISNEVERTHEENDISNEVERTHEEND\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"THEENDISNEVERTHEENDISNEVERTHEEND\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/ender_dragon"
+    }
+}

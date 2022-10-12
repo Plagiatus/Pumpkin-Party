@@ -8,6 +8,7 @@ scoreboard players operation #in_party tmp += pc_in_party settings
 scoreboard players operation #in_party tmp += sg_in_party settings
 scoreboard players operation #in_party tmp += sr_in_party settings
 scoreboard players operation #in_party tmp += tot_in_party settings
+scoreboard players operation #in_party tmp += wd_in_party settings
 
 execute if score #in_party tmp matches 2.. run data merge block 383 70 500 {Text1:'{"text":"\\uEf12","color":"white"}',Text2:'""',Text3:'[{"text":"(","color":"dark_gray"},{"score":{"name":"#in_party","objective":"tmp"}}," minigames)"]',Text4:'{"color":"black","text":"[click here]","clickEvent": {"action": "run_command","value": "function lobby:signs/minigame/party"}}]'}
 execute if score #in_party tmp matches ..1 run data merge block 383 70 500 {Text1:'{"text":"\\uEf12","color":"white"}',Text2:'""',Text3:'[{"text":"(not enough","color":"dark_gray"}]',Text4:'[{"text":"minigames)","color":"dark_gray"}]'}

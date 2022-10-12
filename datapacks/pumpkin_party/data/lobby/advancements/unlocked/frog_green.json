@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/frog_white",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2220}"
+        },
+        "title": {
+            "text": "Frog Costume (Cold)"
+        },
+        "description": {
+            "text": "Code: \"SQUADHOPSINTOTOWN\""
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SQUADHOPSINTOTOWN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/frog_green"
+    }
+}

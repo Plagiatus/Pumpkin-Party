@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/trader_llama_beige",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:266}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3228}"
         },
         "title": {
             "text": "Llama Gray Bandito Costume"

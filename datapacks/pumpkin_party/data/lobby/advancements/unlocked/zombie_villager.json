@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/drowned",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:343}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3303}"
         },
         "title": {
             "text": "Zombie Villager Costume"

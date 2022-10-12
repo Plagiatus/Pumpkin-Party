@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/root",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:67}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6008}"
         },
         "title": {
             "text": "Witch Costume"

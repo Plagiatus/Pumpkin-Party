@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/piglin_chan",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:1018}"
+        },
+        "title": {
+            "text": "Hoglin Costume"
+        },
+        "description": {
+            "text": "Code: \"HATESSMELLYSHROOMS\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"HATESSMELLYSHROOMS\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/hoglin"
+    }
+}

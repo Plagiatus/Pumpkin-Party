@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:68}"
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:6030}"
     },
     "title": {
       "text": "Short Distances"

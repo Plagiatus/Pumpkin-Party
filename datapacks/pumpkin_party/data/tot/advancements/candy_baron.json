@@ -20,5 +20,8 @@
     "impossible": {
       "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/arch_illager"
   }
 }

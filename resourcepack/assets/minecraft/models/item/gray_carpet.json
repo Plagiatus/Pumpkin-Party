@@ -1,0 +1,6 @@
+{
+	"parent": "item/orange_carpet",
+	"textures": {
+		"1": "item/painting_wd"
+	}
+}

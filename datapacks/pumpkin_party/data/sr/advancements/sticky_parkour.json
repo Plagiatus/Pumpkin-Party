@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "title": {
+      "text": "Sticky Parkour"
+    },
+    "description": [
+      "",
+      {
+        "text": "Survive the slime filled tunnel."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "sr:hot_feet",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/slime"
+  }
+}

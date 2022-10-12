@@ -2,5 +2,6 @@
   "container.repair": "",
   "container.repair.cost": " Take to submit password ↑     ",
   "item.minecraft.music_disc_mellohi": "Encrypted Disc",
-  "item.minecraft.music_disc_mellohi.desc": "Maybe I should try it on the PC?"
+  "item.minecraft.music_disc_mellohi.desc": "Maybe I should try it on the PC?",
+  "subtitles.entity.archillager.idle": "Arch Illager murmurs"
 }

@@ -1,1 +1,1 @@
-setblock 391 63 489 pink_glazed_terracotta[facing=south]
+setblock 391 63 489 brown_glazed_terracotta[facing=south]

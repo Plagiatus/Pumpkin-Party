@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/ghast",
+    "parent": "lobby:unlocked/cave_spider",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:5}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2106}"
         },
         "title": {
             "text": "Phantom Costume"

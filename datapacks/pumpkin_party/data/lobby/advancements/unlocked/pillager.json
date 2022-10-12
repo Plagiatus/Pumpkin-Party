@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/vindicator",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:267}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6208}"
         },
         "title": {
             "text": "Pillager Costume"
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SOUNDTHEBELLS!\"}'}}",
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"SOUNDTHEBELLS\"}'}}",
                         "items": [
                             "minecraft:music_disc_mellohi"
                         ]

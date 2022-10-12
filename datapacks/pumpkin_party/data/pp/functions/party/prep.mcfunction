@@ -46,6 +46,7 @@ execute if score #party_timer timer matches 0 if score #selected tmp matches 3 r
 execute if score #party_timer timer matches 0 if score #selected tmp matches 4 run scoreboard players set #sg settings 0
 execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run scoreboard players set #sr settings 0
 execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run scoreboard players set #tot settings 0
+execute if score #party_timer timer matches 0 if score #selected tmp matches 7 run scoreboard players set #wd settings 0
 
 execute if score #party_timer timer matches 0 if score #selected tmp matches 1 run function bc:start
 execute if score #party_timer timer matches 0 if score #selected tmp matches 2 run function gm:start
@@ -53,3 +54,4 @@ execute if score #party_timer timer matches 0 if score #selected tmp matches 3 r
 execute if score #party_timer timer matches 0 if score #selected tmp matches 4 run function sg:start
 execute if score #party_timer timer matches 0 if score #selected tmp matches 5 run function sr:start
 execute if score #party_timer timer matches 0 if score #selected tmp matches 6 run function tot:start
+execute if score #party_timer timer matches 0 if score #selected tmp matches 7 run function wd:start

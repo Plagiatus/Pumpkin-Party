@@ -1,3 +1,5 @@
+gamerule fireDamage false
+gamerule fallDamage false
 gamerule mobGriefing false
 gamerule doEntityDrops false
 gamerule doDaylightCycle false

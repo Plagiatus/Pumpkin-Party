@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/creeper",
+    "parent": "lobby:unlocked/wither",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:8}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:5}"
         },
         "title": {
             "text": "Enderman Costume"

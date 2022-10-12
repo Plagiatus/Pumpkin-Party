@@ -31,7 +31,7 @@ advancement grant @a[tag=tot_winner] only tot:minigame_win
 
 execute as @a[tag=tot_winner] if score @s tot_highscore >= #tot_highscore tot_highscore run tag @s add tot_highscore 
 execute as @a[tag=tot_highscore] run scoreboard players operation #tot_highscore tot_highscore > @s tot_highscore
-execute if entity @a[tag=tot_highscore] run data merge block 382 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=tot_highscore]","objective":"tot_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=tot_highscore]"}'}
+execute if entity @a[tag=tot_highscore] run data merge block 382 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=tot_highscore,limit=1]","objective":"tot_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=tot_highscore,limit=1]"}'}
 
 #reset scores and end game
 tp @e[tag=tot_doorMob] ~ ~-500 ~

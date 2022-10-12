@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "title": {
+            "text": "Warden's Lair"
+        },
+        "description": {
+            "text": "Some additional challenges for you."
+        },
+        "background": "minecraft:textures/block/orange_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "instant": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

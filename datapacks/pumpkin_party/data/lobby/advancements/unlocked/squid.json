@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/pufferfish",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:4}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2024}"
         },
         "title": {
             "text": "Squid Costume"

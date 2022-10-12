@@ -1,6 +1,18 @@
 {
    "pack": {
-      "pack_format": 7,
+      "pack_format": 10,
       "description": "All the stuff Pumpkin Party 2.0 needs to work"
-   }
+   },
+   "filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "recipes/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancements/.*"
+			}
+		]
+	}
 }

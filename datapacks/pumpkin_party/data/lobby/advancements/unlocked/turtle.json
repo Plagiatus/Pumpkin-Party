@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/glow_squid",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2224}"
+        },
+        "title": {
+            "text": "Turtle Costume"
+        },
+        "description": {
+            "text": "Code: \"COWABUNGA\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"COWABUNGA\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/turtle"
+    }
+}

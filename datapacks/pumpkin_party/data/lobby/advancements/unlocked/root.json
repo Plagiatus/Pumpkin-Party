@@ -1,19 +1,49 @@
 {
-    "parent": "lobby:unlocked/root_root",
     "display": {
         "icon": {
             "item": "minecraft:leather_chestplate"
         },
         "title": {
-            "text": "Unlocked all costumes"
+            "text": "Costumes"
         },
         "description": {
             "text": "Shows how many costumes you unlocked so far."
         },
+        "background": "minecraft:textures/block/orange_concrete.png",
         "show_toast": true,
         "announce_to_chat": true
     },
     "criteria": {
+        "allay": {
+            "trigger": "minecraft:impossible"
+        },
+        "arch_illager": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_blue": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_cyan": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_gold": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_green": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_lucy": {
+            "trigger": "minecraft:impossible"
+        },
+        "axolotl_wild": {
+            "trigger": "minecraft:impossible"
+        },
+        "bat": {
+            "trigger": "minecraft:impossible"
+        },
+        "bee": {
+            "trigger": "minecraft:impossible"
+        },
         "blaze": {
             "trigger": "minecraft:tick"
         },
@@ -29,7 +59,13 @@
         "drowned": {
             "trigger": "minecraft:impossible"
         },
+        "elder_guardian": {
+            "trigger": "minecraft:impossible"
+        },
         "enderman": {
+            "trigger": "minecraft:impossible"
+        },
+        "ender_dragon": {
             "trigger": "minecraft:impossible"
         },
         "evocation_fang": {
@@ -41,13 +77,37 @@
         "fox": {
             "trigger": "minecraft:impossible"
         },
-        "ghast": {
+        "frog_green": {
             "trigger": "minecraft:impossible"
+        },
+        "frog_orange": {
+            "trigger": "minecraft:impossible"
+        },
+        "frog_white": {
+            "trigger": "minecraft:impossible"
+        },
+        "ghast": {
+            "trigger": "minecraft:tick"
         },
         "ghost": {
             "trigger": "minecraft:tick"
         },
+        "golden_ghost": {
+            "trigger": "minecraft:tick"
+        },
+        "glow_squid": {
+            "trigger": "minecraft:impossible"
+        },
+        "goat": {
+            "trigger": "minecraft:impossible"
+        },
+        "guardian": {
+            "trigger": "minecraft:impossible"
+        },
         "headless_horseman": {
+            "trigger": "minecraft:impossible"
+        },
+        "hoglin": {
             "trigger": "minecraft:impossible"
         },
         "horse_black": {
@@ -80,6 +140,9 @@
         "llama_white_decorated": {
             "trigger": "minecraft:impossible"
         },
+        "magma_cube": {
+            "trigger": "minecraft:impossible"
+        },
         "mule": {
             "trigger": "minecraft:impossible"
         },
@@ -101,7 +164,16 @@
         "pufferfish": {
             "trigger": "minecraft:impossible"
         },
+        "ravager": {
+            "trigger": "minecraft:impossible"
+        },
         "sans": {
+            "trigger": "minecraft:impossible"
+        },
+        "shulker": {
+            "trigger": "minecraft:impossible"
+        },
+        "slime": {
             "trigger": "minecraft:impossible"
         },
         "skeleton": {
@@ -123,6 +195,12 @@
             "trigger": "minecraft:impossible"
         },
         "trader_llama_beige": {
+            "trigger": "minecraft:impossible"
+        },
+        "turtle": {
+            "trigger": "minecraft:impossible"
+        },
+        "vex": {
             "trigger": "minecraft:impossible"
         },
         "villager_desert_librarian": {
@@ -152,6 +230,9 @@
         "wandering_trader": {
             "trigger": "minecraft:impossible"
         },
+        "warden": {
+            "trigger": "minecraft:impossible"
+        },
         "white_pumpkin": {
             "trigger": "minecraft:impossible"
         },
@@ -165,6 +246,9 @@
             "trigger": "minecraft:impossible"
         },
         "wolf": {
+            "trigger": "minecraft:impossible"
+        },
+        "zoglin": {
             "trigger": "minecraft:impossible"
         },
         "zombie": {

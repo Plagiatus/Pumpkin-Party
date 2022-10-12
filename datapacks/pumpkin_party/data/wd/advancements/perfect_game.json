@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:19}"
+    },
+    "title": {
+      "text": "Perfect Pitch"
+    },
+    "description": [
+      "",
+      {
+        "text": "Perfectly clear the Warden's trial."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "wd:too_noisy",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/warden"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "block/purple_glazed_terracotta_north"},
+        "facing=south": { "model": "block/purple_glazed_terracotta_south"},
+        "facing=east":  { "model": "block/purple_glazed_terracotta_east"},
+        "facing=west":  { "model": "block/purple_glazed_terracotta_west"}
+    }
+}

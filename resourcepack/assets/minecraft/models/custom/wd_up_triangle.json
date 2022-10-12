@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"textures": {
+		"0": "custom/wd_up_triangle",
+		"particle": "custom/wd_up_triangle"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.9],
+			"to": [16, 16, 7.9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-1, 6.5, 2.75],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, -180, 0]
+		},
+		"head": {
+			"translation": [0, 15.25, 0]
+		}
+	}
+}

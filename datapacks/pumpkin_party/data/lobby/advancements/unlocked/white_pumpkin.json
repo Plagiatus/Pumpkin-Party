@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/headless_horseman",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:242}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2210}"
         },
         "title": {
             "text": "White Pumpkin Costume"

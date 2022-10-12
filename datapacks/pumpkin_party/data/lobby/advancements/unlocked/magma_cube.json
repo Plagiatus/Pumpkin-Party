@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/slime",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:1109}"
+        },
+        "title": {
+            "text": "Magma Cube Costume"
+        },
+        "description": {
+            "text": "Code: \"FROGCANDY\" "
+        },
+        "hidden": true,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"FROGCANDY\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/magma_cube"
+    }
+}

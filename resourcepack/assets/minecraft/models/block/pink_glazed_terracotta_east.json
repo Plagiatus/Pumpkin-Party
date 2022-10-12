@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+	    "particle": "block/pink_glazed_terracotta_east",
+        "all": "block/pink_glazed_terracotta_east"
+    }
+}

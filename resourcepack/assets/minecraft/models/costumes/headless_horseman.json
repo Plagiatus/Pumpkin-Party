@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench by dragonmaster95",
-	"parent": "block/orientable",
+	"parent": "block/jack_o_lantern",
 	"textures": {
 		"0": "block/carved_pumpkin",
 		"1": "block/pumpkin_side",

@@ -4,6 +4,7 @@ data merge block 391 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"t
 data merge block 388 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
 data merge block 385 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
 data merge block 382 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
+data merge block 379 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
 
 scoreboard players reset * bc_highscore
 scoreboard players reset * gm_highscore
@@ -13,6 +14,7 @@ scoreboard players reset * pc_highscore
 scoreboard players reset * sg_highscore
 scoreboard players reset * sr_highscore
 scoreboard players reset * tot_highscore
+scoreboard players reset * wd_highscore
 
 scoreboard players set #bc_highscore bc_highscore 0
 scoreboard players set #gm_highscore gm_highscore 0
@@ -22,3 +24,4 @@ scoreboard players set #pc_highscore pc_highscore 0
 scoreboard players set #sg_highscore sg_highscore 0
 scoreboard players set #sr_highscore sr_highscore 100000000
 scoreboard players set #tot_highscore tot_highscore 0
+scoreboard players set #wd_highscore wd_highscore 0

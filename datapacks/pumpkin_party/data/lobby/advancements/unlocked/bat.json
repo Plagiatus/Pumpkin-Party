@@ -1,0 +1,36 @@
+{
+    "parent": "lobby:unlocked/bee",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2006}"
+        },
+        "title": {
+            "text": "Bat Costume"
+        },
+        "description": {
+            "text": "Always unlocked."
+        },
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"NANANANANANANANABATMAN\"}'}}",
+                        "items": [
+                            "minecraft:music_disc_mellohi"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:costume/unlock/bat"
+    }
+}

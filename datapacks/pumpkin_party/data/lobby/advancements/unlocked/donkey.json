@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/horse_black",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:468}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6430}"
         },
         "title": {
             "text": "Donkey Costume"

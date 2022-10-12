@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/slime",
+	"display": {
+		"head": {
+			"translation": [0, -10, 0],
+			"scale": [1.85, 1.85, 1.85]
+		}
+	}
+}

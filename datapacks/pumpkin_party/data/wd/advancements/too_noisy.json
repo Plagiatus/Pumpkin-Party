@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:2006}"
+    },
+    "title": {
+      "text": "Too noisy!"
+    },
+    "description": [
+      "",
+      {
+        "text": "Fail the Warden's trial."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "wd:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/bat"
+  }
+}

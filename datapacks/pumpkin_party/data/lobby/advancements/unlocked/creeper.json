@@ -1,5 +1,5 @@
 {
-    "parent": "lobby:unlocked/blaze",
+    "parent": "lobby:unlocked/root",
     "display": {
         "icon": {
             "item": "minecraft:creeper_head"

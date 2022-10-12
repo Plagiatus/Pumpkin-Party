@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/head_template",
+	"textures": {
+		"0": "entity/illager/vex"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 0.016, 4],
+			"to": [12, 8.016, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.8, 0, -4.8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right_wing",
+			"from": [8.85, -12.6, 10.7],
+			"to": [28.85, -0.6, 11.7],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.75, -5, 8.5]},
+			"faces": {
+				"north": {"uv": [0.25, 8.5, 5.25, 11.5], "texture": "#0"},
+				"east": {"uv": [0, 8.5, 0.25, 11.5], "texture": "#0"},
+				"south": {"uv": [5.5, 8.5, 10.5, 11.5], "texture": "#0"},
+				"west": {"uv": [5.25, 8.5, 5.5, 11.5], "texture": "#0"},
+				"up": {"uv": [5.25, 8.5, 0.25, 8.25], "texture": "#0"},
+				"down": {"uv": [10.25, 8.25, 5.25, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right_wing",
+			"from": [-12.85, -12.6, 10.7],
+			"to": [7.15, -0.6, 11.7],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.25, -5, 8.5]},
+			"faces": {
+				"north": {"uv": [5.25, 8.5, 0.25, 11.5], "texture": "#0"},
+				"east": {"uv": [5.5, 8.5, 5.25, 11.5], "texture": "#0"},
+				"south": {"uv": [10.5, 8.5, 5.5, 11.5], "texture": "#0"},
+				"west": {"uv": [0.25, 8.5, 0, 11.5], "texture": "#0"},
+				"up": {"uv": [0.25, 8.5, 5.25, 8.25], "texture": "#0"},
+				"down": {"uv": [5.25, 8.25, 10.25, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right_wing inverted",
+			"from": [28.85, -0.6, 11.7],
+			"to": [8.85, -12.6, 10.7],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.75, -5, 8.5]},
+			"faces": {
+				"north": {"uv": [5.5, 11.5, 10.5, 8.5], "texture": "#0"},
+				"east": {"uv": [5.25, 11.5, 5.5, 8.5], "texture": "#0"},
+				"south": {"uv": [0.25, 11.5, 5.25, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 11.5, 0.25, 8.5], "texture": "#0"},
+				"up": {"uv": [5.25, 8.25, 10.25, 8.5], "texture": "#0"},
+				"down": {"uv": [0.25, 8.5, 5.25, 8.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right_wing inverted",
+			"from": [7.15, -0.6, 11.7],
+			"to": [-12.85, -12.6, 10.7],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.25, -5, 8.5]},
+			"faces": {
+				"north": {"uv": [10.5, 11.5, 5.5, 8.5], "texture": "#0"},
+				"east": {"uv": [0.25, 11.5, 0, 8.5], "texture": "#0"},
+				"south": {"uv": [5.25, 11.5, 0.25, 8.5], "texture": "#0"},
+				"west": {"uv": [5.5, 11.5, 5.25, 8.5], "texture": "#0"},
+				"up": {"uv": [10.25, 8.25, 5.25, 8.5], "texture": "#0"},
+				"down": {"uv": [5.25, 8.5, 0.25, 8.25], "texture": "#0"}
+			}
+		}
+	]
+}

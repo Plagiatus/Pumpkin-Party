@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:10}"
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:13}"
     },
     "title": {
       "text": "Hot Feet"
@@ -16,7 +16,7 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sr:tunnel_explorer",
+  "parent": "sr:root",
   "criteria": {
     "impossible": {
       "trigger": "impossible"

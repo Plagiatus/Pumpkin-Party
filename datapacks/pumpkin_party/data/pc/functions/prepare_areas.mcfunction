@@ -10,8 +10,8 @@ execute as @r run function pc:assign_areas
 execute at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run fill ~ ~-3 ~ ~8 ~-3 ~8 smooth_red_sandstone
 
 #Select pumpkins for the round
-scoreboard players set @e[type=minecraft:armor_stand,sort=random,tag=pc_marker] tmp 0 
-execute as @e[type=minecraft:armor_stand,sort=random,tag=pc_marker] at @s run function pc:pick_motives
+scoreboard players set @e[type=minecraft:marker,sort=random,tag=pc_marker] tmp 0 
+execute as @e[type=minecraft:marker,sort=random,tag=pc_marker] at @s run function pc:pick_motives
 
 #Load in example pumpkin
 execute at @e[type=minecraft:area_effect_cloud,tag=pc_occupied] run clone 932 73 1008 932 82 1016 ~-5 ~1 ~

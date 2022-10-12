@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/llama_brown",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:166}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3128}"
         },
         "title": {
             "text": "Beige Trader Llama Costume"

@@ -16,13 +16,13 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "sg:golden_ghost",
+  "parent": "sg:wilhelm_tell",
   "criteria": {
     "impossible": {
       "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "lobby:costume/unlock/stray"
+    "function": "lobby:costume/unlock/pillager"
   }
 }

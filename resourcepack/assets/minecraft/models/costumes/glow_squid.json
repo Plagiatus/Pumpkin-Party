@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by dragonmaster95",
+	"parent": "costumes/squid",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "entity/squid/glow_squid"
+	}
+}

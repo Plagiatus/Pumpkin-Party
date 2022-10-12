@@ -1,0 +1,14 @@
+{
+    "values": [
+        "minecraft:carrot_on_a_stick",
+        "minecraft:emerald",
+        "minecraft:bow",
+        "minecraft:arrow",
+        "minecraft:diamond_pickaxe",
+        "minecraft:smooth_red_sandstone",
+        "minecraft:bone",
+        "minecraft:bone_meal",
+        "#bc:important",
+        "#bc:ingredients"
+    ]
+}

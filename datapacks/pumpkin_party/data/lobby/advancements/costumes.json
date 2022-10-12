@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_nugget",
-      "nbt": "{CustomModelData:70}"
+      "item": "minecraft:gold_nugget",
+      "nbt": "{CustomModelData:7027}"
     },
     "title": {
       "text": "Costumes"
@@ -21,33 +21,21 @@
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "min": 360,
-            "max": 378
-          },
-          "y": {
-            "min": 79,
-            "max": 84
-          },
-          "z": {
-            "min": 489,
-            "max": 510
-          }
-        },
         "player": [
           {
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
               "costume": {
-                "min": 1,
-                "max": 2000
+                "min": 1
               }
             }
           }
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/villager_plains_farmer"
   }
 }

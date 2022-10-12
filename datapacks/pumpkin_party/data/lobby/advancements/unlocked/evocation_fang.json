@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/enderman",
+    "parent": "lobby:unlocked/evoker",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:7}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6408}"
         },
         "title": {
             "text": "Evocation Fang Costume"

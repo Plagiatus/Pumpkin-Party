@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/zombie",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:143}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3103}"
         },
         "title": {
             "text": "Husk Costume"

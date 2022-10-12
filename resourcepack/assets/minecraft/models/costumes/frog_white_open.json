@@ -1,0 +1,6 @@
+{
+	"parent": "costumes/frog_orange_open",
+	"textures": {
+		"0": "entity/frog/warm_frog"
+	}
+}

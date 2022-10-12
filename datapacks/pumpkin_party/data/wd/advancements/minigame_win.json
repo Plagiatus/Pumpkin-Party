@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_dye"
+    },
+    "title": {
+      "text": "Win Warden's Lair"
+    },
+    "description": [
+      "",
+      {
+        "text": "You successfully survived the trial of the Warden."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "wd:minigame_play",
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

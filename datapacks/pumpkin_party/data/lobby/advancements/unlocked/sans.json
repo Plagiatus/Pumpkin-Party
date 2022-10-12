@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/wither_skeleton",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:344}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3301}"
         },
         "title": {
             "text": "Sans Costume"

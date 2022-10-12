@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench by dragonmaster95",
-	"parent": "block/block",
+	"parent": "costumes/head_template",
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "costumes/ghost"
@@ -48,15 +48,5 @@
 				"down": {"uv": [10, 4, 12, 0], "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [15, 150, 0],
-			"translation": [0, 3, 0]
-		},
-		"head": {
-			"translation": [0, 7.5, 0],
-			"scale": [1.85, 1.85, 1.85]
-		}
-	}
+	]
 }

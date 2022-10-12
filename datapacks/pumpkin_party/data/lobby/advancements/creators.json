@@ -20,18 +20,22 @@
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "min": 365,
-            "max": 381
-          },
-          "y": {
-            "min": 67,
-            "max": 70
-          },
-          "z": {
-            "min": 488,
-            "max": 511
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 365,
+                "max": 381
+              },
+              "y": {
+                "min": 67,
+                "max": 70
+              },
+              "z": {
+                "min": 488,
+                "max": 511
+              }
+            }
           }
         }
       }

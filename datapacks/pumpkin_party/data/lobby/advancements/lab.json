@@ -15,26 +15,33 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "parent": "lobby:root",
+  "parent": "lobby:magic_cabinets",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "min": 383,
-            "max": 400
-          },
-          "y": {
-            "min": 60,
-            "max": 63
-          },
-          "z": {
-            "min": 490,
-            "max": 515
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 383,
+                "max": 400
+              },
+              "y": {
+                "min": 60,
+                "max": 63
+              },
+              "z": {
+                "min": 490,
+                "max": 515
+              }
+            }
           }
         }
       }
     }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/vex"
   }
 }

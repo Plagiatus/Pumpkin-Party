@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "facing=south": { "model": "custom/password_screen", "y": 180 },
+        "facing=east": { "model": "custom/password_accepted_screen", "y": 180 },
+        "facing=west": { "model": "custom/password_denied_screen", "y": 180 }
+    }
+}

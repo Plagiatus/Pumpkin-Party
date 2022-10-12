@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "title": {
+      "text": "Magic Cabinet"
+    },
+    "description": [
+      "",
+      {
+        "text": "Find and use every magic cabinet in the mansion to teleport around."
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "lobby:root",
+  "criteria": {
+    "door1": {
+      "trigger": "minecraft:impossible"
+    },
+    "door2": {
+      "trigger": "minecraft:impossible"
+    },
+    "door3": {
+      "trigger": "minecraft:impossible"
+    },
+    "door4": {
+      "trigger": "minecraft:impossible"
+    },
+    "door5": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "lobby:costume/unlock/shulker"
+  }
+}

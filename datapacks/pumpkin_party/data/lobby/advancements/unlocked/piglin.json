@@ -1,9 +1,9 @@
 {
-    "parent": "lobby:unlocked/root",
+    "parent": "lobby:unlocked/zombified_piglin",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:145}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:3017}"
         },
         "title": {
             "text": "Piglin Costume"

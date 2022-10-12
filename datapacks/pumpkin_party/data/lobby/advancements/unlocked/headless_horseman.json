@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/jack_o_lantern",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:142}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:2110}"
         },
         "title": {
             "text": "Headless Horseman Costume"

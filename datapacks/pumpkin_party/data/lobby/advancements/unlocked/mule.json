@@ -2,8 +2,8 @@
     "parent": "lobby:unlocked/donkey",
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
-            "nbt": "{CustomModelData:568}"
+            "item": "minecraft:gold_nugget",
+            "nbt": "{CustomModelData:6530}"
         },
         "title": {
             "text": "Mule Costume"

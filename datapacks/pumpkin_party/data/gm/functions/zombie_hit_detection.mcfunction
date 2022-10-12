@@ -12,6 +12,7 @@ execute unless score @e[type=zombie,sort=nearest,limit=1] gm_id matches 0.. run 
 scoreboard players operation @s tmp = @s costume
 scoreboard players operation @s tmp %= #100 const
 advancement grant @s only gm:a_new_zombie
+advancement grant @s[scores={tmp=18}] only lobby:unlocked/zoglin
 advancement grant @s[scores={tmp=45}] only lobby:unlocked/zombified_piglin
 advancement grant @s[scores={tmp=68..69}] only lobby:unlocked/zombie_horse
 advancement grant @s[scores={tmp=70}] only lobby:unlocked/zombie_villager
@@ -28,11 +29,12 @@ scoreboard players set @s gm_alive 0
 gamemode spectator @s
 
 #Put costume (or player) head on the zombie
-execute if entity @s[tag=has_costume] run data modify entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] ArmorItems[3] set from entity @s Inventory[{Slot:103b}]
-execute unless entity @s[tag=has_costume] run loot replace entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] armor.head loot gm:player_head
+execute if score @s costume matches 1.. run data modify entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] ArmorItems[3] set from entity @s Inventory[{Slot:103b}]
+execute unless score @s costume matches 1.. run loot replace entity @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] armor.head loot gm:player_head
 
 #Give zombie and player same id
 scoreboard players add #gm_gamestate gm_id 1
 scoreboard players operation @s gm_id = #gm_gamestate gm_id
 scoreboard players operation @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] gm_id = #gm_gamestate gm_id
+tag @e[type=zombie,tag=gm_new,limit=1,distance=..1,sort=nearest] remove gm_new
 
