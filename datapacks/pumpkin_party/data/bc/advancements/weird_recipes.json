@@ -137,5 +137,8 @@
 				]
 			}
 		}
+	},
+	"rewards": {
+		"function": "lobby:costume/unlock/allay"
 	}
 }
