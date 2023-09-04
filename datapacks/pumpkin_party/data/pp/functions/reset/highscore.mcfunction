@@ -1,10 +1,17 @@
-data merge block 397 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 394 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 391 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 388 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 385 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 382 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
-data merge block 379 87 514 {Text2:'{"text":"-","color":"dark_gray"}',Text4:'{"text":"-","color":"dark_gray"}'}
+ data modify block 397 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 397 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 394 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 394 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 391 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 391 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 388 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 388 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 385 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 385 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 382 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 382 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 379 87 514 front_text.messages[1] set value '{"text":"-","color":"dark_gray"}'
+ data modify block 379 87 514 front_text.messages[3] set value '{"text":"-","color":"dark_gray"}'
 
 scoreboard players reset * bc_highscore
 scoreboard players reset * gm_highscore

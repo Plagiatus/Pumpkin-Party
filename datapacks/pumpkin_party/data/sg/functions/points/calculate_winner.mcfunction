@@ -24,7 +24,8 @@ execute if score #rank tmp matches 1 as @a[tag=sg_lead] run advancement grant @s
 execute if score #rank tmp matches 1 as @a run scoreboard players operation @s sg_highscore > @s sg_points 
 execute if score #rank tmp matches 1 as @a[tag=sg_lead] if score @s sg_highscore >= #sg_highscore sg_highscore run tag @s add sg_highscore 
 execute if score #rank tmp matches 1 as @a[tag=sg_highscore] run scoreboard players operation #sg_highscore sg_highscore > @s sg_highscore
-execute if score #rank tmp matches 1 if entity @a[tag=sg_highscore] run data merge block 388 87 514 {Text2:'{"color":"gold","score":{"name":"@a[tag=sg_highscore]","objective":"sg_highscore"}}',Text4:'{"color":"#FF6600","selector":"@a[tag=sg_highscore]"}'}
+execute if score #rank tmp matches 1 if entity @a[tag=sg_highscore] run data modify block 388 87 514 front_text.messages[1] set value '{"color":"gold","score":{"name":"@a[tag=sg_highscore]","objective":"sg_highscore"}}'
+execute if score #rank tmp matches 1 if entity @a[tag=sg_highscore] run data modify block 388 87 514 front_text.messages[3] set value '{"color":"#FF6600","selector":"@a[tag=sg_highscore]"}'
 execute if score #rank tmp matches 1 run tag @a remove sg_highscore
 
 # next player

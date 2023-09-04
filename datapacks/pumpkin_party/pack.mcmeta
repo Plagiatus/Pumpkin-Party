@@ -1,7 +1,7 @@
 {
    "pack": {
-      "pack_format": 10,
-      "description": "All the stuff Pumpkin Party 2.0 needs to work"
+      "pack_format": 14,
+      "description": "All the stuff Pumpkin Party 2.0+ needs to work"
    },
    "filter": {
 		"block": [

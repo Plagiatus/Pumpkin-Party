@@ -18,9 +18,14 @@
   "parent": "pc:root",
   "criteria": {
     "place_filler": {
-      "trigger": "placed_block",
+      "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:smooth_red_sandstone"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:smooth_red_sandstone"
+          }
+        ]
       }
     }
   }
