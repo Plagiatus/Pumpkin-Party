@@ -4,8 +4,8 @@
 	"textures": {
 		"0": "entity/frog/temperate_frog",
 		"1": "costumes/lily_pad_colored",
-		"3": "misc/enchanted_item_glint",
-		"particle": "misc/enchanted_item_glint"
+		"3": "block/black_concrete",
+		"particle": "block/black_concrete"
 	},
 	"elements": [
 		{
