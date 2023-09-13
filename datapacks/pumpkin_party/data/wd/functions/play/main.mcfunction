@@ -18,6 +18,11 @@ execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=3}
 execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=2}] actionbar [{"text": "❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=1}] actionbar [{"text": "❤", "color": "dark_red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 
+# item displays
+scoreboard players add @e[type=item_display,tag=wd.overhead] wd_timer 1
+execute as @e[type=item_display,tag=wd.overhead,scores={wd_timer=2}] run data merge entity @s {start_interpolation:0,interpolation_duration:3,transformation:{translation:[0f,1f,0f]}}
+kill @e[type=item_display,tag=wd.overhead,scores={wd_timer=5}]
+
 # check for game over
 execute if score #wd_phase points matches 2..5 unless entity @a[gamemode=adventure] run function wd:end_trigger
 

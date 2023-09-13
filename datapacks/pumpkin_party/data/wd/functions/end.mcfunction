@@ -7,4 +7,6 @@ clear @a carrot_on_a_stick
 
 fill -995 67 1022 -1005 67 1022 minecraft:tinted_glass replace air
 
+kill @e[type=item_display,tag=wd.overhead]
+
 function pp:all_games/end

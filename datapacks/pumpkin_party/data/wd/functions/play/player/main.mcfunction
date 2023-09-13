@@ -1,4 +1,4 @@
-execute as @a[scores={wd_click=1..}] run function wd:play/player/check_click
+execute as @a[scores={wd_click=1..}] at @s run function wd:play/player/check_click
 
 execute if score #wd_music wd_timer matches 0 if score #on_beat wd_timer matches 1 run scoreboard players add #player_counter wd_timer 1
 
