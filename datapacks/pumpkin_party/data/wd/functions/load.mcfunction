@@ -1,6 +1,7 @@
 team add wd_play
 team modify wd_play collisionRule never
 team modify wd_play friendlyFire false
+team modify wd_play seeFriendlyInvisibles false
 
 scoreboard objectives add wd_timer dummy
 scoreboard objectives add wd_id dummy

@@ -1,3 +1,5 @@
 function pp:all_games/reset_player
 
-gamemode spectator
+gamemode adventure
+tag @s add wd_spectator
+clear @s

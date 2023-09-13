@@ -12,6 +12,7 @@ function wd:play/bridge_back/start_first_time
 scoreboard players set @a left_game 0
 
 tag @a remove wd_mistake
+tag @a remove wd_spectator
 
 kill @e[type=marker,tag=wd_marker]
 kill @e[type=marker,tag=wd_warden]

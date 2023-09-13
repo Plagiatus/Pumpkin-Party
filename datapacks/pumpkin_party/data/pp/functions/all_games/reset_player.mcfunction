@@ -5,6 +5,8 @@ effect clear
 tag @s remove sr_generate
 tag @s remove sr_in_tunnel
 
+tag @a remove wd_spectator
+
 trigger lbb_game set 0
 
 scoreboard players set @s left_game 0
