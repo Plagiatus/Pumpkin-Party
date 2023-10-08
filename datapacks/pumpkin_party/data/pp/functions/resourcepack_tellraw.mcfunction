@@ -1,0 +1,1 @@
+tellraw @s [{"color":"blue","text":"\n--> click here for resourcepack <--\n","clickEvent":{"action":"open_url","value":"https://www.mediafire.com/file/2g1ffk3udv5zo80/Pumpkinparty_v2.3.zip/file"},"underlined": true}]

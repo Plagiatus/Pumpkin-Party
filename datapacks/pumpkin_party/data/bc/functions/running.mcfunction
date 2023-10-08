@@ -30,6 +30,9 @@ execute as @e[tag=bc_pumpkin,scores={bc_timer=..0}] at @s run function bc:ingred
 # background cleanup
 kill @e[type=experience_orb]
 
+# remove handropchance from piglins so no golden swords drop
+execute as @e[type=zombified_piglin,tag=!d_removed] run data merge entity @s {Tags:["d_removed"],HandDropChances:[0.0f,0.0f]}
+
 # leaving players
 execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function bc:player/too_late_join
 execute as @a[x=551,y=107,z=-498,distance=..1,team=bc_play] run function bc:player/too_late_join

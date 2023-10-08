@@ -18,11 +18,16 @@ execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=3}
 execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=2}] actionbar [{"text": "❤❤", "color": "red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 execute unless score #wd_phase points matches 4 run title @a[scores={wd_lives=1}] actionbar [{"text": "❤", "color": "dark_red"},{"text": " Round "},{"score":{"name": "#wd_phase", "objective": "wd_phases"}},{"text": "/"},{"score":{"name": "#total", "objective": "wd_phases"}}]
 
+# item displays
+scoreboard players add @e[type=item_display,tag=wd.overhead] wd_timer 1
+execute as @e[type=item_display,tag=wd.overhead,scores={wd_timer=2}] run data merge entity @s {start_interpolation:0,interpolation_duration:3,transformation:{translation:[0f,1f,0f]}}
+kill @e[type=item_display,tag=wd.overhead,scores={wd_timer=5}]
+
 # check for game over
-execute if score #wd_phase points matches 2..5 unless entity @a[gamemode=adventure] run function wd:end_trigger
+execute if score #wd_phase points matches 2..5 unless entity @a[tag=!wd_spectator] run function wd:end_trigger
 
 # leaving players
 execute as @a[scores={left_game=1..}] unless score @s game_id = #global game_id run function wd:player/too_late_join
 
 # players that are out
-tp @a[gamemode=spectator] -1000 65 1000 facing -1000 72 1022
+execute as @a[tag=wd_spectator] at @s run function wd:play/player/spectator

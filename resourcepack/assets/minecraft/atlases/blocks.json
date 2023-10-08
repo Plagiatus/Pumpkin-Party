@@ -1,0 +1,192 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "custom",
+            "prefix": "custom/"
+        },
+        {
+            "type": "directory",
+            "source": "costumes",
+            "prefix": "costumes/"
+        },
+        {
+            "type": "directory",
+            "source": "objmc",
+            "prefix": "objmc/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/allay",
+            "prefix": "entity/allay/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/axolotl",
+            "prefix": "entity/axolotl/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/bee",
+            "prefix": "entity/bee/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/enderman",
+            "prefix": "entity/enderman/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/fox",
+            "prefix": "entity/fox/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/frog",
+            "prefix": "entity/frog/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/ghast",
+            "prefix": "entity/ghast/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/goat",
+            "prefix": "entity/goat/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/hoglin",
+            "prefix": "entity/hoglin/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/horse",
+            "prefix": "entity/horse/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/illager",
+            "prefix": "entity/illager/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/llama",
+            "prefix": "entity/llama/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/piglin",
+            "prefix": "entity/piglin/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/skeleton",
+            "prefix": "entity/skeleton/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/slime",
+            "prefix": "entity/slime/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/spider",
+            "prefix": "entity/spider/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/squid",
+            "prefix": "entity/squid/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/strider",
+            "prefix": "entity/strider/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/villager",
+            "prefix": "entity/villager/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/wolf",
+            "prefix": "entity/wolf/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/zombie",
+            "prefix": "entity/zombie/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/bat"
+        },
+        {
+            "type": "single",
+            "resource": "entity/blaze"
+        },
+        {
+            "type": "single",
+            "resource": "entity/enderdragon/dragon"
+        },
+        {
+            "type": "single",
+            "resource": "entity/fish/pufferfish"
+        },
+        {
+            "type": "single",
+            "resource": "entity/guardian"
+        },
+        {
+            "type": "single",
+            "resource": "entity/guardian_elder"
+        },
+        {
+            "type": "single",
+            "resource": "entity/phantom"
+        },
+        {
+            "type": "single",
+            "resource": "entity/phantom_eyes"
+        },
+        {
+            "type": "single",
+            "resource": "entity/shulker/shulker"
+        },
+        {
+            "type": "single",
+            "resource": "entity/spider_eyes"
+        },
+        {
+            "type": "single",
+            "resource": "entity/turtle/big_sea_turtle"
+        },
+        {
+            "type": "single",
+            "resource": "entity/wandering_trader"
+        },
+        {
+            "type": "single",
+            "resource": "entity/warden/warden"
+        },
+        {
+            "type": "single",
+            "resource": "entity/witch"
+        },
+        {
+            "type": "single",
+            "resource": "entity/wither/wither"
+        },
+        {
+            "type": "single",
+            "resource": "entity/zombie_villager/zombie_villager"
+        },
+        {
+            "type": "single",
+            "resource": "misc/enchanted_item_glint"
+        }
+    ]
+}

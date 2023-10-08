@@ -51,7 +51,7 @@ scoreboard players operation #max_avrg sg_points *= #amt_targets sg_points
 scoreboard players operation #max_avrg sg_points *= #t sg_points
 scoreboard players operation #max_avrg sg_points /= #amt_players sg_points
 scoreboard players operation #max_avrg sg_points /= 100 const
-tellraw @a {"score":{"name": "#max_avrg", "objective": "sg_points"}}
+# tellraw @a {"score":{"name": "#max_avrg", "objective": "sg_points"}}
 
 execute as @e[tag=sg_new] run function sg:spawn/one/choose_direction
 execute as @e[tag=sg_new] run function sg:spawn/one/choose_speed

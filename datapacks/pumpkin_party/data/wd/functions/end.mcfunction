@@ -7,4 +7,7 @@ clear @a carrot_on_a_stick
 
 fill -995 67 1022 -1005 67 1022 minecraft:tinted_glass replace air
 
+kill @e[type=item_display,tag=wd.overhead]
+
+tag @a remove wd_spectator
 function pp:all_games/end

@@ -1,6 +1,6 @@
 #First Time 
 tellraw @s[advancements={lobby:unlocked/axolotl_gold=true},tag=!tmp_all_costumes,tag=!ul_axolotl_gold] ["",{"text":"You successfully unlocked: ","color":"gold"},{"text":"\"Axolotl (Gold)  Costume\""}]
-tellraw @s[advancements={lobby:unlocked/axolotl_gold=true},tag=!tmp_all_costumes,tag=!ul_axolotl_gold] ["",{"text":"Password: "},{"text":"\"MUSICALENTHUSIAST\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"MUSICALENTHUSIAST"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
+tellraw @s[advancements={lobby:unlocked/axolotl_gold=true},tag=!tmp_all_costumes,tag=!ul_axolotl_gold] ["",{"text":"Password: "},{"text":"\"ALLTHATGLITTERSISNOTGOLD\"","underlined":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"ALLTHATGLITTERSISNOTGOLD"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to copy the password to your clipboard."}}}]
 
 
 #Every other time

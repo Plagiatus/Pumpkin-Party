@@ -2,6 +2,7 @@ scoreboard objectives add sr_distance dummy
 scoreboard objectives add sr_time dummy
 scoreboard objectives add sr_tunnel dummy
 scoreboard objectives add sr_highscore dummy
+scoreboard objectives add sr_anti_unload dummy
 
 team add sr_play
 team modify sr_play collisionRule never
